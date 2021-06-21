@@ -1,36 +1,36 @@
 #EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 m3uautoload=1
 
 
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://i.ibb.co/gywZ98j/VTV1-HD-BEARTV.png",VTV1
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda/vtv1hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv2hd" tvg-name="VTV2" tvg-logo="https://i.ibb.co/khkmQ4F/VTV2-HD-BEARTV.png",VTV2
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv2hd" tvg-name="VTV2" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv2.png",VTV2
 https://livecdn.fptplay.net/hda/vtv2_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv3hd" tvg-name="VTV3" tvg-logo="https://i.ibb.co/87vc2Yr/VTV3-HD-BEARTV.png",VTV3
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv3hd" tvg-name="VTV3" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv3.png",VTV3
 https://livecdn.fptplay.net/hda/vtv3hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv4hd" tvg-name="VTV4" tvg-logo="https://i.ibb.co/1nWtV9B/VTV4-HD-BEARTV.png",VTV4
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv4hd" tvg-name="VTV4" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv4.png",VTV4
 https://livecdn.fptplay.net/hda/vtv4_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv5hd" tvg-name="VTV5" tvg-logo="https://i.ibb.co/3FkgpPp/VTV5-HD-BEARTV.png",VTV5
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv5hd" tvg-name="VTV5" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv5.png",VTV5
 https://livecdn.fptplay.net/hda/vtv5hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv6hd" tvg-name="VTV6" tvg-logo="https://i.ibb.co/61MhZPy/VTV6-HD-BEARTV.png",VTV6
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv6hd" tvg-name="VTV6" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv6.png",VTV6
 https://livecdn.fptplay.net/hda/vtv6hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv7hd" tvg-name="VTV7" tvg-logo="https://i.ibb.co/27xvxDJ/VTV7-HD-BEARTV.png",VTV7
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv7hd" tvg-name="VTV7" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv7.png",VTV7
 https://livecdn.fptplay.net/hda/vtv7hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv8hd" tvg-name="VTV8" tvg-logo="https://i.ibb.co/frqfTd1/VTV8-HD-BEARTV.png",VTV8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv8hd" tvg-name="VTV8" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv8.png",VTV8
 https://livecdn.fptplay.net/hda/vtv8hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtv9hd" tvg-name="VTV9" tvg-logo="https://i.ibb.co/6bFVqfq/VTV9-HD-BEARTV.png",VTV9
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv9hd" tvg-name="VTV9" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv9.png",VTV9
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/VTV9-HD-1080p/playlist.m3u8
 
-#EXTINF:0 group-title="Danh sách" tvg-id="vtc1" tvg-name="VTC 1" tvg-logo="https://i.ibb.co/mH4XCCF/VTC1-BEARTV.png",VTC 1
+#EXTINF:0 group-title="Danh sách" tvg-id="vtc1" tvg-name="VTC 1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc1.png",VTC 1
 https://livecdn.fptplay.net/sdb/vtc1_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtc2" tvg-name="VTC 2" tvg-logo="https://i.ibb.co/7WwzKSj/VTC2-BEARTV.png",VTC 2
+#EXTINF:0 group-title="Danh sách" tvg-id="vtc2" tvg-name="VTC 2" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc2.png",VTC 2
 https://livecdn.fptplay.net/sdb/vtc2_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtc3" tvg-name="VTC 3" tvg-logo="https://i.ibb.co/X2dbCDb/VTC3-BEARTV.png",VTC 3
+#EXTINF:0 group-title="Danh sách" tvg-id="vtc3" tvg-name="VTC 3" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc3.png",VTC 3
 https://livecdn.fptplay.net/hda/vtc3hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtc4hd" tvg-name="VTC 4" tvg-logo="https://i.ibb.co/v4Hrc3p/VTC4-BEARTV.png",VTC 4
+#EXTINF:0 group-title="Danh sách" tvg-id="vtc4hd" tvg-name="VTC 4" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc4.png",VTC 4
 https://livecdn.fptplay.net/sdc/vtc4_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtc5hd" tvg-name="VTC 5" tvg-logo="https://i.ibb.co/TmyXFvP/VTC5-BEARTV.jpg",VTC 5
+#EXTINF:0 group-title="Danh sách" tvg-id="vtc5hd" tvg-name="VTC 5" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc5.png",VTC 5
 https://livecdn.fptplay.net/sdb/vtc5_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="vtc6hd" tvg-name="VTC 6" tvg-logo="https://i.ibb.co/jHzdRKS/VTC6-BEARTV.png",VTC 6
+#EXTINF:0 group-title="Danh sách" tvg-id="vtc6hd" tvg-name="VTC 6" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc6.png",VTC 6
 https://livecdn.fptplay.net/sdb/vtc6_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="vtc7hd" tvg-name="VTC 7" tvg-logo="https://i.ibb.co/L8T5MGF/VTC7-BEARTV.png",VTC 7  - todayTV
 https://livecdn.fptplay.net/sdb/todaytv_hls.smil/chunklist_b2500000.m3u8
