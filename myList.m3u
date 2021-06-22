@@ -55,7 +55,7 @@ https://livecdn.fptplay.net/sdb/vtc16_hls.smil/chunklist_b2500000.m3u8
 http://livecdn.fptplay.net/sda/ttxvn_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="antvhd" tvg-name="ANTV" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/antv.png",
 https://livecdn.fptplay.net/sdc/anninhtv_2000.stream/chunklist.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="nhan_dan_tv" tvg-name="Nhân Dân" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nhandan.png",
+#EXTINF:0 group-title="Danh sách" tvg-id="nhan_dan_tv" tvg-name="Nhân Dân" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nhan-dan.png",
 https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist_w1915921234.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="quoc_hoi_tv" tvg-name="Quốc hội" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/quoc-hoi.png",
 https://livecdn.fptplay.net/hda1/quochoivn_hls.smil/chunklist_b2500000.m3u8
@@ -94,7 +94,7 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-PHUNU-HD-1080p/playlist.m3u8
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-THUANVIETHD-HD-1080p/playlist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="htvc_thuan_viet_hd" tvg-name="HTVC Thuần Việt HD" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/htvc-thuan-viet-hd.png",
 https://livecdn.fptplay.net/hda1/htvcthuanviethd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="htvc_ca_nhac" tvg-name="HTVC Ca Nhạc" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/ca-nhac.png",
+#EXTINF:0 group-title="Danh sách" tvg-id="htvc_ca_nhac" tvg-name="HTVC Ca Nhạc" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/htvc-ca-nhac.png",
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-CANHAC-HD-1080p/playlist.m3u8
 
 #EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH An Giang" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-an-giang.png",
