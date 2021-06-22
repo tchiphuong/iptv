@@ -115,6 +115,14 @@ https://livecdn.fptplay.net/sda/binhdinh_hls.smil/chunklist_b2500000.m3u8?token=
 https://livecdn.fptplay.net/hda3/btv1_hls.smil/chunklist_b2500000.m3u8?token=123456
 #EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Dương 2" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-duong-2.png",
 https://livecdn.fptplay.net/hda3/btv2_hls.smil/chunklist_b2500000.m3u8?token=123456
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Dương 4" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-duong-4.png",
+https://livecdn.fptplay.net/hda/btv4hd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Dương 6" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-duong-6.png",
+https://livecdn.fptplay.net/sda/btv6_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Dương 9" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-duong-9.png",
+hhttps://livecdn.fptplay.net/sdc/btv9_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Dương 11" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-duong-11.png",
+https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Phước 1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-phuoc-1.png",
 https://livecdn.fptplay.net/sdc/binhphuoc1_hls.smil/chunklist_b2500000.m3u8?token=123456
 #EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="TH Bình Phước 2" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-binh-phuoc-2.png",
