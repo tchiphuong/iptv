@@ -275,6 +275,12 @@ https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/qnetlive/axnhd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="baby_tv_hd" tvg-name="NN - Baby First" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-babyfirst.png",NN - Baby First
 https://livecdn.fptplay.net/qnetlive/babyfirst_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="bbc_earth" tvg-name="NN - BBC Earth" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-bbc-earth.png",NN - BBC Earth
+https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="bbc_lifestyle" tvg-name="NN - BBC Life Style" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-life-style.png",NN - BBC Life Style
+https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="bbc_world_news" tvg-name="NN - BBC New" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-bbc-new.png",NN - BBC World New
+https://livecdn.fptplay.net/qnetlive/bbcnew_2000.stream/chunklist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="blue_ant_entertainment" tvg-name="NN - Blue Ant Entertainment" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-blue-ant-entertainment.png",NN - Blue Ant Entertainment
 https://livecdn.fptplay.net/hda/blueantent_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="blue_ant_extreme" tvg-name="NN - Blue Ant Extreme" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-blue-ant-extreme.png",NN - Blue Ant Extreme
