@@ -303,7 +303,7 @@ https://livecdn.fptplay.net/foxlive/foxhd_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/foxlive/foxlifehd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="fox_movies" tvg-name="NN - FOX Movies HD" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-fox-movies.png",NN - FOX Movies HD
 https://livecdn.fptplay.net/foxlive/foxmovieshd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="foxsportshd" tvg-name="NN - FOX SPORT HD" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-fox-sport.png",NN - FOX SPORT HD
+#EXTINF:0 group-title="Danh sách" tvg-id="foxsportshd" tvg-name="NN - FOX SPORT HD" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-fox-sports.png",NN - FOX SPORT HD
 https://livecdn.fptplay.net/qnetlive/foxsports_2000.stream/chunklist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="foxsports2hd" tvg-name="NN - FOX SPORT 2 HD" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/nn-fox-sport2.png",NN - FOX SPORT 2 HD
 https://livecdn.fptplay.net/qnetlive/foxsports2_2000.stream/chunklist.m3u8
