@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://gg.gg/epgmytv" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 m3uautoload=1
 
 
 #EXTINF:0 group-title="Danh sách" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv1.png",VTV1
