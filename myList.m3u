@@ -105,18 +105,42 @@ https://vtsstr6.tv24.vn/live/sctv2_HD_new.smil/playlist.m3u8
 http://vtsstr6.tv24.vn:1935/live/SCTVHDThieunhi_4/playlist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="sctv4" tvg-name="SCTV 4" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv4.png",SCTV 4
 https://vtsstr6.tv24.vn/live/SCTV_HD_GiaiTri_new.smil/playlist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv5" tvg-name="SCTV 5" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv5.png",SCTV 5
+http://112.197.12.54/hls/sctv5/sd1/index.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="sctv6_hd" tvg-name="SCTV 6" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv6.png",SCTV 6
 https://vtsstr6.tv24.vn/live/SCTV6HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="sctv7_hd" tvg-name="SCTV 7" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv7.png",SCTV 7
 https://vtsstr6.tv24.vn/live/SCTV_HD_SanKhau_new.smil/playlist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv8_hd" tvg-name="SCTV 8" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv8.png",SCTV 8
+http://112.197.12.54/hls/sctv8/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv9" tvg-name="SCTV 9" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv9.png",SCTV 9
+http://112.197.12.54/hls/sctv8/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv10" tvg-name="SCTV10" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv9.png",SCTV10
+http://112.197.12.54/hls/sctv10/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv11_tv_star" tvg-name="SCTV11" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv9.png",SCTV11
+http://112.197.12.54/hls/sctv11/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv12" tvg-name="SCTV12" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv9.png",SCTV12
+http://112.197.12.54/hls/sctv12/sd1/index.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="sctv13_lady_tv" tvg-name="SCTV13" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv13.png",SCTV13
 http://vtsstr1.tv24.vn:1935/live/SCTVHDPhunuGiadinh_4/playlist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv14_kenh_phim_viet" tvg-name="SCTV14" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv13.png", SCTV14
+http://112.197.12.54/hls/sctv14/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv15_s_sport_2" tvg-name="SCTV15" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv13.png", SCTV15
+http://112.197.12.54/hls/sctv15/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv16" tvg-name="SCTV16" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv13.png", SCTV16
+http://112.197.12.54/hls/sctv16/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv17_hd" tvg-name="SCTV17" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv13.png", SCTV17
+http://112.197.12.54/hls/sctv17/sd1/index.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="sctv18_hd_kenh_18" tvg-name="SCTV18" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv18.png",SCTV18
 https://vtsstr6.tv24.vn/live/SCTV18_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="sctv19" tvg-name="SCTV19" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv19.png",SCTV19
 https://vtsstr6.tv24.vn/live/SCTV19_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-name="SCTV20" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv20.png",SCTV20
 https://vtsstr6.tv24.vn/live/SCTV20_HD_new.smil/playlist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="sctv21" tvg-name="SCTV21" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv21.png",SCTV21
+http://112.197.12.54/hls/sctv21/sd1/index.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-name="SCTV22" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/sctv22.png",SCTV22
+http://112.197.12.54/hls/sctv22/sd1/index.m3u8
 
 #EXTINF:0 group-title="Danh sách" tvg-id="vinhlong1hd" tvg-name="TH Vĩnh Long 1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/th-vinh-long-1.png",TH Vĩnh Long 1
 https://livecdn.fptplay.net/hda/vinhlong1_hls.smil/chunklist_b2500000.m3u8
