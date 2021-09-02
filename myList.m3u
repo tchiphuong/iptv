@@ -1,6 +1,9 @@
 #EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 m3uautoload=1
 
-
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#Arab Saudi - Vietnam HD" tvg-logo="https://cadovn88.com/wp-content/uploads/2021/09/Soi-keo-A-Rap-Saudi-vs-Viet-Nam.jpg",#Arab Saudi - Vietnam HD
+https://livestream.endurio.foundation/live/613108dbac1be7001df06d35/613108dbac1be7001df06d35.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#Arab Saudi - Vietnam SD" tvg-logo="https://cadovn88.com/wp-content/uploads/2021/09/Soi-keo-A-Rap-Saudi-vs-Viet-Nam.jpg",#Arab Saudi - Vietnam SD
+https://179386814.global.cdnfastest.com//live/183945d1d7223f3493d81064fefb1004018/chunklist.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv1.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="vtv2hd" tvg-name="VTV2" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv2.png",VTV2
