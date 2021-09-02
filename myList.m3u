@@ -20,6 +20,26 @@ https://vips-livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/chunklist_b5000000.m3u8?t
 #EXTINF:0 group-title="Danh sách" tvg-id="vtv9hd" tvg-name="VTV9" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv9.png",VTV9
 https://vips-livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8?token=
 
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv1hd" tvg-name="VTV1 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv1.png",VTV1 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv01/vtv01@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv2hd" tvg-name="VTV2 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv2.png",VTV2 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv02/vtv02@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv3hd" tvg-name="VTV3 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv3.png",VTV3 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv03/vtv03@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv4" tvg-name="VTV4 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv4.png",VTV4 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv5hd" tvg-name="VTV5 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv5.png",VTV5 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv05/vtv05@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv6hd" tvg-name="VTV6 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv6.png",VTV6 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv7hd" tvg-name="VTV7 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv7.png",VTV7 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv8hd" tvg-name="VTV8 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv8.png",VTV8 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@1080p.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="vtv9hd" tvg-name="VTV9 1080p" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtv9.png",VTV9 1080p
+http://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8
+
+
 #EXTINF:0 group-title="Danh sách" tvg-id="vtc1" tvg-name="VTC 1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc1.png",VTC 1
 https://livecdn.fptplay.net/sdb/vtc1_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Danh sách" tvg-id="vtc2" tvg-name="VTC 2" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/vtc2.png",VTC 2
