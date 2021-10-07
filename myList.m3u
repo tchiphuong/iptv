@@ -1,12 +1,15 @@
 #EXTM3U url-tvg="http://gg.gg/epgbeartv" tvg-shift=0 m3uautoload=1
 
-
-#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#Vietnam vs Australia" tvg-logo="https://static.bongda24h.vn/medias/standard/2021/9/7/truc-tiep-world-cup-2022-viet-nam-australia-link-xem-vtv6-fpt-7-9-2021.jpg",#Vietnam vs Australia
-https://web-livecdn.fptplay.net/hdevent/worldcup01_mhls.smil/chunklist_b1800000.m3u8?token=
-#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#Vietnam vs Australia" tvg-logo="https://static.bongda24h.vn/medias/standard/2021/9/7/truc-tiep-world-cup-2022-viet-nam-australia-link-xem-vtv6-fpt-7-9-2021.jpg",#Vietnam vs Australia
-https://179386814.global.cdnfastest.com//live/183945d1d7223f3493d81064fefb1004018/chunklist.m3u8
-#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#Vietnam vs Australia" tvg-logo="https://static.bongda24h.vn/medias/standard/2021/9/7/truc-tiep-world-cup-2022-viet-nam-australia-link-xem-vtv6-fpt-7-9-2021.jpg",#Vietnam vs Australia
-https://livestream.fortuneholding.tk/live/613750e61553cb001c0472ec/613750e61553cb001c0472ec.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#1 World Cup 2022" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/wc.png",#1 World Cup 2022
+https://web-livecdn.fptplay.net/tvc/world-cup01_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#2 World Cup 2022" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/wc.png",#2 World Cup 2022
+https://livecdn.fptplay.net/tvc/world-cup02_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#3 World Cup 2022" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/wc.png",#3 World Cup 2022
+https://web-livecdn.fptplay.net/hdevent/worldcup03_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#4 World Cup 2022" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/wc.png",#4 World Cup 2022
+https://web-livecdn.fptplay.net/tvc/world-cup04_2000.stream/chunklist.m3u8
+#EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#5 World Cup 2022" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/wc.png",#5 World Cup 2022
+https://web-livecdn.fptplay.net/tvc/world-cup05_2000.stream/chunklist.m3u8
 
 #EXTINF:0 group-title="Danh sách" tvg-id="kplus1hd" tvg-name="K+1" tvg-logo="https://raw.githubusercontent.com/tchiphuong/iptv/main/images/kplus-1.png",K+Live
 https://hls.c1.omlet.gg/live/OBY3Y7XNGUQ6SZDMT3EK6KEV2QZSPF5P42GJ2BMSHTUCW5O3MJAQ/playlist.m3u8?sc=TWO&cdn=NginxCNC
