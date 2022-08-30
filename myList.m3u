@@ -19,7 +19,7 @@ http://s4live.tv1asia.com:21585/kplus2/index.m3u8
 http://s4live.tv1asia.com:21585/kns2/index.m3u8
 #EXTINF:0 group-title="K+" tvg-id="ksport2hd" tvg-name="K SPORTS 2" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K SPORTS 2
 http://s4live.tv1asia.com:21585/kpc2/index.m3u8
-#EXTINF:0 group-title="K+" tvg-id="kkidshd" tvg-name="K KID" tvg-logo="https://tchiphuong.github.io/iptv/images/k-kid-hd.png",K KID
+#EXTINF:0 group-title="K+" tvg-id="kkidshd" tvg-name="K KID" tvg-logo="https://tchiphuong.github.io/iptv/images/k-kids-hd.png",K KID
 https://hls.c1.omlet.gg/live/OBY3Y7XNGUQ6SZDMT3EK6KEV2QZSPF5P42GJ2BMSHTUCW5O3MJAQ/playlist.m3u8?sc=TWO&cdn=NginxCNC
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
