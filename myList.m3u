@@ -261,7 +261,7 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv20
 https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv21
 #EXTINF:0 group-title="SCTV" tvg-name="SCTV22" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv22.png",SCTV22
 https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv22
-#EXTINF:0 group-title="SCTV" tvg-name="SCTV22" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv.png",SCTV Phim tổng hợp
+#EXTINF:0 group-title="SCTV" tvg-name="SCTV Phim tổng hợp" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv.png",SCTV Phim tổng hợp
 https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
 
 #EXTINF:0 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-name="TH Vĩnh Long 1" tvg-logo="https://tchiphuong.github.io/iptv/images/th-vinh-long-1.png",TH Vĩnh Long 1
