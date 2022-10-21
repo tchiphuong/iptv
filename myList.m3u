@@ -1,4 +1,4 @@
-//#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml, http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" tvg-shift=0 m3uautoload=1
+##EXTM3U url-tvg="http://onetv.click/schedule/epg.xml, http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" tvg-shift=0 m3uautoload=1
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" tvg-shift=0 m3uautoload=1
 
 // #EXTINF:0 group-title="Danh sách" tvg-id="" tvg-name="#1 World Cup 2022" tvg-logo="https://tchiphuong.github.io/iptv/images/wc.png",#1 World Cup 2022
