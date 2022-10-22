@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U x-tgv-url="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" tvg-shift=0 m3uautoload=1
 
 #EXTINF:0 group-title="Trực tiếp" tvg-id="" tvg-name="VeboTV FHD | Xem bóng đá 1" tvg-logo="https://vebotv.cc/static/img/logo.png",VeboTV FHD | Xem bóng đá 1
 https://1093384063.cdn.khmer-hd.com/live/chunks.m3u8
