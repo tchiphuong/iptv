@@ -1,3 +1,5 @@
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz"
+
 #EXTINF:0 group-title="Thư sinh xinh đẹp" tvg-logo="https://static2.vieon.vn/vieplay-image/carousel_web_v4/2021/01/02/iujzdavj_1920x1080thusinhxinhdep.jpg", Tập 1 https://aa.nguonphimmoi.com/20220329/6497_4af2d6c0/index.m3u8
 #EXTINF:0 group-title="Thư sinh xinh đẹp" tvg-logo="https://static2.vieon.vn/vieplay-image/carousel_web_v4/2021/01/02/iujzdavj_1920x1080thusinhxinhdep.jpg", Tập 2 https://aa.nguonphimmoi.com/20220329/6498_1064c425/index.m3u8
 #EXTINF:0 group-title="Thư sinh xinh đẹp" tvg-logo="https://static2.vieon.vn/vieplay-image/carousel_web_v4/2021/01/02/iujzdavj_1920x1080thusinhxinhdep.jpg", Tập 3 https://aa.nguonphimmoi.com/20220329/6499_8d0b147e/index.m3u8
