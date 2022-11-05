@@ -148,8 +148,8 @@ https://vips-livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 group-title="VTC" tvg-id="vtc16" tvg-name="VTC16" tvg-logo="https://tchiphuong.github.io/iptv/images/vtc16.png",VTC16
 https://livecdn.fptplay.net/sdb/vtc16_hls.smil/chunklist_b2500000.m3u8
 
-// #EXTINF:0 group-title="Danh sách" tvg-id="ttxvn" tvg-name="VNews" tvg-logo="https://tchiphuong.github.io/iptv/images/vnews.png",VNews
-// http://livecdn.fptplay.net/sda/ttxvn_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Thời sự" tvg-id="ttxvn" tvg-name="VNews" tvg-logo="https://tchiphuong.github.io/iptv/images/vnews.png",VNews
+https://16371213858134.vnns.net/ttxvn_abr/vtc130121/ttxvn-1080p/chunks.m3u8
 #EXTINF:0 group-title="Thời sự" tvg-id="antvhd" tvg-name="ANTV" tvg-logo="https://tchiphuong.github.io/iptv/images/antv.png",ANTV
 https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 group-title="Thời sự" tvg-id="nhandan" tvg-name="Nhân Dân" tvg-logo="https://tchiphuong.github.io/iptv/images/nhan-dan.png",Nhân Dân
@@ -447,3 +447,15 @@ http://api.vthanhtivi.pw/v1/getlink/tv360_s2/150/2
 #EXTINF:0 group-title="Nước ngoài" tvg-id="warnertvhd" tvg-name="NN - Warner TV" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-wb.png",NN - Warner TV
 http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png.png",Match! Football 1
+https://est06.varcdn.top/m1/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png.png",Match! Football 1
+https://hls.lbs.pw/hls/fut1/playlist.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png.png",Match! Football 2
+https://hls.lbs.pw/hls/fut2/playlist.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png.png",Match! Football 3
+https://hls.lbs.pw/hls/fut3/playlist.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Remier 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png.png",Match! Remier
+https://hls.lbs.pw/hls/prem/playlist.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Remier 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png.png",Match! Remier
+http://193.233.9.49/streams/media/Match_Premer/index.m3u8
