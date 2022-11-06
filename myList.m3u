@@ -447,17 +447,36 @@ http://api.vthanhtivi.pw/v1/getlink/tv360_s2/150/2
 #EXTINF:0 group-title="Nước ngoài" tvg-id="warnertvhd" tvg-name="NN - Warner TV" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-wb.png",NN - Warner TV
 http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="[M1] Match! Football 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",[M1] Match! Football 1
 https://est06.varcdn.top/m1/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="[M2] Match! Football 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",[M2] Match! Football 2
+https://aws01.varcdn.top/m2/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="[M3] Match! Football 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",[M3] Match! Football 3
+https://aws01.varcdn.top/m3/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="[MP] Match! Remier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",[MP] Match! Remier
+https://aws01.varcdn.top/mp/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Setanta Sports" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports
+https://aws01.varcdn.top/setantasport/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="setanta1-ge" tvg-name="Setanta Sports 1" tvg-logo="https://picon.ml/setanta-sports1.png",Setanta Sports 1
+https://estx05.varcdn.top/setanta1/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 group-title="Bóng đá" tvg-id="setanta2-ge" tvg-name="Setanta Sports 2" tvg-logo="https://picon.ml/setanta-sports2.png",Setanta Sports 2
+https://aws01.varcdn.top/setanta2/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Setanta Sports Plus" tvg-logo="https://picon.ml/setanta-plus-ua.png",Setanta Sports Plus
+https://est06.varcdn.top/setantaplusukraina/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 1 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1 720p
 https://hls.lbs.pw/hls/fut1/playlist.m3u8
-#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match! Football 2
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 2 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match! Football 2 720p
 https://hls.lbs.pw/hls/fut2/playlist.m3u8
-#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",Match! Football 3
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Football 3 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",Match! Football 3 720p
 https://hls.lbs.pw/hls/fut3/playlist.m3u8
-#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Remier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match! Remier
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Remier 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match! Remier 720p
 https://hls.lbs.pw/hls/prem/playlist.m3u8
 #EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Match! Remier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match! Remier
 http://193.233.9.49/streams/media/Match_Premer/index.m3u8
-#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="beIN SPORTS Premium 2" tvg-logo="https://i.goalzz.com/?i=o%2Fh%2F1%2F893%2Fbein-sports-premium-1.png",beIN SPORTS Premium 2
-https://list.iptvcat.com/my_list/s/17dba37894c698eaa65abcfddc71aa03.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Setanta Sports 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 1080p
+http://92.119.88.58:8080/272/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Setanta Sports 1 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 1 1080p
+http://92.119.88.58:8080/271/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Bóng đá" tvg-id="" tvg-name="Setanta Sports 2 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 2 1080p
+http://92.119.88.58:8080/270/tracks-v1a1/mono.m3u8
