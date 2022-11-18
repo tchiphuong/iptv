@@ -765,7 +765,7 @@ http://5.182.229.90:8080/7333/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7334/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports Premier League" tvg-logo="https://archive.org/download/SkySportsPremierLeague_201708/sky%20sports%20premier%20league.png",Sky Sports Premier League
 http://5.182.229.90:8080/7335/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports Football" tvg-logo="https://archive.org/download/SkySportsPremierLeague_201708/sky%20sports%20premier%20league.png",Sky Sports Football
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports Football" tvg-logo="https://archive.org/download/SkySportsFootball_201708/sky%20sports%20football.png",Sky Sports Football
 http://5.182.229.90:8080/7336/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sport Main Event" tvg-logo="https://archive.org/download/SkySportsMainEvent_201708/sky%20sports%20main%20event.png",Sky Sport Main Event
 http://5.182.229.90:8080/7329/tracks-v1a1/mono.m3u8
