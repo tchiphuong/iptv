@@ -447,6 +447,127 @@ http://api.vthanhtivi.pw/v1/getlink/tv360_s2/150/2
 #EXTINF:0 group-title="Nước ngoài" tvg-id="warnertvhd" tvg-name="NN - Warner TV" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-wb.png",NN - Warner TV
 http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-1 综合" tvg-logo="https://p5.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586773068_87.png",[Trung Quốc] CCTV-1 综合
+http://ott.mobaibox.com/PLTV/3/224/3221227375/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-2 财经" tvg-logo="https://p3.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586768395_210.png",[Trung Quốc] CCTV-2 财经
+http://ott.mobaibox.com/PLTV/3/224/3221226993/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-3 综艺" tvg-logo="https://p4.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586763825_455.png",[Trung Quốc] CCTV-3 综艺
+http://ott.mobaibox.com/PLTV/3/224/3221227295/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-4 中文国际" tvg-logo="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586745032_233.png",[Trung Quốc] CCTV-4 中文国际
+http://ott.mobaibox.com/PLTV/3/224/3221227378/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-5 体育" tvg-logo="https://p3.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586717128_175.png",[Trung Quốc] CCTV-5 体育
+http://ott.mobaibox.com/PLTV/3/224/3221227298/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-5+ 体育赛事" tvg-logo="https://p5.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586530639_661.png",[Trung Quốc] CCTV-5+ 体育赛事
+http://ott.mobaibox.com/PLTV/3/224/3221227381/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-6 电影" tvg-logo="https://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586710465_498.png",[Trung Quốc] CCTV-6 电影
+http://ott.mobaibox.com/PLTV/3/224/3221227301/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-7 国防军事" tvg-logo="https://p3.img.cctvpic.com/photoAlbum/page/performance/img/2019/7/31/1564559495112_238.png",[Trung Quốc] CCTV-7 国防军事
+http://ott.mobaibox.com/PLTV/3/224/3221227314/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-8 电视剧" tvg-logo="https://p4.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586687646_743.png",[Trung Quốc] CCTV-8 电视剧
+http://ott.mobaibox.com/PLTV/3/224/3221227304/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-9 纪录" tvg-logo="https://p5.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586681795_766.png",[Trung Quốc] CCTV-9 纪录
+http://ott.mobaibox.com/PLTV/3/224/3221225532/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-10 科教" tvg-logo="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586655014_328.png",[Trung Quốc] CCTV-10 科教
+http://ott.mobaibox.com/PLTV/3/224/3221227317/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-11 戏曲" tvg-logo="https://p4.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586640573_700.png",[Trung Quốc] CCTV-11 戏曲
+http://ott.mobaibox.com/PLTV/3/224/3221227524/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-12 社会与法" tvg-logo="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586635222_809.png",[Trung Quốc] CCTV-12 社会与法
+http://ott.mobaibox.com/PLTV/3/224/3221225556/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-13 新闻" tvg-logo="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586619347_364.png",[Trung Quốc] CCTV-13 新闻
+http://ott.mobaibox.com/PLTV/3/224/3221225560/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-14 少儿" tvg-logo="https://p4.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586612691_994.png",[Trung Quốc] CCTV-14 少儿
+http://ott.mobaibox.com/PLTV/3/224/3221227201/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-15 音乐" tvg-logo="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2018/7/3/1530586604971_463.png",[Trung Quốc] CCTV-15 音乐
+http://ott.mobaibox.com/PLTV/3/224/3221227538/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-16 奥林匹克" tvg-logo="https://p4.img.cctvpic.com/photoAlbum/page/performance/img/2021/10/25/1635162656944_362.png",[Trung Quốc] CCTV-16 奥林匹克
+http://ott.mobaibox.com/PLTV/3/224/3221228320/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CCTV-17 农业农村" tvg-logo="https://p4.img.cctvpic.com/photoAlbum/page/performance/img/2019/7/31/1564582431720_401.png",[Trung Quốc] CCTV-17 农业农村
+http://ott.mobaibox.com/PLTV/3/224/3221227578/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 安徽卫视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/12/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png",[Trung Quốc]  安徽卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225634/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 兵团卫视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e8/Bingtuan_Television_Logo_20090828.png/200px-Bingtuan_Television_Logo_20090828.png",[Trung Quốc] 兵团卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227025/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 北京卫视" tvg-logo="https://m.mlzhongguo.com/uploads/image/10/15706043032153.png",[Trung Quốc] 北京卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227390/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 卡酷少儿" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9a/KAKU_logo.png",[Trung Quốc] 卡酷少儿
+http://ott.mobaibox.com/PLTV/3/224/3221226305/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] BTV纪实" tvg-logo="https://bkimg.cdn.bcebos.com/pic/91529822720e0cf366ecf8200646f21fbf09aad6?x-bce-process=image/resize,m_lfit,w_536,limit_1",[Trung Quốc] BTV纪实
+http://ott.mobaibox.com/PLTV/3/224/3221227711/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CETV-1" tvg-logo="https://www.tvchinese.net/uploads/tv/cetv1.jpg",[Trung Quốc] CETV-1
+http://ott.mobaibox.com/PLTV/3/224/3221225909/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CETV-2" tvg-logo="https://www.tvchinese.net/uploads/tv/cetv2.jpg",[Trung Quốc] CETV-2
+http://ott.mobaibox.com/PLTV/3/224/3221225850/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CETV-3" tvg-logo="https://www.tvchinese.net/uploads/tv/cetv3.jpg",[Trung Quốc] CETV-3
+http://ott.mobaibox.com/PLTV/3/224/3221227018/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] CETV-4" tvg-logo="https://www.tvchinese.net/uploads/tv/cetv4.jpg",[Trung Quốc] CETV-4
+http://ott.mobaibox.com/PLTV/3/224/3221227028/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 重庆卫视" tvg-logo="https://www.logo9.net/userfiles/images/890r3.jpg",[Trung Quốc] 重庆卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227550/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 东方卫视" tvg-logo="https://img.isuper.tv/live-tv/cn-tv/dragontv-live.jpg",[Trung Quốc] 东方卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227396/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 东南卫视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/6a/SETV_fujian.jpg",[Trung Quốc] 东南卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227553/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 甘肃卫视" tvg-logo="https://img.isuper.tv/live-tv/cn-tv/gstv-live.jpg",[Trung Quốc] 甘肃卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228166/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 广东卫视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/d/d8/GRT_Satellite_Channel_2016_logo.jpg",[Trung Quốc] 广东卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227399/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 广西卫视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/fd/LOGOGuangxiTV.jpg",[Trung Quốc] 广西卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 贵州卫视" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_5a6TdD5xujjShUxey8O972A4XaqOlgOLhOD72=s900-c-k-c0x00ffffff-no-rj",[Trung Quốc] 贵州卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228136/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 河北卫视" tvg-logo="",[Trung Quốc] 河北卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228106/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 黑龙江卫视" tvg-logo="",[Trung Quốc] 黑龙江卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227323/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 河南卫视" tvg-logo="",[Trung Quốc] 河南卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 湖北卫视" tvg-logo="",[Trung Quốc] 湖北卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227377/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 湖南卫视" tvg-logo="",[Trung Quốc] 湖南卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227320/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 江苏卫视" tvg-logo="",[Trung Quốc] 江苏卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227402/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 江西卫视" tvg-logo="",[Trung Quốc] 江西卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225536/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 吉林卫视" tvg-logo="",[Trung Quốc] 吉林卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228130/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 辽宁卫视" tvg-logo="",[Trung Quốc] 辽宁卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227380/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 内蒙古卫视" tvg-logo="",[Trung Quốc] 内蒙古卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225836/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 宁夏卫视" tvg-logo="",[Trung Quốc] 宁夏卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225842/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 青海卫视" tvg-logo="",[Trung Quốc] 青海卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225783/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 山东教育电视台" tvg-logo="",[Trung Quốc] 山东教育电视台
+http://ott.mobaibox.com/PLTV/3/224/3221227019/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 山东卫视" tvg-logo="",[Trung Quốc] 山东卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227310/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 山西卫视" tvg-logo="",[Trung Quốc] 山西卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225786/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 陕西卫视" tvg-logo="",[Trung Quốc] 陕西卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227022/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 深圳卫视" tvg-logo="",[Trung Quốc] 深圳卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227307/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 四川卫视" tvg-logo="",[Trung Quốc] 四川卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228171/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 天津卫视" tvg-logo="",[Trung Quốc] 天津卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227382/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 海南卫视" tvg-logo="",[Trung Quốc] 海南卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228139/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 厦门卫视" tvg-logo="",[Trung Quốc] 厦门卫视
+http://ott.mobaibox.com/PLTV/3/224/3221226996/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 新疆卫视" tvg-logo="",[Trung Quốc] 新疆卫视
+http://ott.mobaibox.com/PLTV/3/224/3221225844/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 西藏卫视" tvg-logo="",[Trung Quốc] 西藏卫视
+http://ott.mobaibox.com/PLTV/3/224/3221226376/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 延边卫视" tvg-logo="",[Trung Quốc] 延边卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227002/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 云南卫视" tvg-logo="",[Trung Quốc] 云南卫视
+http://ott.mobaibox.com/PLTV/3/224/3221228169/index.m3u8
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Trung Quốc] 浙江卫视" tvg-logo="",[Trung Quốc] 浙江卫视
+http://ott.mobaibox.com/PLTV/3/224/3221227393/index.m3u8
+
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 1 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1 720p
 https://hls.lbs.pw/hls/fut1/playlist.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 2 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match! Football 2 720p
@@ -681,7 +802,7 @@ http://5.182.229.90:8080/7291/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7292/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a549.png",TVP 2
 http://5.182.229.90:8080/7293/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="MTV" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1302.png",MTV
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="MTV" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/10.png",MTV
 http://5.182.229.90:8080/7294/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] Polsat Games" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/840.png",[Ba Lan] Polsat Games
 http://5.182.229.90:8080/7295/tracks-v1a1/mono.m3u8
