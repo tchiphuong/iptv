@@ -653,7 +653,7 @@ http://5.182.229.90:8080/7277/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7278/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] TVN7" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/525.png",[Ba Lan] TVN7
 http://5.182.229.90:8080/7279/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP Sport" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/374.png",TVP Sport
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP Sport" tvg-logo="https://img.sport-tv-guide.live/images/stations/a561.png",TVP Sport
 http://5.182.229.90:8080/7280/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] TVP Seriale" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/497.png",[Ba Lan] TVP Seriale
 http://5.182.229.90:8080/7281/tracks-v1a1/mono.m3u8
@@ -661,7 +661,7 @@ http://5.182.229.90:8080/7281/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7282/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] TVP Historia" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/390.png",[Ba Lan] TVP Historia
 http://5.182.229.90:8080/7283/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 3" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/596.png",TVP 3
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 3" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1302.png",TVP 3
 http://5.182.229.90:8080/7284/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] TVN Style" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/524.png",[Ba Lan] TVN Style
 http://5.182.229.90:8080/7285/tracks-v1a1/mono.m3u8
@@ -677,11 +677,11 @@ http://5.182.229.90:8080/7289/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7290/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Undefined" tvg-id="" tvg-name="Undefined" tvg-logo="",Undefined
 http://5.182.229.90:8080/7291/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 1" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/1.png",TVP 1
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a548.png",TVP 1
 http://5.182.229.90:8080/7292/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 2" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/2.png",TVP 2
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TVP 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a549.png",TVP 2
 http://5.182.229.90:8080/7293/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="MTV" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/10.png",MTV
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="MTV" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1302.png",MTV
 http://5.182.229.90:8080/7294/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] Polsat Games" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/840.png",[Ba Lan] Polsat Games
 http://5.182.229.90:8080/7295/tracks-v1a1/mono.m3u8
@@ -701,21 +701,21 @@ http://5.182.229.90:8080/7301/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7302/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Undefined" tvg-id="" tvg-name="Undefined" tvg-logo="",Undefined
 http://5.182.229.90:8080/7303/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium 1" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/832.png",Polsat Sport Premium 1
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium 1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1472.png",Polsat Sport Premium 1
 http://5.182.229.90:8080/7304/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/833.png",Polsat Sport Premium 2
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1473.png",Polsat Sport Premium 2
 http://5.182.229.90:8080/7305/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 3" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/834.png",Polsat Sport Premium PPV 3
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 3" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1474.png",Polsat Sport Premium PPV 3
 http://5.182.229.90:8080/7306/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 4" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/835.png",Polsat Sport Premium PPV 4
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 4" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1897.png",Polsat Sport Premium PPV 4
 http://5.182.229.90:8080/7307/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 5" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/836.png",Polsat Sport Premium PPV 5
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 5" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1898.png",Polsat Sport Premium PPV 5
 http://5.182.229.90:8080/7308/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 6" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/837.png",Polsat Sport Premium PPV 6
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Premium PPV 6" tvg-logo="https://img.sport-tv-guide.live/images/stations/a1899.png",Polsat Sport Premium PPV 6
 http://5.182.229.90:8080/7309/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Extra" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/357.png",Polsat Sport Extra
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Polsat Sport Extra" tvg-logo="https://img.sport-tv-guide.live/images/stations/a560.png",Polsat Sport Extra
 http://5.182.229.90:8080/7310/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Fight Box" tvg-logo="https://spiintl.com/data/files/zdjecie/c0/de/c0de4296cb6087762e595bb1387ddf8852d9ecbde582e0e35c7e4af1bfc5e342.png",Fight Box
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Fight Box" tvg-logo="https://img.sport-tv-guide.live/images/stations/a578.png",Fight Box
 http://5.182.229.90:8080/7311/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Ba Lan] Super Polsat" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/725.png",[Ba Lan] Super Polsat
 http://5.182.229.90:8080/7312/tracks-v1a1/mono.m3u8
@@ -737,11 +737,11 @@ http://5.182.229.90:8080/7319/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7320/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Undefined" tvg-id="" tvg-name="Undefined" tvg-logo="",Undefined
 http://5.182.229.90:8080/7321/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="The Herd" tvg-logo="",The Herd
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="FS1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a60.png",FS1
 http://5.182.229.90:8080/7322/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="FS2" tvg-logo="https://img.sport-tv-guide.live/images/stations/a61.png",FS2
 http://5.182.229.90:8080/7323/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CBS Sport Network" tvg-logo="https://images.bowl.com/bowl/media/legacy/uploadedimages/About/About_Home/CBSSNlogo637xpagetop.jpg",CBS Sport Network
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CBS Sport Network" tvg-logo="https://img.sport-tv-guide.live/images/stations/a33.png",CBS Sport Network
 http://5.182.229.90:8080/7324/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="Encore" tvg-logo="",Encore
 http://5.182.229.90:8080/7325/tracks-v1a1/mono.m3u8
@@ -779,11 +779,11 @@ http://5.182.229.90:8080/7340/tracks-v1a1/mono.m3u8
 http://5.182.229.90:8080/7341/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports F1" tvg-logo="https://img.sport-tv-guide.live/images/stations/a118.png",Sky Sports F1
 http://5.182.229.90:8080/7342/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports Cricket" tvg-logo="https://archive.org/download/SkySportsCricket_201708/sky%20sports%20cricket.png",Sky Sports Cricket
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports Cricket" tvg-logo="https://img.sport-tv-guide.live/images/stations/a664.png",Sky Sports Cricket
 http://5.182.229.90:8080/7343/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports Goft" tvg-logo="https://img.sport-tv-guide.live/images/stations/a94.png",Sky Sports Goft
 http://5.182.229.90:8080/7344/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports NFL" tvg-logo="https://archive.org/download/sky-sports-nfl/SkySports-NFL.png",Sky Sports NFL
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Sky Sports NFL" tvg-logo="https://img.sport-tv-guide.live/images/stations/a2447.png",Sky Sports NFL
 http://5.182.229.90:8080/7345/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="Caza y Pesca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Caza-pesca_m%2B.png/800px-Caza-pesca_m%2B.png",Caza y Pesca
 http://5.182.229.90:8080/7346/tracks-v1a1/mono.m3u8
