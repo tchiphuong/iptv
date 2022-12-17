@@ -2,6 +2,8 @@
 
 #EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 1 FHD" tvg-logo="https://xem.vebo3.org/static/img/logo.png",VeboTV 1 FHD
 https://179314182.global.cdnfastest.com/live/may1FHD/chunklist.m3u8
+#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 2 HD" tvg-logo="https://xem.vebo3.org/static/img/logo.png",VeboTV 2 HD
+https://1123139281.cdn.khmer-hd.com/live/l_1486_4246592_1061.ts
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_hls.smil/chunklist_b2500000.m3u8
@@ -25,6 +27,25 @@ https://vips-livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/chunklist_b5000000.m3u8?t
 https://vips-livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/chunklist_b5000000.m3u8?token=
 #EXTINF:0 group-title="VTV" tvg-id="vtv9hd" tvg-name="VTV9" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv9.png",VTV9
 https://vips-livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8?token=
+
+#EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1 TV360
+http://27.67.50.139:18080//154_2.m3u8?AdaptiveType=HLS&SessionID=e9f2d261-d761-4a96-a699-d62d26cce791&MinBw=0&MaxBw=20000000
+#EXTINF:0 group-title="VTV" tvg-id="vtv2hd" tvg-name="VTV2 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv2.png",VTV2 TV360
+http://live-zlr1.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv3hd" tvg-name="VTV3 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv3.png",VTV3 TV360
+http://drfamaga5qliv.vcdn.cloud/vtv03/vtv03@TV360.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv4" tvg-name="VTV4 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv4.png",VTV4 TV360
+http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@TV360.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv5hd" tvg-name="VTV5 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5.png",VTV5 TV360
+http://drfamaga5qliv.vcdn.cloud/vtv05/vtv05@TV360.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv6hd" tvg-name="VTV Cần Thơ TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv-can-tho.png",VTV Cần Thơ TV360
+http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@TV360.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv7hd" tvg-name="VTV7 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv7.png",VTV7 TV360
+http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@TV360.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv8hd" tvg-name="VTV8 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv8.png",VTV8 TV360
+http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@TV360.m3u8
+#EXTINF:0 group-title="VTV" tvg-id="vtv9hd" tvg-name="VTV9 TV360" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv9.png",VTV9 TV360
+http://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1 1080p" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1 1080p
 http://drfamaga5qliv.vcdn.cloud/vtv01/vtv01@1080p.m3u8
