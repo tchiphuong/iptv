@@ -1,5 +1,8 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz"
 
+#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 1 FHD" tvg-logo="https://xem.vebo3.org/static/img/logo.png",VeboTV 1 FHD
+https://179314182.global.cdnfastest.com/live/may1FHD/chunklist.m3u8
+
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv2hd" tvg-name="VTV2" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv2.png",VTV2
