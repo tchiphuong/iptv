@@ -1,9 +1,13 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz"
 
-#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 1 FHD" tvg-logo="https://xem.vebo3.org/static/img/logo.png",VeboTV 1 FHD
+#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 1 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VeboTV 1 FHD
 https://179314182.global.cdnfastest.com/live/may1FHD/chunklist.m3u8
-#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 2 HD" tvg-logo="https://xem.vebo3.org/static/img/logo.png",VeboTV 2 HD
-https://1123139281.cdn.khmer-hd.com/live/l_1486_4246592_1061.ts
+#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 2 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VeboTV 2 FHD
+https://179314182.global.cdnfastest.com/live/may2FHD/chunklist.m3u8
+#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 3 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VeboTV 3 FHD
+https://179314182.global.cdnfastest.com/live/may3FHD/chunklist.m3u8
+#EXTINF:0 group-title="Live" tvg-id="" tvg-name="VeboTV 4 HD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VeboTV 4 HD
+https://1123139281.cdn.khmer-hd.com/live/chunks.m3u8
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
