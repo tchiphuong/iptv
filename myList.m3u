@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz"
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/jp/tvguide.myjcom.jp.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz" tvg-shift=0 m3uautoload=1
 
 #EXTINF:0 group-title="Trực tiếp" tvg-id="" tvg-name="VeboTV 1 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VeboTV 1 FHD
 https://179314182.global.cdnfastest.com/live/may1FHD/chunklist.m3u8
@@ -643,12 +643,18 @@ https://www.livedoomovies.com:4431/02_AMARINHD_720p/chunklist.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="[Thái Lan] TNN24" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1f/TNN24_Logo.png",[Thái Lan] TNN24
 https://www.livedoomovies.com:4431/02_TNN24_480p/chunklist.m3u8
 // End Thailand ▲
+#EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="Sky News" tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/sites/4/2016/01/Sky-News-June-2021.png",Sky News
+https://siloh.pluto.tv/lilo/production/SkyNews/master.m3u8
 // End International ▲
 
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="BEIN Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-1.png",BEIN Sport 1
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-1.png",beIN SPORT 1
 https://sport.livedoomovies.com:4431/02_epl1_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="BEIN Sport 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",BEIN Sport 3
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",beIN SPORT 3
 https://sport.livedoomovies.com:4431/02_epl2_720p/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT Extra" tvg-logo="https://www.beinsportsxtra.com/_next/image?url=https%3A%2F%2Fresources.beinsportsxtra.com%2Fxtra%2Flogo_bein_sport_xtra_plain_55537aef6c.png&w=375&q=100",beIN SPORT Extra UK
+https://siloh.pluto.tv/lilo/production/bein/b1121710f0b14c1146591b65168004e6/master_1.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT Extra ES" tvg-logo="https://www.beinsportsxtra.com/_next/image?url=https%3A%2F%2Fresources.beinsportsxtra.com%2Fxtra%2Flogo_bein_sport_xtra_espanol_plain_dfc8c8970b.png&w=375&q=100",beIN SPORT Extra ES
+https://siloh.pluto.tv/lilo/production/BEIN/ES/master_1.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 1 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1 720p
 https://hls.lbs.pw/hls/fut1/playlist.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 2 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match! Football 2 720p
