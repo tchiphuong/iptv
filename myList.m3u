@@ -659,6 +659,20 @@ https://sport.livedoomovies.com:4431/02_epl2_720p/chunklist.m3u8
 https://siloh.pluto.tv/lilo/production/bein/b1121710f0b14c1146591b65168004e6/master_1.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT Extra ES" tvg-logo="https://www.beinsportsxtra.com/_next/image?url=https%3A%2F%2Fresources.beinsportsxtra.com%2Fxtra%2Flogo_bein_sport_xtra_espanol_plain_dfc8c8970b.png&w=375&q=100",beIN SPORT Extra ES
 https://siloh.pluto.tv/lilo/production/BEIN/ES/master_1.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CANAL+ 4K" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/Canal_logo_white_bg.png",CANAL+ 4K
+http://cineapp.org:8000/zbigniew/zbigniew/166355
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CANAL+ LDC 4K" tvg-logo="https://ultra-k.fr/wp-content/uploads/2022/05/Logo_chaine_Canal_4K-UHD.png",CANAL+ LDC 4K
+http://cineapp.org:8000/zbigniew/zbigniew/166356
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CANAL+ FOOT 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png",CANAL+ FOOT 4K
+http://cineapp.org:8000/zbigniew/zbigniew/166357
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="EURO SPORT 4K" tvg-logo="https://www.sky-angebote.info/wp-content/uploads/2021/05/eurosport-4k-olympia-sky.png",EURO SPORT 4K
+http://v1.nddarsenio.com:8008/Mihai_costin./h3JuTsE/53743
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="MOVISTAR LIGA DE CAMPEONES 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Liga_de_Campeones_por_Movistar_Plus%2B_2022_logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2022_logo.svg.png",MOVISTAR LIGA DE CAMPEONES 4K
+http://tribaliptv.com:8080/Gustavo/123456/12401
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Eleven Sports 1 4K" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/eleven-sports-1-hd.png",Eleven Sports 1 4K
+http://tribaliptv.com:8080/Gustavo/123456/5195
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Eleven Sports 1 4K" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/eleven-sports-1-hd.png",Eleven Sports 1 4K
+http://cdn.spmr.tv:8080/x6xpbw/video.m3u8?token=HRUNWEM0Q2
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Hub Premier 2" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png",Hub Premier 2
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348096&extension=ts&play_token=zpHQS3jtnW
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 1 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1 720p
@@ -669,8 +683,10 @@ https://hls.lbs.pw/hls/fut2/playlist.m3u8
 https://hls.lbs.pw/hls/fut3/playlist.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Remier 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match! Remier 720p
 https://hls.lbs.pw/hls/prem/playlist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Remier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-tv.png",Match! Remier
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! TV" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-tv.png",Match! TV
 http://cdn.spmr.tv:8080/w60cdr/video.m3u8?token=HRUNWEM0Q2
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TRT 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TRT_4K_logo.svg/2560px-TRT_4K_logo.svg.png",TRT 4K
+http://cdnx1.plusx.tv:8880/TRTInternational/mono.m3u8?token=cb776083b1e1b6f9bb2222
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 1080p
 http://92.119.88.58:8080/272/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 1 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 1 1080p
