@@ -20,10 +20,6 @@ https://179314182.global.cdnfastest.com/live/may9/chunklist.m3u8
 https://179314182.global.cdnfastest.com/live/may10/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv 101" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 101
 https://179314182.global.cdnfastest.com/live/may101/chunklist.m3u8
-#EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv K+Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",VEBOtv K+Sport 1
-https://179720687.global.cdnfastest.com/live/1-3747183-0/chunklist.m3u8
-#EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv K+Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",VEBOtv K+Sport 1
-https://179720687.global.cdnfastest.com/live/1-3747183-2/chunklist.m3u8
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -274,6 +270,41 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv21
 https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv22
 #EXTINF:0 group-title="SCTV" tvg-id="sctvhdpth" tvg-name="SCTV Phim tổng hợp" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv.png",SCTV Phim tổng hợp
 https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
+
+// Begin Sport ▼
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! TV" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-tv.png",Match TV
+http://sg.cvacetv.ga/matchtv
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match Futbol 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match Futbol 1
+http://sg.cvacetv.ga/futbol1
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match Futbol 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match Futbol 2
+http://sg.cvacetv.ga/futbol2
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match Futbol 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",Match Futbol 3
+http://sg.cvacetv.ga/futbol3
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Remier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match Remier
+http://sg.cvacetv.ga/matchpre
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-1.png",Setanta Sports 1
+http://vn3.cvacetv.ga/Setanta1
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-2.png",Setanta Sports 2
+http://vn3.cvacetv.ga/Setanta2
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-1.png",SPORT TV 1
+https://sport.livedoomovies.com:4431/02_SPORTTV_1_720p/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-2.png",SPORT TV 2
+https://sport.livedoomovies.com:4431/02_SPORTTV_2_720p/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 3
+https://sport.livedoomovies.com:4431/02_SPORTTV_3_720p/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 4" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 4
+https://sport.livedoomovies.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 5" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 5
+https://sport.livedoomovies.com:4431/02_SPORTTV_5_720p/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV 720p" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV 720p
+https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_1/chunklist.m3u8?hdnea=st=1652600199~exp=9007200907341190~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_1/chunklist.m3u8*~hmac=743d654a57dc6b3779fba077a0663c96bd491f43a8ee4a0e4c01b504a0e52269
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV 1080p" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV 1080p
+https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8?hdnea=st=1668703029~exp=9007200923444020~acl=/99545824f51f4c1592b35314c6ece3b0/*/profile_0/chunklist.m3u8*~hmac=d8670ee30223dadf1767b576d54b75408404b6a15b11aca66fa61780cb782bb0
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2 720p" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2 720p
+https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_1/chunklist.m3u8?hdnea=st=1652600199~exp=9007200907341190~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_1/chunklist.m3u8*~hmac=743d654a57dc6b3779fba077a0663c96bd491f43a8ee4a0e4c01b504a0e52269
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2 1080p" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2 1080p
+https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8?hdnea=st=1652599386~exp=9007200907340377~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_0/chunklist.m3u8*~hmac=174e0f6dc30e0a421e821016b1288d10ac27ab338c54aaa8ac21afd8c96ff2e3
+// End Sport ▲
 
 #EXTINF:0 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-name="TH Vĩnh Long 1" tvg-logo="https://tchiphuong.github.io/iptv/images/th-vinh-long-1.png",TH Vĩnh Long 1
 https://vips-livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
@@ -648,98 +679,3 @@ https://www.livedoomovies.com:4431/02_TNN24_480p/chunklist.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="" tvg-name="Sky News" tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/sites/4/2016/01/Sky-News-June-2021.png",Sky News
 https://siloh.pluto.tv/lilo/production/SkyNews/master.m3u8
 // End International ▲
-
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Astro SuperSport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Astro_ASSP4.png",Astro SuperSport
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348094&extension=ts&play_token=FzoklzfqN1
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN 4K" tvg-logo="https://i.goalzz.com/?i=katkotati%2F4k.gif",beIN 4K
-http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=24083&extension=ts&play_token=70AEFyMfql
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-1.png",beIN SPORT 1
-https://sport.livedoomovies.com:4431/02_epl1_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",beIN SPORT 3
-https://sport.livedoomovies.com:4431/02_epl2_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT Extra" tvg-logo="https://www.beinsportsxtra.com/_next/image?url=https%3A%2F%2Fresources.beinsportsxtra.com%2Fxtra%2Flogo_bein_sport_xtra_plain_55537aef6c.png&w=375&q=100",beIN SPORT Extra UK
-https://siloh.pluto.tv/lilo/production/bein/b1121710f0b14c1146591b65168004e6/master_1.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="beIN SPORT Extra ES" tvg-logo="https://www.beinsportsxtra.com/_next/image?url=https%3A%2F%2Fresources.beinsportsxtra.com%2Fxtra%2Flogo_bein_sport_xtra_espanol_plain_dfc8c8970b.png&w=375&q=100",beIN SPORT Extra ES
-https://siloh.pluto.tv/lilo/production/BEIN/ES/master_1.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CANAL+ 4K" tvg-logo="https://logos-download.com/wp-content/uploads/2016/08/Canal_logo_white_bg.png",CANAL+ 4K
-http://cineapp.org:8000/zbigniew/zbigniew/166355
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CANAL+ LDC 4K" tvg-logo="https://ultra-k.fr/wp-content/uploads/2022/05/Logo_chaine_Canal_4K-UHD.png",CANAL+ LDC 4K
-http://cineapp.org:8000/zbigniew/zbigniew/166356
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="CANAL+ FOOT 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png",CANAL+ FOOT 4K
-http://cineapp.org:8000/zbigniew/zbigniew/166357
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="EURO SPORT 4K" tvg-logo="https://www.sky-angebote.info/wp-content/uploads/2021/05/eurosport-4k-olympia-sky.png",EURO SPORT 4K
-http://v1.nddarsenio.com:8008/Mihai_costin./h3JuTsE/53743
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="MOVISTAR LIGA DE CAMPEONES 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Liga_de_Campeones_por_Movistar_Plus%2B_2022_logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2022_logo.svg.png",MOVISTAR LIGA DE CAMPEONES 4K
-http://tribaliptv.com:8080/Gustavo/123456/12401
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Eleven Sports 1 4K" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/eleven-sports-1-hd.png",Eleven Sports 1 4K
-http://tribaliptv.com:8080/Gustavo/123456/5195
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Eleven Sports 1 4K" tvg-logo="https://ocdn.eu/ptv2-images/logo-migrated/eleven-sports-1-hd.png",Eleven Sports 1 4K
-http://cdn.spmr.tv:8080/x6xpbw/video.m3u8?token=HRUNWEM0Q2
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Hub Premier 2" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png",Hub Premier 2
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348096&extension=ts&play_token=zpHQS3jtnW
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 1 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match! Football 1 720p
-https://hls.lbs.pw/hls/fut1/playlist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 2 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match! Football 2 720p
-https://hls.lbs.pw/hls/fut2/playlist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Football 3 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",Match! Football 3 720p
-https://hls.lbs.pw/hls/fut3/playlist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! Remier 720p" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match! Remier 720p
-https://hls.lbs.pw/hls/prem/playlist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Match! TV" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-tv.png",Match! TV
-http://cdn.spmr.tv:8080/w60cdr/video.m3u8?token=HRUNWEM0Q2
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="TRT 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TRT_4K_logo.svg/2560px-TRT_4K_logo.svg.png",TRT 4K
-http://cdnx1.plusx.tv:8880/TRTInternational/mono.m3u8?token=cb776083b1e1b6f9bb2222
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 1080p
-http://92.119.88.58:8080/272/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 1 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 1 1080p
-http://92.119.88.58:8080/271/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Setanta Sports 2 1080p" tvg-logo="https://i.goalzz.com/?i=o%2fh%2f0%2f438%2fsetanta-sports-2-2.png",Setanta Sports 2 1080p
-http://92.119.88.58:8080/270/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-1.png",True Sport 1
-https://sport.livedoomovies.com:4431/02_2sporthd1_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-2.png",True Sport 2
-https://sport.livedoomovies.com:4431/02_2sporthd2_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-3.png",True Sport 3
-https://sport.livedoomovies.com:4431/02_2sporthd3_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 4" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-4.png",True Sport 4
-https://sport.livedoomovies.com:4431/02_2sporthd4_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 5" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-5.png",True Sport 5
-https://sport.livedoomovies.com:4431/02_sport5_480p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 6" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-6.png",True Sport 6
-https://sport.livedoomovies.com:4431/02_sport6_480p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="True Sport 7" tvg-logo="https://tchiphuong.github.io/iptv/images/s-true-sport-7.png",True Sport 7
-https://sport.livedoomovies.com:4431/02_sport7_480p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Premier Football 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-premier-fooball-1.png",Premier Football 1
-https://sport.livedoomovies.com:4431/02_PremierHD1_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Premier Football 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-premier-fooball-2.png",Premier Football 2
-https://sport.livedoomovies.com:4431/02_PremierHD2_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Premier Football 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-premier-fooball-3.png",Premier Football 3
-https://sport.livedoomovies.com:4431/02_PremierHD3_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Premier Football 4" tvg-logo="https://tchiphuong.github.io/iptv/images/s-premier-fooball-4.png",Premier Football 4
-https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="Premier Football 5" tvg-logo="https://tchiphuong.github.io/iptv/images/s-premier-fooball-5.png",Premier Football 5
-https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="BT Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bt-sport-1.png",BT Sport 1
-https://sport.livedoomovies.com:4431/02_BTSPORTHD_1_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="BT Sport 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bt-sport-2.png",BT Sport 2
-https://sport.livedoomovies.com:4431/02_BTSPORTHD_2_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="BT Sport Ultimate" tvg-logo="https://tchiphuong.github.io/iptv/images/ss-bt-sport-ultimate.png",BT Sport Ultimate
-http://sheriffwoody.in:80/live/Jeff1/Jeff1/1042157.ts
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-1.png",SPORT TV 1
-https://sport.livedoomovies.com:4431/02_SPORTTV_1_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-2.png",SPORT TV 2
-https://sport.livedoomovies.com:4431/02_SPORTTV_2_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 3
-https://sport.livedoomovies.com:4431/02_SPORTTV_3_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 4" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 4
-https://sport.livedoomovies.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 5" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 5
-https://sport.livedoomovies.com:4431/02_SPORTTV_5_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV 720p" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV 720p
-https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_1/chunklist.m3u8?hdnea=st=1652600199~exp=9007200907341190~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_1/chunklist.m3u8*~hmac=743d654a57dc6b3779fba077a0663c96bd491f43a8ee4a0e4c01b504a0e52269
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV 1080p" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV 1080p
-https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8?hdnea=st=1668703029~exp=9007200923444020~acl=/99545824f51f4c1592b35314c6ece3b0/*/profile_0/chunklist.m3u8*~hmac=d8670ee30223dadf1767b576d54b75408404b6a15b11aca66fa61780cb782bb0
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2 720p" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2 720p
-https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_1/chunklist.m3u8?hdnea=st=1652600199~exp=9007200907341190~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_1/chunklist.m3u8*~hmac=743d654a57dc6b3779fba077a0663c96bd491f43a8ee4a0e4c01b504a0e52269
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2 1080p" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2 1080p
-https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8?hdnea=st=1652599386~exp=9007200907340377~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_0/chunklist.m3u8*~hmac=174e0f6dc30e0a421e821016b1288d10ac27ab338c54aaa8ac21afd8c96ff2e3
