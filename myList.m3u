@@ -10,10 +10,16 @@ https://179314182.global.cdnfastest.com/live/may2FHD/chunklist.m3u8
 https://179314182.global.cdnfastest.com/live/may3FHD/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="" tvg-name="VEBOtv 5 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 5 FHD
 https://179314182.global.cdnfastest.com/live/oldFHD/chunklist.m3u8
+#EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv 1 SD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 1 SD
+https://179314182.global.cdnfastest.com/live/may1SD/chunklist.m3u8
+#EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv 2 SD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 2 SD
+https://179314182.global.cdnfastest.com/live/may2SD/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv 9" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 9
 https://179314182.global.cdnfastest.com/live/may9/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv 10" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 10
 https://179314182.global.cdnfastest.com/live/may10/chunklist.m3u8
+#EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv 101" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 101
+https://179314182.global.cdnfastest.com/live/may101/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv K+Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",VEBOtv K+Sport 1
 https://179720687.global.cdnfastest.com/live/1-3747183-0/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-name="VEBOtv K+Sport 1" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",VEBOtv K+Sport 1
