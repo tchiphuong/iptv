@@ -296,14 +296,10 @@ https://sport.livedoomovies.com:4431/02_SPORTTV_3_720p/chunklist.m3u8
 https://sport.livedoomovies.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPORT TV 5" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-3.png",SPORT TV 5
 https://sport.livedoomovies.com:4431/02_SPORTTV_5_720p/chunklist.m3u8
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV 720p" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV 720p
-https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_1/chunklist.m3u8?hdnea=st=1652600199~exp=9007200907341190~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_1/chunklist.m3u8*~hmac=743d654a57dc6b3779fba077a0663c96bd491f43a8ee4a0e4c01b504a0e52269
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV 1080p" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV 1080p
-https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8?hdnea=st=1668703029~exp=9007200923444020~acl=/99545824f51f4c1592b35314c6ece3b0/*/profile_0/chunklist.m3u8*~hmac=d8670ee30223dadf1767b576d54b75408404b6a15b11aca66fa61780cb782bb0
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2 720p" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2 720p
-https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_1/chunklist.m3u8?hdnea=st=1652600199~exp=9007200907341190~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_1/chunklist.m3u8*~hmac=743d654a57dc6b3779fba077a0663c96bd491f43a8ee4a0e4c01b504a0e52269
-#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2 1080p" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2 1080p
-https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8?hdnea=st=1652599386~exp=9007200907340377~acl=/48eee16919834d3b97df1082a649bcfa/*/profile_0/chunklist.m3u8*~hmac=174e0f6dc30e0a421e821016b1288d10ac27ab338c54aaa8ac21afd8c96ff2e3
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV" tvg-logo="https://www.nowtv.now.com/media/logo/670-dbg-e.png",SPOTV
+https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2
+https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
 // End Sport ▲
 
 #EXTINF:0 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-name="TH Vĩnh Long 1" tvg-logo="https://tchiphuong.github.io/iptv/images/th-vinh-long-1.png",TH Vĩnh Long 1
