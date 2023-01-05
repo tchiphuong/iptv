@@ -32,9 +32,9 @@ https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv5hd" tvg-name="VTV5" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5.png",VTV5
 https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5-tay-nam-bo.png",VTV5 Tây Nam Bộ
-https://nvzoftzsvflivcf.vcdn.com.vn/vtv5tnb/vtv5tnb@high.m3u8
+https://api.vthanhtivi.pw/v2/getlink/mytv/615/hd.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv5hdtn" tvg-name="VTV5 Tây Nguyên" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5-tay-nguyen.png",VTV5 Tây Nguyên
-https://nvzoftzsvflivcf.vcdn.com.vn/vtv5tn/vtv5tn@high.m3u8
+https://api.vthanhtivi.pw/v2/getlink/vtv/vtv5tn/playlist.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv6hd" tvg-name="VTV Cần Thơ" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv-can-tho.png",VTV Cần Thơ
 https://livecdn.fptplay.net/hda1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv7hd" tvg-name="VTV7" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv7.png",VTV7
