@@ -283,8 +283,32 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348094&extension=ts&play_token=FzoklzfqN1
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://www.digi.ro/static/theme-ui-frontend/bin/images/logo-digi-white.png",DIGI 4K
 http://clientsportals.tv:2095/play/live.php?mac=00:1A:79:c0:0f:95&stream=90814&extension=ts&play_token=AB1RNoAhBm
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/686.png",Eleven Sports 1 4K
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348127&extension=ts&play_token=zpHQS3jtnW
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-hub-premier-2.png",Hub Premier 2 4K
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348094&extension=ts&play_token=zpHQS3jtnW
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348096&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png",Hub Premier 1 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348097&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png",Hub Premier 2 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348098&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/223_1920x1080_HTV.png",Hub Premier 3 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348099&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/224_1920x1080_HTV.png",Hub Premier 4 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348100&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/225_1920x1080_HTV.png",Hub Premier 5 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348101&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/226_1920x1080_HTV.png",Hub Premier 6 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348102&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/227_1920x1080_HTV.png",Hub Premier 7 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348103&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/228_1920x1080_HTV.png",Hub Premier 8 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348104&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/229_1920x1080_HTV.png",Hub Premier 9 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348105&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/230_1920x1080_HTV.png",Hub Premier 10 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348106&extension=ts&play_token=zpHQS3jtnW
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/231_1920x1080_HTV.png",Hub Premier 11 FHD
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348107&extension=ts&play_token=zpHQS3jtnW
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/hktwpa1654941198.png",MOVISTAR LIGA DE CAMPEONES UHD 4K
 http://tribaliptv.com:8080/Gustavo/123456/12401
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch611_160_115",Now Sports UHD HK
@@ -308,6 +332,16 @@ http://xtv.ooo:8080/live/Univision@RE/100Bangla/223058.ts
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch634_425_305",Now HK Premier Sport 4 (opplex)
 http://xtv.ooo:8080/live/Univision@RE/100Bangla/223059.ts
 // End 4K ▲
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport1.hr.png" group-title="Thể thao",Arena Sport 1
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133074
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport2.hr.png" group-title="Thể thao",Arena Sport 2
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133075
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport3.hr.png" group-title="Thể thao",Arena Sport 3
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133076
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport4.hr.png" group-title="Thể thao",Arena Sport 4
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133077
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/Arenasport4.rs.png" group-title="Thể thao",Arena Sport 5
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133078
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport
 http://n2086.securepoint.io:25461/live/qqbhmpgg/hSgdnb5w/197514.ts
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png",Astro Super Sport 2
@@ -386,6 +420,22 @@ http://vn2.cvacetv.ga/SK6
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2
 https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport1.ro.png" group-title="Thể thao",Telekom Fussball 1 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34119
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport3.ro.png" group-title="Thể thao",Telekom Fussball 2 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34120
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport3.ro.png" group-title="Thể thao",Telekom Fussball 3 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34121
+#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport4.ro.png" group-title="Thể thao",Telekom Fussball 4 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34122
+#EXTINF:-1 tvg-id="" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png" group-title="Thể thao",Telekom Fussball 5 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34123
+#EXTINF:-1 tvg-id="" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png" group-title="Thể thao",Telekom Fussball 6 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34124
+#EXTINF:-1 tvg-id="" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png" group-title="Thể thao",Telekom Fussball 7 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34125
+#EXTINF:-1 tvg-id="" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png" group-title="Thể thao",Telekom Fussball 8 HD
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34126
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/374.png",TVP Sport
 http://sg.cvacetv.ga/TVP_Sport
 // End Sport ▲
