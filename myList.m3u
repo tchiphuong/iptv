@@ -332,15 +332,15 @@ http://xtv.ooo:8080/live/Univision@RE/100Bangla/223058.ts
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch634_425_305",Now HK Premier Sport 4 (opplex)
 http://xtv.ooo:8080/live/Univision@RE/100Bangla/223059.ts
 // End 4K ▲
-#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport1.hr.png" group-title="Thể thao",Arena Sport 1
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_1_HR_logo.png" group-title="Thể thao",Arena Sport 1
 http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133074
-#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport2.hr.png" group-title="Thể thao",Arena Sport 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_2_HR_logo.png" group-title="Thể thao",Arena Sport 2
 http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133075
-#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport3.hr.png" group-title="Thể thao",Arena Sport 3
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_3_HR_logo.png" group-title="Thể thao",Arena Sport 3
 http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133076
-#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/ArenaSport4.hr.png" group-title="Thể thao",Arena Sport 4
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_4_HR_logo.png" group-title="Thể thao",Arena Sport 4
 http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133077
-#EXTINF:-1 tvg-id="" tvg-logo="http://worldiptv.xyz/chlogos/Arenasport4.rs.png" group-title="Thể thao",Arena Sport 5
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_5_HR_logo.png" group-title="Thể thao",Arena Sport 5
 http://platin4k.eu:80/eagleiptv/SsFAljPDDi/133078
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport
 http://n2086.securepoint.io:25461/live/qqbhmpgg/hSgdnb5w/197514.ts
@@ -356,6 +356,26 @@ http://n2086.securepoint.io:25461/live/qqbhmpgg/hSgdnb5w/56341.ts
 http://n2086.securepoint.io:25461/live/qqbhmpgg/hSgdnb5w/56342.ts
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",beIN Sport 3
 http://n2086.securepoint.io:25461/qqbhmpgg/hSgdnb5w/56343
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_1_1440@1x_63a19403e4d1b312e56e05c1.png",FR: beIN Sport 1
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63179
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_2_1440@1x_63a19437e4d1b312e56e05c3.png",FR: beIN Sport 2
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63180
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_3_1440@1x_63a1969ec1013f53c3546123.png",FR: beIN Sport 3
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63181
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_4_max_1440@1x_63a19766c1013f53c3546125.png",FR: beIN Sport 4 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63182
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_5_max_1440@1x_6171d44055c789097b6970a2.png",FR: beIN Sport 5 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63183
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_6_max_1440@1x_6171d5b912355f0249b2a60d.png",FR: beIN Sport 6 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63184
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_7_max_1440@1x_6171d6390556ae78fd31334d.png",FR: beIN Sport 7 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63185
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_8_max_1440@1x_6171d67112355f0249b2a767.png",FR: beIN Sport 8 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63186
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_9_max_1440@1x_6171d82555c789097b6970a6.png",FR: beIN Sport 9 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63187
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_10_max_1440@1x_6171d4d212355f0249b2a60b.png",FR: beIN Sport 10 Max
+http://platin4k.eu:80/eagleiptv/SsFAljPDDi/63188
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/87.png",Canal+ Sport
 http://sg.cvacetv.ga:8080/stream/channelid/684151253
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/678.png",Canal+ Sport 2
