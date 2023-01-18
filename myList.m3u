@@ -30,27 +30,27 @@ https://1123139281.cdn.khmer-hd.com/may1HD/chunks.m3u8
 https://1123139281.cdn.khmer-hd.com/may6/chunks.m3u8
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
-https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv01/vtv01@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv2hd" tvg-name="VTV2" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv2.png",VTV2
-https://livecdn.fptplay.net/hda1/vtv2_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv02/vtv02@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv3hd" tvg-name="VTV3" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv3.png",VTV3
-https://livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv03/vtv03@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv4" tvg-name="VTV4" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv4.png",VTV4
-https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv04/vtv04@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv5hd" tvg-name="VTV5" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5.png",VTV5
-https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv05/vtv05@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5-tay-nam-bo.png",VTV5 Tây Nam Bộ
 https://api.vthanhtivi.pw/v2/getlink/mytv/615/hd.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv5hdtn" tvg-name="VTV5 Tây Nguyên" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv5-tay-nguyen.png",VTV5 Tây Nguyên
 https://api.vthanhtivi.pw/v2/getlink/vtv/vtv5tn/playlist.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv6hd" tvg-name="VTV Cần Thơ" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv-can-tho.png",VTV Cần Thơ
-https://livecdn.fptplay.net/hda1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv06/vtv06@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv7hd" tvg-name="VTV7" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv7.png",VTV7
-https://livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv07/vtv07@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv8hd" tvg-name="VTV8" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv8.png",VTV8
-https://livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv08/vtv08@1080p.m3u8
 #EXTINF:0 group-title="VTV" tvg-id="vtv9hd" tvg-name="VTV9" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv9.png",VTV9
-https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
+https://k4dzr60ab.vtvgiaitri.vn/vtv09/vtv09@1080p.m3u8
 
 #EXTINF:0 group-title="VTV" tvg-id="vtv1hd" tvg-name="VTV1 1080p" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1-hd.png",VTV1 1080p
 http://drfamaga5qliv.vcdn.cloud/vtv01/vtv01@1080p.m3u8
@@ -129,7 +129,7 @@ https://livevlive.vtvcab.vn/hls/OS_ONFOOTBALLTA/sc-gaFEAA/m30_index.m3u8
 https://livevlive.vtvcab.vn/hls/OS_ONSPORTNEWSTA/sc-gaFEAA/m30_index.m3u8
 #EXTINF:0 tvg-id="" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-goft-en.png", ON Golf ENG
 https://livevlive.vtvcab.vn/hls/OS_ONGOLFTA/sc-gaFEAA/m30_index.m3u8
-#EXTINF:0 tvg-id="" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-vff.png", ON VFF
+#EXTINF:0 tvg-id="" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-vff.png", Bóng Đá Việt
 https://livevlive.vtvcab.vn/hls/OS_ONVFFTV/sc-gaFEAA/m30_index.m3u8
 #EXTINF:0 tvg-id="" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-volleyball.png", Thể Thao Việt
 https://livevlive.vtvcab.vn/hls/OS_ONVOLLEYBALL/sc-gaFEAA/m30_index.m3u8
@@ -573,7 +573,7 @@ https://livecdn.fptplay.net/sdc/bariavungtau_2000.stream/chunklist.m3u8
 #EXTINF:0 group-title="Địa phương" tvg-id="bacgiang" tvg-name="TH Bắc Giang" tvg-logo="https://tchiphuong.github.io/iptv/images/th-bac-giang.png",TH Bắc Giang
 https://livecdn.fptplay.net/sdc/bacgiang_hls.smil/chunklist_b2500000.m3u8?token=123456
 #EXTINF:0 group-title="Địa phương" tvg-id="baclieu" tvg-name="TH Bạc Liêu" tvg-logo="https://tchiphuong.github.io/iptv/images/th-bac-lieu.png",TH Bạc Liêu
-https://livecdn.fptplay.net/sdc/baclieu_hls.smil/chunklist_b2800000.m3u8?token=123456
+https://livecdn.fptplay.net/sdc/baclieu_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Địa phương" tvg-id="bacninh" tvg-name="TH Bắc Ninh" tvg-logo="https://tchiphuong.github.io/iptv/images/th-bac-ninh.png",TH Bắc Ninh
 https://livecdn.fptplay.net/sdc/bacninh_2000.stream/chunklist.m3u8
 #EXTINF:0 group-title="Địa phương" tvg-id="bentre" tvg-name="TH Bến Tre" tvg-logo="https://tchiphuong.github.io/iptv/images/th-ben-tre.png",TH Bến Tre
@@ -629,9 +629,9 @@ https://livecdn.fptplay.net/sda/hagiang_2000.stream/chunklist.m3u8?token=123456
 #EXTINF:0 group-title="Địa phương" tvg-id="hanam" tvg-name="TH Hà Nam" tvg-logo="https://tchiphuong.github.io/iptv/images/th-ha-nam.png",TH Hà Nam
 https://livecdn.fptplay.net/sda/hanam_2000.stream/chunklist.m3u8?token=123456
 #EXTINF:0 group-title="Địa phương" tvg-id="hanoi1" tvg-name="TH Hà Nội 1" tvg-logo="https://tchiphuong.github.io/iptv/images/th-ha-noi-1.png",TH Hà Nội 1
-https://live.hanoitv.vn/hntvlive/tv1live.m3u8?vhost=__defaultVhost__
+https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_1080p/chunks.m3u8
 #EXTINF:0 group-title="Địa phương" tvg-id="hanoi2" tvg-name="TH Hà Nội 2" tvg-logo="https://tchiphuong.github.io/iptv/images/th-ha-noi-2.png",TH Hà Nội 2
-https://livecdn.fptplay.net/sdc/hanoitv2_2000.stream/chunklist.m3u8?token=123456
+https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_1080p/chunks.m3u8
 #EXTINF:0 group-title="Địa phương" tvg-id="hatinh" tvg-name="TH Hà Tĩnh" tvg-logo="https://tchiphuong.github.io/iptv/images/th-ha-tinh.png",TH Hà Tĩnh
 https://livecdn.fptplay.net/sdc/hatinh_hls.smil/chunklist_b2500000.m3u8?token=123456
 #EXTINF:0 group-title="Địa phương" tvg-id="haiduong" tvg-name="TH Hải Dương" tvg-logo="https://tchiphuong.github.io/iptv/images/th-hai-duong.png",TH Hải Dương
