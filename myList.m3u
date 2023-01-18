@@ -283,6 +283,8 @@ https://vtsstr7.tv24.vn/live/SCTVHD_PhimTongHop.smil/playlist.m3u8
 // Begin 4K ▼
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport 4K
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348094&extension=ts&play_token=FzoklzfqN1
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/BBC_Sport_%282022%2C_alt%29.svg/1200px-BBC_Sport_%282022%2C_alt%29.svg.png",BBC Sport 4K
+http://sheriffwoody.in:80/Jeff1/Jeff1/3157685
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://www.digi.ro/static/theme-ui-frontend/bin/images/logo-digi-white.png",DIGI 4K
 http://clientsportals.tv:2095/play/live.php?mac=00:1A:79:c0:0f:95&stream=90814&extension=ts&play_token=AB1RNoAhBm
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/686.png",Eleven Sports 1 4K
@@ -320,7 +322,8 @@ http://ultratv.one:2095/xMsGHAzQ/kYuckAK/117957
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch620_160_115",Now Sports Premier League TV CH620
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236733
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch621_160_115",Now Sports Premier League 1 CH621
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236727
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236727
+http://sheriffwoody.in:80/Jeff1/Jeff1/111250
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch622_160_115",Now Sports Premier League 2 CH622
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236728
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch623_160_115",Now Sports Premier League 3 CH623
@@ -334,17 +337,23 @@ http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236732
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch631_160_115",Now Sports 1 CH631
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236720
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch632_160_115",Now Sports 2 CH632
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236721
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236721
+http://sheriffwoody.in:80/Jeff1/Jeff1/111251
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch633_160_115",Now Sports 3 CH633
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236722
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236722
+http://sheriffwoody.in:80/Jeff1/Jeff1/111252
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch634_160_115",Now Sports 4 CH634
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236723
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236723
+http://sheriffwoody.in:80/Jeff1/Jeff1/111253
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch635_160_115",Now Sports 5 CH635
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236724
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236724
+http://sheriffwoody.in:80/Jeff1/Jeff1/111254
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch636_160_115",Now Sports 6 CH636
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236725
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236725
+http://sheriffwoody.in:80/Jeff1/Jeff1/112914
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch637_425_305",Now Sports 7 CH637
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236726
+#http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/236726
+http://sheriffwoody.in:80/Jeff1/Jeff1/112915
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch621_160_115",Now HK Premier Sport 1 (opplex)  50fps 
 http://xtv.ooo:8080/live/Univision@RE/100Bangla/223056.ts
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch622_160_115",Now HK Premier Sport 2 (opplex)
@@ -376,6 +385,20 @@ http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/197516
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/197517
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/455_144.png",Astro Super Sport 5
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/197518
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-1.png",AR: beIN Sport 1
+http://sheriffwoody.in:80/Jeff1/Jeff1/855139
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-2.png",AR: beIN Sport 2
+http://sheriffwoody.in:80/Jeff1/Jeff1/855137
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",AR: beIN Sport 3
+http://sheriffwoody.in:80/Jeff1/Jeff1/855135
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-4.png",AR: beIN Sport 4
+http://sheriffwoody.in:80/Jeff1/Jeff1/855133
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-5.png",AR: beIN Sport 5
+http://sheriffwoody.in:80/Jeff1/Jeff1/855131
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-6.png",AR: beIN Sport 6
+http://sheriffwoody.in:80/Jeff1/Jeff1/855129
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-7.png",AR: beIN Sport 7
+http://sheriffwoody.in:80/Jeff1/Jeff1/855127
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-1.png",EN: beIN Sport 1
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/244105
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-2.png",EN: beIN Sport 2
@@ -423,9 +446,13 @@ http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/53858
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/2022/BTSPORT_10_2022_WHITE_RGB.png",BT Sport 10
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/53859
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/87.png",CANAL+ Sport
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/61852
+http://sheriffwoody.in:80/Jeff1/Jeff1/3384233
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/678.png",CANAL+ Sport 2
-http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/61853
+http://sheriffwoody.in:80/Jeff1/Jeff1/3384234
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/870.png",CANAL+ Sport 3
+http://sheriffwoody.in:80/Jeff1/Jeff1/3384207
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/871.png",CANAL+ Sport 4
+http://sheriffwoody.in:80/Jeff1/Jeff1/3384206
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/378.png",CANAL+ Sport 5
 http://sg.cvacetv.ga:8080/stream/channelid/1048689498
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/13.png",CANAL+ Premium
@@ -512,6 +539,18 @@ http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/225656
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-name="SPOTV2" tvg-logo="https://www.nowtv.now.com/media/logo/671-dbg-e.png",SPOTV2
 https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://supersport-cms-prod.azureedge.net/media/aq5docjr/grandstand_100x100.png?width=100",SuperSport Grandstand HD 201
+http://sheriffwoody.in:80/Jeff1/Jeff1/268659
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://supersport-cms-prod.azureedge.net/media/c5fhptso/premier_league_100x100.png?width=100",SuperSport Premier League HD 203
+http://sheriffwoody.in:80/Jeff1/Jeff1/268671
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://supersport-cms-prod.azureedge.net/media/3ibh4gw2/laliga_100x100.png?width=100",SuperSport La Liga HD
+http://sheriffwoody.in:80/Jeff1/Jeff1/268660
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://supersport-cms-prod.azureedge.net/media/od3lpdpm/fwc_fan_zone_100x100.png?width=100",SuperSport Football HD 205
+http://sheriffwoody.in:80/Jeff1/Jeff1/268655
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://supersport-cms-prod.azureedge.net/media/zeeddnlh/variety3_100x100.png?width=100",SuperSport Variety HD 208
+http://sheriffwoody.in:80/Jeff1/Jeff1/268679
+#EXTINF:0 group-title="Thể thao" tvg-logo="https://supersport-cms-prod.azureedge.net/media/xdmffm5y/ss_espn_100x100.png?width=100",SuperSport ESPN HD 208
+http://sheriffwoody.in:80/Jeff1/Jeff1/854096
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2020/11/Sky-Sports-Football-2020-logo-250.png",Sky Sports Football
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/53980
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://www.skymedia.ie/wp-content/uploads/sites/4/2020/11/Sky-Sports-ME-2020-logo-250.png",Sky Sport Main Event
@@ -538,22 +577,6 @@ http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/204945
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/204946
 #EXTINF:0 group-title="Thể thao" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_9_logo_stack_rgb.png",NZ SKY SPORT 9
 http://n2086.securepoint.io:25461/ttrestream/dfghsxh4534hg54/204947
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport1.ro.png",Telekom Fussball 1 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34119
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport3.ro.png",Telekom Fussball 2 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34120
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport3.ro.png",Telekom Fussball 3 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34121
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://worldiptv.xyz/chlogos/TelekomSport4.ro.png",Telekom Fussball 4 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34122
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png",Telekom Fussball 5 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34123
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png",Telekom Fussball 6 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34124
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png",Telekom Fussball 7 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34125
-#EXTINF:0 group-title="Thể thao" tvg-logo="http://panel.tivix.eu:8000/logo1/germany/telekomsport.png",Telekom Fussball 8 HD
-http://platin4k.eu:80/eagleiptv/SsFAljPDDi/34126
 #EXTINF:0 group-title="Thể thao" tvg-id="" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/374.png",TVP Sport
 http://sg.cvacetv.ga/TVP_Sport
 // End Sport ▲
