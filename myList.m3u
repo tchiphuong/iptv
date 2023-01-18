@@ -233,51 +233,51 @@ https://vips-livecdn.fptplay.net/hda3/htvcmusic_vhls.smil/chunklist_b5000000.m3u
 // https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 
 #EXTINF:0 group-title="SCTV" tvg-id="sctv1hd" tvg-name="SCTV1" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv1.png",SCTV1
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv1
+https://vtsstr7.tv24.vn/live/SCTV_HD_Hai_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv2hd" tvg-name="SCTV2" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv2.png",SCTV2
 https://vtsstr6.tv24.vn/live/sctv2_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv3hd" tvg-name="SCTV3" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv3.png",SCTV3
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv3
+https://vtsstr4.tv24.vn/live/SCTVHDThieunhi_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv4hd" tvg-name="SCTV4" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv4.png",SCTV4
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv4
+https://vtsstr4.tv24.vn/live/SCTV_HD_GiaiTri_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv5" tvg-name="SCTV5" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv5.png",SCTV5
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv5
+https://api.vthanhtivi.pw/v2/getlink/mytv/226/hd.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv6hd" tvg-name="SCTV6" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv6.png",SCTV6
 http://vips-livecdn.fptplay.net/hda3/film360_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv7hd" tvg-name="SCTV7" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv7.png",SCTV7
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv7
+https://vtsstr4.tv24.vn/live/SCTV_HD_SanKhau_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv8hd" tvg-name="SCTV8" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv8.png",SCTV8
 https://vtsstr4.tv24.vn/live/SCTV8_SD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv9hd" tvg-name="SCTV9" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv9.png",SCTV9
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv9
+https://vtsstr4.tv24.vn/live/SCTV_HD_PhimChauA_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv10" tvg-name="SCTV10" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv10.png",SCTV10
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv10
+https://vtsstr4.tv24.vn/live/sctv10_SD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv11hd" tvg-name="SCTV11" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv11.png",SCTV11
 https://vtsstr4.tv24.vn/live/SCTVVHNT_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv12hd" tvg-name="SCTV12" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv12.png",SCTV12
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv12
+https://vtsstr4.tv24.vn/live/SCTV12_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv13hd" tvg-name="SCTV13" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv13.png",SCTV13
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv13
+https://vtsstr7.tv24.vn/live/SCTVHDPhunuGiadinh_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv14hd" tvg-name="SCTV14" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv14.png", SCTV14
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv14
+https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv14/index.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv15hd" tvg-name="SCTV15" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv15.png", SCTV15
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv15
+https://856175157.r.vtvcdn.com/ondrm/SCTV15_HD/sc-gaFEAQ/m30_index.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv16hd" tvg-name="SCTV16" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv16.png", SCTV16
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv16
+https://vtsstr4.tv24.vn/live/SCTV_HD_phimnuocngoaidacsac_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv17hd" tvg-name="SCTV17" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv17.png", SCTV17
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv17
+https://vtsstr4.tv24.vn/live/SCTV17_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv18hd" tvg-name="SCTV18" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv18.png",SCTV18
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv18
+https://vtsstr4.tv24.vn/live/SCTV18_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv19hd" tvg-name="SCTV19" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv19.png",SCTV19
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv19
+https://vtsstr4.tv24.vn/live/SCTV19_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv20hd" tvg-name="SCTV20" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv20.png",SCTV20
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv20
+https://vtsstr4.tv24.vn/live/SCTV20_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv21hd" tvg-name="SCTV21" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv21.png",SCTV21
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv21
+https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv21/index.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctv22hd" tvg-name="SCTV22" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv22.png",SCTV22
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv22
+https://vtsstr4.tv24.vn/live/SCTV22_HD_new.smil/playlist.m3u8
 #EXTINF:0 group-title="SCTV" tvg-id="sctvhdpth" tvg-name="SCTV Phim tổng hợp" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv.png",SCTV Phim tổng hợp
-https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/sctv
+https://vtsstr7.tv24.vn/live/SCTVHD_PhimTongHop.smil/playlist.m3u8
 
 // Begin Sport ▼
 // Begin 4K ▼
