@@ -4,6 +4,8 @@
 https://179314182.global.cdnfastest.com/live/may0FHD/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="" tvg-name="VEBOtv 2 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 2 FHD
 https://obevcimanyd179314182.thapcam.link/live/may2FHD/chunklist.m3u8
+#EXTINF:0 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv FHD 036
+https://obevcimanyd179314182.thapcam.link/live/may036FHD/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="" tvg-name="VEBOtv 3 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 3 FHD
 https://179314182.global.cdnfastest.com/live/may2FHD/chunklist.m3u8
 #EXTINF:0 group-title="Trực tiếp" tvg-id="" tvg-name="VEBOtv 4 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 4 FHD
