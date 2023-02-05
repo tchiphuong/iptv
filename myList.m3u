@@ -6,6 +6,8 @@ https://179314182.global.cdnfastest.com/live/may0FHD/chunklist.m3u8
 https://obevcimanyd179314182.thapcam.link/live/may2FHD/chunklist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv FHD 036
 https://obevcimanyd179314182.thapcam.link/live/may036FHD/chunklist.m3u8
+#EXTINF:-1 group-title="Trực tiếp" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv FHD 065
+https://obevcimanyd179314182.thapcam.link/live/may065FHD/chunklist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-name="VEBOtv 3 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 3 FHD
 https://179314182.global.cdnfastest.com/live/may2FHD/chunklist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-name="VEBOtv 4 FHD" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv 4 FHD
@@ -37,14 +39,14 @@ https://1123139281.cdn.khmer-hd.com/may9/chunks.m3u8
 https://856175157.r.vtvcdn.com/ondrm/K_CINE_6962/m20_index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-life-hd.png",K+ LIFE
 https://856175157.r.vtvcdn.com/ondrm/K_LIFE_6962/m20_index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",K+ SPORT 1
+#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png", K+ SPORTS 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"HOW1RaCEFyqVbP6anu27Gw", "kid":"1vpaoObBS3yDCU67NlMUow" },{ "kty":"oct", "k":"n/GALqFCYQOdmoMyAsFxcA", "kid":"Hj5aoObBS3yDCU67NlMUow" },{ "kty":"oct", "k":"GaJAH7ce+2G+AHPd6Tchpw", "kid":"K0Ke0ebBS3yDCU67NlMUow" },{ "kty":"oct", "k":"Us0c6x1HM5EBoILfeKUvAQ", "kid":"F0+e6TXBS3yDCU67NlMUow" } ], "type":"temporary" }
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K+ SPORT 2
+#KODIPROP:inputstream.adaptive.license_key=6db5d288b49a4c32bfc5c06335be6c5e:1a511b26cafc1bc7a35bb5b3246f3c2d
+https://sglivecdn.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd?maxrate=3000000
+#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png", K+ SPORTS 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"N9Sl/THUJsmznOrc+/V2Fw", "kid":"K8Meg3/GTTicYuE9iUjUrQ" },{ "kty":"oct", "k":"51lqB+q93DwkCRi69M1YgA", "kid":"cwceg3/GTTicYuE9iUjUrQ" },{ "kty":"oct", "k":"u9UEV/Sc5r62dAGxnooljw", "kid":"gAtitH/GTTicYuE9iUjUrQ" },{ "kty":"oct", "k":"918gOCJDFg7FPbDuqVGhPQ", "kid":"bBhizM7GTTicYuE9iUjUrQ" } ], "type":"temporary" }
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
+#KODIPROP:inputstream.adaptive.license_key=6211234221de4c3f99b03f46f0f82572:9ce058017a27d94e63ba0e5f0e50ae4c
+https://sglivecdn.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-kids-hd.png",K+ KIDS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"36PLv8UXf9/cVfAsjnltJA", "kid":"5xlj/pNsTOCTxWxYKWsx6w" },{ "kty":"oct", "k":"7fz9h3RZue3YZ8blOzPxTg", "kid":"L11j/pNsTOCTxWxYKWsx6w" },{ "kty":"oct", "k":"wrwAyM/Y1XoHADqMUHDQog", "kid":"PGGnL5NsTOCTxWxYKWsx6w" },{ "kty":"oct", "k":"N1+dNPdfy52r8zv0kGXgAQ", "kid":"KG6nR+JsTOCTxWxYKWsx6w" } ], "type":"temporary" }
