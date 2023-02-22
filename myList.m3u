@@ -74,13 +74,13 @@ https://856175157.r.vtvcdn.com/hls/GIAITRI_TV_HD_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab2.png",VTVcab 2 | ON Phim Việt
 https://856175157.r.vtvcdn.com/hls/PHIM_VIET_CL/sc-gaFEAQ/m30_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-sports.png",VTVcab 3 | ON Sports HD
-https://livevlive.vtvcab.vn/hls/THETHAO_HD_1924/index.m3u8
+https://856175157.r.vtvcdn.com/hls/THETHAO_HD_mghv/sc-gaFEAQ/m401_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-movies.png",VTVcab 4 | ON Movies
 https://856175157.r.vtvcdn.com/hls/VAN_HOA_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab5hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab5.png",VTVcab 5 | E Channel
 https://api.vthanhtivi.pw/v2/getlink/vieon2/f5729e7e-bf42-4e7d-988e-6204f94062b4/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab6.png",VTVcab 6 | ON Sports+
-https://livevlive.vtvcab.vn/hls/HAY_TV_1924/index.m3u8
+https://856175157.r.vtvcdn.com/hls/HAY_TV_mghv/sc-gaFEAQ/m401_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab7hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-o2.png",VTVcab 7 | O2TV
 https://856175157.r.vtvcdn.com/hls/D_DRAMAS_HD_CL/sc-gaFEAQ/m30_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-bibi.png",VTVcab 8 | BiBi
@@ -100,11 +100,11 @@ https://livecdn.fptplay.net/sdb/vtvhyundai_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="vtvcab15hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-music.png",VTVcab 15 | ON Music
 https://856175157.r.vtvcdn.com/hls/M_CHANNEL_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-football-hd.png",VTVcab 16 | ON Football HD
-https://livevlive.vtvcab.vn/hls/BONGDA_HD_1924/index.m3u8
+https://856175157.r.vtvcdn.com/hls/BONGDA_HD_mghv/sc-gaFEAQ/m401_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab17.png",VTVcab 17 | Yeah1TV
 https://856175157.r.vtvcdn.com/hls/YEAH1_TV_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-sports-new-hd.png",VTVcab 18 | ON Sports News
-https://livevlive.vtvcab.vn/hls/THETHAO_TINTUC_HD_CL/index.m3u8
+https://856175157.r.vtvcdn.com/hls/THETHAO_TINTUC_HD_mghv/sc-gaFEAQ/m401_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab19.png",VTVcab 19 | Vie Dramas
 https://856175157.r.vtvcdn.com/hls/FILM_TV_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab20hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab20.png",VTVcab 20 | VFamily
@@ -114,7 +114,7 @@ https://856175157.r.vtvcdn.com/hls/BIBI_PLUS_clear_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-life.png",VTVcab 22 | Life TV
 https://856175157.r.vtvcdn.com/hls/LIFE_TV_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-goft-hd.png",VTVcab 23 | ON Golf
-https://livevlive.vtvcab.vn/hls/THETHAO_GOLF_HD_CL/index.m3u8
+https://856175157.r.vtvcdn.com/hls/THETHAO_GOLF_HD_mghv/sc-gaFEAQ/m401_index.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/on-sport-en.png",VTVcab ON Sport | ON Sports ENG
 https://livevlive.vtvcab.vn/hls/ONSPORTTA_CL/sc-gaFEAA/m30_index.m3u8
@@ -432,31 +432,31 @@ http://xtv.ooo:8080/live/Univision@RE/100Bangla/223058.ts
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch634_425_305",Now HK Premier Sport 4 (opplex)
 http://xtv.ooo:8080/live/Univision@RE/100Bangla/223059.ts
 // End 4K ▲
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-premium-1" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_1_Premium_RS_logo.png",Arena Sport 1 Premium
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-premium-1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/n472po1641043581.png",Arena Sport 1 Premium
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/130979
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-premium-2" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_2_Premium_RS_logo.png",Arena Sport 2 Premium
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-premium-2" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/7493e71641043605.png",Arena Sport 2 Premium
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/130980
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-premium-3" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_3_Premium_RS_logo.png",Arena Sport 3 Premium
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-premium-3" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/0ucwh51641043618.png",Arena Sport 3 Premium
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/130981
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-1" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_1_HR_logo.png",Arena Sport 1
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/hd6nx11643205736.png",Arena Sport 1
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/102548
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-2" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_2_HR_logo.png",Arena Sport 2
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-2" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/do4eok1643205747.png",Arena Sport 2
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/102549
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-3" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_3_HR_logo.png",Arena Sport 3
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-3" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/nnqoda1643205755.png",Arena Sport 3
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/102550
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-4" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_4_HR_logo.png",Arena Sport 4
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-4" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/6oo0y71643205763.png",Arena Sport 4
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/102551
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-5" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_5_HR_logo.png",Arena Sport 5
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-5" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/2kuqly1643205772.png",Arena Sport 5
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/102552
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-6" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_6_HR_logo.png",Arena Sport 6
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-6" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/3htl2t1643205783.png",Arena Sport 6
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/9727
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-7" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_7_HR_logo.png",Arena Sport 7
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-7" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/jec0d31643205801.png",Arena Sport 7
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/123592
-#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-8" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_8_HR_logo.png",Arena Sport 8
+#EXTINF:-1 group-title="Thể thao" tvg-id="arena-sport-8" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/3ch2k51643205817.png",Arena Sport 8
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/123593
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_9_HR_logo.png",Arena Sport 9
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/zuhnap1643205837.png",Arena Sport 9
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/123594
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Arena_Sport_10_HR_logo.png",Arena Sport 10
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/wntrz71643205857.png",Arena Sport 10
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/123595
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/115615
@@ -504,25 +504,25 @@ http://ultratv.one:2095/xMsGHAzQ/kYuckAK/94450
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/94447
 #EXTINF:-1 group-title="Thể thao" tvg-id="bein-sports-3-en" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",EN: beIN Sports 3
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/94442
-#EXTINF:-1 group-title="Thể thao" tvg-id="bein-sport-1-fr" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_1_1440@1x_63a19403e4d1b312e56e05c1.png",FR: beIN Sports 1
+#EXTINF:-1 group-title="Thể thao" tvg-id="bein-sport-1-fr" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_HD_1_France.png",FR: beIN Sports 1
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/14415
-#EXTINF:-1 group-title="Thể thao" tvg-id="bein-sport-2-fr" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_2_1440@1x_63a19437e4d1b312e56e05c3.png",FR: beIN Sports 2
+#EXTINF:-1 group-title="Thể thao" tvg-id="bein-sport-2-fr" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_HD_2_France.png",FR: beIN Sports 2
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/14414
-#EXTINF:-1 group-title="Thể thao" tvg-id="bein-sport-3-fr" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_3_1440@1x_63a1969ec1013f53c3546123.png",FR: beIN Sports 3
+#EXTINF:-1 group-title="Thể thao" tvg-id="bein-sport-3-fr" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_HD_3_France.png",FR: beIN Sports 3
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/14413
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_4_max_1440@1x_63a19766c1013f53c3546125.png",FR: beIN Sports 4 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_4.png",FR: beIN Sports 4 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80915
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_5_max_1440@1x_6171d44055c789097b6970a2.png",FR: beIN Sports 5 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_5.png",FR: beIN Sports 5 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80914
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_6_max_1440@1x_6171d5b912355f0249b2a60d.png",FR: beIN Sports 6 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_6.png",FR: beIN Sports 6 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80913
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_7_max_1440@1x_6171d6390556ae78fd31334d.png",FR: beIN Sports 7 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_7.png",FR: beIN Sports 7 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80912
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_8_max_1440@1x_6171d67112355f0249b2a767.png",FR: beIN Sports 8 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_8.png",FR: beIN Sports 8 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80911
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_9_max_1440@1x_6171d82555c789097b6970a6.png",FR: beIN Sports 9 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_9.png",FR: beIN Sports 9 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80910
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cdn.woopic.com/v1/AUTH_9ffb653181284b0abe5e45d7014095b2/boutique-tv/beinsports_10_max_1440@1x_6171d4d212355f0249b2a60b.png",FR: beIN Sports 10 Max
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_Max_10.png",FR: beIN Sports 10 Max
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/80909
 #EXTINF:-1 group-title="Thể thao" tvg-id="bt-sport1" tvg-logo="https://img01.products.bt.co.uk/content/dam/bt/portal/images/logos/channel-logo/full-logo/2022/BTSPORT_1_2018_WHITE_RGB.png",BT Sport 1
 http://ultratv.one:2095/xMsGHAzQ/kYuckAK/9850
@@ -1002,7 +1002,8 @@ https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
 https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="warnertvhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-wb.png",Warner TV
 http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
-
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="woman" tvg-logo="http://img-zlr1.tv360.vn/image1/2020_09_23/1600822442611/f6b738c3d05a_480_270.png",Woman
+https://api.vthanhtivi.pw/v2/getlink/cliptv/827/playlist.m3u8
 // Begin China ▼
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-1.png",[Trung Quốc] CCTV-1 综合
 http://ott.mobaibox.com/PLTV/3/224/3221227375/index.m3u8
