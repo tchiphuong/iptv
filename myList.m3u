@@ -38,9 +38,9 @@ https://1123139281.cdn.khmer-hd.com/may6/chunks.m3u8
 https://1123139281.cdn.khmer-hd.com/may9/chunks.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",K+ SPORT 1
-https://tchiphuong.github.io/iptv/hls/channel/ks1
+https://tchiphuong.github.io/iptv/hls/channel/ks1.html
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K+ SPORT 2
-https://tchiphuong.github.io/iptv/hls/channel/ks2
+https://tchiphuong.github.io/iptv/hls/channel/ks2.html
 
 #EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
