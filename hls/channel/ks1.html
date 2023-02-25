@@ -1,0 +1,16 @@
+<script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
+<script type="application/javascript">
+    $(function () {
+        $.ajax({
+            url: "http://api.ipify.org/?format=json",
+            type: "GET",
+            dataType: "json",
+            async: false,
+            success: function (res) {
+                window.location.replace(`https://vsd74.mycdn.me/hls/2920375454308.m3u8/sig/0SVbIoSFjgY/expires/1677423069542/srcIp/${res.ip}/urls/45.136.22.64/clientType/0/srcAg/CHROME/mid/4103920819812/video.m3u8`);
+            }, error: function (err) {
+                console.log(err)
+            }
+        });
+    });
+</script>
