@@ -38,7 +38,9 @@ https://1123139281.cdn.khmer-hd.com/may6/chunks.m3u8
 https://1123139281.cdn.khmer-hd.com/may9/chunks.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",K+ SPORT 1
-https://tchiphuong.github.io/iptv/hls/channel/ks1.html
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"84Qye+8YlhUSRig/jgbwFQ", "kid":"9tNiDgIKTEisfZzfqpaMWg" },{ "kty":"oct", "k":"wj2qE21/4NYsALUuGROU7Q", "kid":"PhdiDgIKTEisfZzfqpaMWg" },{ "kty":"oct", "k":"KHBpWVPpuaPU/lXtuc/S0A", "kid":"NyimV1EKTEisfZzfqpaMWg" } ], "type":"temporary" }
+https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K+ SPORT 2
 https://tchiphuong.github.io/iptv/hls/channel/ks2.html
 
