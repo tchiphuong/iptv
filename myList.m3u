@@ -639,14 +639,10 @@ https://jadah.gdplayer.to/playlist/M1dxL1dRMjNuUHZ2QmU5UVQ3SWMySUtOMStHMTBnV2dyT
 https://jadah.gdplayer.to/playlist/M1dxL1dRMjNuUHZ2QmU5UVQ3SWMySUtOMStHMTBnV2dyT2VaazdJNkNGOUlQdG5xZUhyY0xDblFRTnB2a2tUcHVySWdrZTRjSU5kSThlUXJIQ3hFeVFiS3pvU20rZS96Y0ppTWFzNjZIYTg9/ddy1/premium84/tracks-v1a1/mono.m3u8?data=OVFaQmFjLzdidFZNalVnZ2k5N3BHZVJkb2ZBTUVlQ2Z1S2cxaFZhaUpHSlc2eWRrWHJyZjNWQUlVWEg0TitrNjlvL2tNZks4eXB3WnpnVGpzY2dnbVZNK2lHOUJNRXRNRk8zZDcwS2xWeUE9&live=true&token=YUNTNmIrN1hSdGV1ZUN5cFFYZHJ0RytITGRTcWFLdnBGN3NRblFFLzljR1F1NU1FTW0wY3hHV1BqbW83VE02NSt5TGF0dnAxWW1TT1l5QUQ0ai9LUmc9PQ,,
 // #EXTINF:-1 group-title="Thể thao" tvg-id="match-tv" tvg-name="Match! TV" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-tv.png",Match
 // http://ultratv.one:2095/xMsGHAzQ/kYuckAK/445790
-#EXTINF:-1 group-title="Thể thao" tvg-id="match-football1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match Futbol 1
-https://est7.varcdn.top/m1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-id="match-football2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match Futbol 2
-https://est7.varcdn.top/m2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-id="match-football3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",Match Futbol 3
-https://est7.varcdn.top/m3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-id="match-premier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match Remier
-https://est7.varcdn.top/mp/tracks-v1a1/mono.m3u8
+// #EXTINF:-1 group-title="Thể thao" tvg-id="match-football1" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-1.png",Match Futbol 1
+// #EXTINF:-1 group-title="Thể thao" tvg-id="match-football2" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-2.png",Match Futbol 2
+// #EXTINF:-1 group-title="Thể thao" tvg-id="match-football3" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-football-3.png",Match Futbol 3
+// #EXTINF:-1 group-title="Thể thao" tvg-id="match-premier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match Remier
 // #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/jw11fx1654941293.png",Movistar Deporte
 // http://ultratv.one:2095/xMsGHAzQ/kYuckAK/472975
 // #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiamovil/ARTHUR.png",Movistar Deporte 2
@@ -693,10 +689,8 @@ https://sport.livedoomovies.com:4431/02_PremierHD4_720p/chunklist.m3u8
 https://sport.livedoomovies.com:4431/02_PremierHD5_720p/chunklist.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/RMC_Sport_1.png",RMC Sport 1
 https://jadah.gdplayer.to/playlist/M1dxL1dRMjNuUHZ2QmU5UVQ3SWMySUtOMStHMTBnV2dyT2VaazdJNkNGOUlQdG5xZUhyY0xDblFRTnB2a2tUcHVySWdrZTRjSU5kSThlUXJIQ3hFeVFiS3pvU20rZS96Y0ppTWFzNjZIYTg9/ddy1/premium119/tracks-v1a1/mono.m3u8?data=OVFaQmFjLzdidFZNalVnZ2k5N3BHZVJkb2ZBTUVlQ2Z1S2cxaFZhaUpHSlc2eWRrWHJyZjNWQUlVWEg0TitrNjlvL2tNZks4eXB3WnpnVGpzY2dnbVZNK2lHOUJNRXRNRk8zZDcwS2xWeUE9&live=true&token=YUNTNmIrN1hSdGV1ZUN5cFFYZHJ0RytITGRTcWFLdnBGN3NRblFFLzljR1F1NU1FTW0wY3hHV1BqbW83VE02NSt5TGF0dnAxWW1TT1l5QUQ0ai9LUmc9PQ,,
-#EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-1.png",Setanta Sport 1 RU
-https://est7.varcdn.top/setanta1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports-plus" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-2.png",Setanta Sport 2 RU
-https://est7.varcdn.top/setanta2/tracks-v1a1/mono.m3u8
+// #EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-1.png",Setanta Sport 1 RU
+// #EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports-plus" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-2.png",Setanta Sport 2 RU
 // #EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-1.png",SPORT TV Plus
 // http://ultratv.one:2095/xMsGHAzQ/kYuckAK/69000
 // #EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sporttv-1.png",SPORT TV 1
