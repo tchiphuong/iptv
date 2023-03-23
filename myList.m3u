@@ -88,15 +88,16 @@ http://live-ali2.tv360.vn/manifest/VTV8_HD/playlist_1080p.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv9-tv360.png",VTV9
 http://live-ali2.tv360.vn/manifest/VTV9_HD/playlist_1080p.m3u8
 
-#EXTINF:-1 group-title="TV360" tvg-id="vtv6hd" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png",TV360+ 1 TV360
+#EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png",TV360+ 1 TV360
 http://live-zlr1.tv360.vn/manifest/sukien/playlist_1080p-5M.m3u8
-#EXTINF:-1 group-title="TV360" tvg-id="vtv6hd" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png",TV360+ 1 TV360
+#EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png",TV360+ 1 TV360
 http://live.tv360.vn/manifest/sukien/playlist_1080p-3M.m3u8
-#EXTINF:-1 group-title="TV360" tvg-id="vtv6hd" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017310434/c702b55e7aa8_640_360.png",TV360+ 2 TV360
+#EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017310434/c702b55e7aa8_640_360.png",TV360+ 2 TV360
 https://code.vthanhtivi.pw/getlink/tv360/1/playlist.m3u8
-#EXTINF:-1 group-title="TV360" tvg-id="vtv6hd" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png",TV360+ 3 TV360
-https://code.vthanhtivi.pw/getlink/tv360/148/playlist.m3u8
-
+#EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png",TV360+ 3 TV360
+http://live-ali4.tv360.vn/manifest/Su_Kien_3/playlist_1080p.m3u8
+#EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png",TV360+ 4 TV360
+http://live-ali4.tv360.vn/manifest/Su_Kien_4/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab1.png",VTVcab 1 | Vie Giải trí HD
 https://856175157.r.vtvcdn.com/hls/GIAITRI_TV_HD_CL/sc-gaFEAQ/m20_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/vtvcab2.png",VTVcab 2 | ON Phim Việt
