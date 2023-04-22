@@ -37,21 +37,14 @@ https://1123139281.cdn.khmer-hd.com/may6/chunks.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv HD 9
 https://1123139281.cdn.khmer-hd.com/may9/chunks.m3u8
 
+#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-cine-hd.png",K+ CINE
+https://dl.dropboxusercontent.com/s/g3locwh5i8sf4x1/0421.m3u?dl=0
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-life-hd.png",K+ LIFE
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"v/GoZ7DWK7X6Jim1C82irQ", "kid":"FILulTj1UeyuvdgtW7T//A" } ], "type":"temporary"}
-https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_lifehd/default/index.mpd
+https://dl.dropboxusercontent.com/s/g3locwh5i8sf4x1/0421.m3u?dl=0
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1-hd.png",K+ SPORT 1
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"69f1cb132220a8ffdafd4f905070dee3":"147ce5f4f0eee4ec7a6b0fad4f0ab968","b135cb132220a8ffdafd4f905070dee3":"d5bca6986e223916bc95d348b5dc6e79","be390f442220a8ffdafd4f905070dee3":"ee416fce7db24fa3ffbd1d3d4f4eb727","aa460f5c7120a8ffdafd4f905070dee3":"92a6c348648c8f99c1c59c8e492eee63"}
-https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+https://www.dl.dropboxusercontent.com/s/y0s3h3wx06zt5y6/Shutdown.m3u?dl=0
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2-hd.png",K+ SPORT 2
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"ESL2000fKIFE11IQR1KIow", "kid":"IF+YylLqGRnkDnoyastNFw" } ], "type":"temporary"}
-https://vstv.broadpeak-aas.com/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+https://www.dl.dropboxusercontent.com/s/y0s3h3wx06zt5y6/Shutdown.m3u?dl=0
 
 #EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -100,7 +93,7 @@ http://live-zlr1.tv360.vn/manifest/sukien/playlist_1080p-5M.m3u8
 #EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png",TV360+ 1 TV360
 http://live.tv360.vn/manifest/sukien/playlist_1080p-3M.m3u8
 #EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017310434/c702b55e7aa8_640_360.png",TV360+ 2 TV360
-http://live.tv360.vn/manifest/u23-dubaicup2/playlist_1080p.m3u8
+http://live-zlr1.tv360.vn/manifest/u23-dubaicup2/playlist_U23-dubaicup2-360p.m3u8
 #EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png",TV360+ 3 TV360
 http://live-ali4.tv360.vn/manifest/Su_Kien_3/playlist_1080p.m3u8
 #EXTINF:-1 group-title="TV360" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png",TV360+ 4 TV360
@@ -523,7 +516,7 @@ https://jadah.gdplayer.to/playlist/aFc1dzRtZmhSMkx6VUs1QWEyNHdMZEV0dnRmVWRZUi8vZ
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png",SONY SPORTS TEN 1
 https://lin-gd-001-cf.slivcdn.com/out/v1/80891f4d48cc41bda7e62cc601fad8cd/master_1.m3u8?hdntl=exp=1678342365~acl=*~hmac=0306ae4d29cfa2310b3c67bb8a727248dda3f6723afddadb4db2f0dcb0d84d0a&originpath=/linear/hls/pb/event/6WhVNGKTRXyu588zZv1Lkg/stream/7219f96f-af31-4ede-93c2-910b42857692:SIN/variant/164a5418abea02d07948362e5f056577/bandwidth/4788929.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png",SONY SPORTS TEN 2
-https://lin-gd-001-cf.slivcdn.com/out/v1/6405a2743163448bba0f3ee5e68e7bc3/master_2.m3u8?hdntl=exp=1678342422~acl=*~hmac=45e4cdfd956b0bd2e4263c9fc6e9549f9cd850fd6694800a2c2e21aa65291624&originpath=/linear/hls/pb/event/LK-ik89MQIi_pWBbg74KNQ/stream/9711262a-0f62-4068-8fce-03eef6c96161:SIN/variant/180a140a61a240b31add46b5b8fc19c7/bandwidth/4789188.m3u8
+https://lin-gd-001-cf.slivcdn.com/out/v1/6405a2743163448bba0f3ee5e68e7bc3/master_2.m3u8?hdntl=exp=1681891429~acl=*~hmac=465a2aba5ac5bac2e40659de7360460b81270cb64125ba180116412b7168da71&originpath=/linear/hls/pb/event/LK-ik89MQIi_pWBbg74KNQ/stream/1a10dab4-9e81-45a3-895c-2c81ef622b9e:TPE/variant/180a140a61a240b31add46b5b8fc19c7/bandwidth/4789193.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_SD.png",SONY SPORTS TEN 3
 https://lin-gd-001-cf.slivcdn.com/out/v1/af14396716554fb59c86194f8967f47a/master_1.m3u8?hdntl=exp=1678342461~acl=*~hmac=88133f1dcb11b1e8519b7538e4994f192607832ea68ca741ac1a8f4fe63de68a&originpath=/linear/hls/pb/event/BCOFZq1JQjq12fmaO6lAAA/stream/378a3ce5-f888-43f1-a660-49575a545948:SIN/variant/d3f53437b6f46cf3e8fb7941b360a811/bandwidth/4788929.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen4_SD.png",SONY SPORTS TEN 4
