@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <title>LiveTV</title>
+    <meta property='og:image' content="../assets/img/thumbnail.png" />
+    <meta property="og:url" content="https://tchiphuong.github.io/wc2022" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.10/tailwind.min.css" />
+    <script src="./js/clappr.min.js"></script>
+    <script src="./js/level-selector.min.js"></script>
+    <script src="./js/clappr-pip.min.js"></script>
+    <script src="./js/dash-shaka-playback.js"></script>
+</head>
+<style type="text/css">
+    body {
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+    <div id="match"></div>
+    <!-- <div style="word-wrap: break-word; white-space: pre-wrap;" id="console"></div> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/BrowserFS/2.0.0/browserfs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"> </script>
+    <script src="./js/ajax.js" crossorigin="anonymous"></script>
+    <script>
+        var text = "";
+        var dateObj = new Date();
+        var month = dateObj.getUTCMonth() + 1; //months from 1-12
+        var day = dateObj.getUTCDate();
+        var year = dateObj.getUTCFullYear();
+        var dateLink = `${year}${pad(month)}${pad(day)}`;
+        $(function () {
+            var url = `https://api.vebo.xyz/api/match/fixture/home/${dateLink}`;
+            console.log(url)
+            $.ajax({
+                url: url,
+                success: function (resp) {
+                    var lstMatch = resp.data.filter(x => x.is_live && x.sport_type == "football")
+                    //console.log(lstMatch);
+                    text += `#EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml,https://iptvx.one/EPG" tvg-shift=0 m3uautoload=1` + '\n'
+                    $.each(lstMatch, function (i, e) {
+                        var link = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="${e.tournament.logo}",${moment(e.date).format('DD/MM')} ${moment(e.timestamp).format("HH:mm")} ${e.name}`;
+                        var hls = "new.m3u8"
+                        var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`
+
+                        console.log(subUrl)
+                        $.ajax({
+                            async: false,
+                            url: subUrl,
+                            success: function (resp) {
+                                $.each(resp.data.play_urls, function (si, se) {
+                                    commentators = resp.data.commentators.map(x => x.name)
+                                    console.log(commentators)
+                                    hls = se.url
+                                    text += `${link} [${se.name}]` + '\n'
+                                    text += hls + '\n'
+                                    $("#console").html(text)
+                                    $("#match").append(`<a href="${se.url}" target="_blank" class="flex flex-col justify-center items-center my-3 rounded-lg overflow-hidden mx-auto border border-gray-300 shadow" style="width: fit-content;">
+                                                            <div class="flex font-bold bg-gray-200 w-full py-2 justify-center items-center">
+                                                                <img style="height: 32px;" src="${e.tournament.logo}" alt="" />
+                                                                <span class="px-3">${e.tournament.name}</span>    
+                                                            </div>
+                                                            <div class="flex justify-center items-center py-1 px-2">
+                                                                <img style="width: 64px; height: 64px;" src="${e.home.logo}">
+                                                                <div class="text-center" style="width: 400px">
+                                                                    <div class="font-bold">${e.name}</div>
+                                                                    <div>${moment(e.timestamp).format("HH:mm")} ${moment(e.date).format('DD/MM/YYYY')}</div>
+                                                                    <div>${resp.data.commentators.map(x => x.name)}  [${se.name}]</div>
+                                                                </div>
+                                                                <img style="width: 64px; height: 64px;" src="${e.away.logo}">
+                                                            </div>
+                                                        </a>`);
+                                });
+                            },
+                            error: function (res) {
+                                console.log(res);
+                            },
+                        });
+                    });
+                    // const linkDownload = document.createElement("a");
+                    // const file = new Blob([text], { type: 'text/plain,' });
+                    // linkDownload.href = URL.createObjectURL(file);
+                    // linkDownload.download = `${dateLink}.m3u`;
+                    // //linkDownload.click();
+                    // console.log(linkDownload)
+                    // console.log(URL.revokeObjectURL(linkDownload.href))
+                    // //c921be54-0445-40f3-bf8d-d5c5b9ea9700
+                    // URL.revokeObjectURL(linkDownload.href);
+                    var blob = new Blob([text], {
+                        type: "text/plain;charset=utf-8",
+                    });
+                    //window.location.href = URL.createObjectURL(blob)
+                    //saveAs(blob, `${dateLink}.m3u8`);
+                },
+                error: function (res) {
+                    console.log(res);
+                },
+            });
+        })
+        function pad(n) {
+            return (n < 10) ? ("0" + n) : n;
+        }
+
+    </script>
+</body>
+
+</html>
