@@ -25,7 +25,7 @@
 </style>
 
 <body>
-    <div id="match"></div>
+    <div id="match" class="p-3 grid grid-cols-1 gap-1 md:grid-cols-3 xl:grid-cols-4 md:gap-3 ld:gap-4"></div>
     <!-- <div style="word-wrap: break-word; white-space: pre-wrap;" id="console"></div> -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
@@ -42,7 +42,6 @@
         var dateLink = `${year}${pad(month)}${pad(day)}`;
         $(function () {
             var url = `https://api.vebo.xyz/api/match/fixture/home/${dateLink}`;
-            console.log(url)
             $.ajax({
                 url: url,
                 success: function (resp) {
@@ -53,33 +52,37 @@
                         var link = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="${e.tournament.logo}",${moment(e.date).format('DD/MM')} ${moment(e.timestamp).format("HH:mm")} ${e.name}`;
                         var hls = "new.m3u8"
                         var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`
-
-                        console.log(subUrl)
                         $.ajax({
                             async: false,
                             url: subUrl,
                             success: function (resp) {
                                 $.each(resp.data.play_urls, function (si, se) {
                                     commentators = resp.data.commentators.map(x => x.name)
-                                    console.log(commentators)
                                     hls = se.url
                                     text += `${link} [${se.name}]` + '\n'
                                     text += hls + '\n'
                                     $("#console").html(text)
-                                    $("#match").append(`<a href="${se.url}" target="_blank" class="flex flex-col justify-center items-center my-3 rounded-lg overflow-hidden mx-auto border border-gray-300 shadow" style="width: fit-content;">
+                                    $("#match").append(`<a href="${se.url}" target="_blank" class="relative flex flex-col justify-center items-center my-3 rounded-lg overflow-hidden mx-auto border border-gray-300 shadow w-full">
                                                             <div class="flex font-bold bg-gray-200 w-full py-2 justify-center items-center">
                                                                 <img style="height: 32px;" src="${e.tournament.logo}" alt="" />
                                                                 <span class="px-3">${e.tournament.name}</span>    
                                                             </div>
-                                                            <div class="flex justify-center items-center py-1 px-2">
-                                                                <img style="width: 64px; height: 64px;" src="${e.home.logo}">
-                                                                <div class="text-center" style="width: 400px">
-                                                                    <div class="font-bold">${e.name}</div>
-                                                                    <div>${moment(e.timestamp).format("HH:mm")} ${moment(e.date).format('DD/MM/YYYY')}</div>
-                                                                    <div>${resp.data.commentators.map(x => x.name)}  [${se.name}]</div>
+                                                            <div class="flex justify-center items-center py-1 px-2 flex-grow w-full">
+                                                                <div class="flex flex-col justify-start items-center h-full w-4/12">
+                                                                    <img style="width: 64px; height: 64px;" src="${e.home.logo}">
+                                                                    <span class="text-center" title="${e.home.name}">${e.home.name}</span>
                                                                 </div>
-                                                                <img style="width: 64px; height: 64px;" src="${e.away.logo}">
+                                                                <div class="text-center flex-grow">
+                                                                    <div>${moment(e.date).format('DD/MM/YYYY')}</div>
+                                                                    <div>${moment(e.timestamp).format("HH:mm")}</div>
+                                                                    <div>${resp.data.commentators.map(x => x.name)}</div>
+                                                                </div>
+                                                                <div class="flex flex-col justify-start items-center h-full w-4/12">
+                                                                    <img style="width: 64px; height: 64px;" src="${e.away.logo}">
+                                                                    <span class="text-center" title="${e.away.name}">${e.away.name}</span>
+                                                                </div>
                                                             </div>
+                                                            <span class="absolute bg-red-500 text-white text-xs font-bold mr-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300" style="top:1rem; right: 1rem;">${se.name}</span>
                                                         </a>`);
                                 });
                             },
@@ -88,20 +91,6 @@
                             },
                         });
                     });
-                    // const linkDownload = document.createElement("a");
-                    // const file = new Blob([text], { type: 'text/plain,' });
-                    // linkDownload.href = URL.createObjectURL(file);
-                    // linkDownload.download = `${dateLink}.m3u`;
-                    // //linkDownload.click();
-                    // console.log(linkDownload)
-                    // console.log(URL.revokeObjectURL(linkDownload.href))
-                    // //c921be54-0445-40f3-bf8d-d5c5b9ea9700
-                    // URL.revokeObjectURL(linkDownload.href);
-                    var blob = new Blob([text], {
-                        type: "text/plain;charset=utf-8",
-                    });
-                    //window.location.href = URL.createObjectURL(blob)
-                    //saveAs(blob, `${dateLink}.m3u8`);
                 },
                 error: function (res) {
                     console.log(res);
