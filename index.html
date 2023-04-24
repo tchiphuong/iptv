@@ -22,86 +22,160 @@
     body {
         margin: 0 auto;
     }
+
+    .quality {
+        position: absolute;
+        top: 1rem;
+        left: -2rem;
+        transform: rotate(-45deg);
+        padding: .1rem 2rem;
+    }
+
+    #player {
+        aspect-ratio: 18/9;
+        width: 100%;
+    }
+
+    body {
+        scroll-behavior: smooth;
+    }
+
+    button.active {
+        background: rgba(30, 64, 175, var(--tw-bg-opacity));
+    }
 </style>
 
-<body>
-    <div id="match" class="p-3 grid grid-cols-1 gap-1 md:grid-cols-3 xl:grid-cols-4 md:gap-3 ld:gap-4"></div>
+<body class="container mx-auto p-2">
+    <div id="player"></div>
+    <ul id="list-channels" class="grid grid-cols-4 gap-2 md:grid-cols-6 lg:grid-cols-12 py-3">
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 active">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv1.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV1</div>
+        </li>
+        <li>
+            <button type="button"
+                onclick="playM3u8('linhttp://live-zlr1.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8kne')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv2.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV2</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-3M.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv3.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV3</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV4_HD/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv4.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV4</div>
+        </li>
+        <li>
+            <button type="button"
+                onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/VTV5_HD/playlist_1080-3_6M.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv5.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV5</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p3M.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv-can-tho.png"
+                    alt="VTV2">
+            </button>
+            <div class="text-center">VTV Cần Thơ</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV7_HD/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv7.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV7</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV8_HD/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv8.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV8</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV9_HD/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv9.png" alt="VTV2">
+            </button>
+            <div class="text-center">VTV9</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/sukien/playlist_1080p-5M.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full"
+                    src="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png"
+                    alt="VTV2">
+            </button>
+            <div class="text-center">TV360 1</div>
+        </li>
+        <li>
+            <button type="button"
+                onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/u23-dubaicup2/playlist_U23-dubaicup2-360p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full"
+                    src="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png"
+                    alt="VTV2">
+            </button>
+            <div class="text-center">TV360 2</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali4.tv360.vn/manifest/Su_Kien_3/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full"
+                    src="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png"
+                    alt="VTV2">
+            </button>
+            <div class="text-center">TV360 3</div>
+        </li>
+        <li>
+            <button type="button" onclick="playM3u8('http://live-ali4.tv360.vn/manifest/Su_Kien_4/playlist_1080p.m3u8')"
+                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                <img class="max-w-full max-h-full"
+                    src="http://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png"
+                    alt="VTV2">
+            </button>
+            <div class="text-center">TV360 4</div>
+        </li>
+    </ul>
+    <div id="match" class="grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-4 md:gap-3 lg:gap-4"></div>
     <!-- <div style="word-wrap: break-word; white-space: pre-wrap;" id="console"></div> -->
+    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer" id="spin">
+        <div role="status">
+            <svg class="inline w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
+                viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+                    fill="currentColor" />
+                <path
+                    d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+                    fill="currentFill" />
+            </svg>
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/BrowserFS/2.0.0/browserfs.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"> </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./js/ajax.js" crossorigin="anonymous"></script>
-    <script>
-        var text = "";
-        var dateObj = new Date();
-        var month = dateObj.getUTCMonth() + 1; //months from 1-12
-        var day = dateObj.getUTCDate();
-        var year = dateObj.getUTCFullYear();
-        var dateLink = `${year}${pad(month)}${pad(day)}`;
-        $(function () {
-            var url = `https://api.vebo.xyz/api/match/fixture/home/${dateLink}`;
-            $.ajax({
-                url: url,
-                success: function (resp) {
-                    var lstMatch = resp.data.filter(x => x.is_live && x.sport_type == "football")
-                    //console.log(lstMatch);
-                    text += `#EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml,https://iptvx.one/EPG" tvg-shift=0 m3uautoload=1` + '\n'
-                    $.each(lstMatch, function (i, e) {
-                        var link = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="${e.tournament.logo}",${moment(e.date).format('DD/MM')} ${moment(e.timestamp).format("HH:mm")} ${e.name}`;
-                        var hls = "new.m3u8"
-                        var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`
-                        $.ajax({
-                            async: false,
-                            url: subUrl,
-                            success: function (resp) {
-                                $.each(resp.data.play_urls, function (si, se) {
-                                    commentators = resp.data.commentators.map(x => x.name)
-                                    hls = se.url
-                                    text += `${link} [${se.name}]` + '\n'
-                                    text += hls + '\n'
-                                    $("#console").html(text)
-                                    $("#match").append(`<a href="${se.url}" target="_blank" class="relative flex flex-col justify-center items-center my-3 rounded-lg overflow-hidden mx-auto border border-gray-300 shadow w-full">
-                                                            <div class="flex font-bold bg-gray-200 w-full py-2 justify-center items-center">
-                                                                <img style="height: 32px;" src="${e.tournament.logo}" alt="" />
-                                                                <span class="px-3">${e.tournament.name}</span>    
-                                                            </div>
-                                                            <div class="flex justify-center items-center py-1 px-2 flex-grow w-full">
-                                                                <div class="flex flex-col justify-start items-center h-full w-4/12">
-                                                                    <img style="width: 64px; height: 64px;" src="${e.home.logo}">
-                                                                    <span class="text-center" title="${e.home.name}">${e.home.name}</span>
-                                                                </div>
-                                                                <div class="text-center flex-grow">
-                                                                    <div>${moment(e.date).format('DD/MM/YYYY')}</div>
-                                                                    <div>${moment(e.timestamp).format("HH:mm")}</div>
-                                                                    <div>${resp.data.commentators.map(x => x.name)}</div>
-                                                                </div>
-                                                                <div class="flex flex-col justify-start items-center h-full w-4/12">
-                                                                    <img style="width: 64px; height: 64px;" src="${e.away.logo}">
-                                                                    <span class="text-center" title="${e.away.name}">${e.away.name}</span>
-                                                                </div>
-                                                            </div>
-                                                            <span class="absolute bg-red-500 text-white text-xs font-bold mr-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300" style="top:1rem; right: 1rem;">${se.name}</span>
-                                                        </a>`);
-                                });
-                            },
-                            error: function (res) {
-                                console.log(res);
-                            },
-                        });
-                    });
-                },
-                error: function (res) {
-                    console.log(res);
-                },
-            });
-        })
-        function pad(n) {
-            return (n < 10) ? ("0" + n) : n;
-        }
-
-    </script>
+    <script src="./js/player.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
