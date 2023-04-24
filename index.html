@@ -45,115 +45,12 @@
     }
 </style>
 
-<body class="container mx-auto p-2">
-    <div id="player"></div>
-    <ul id="list-channels" class="grid grid-cols-4 gap-2 md:grid-cols-6 lg:grid-cols-12 py-3">
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 active">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv1.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV1</div>
-        </li>
-        <li>
-            <button type="button"
-                onclick="playM3u8('linhttp://live-zlr1.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8kne')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv2.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV2</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-3M.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv3.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV3</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV4_HD/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv4.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV4</div>
-        </li>
-        <li>
-            <button type="button"
-                onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/VTV5_HD/playlist_1080-3_6M.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv5.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV5</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p3M.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv-can-tho.png"
-                    alt="VTV2">
-            </button>
-            <div class="text-center">VTV Cần Thơ</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV7_HD/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv7.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV7</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV8_HD/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv8.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV8</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali2.tv360.vn/manifest/VTV9_HD/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full" src="https://tchiphuong.github.io/iptv/images/vtv9.png" alt="VTV2">
-            </button>
-            <div class="text-center">VTV9</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/sukien/playlist_1080p-5M.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full"
-                    src="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png"
-                    alt="VTV2">
-            </button>
-            <div class="text-center">TV360 1</div>
-        </li>
-        <li>
-            <button type="button"
-                onclick="playM3u8('http://live-zlr1.tv360.vn/manifest/u23-dubaicup2/playlist_U23-dubaicup2-360p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full"
-                    src="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017184627/cd3d4c1e88ff_640_360.png"
-                    alt="VTV2">
-            </button>
-            <div class="text-center">TV360 2</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali4.tv360.vn/manifest/Su_Kien_3/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full"
-                    src="http://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png"
-                    alt="VTV2">
-            </button>
-            <div class="text-center">TV360 3</div>
-        </li>
-        <li>
-            <button type="button" onclick="playM3u8('http://live-ali4.tv360.vn/manifest/Su_Kien_4/playlist_1080p.m3u8')"
-                class="channel-item text-gray-900 w-full bg-white h-16 flex items-center justify-center border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                <img class="max-w-full max-h-full"
-                    src="http://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png"
-                    alt="VTV2">
-            </button>
-            <div class="text-center">TV360 4</div>
-        </li>
-    </ul>
+<body class="container mx-auto p-2 relative">
     <div id="match" class="grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-4 md:gap-3 lg:gap-4"></div>
     <!-- <div style="word-wrap: break-word; white-space: pre-wrap;" id="console"></div> -->
+    <a style="position: sticky; bottom: 0;" class="text-center p-3 block" target="_blank"
+        href="https://chrome.google.com/webstore/detail/reproductor-m3u8-hls-%2B-da/lcipembjfkmeggpihdpdgnjildgniffl">Install
+        <b>Reproductor M3U8 - HLS + DASH Player</b> into your browser</a>
     <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer" id="spin">
         <div role="status">
             <svg class="inline w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
@@ -175,7 +72,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"> </script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/ajax.js" crossorigin="anonymous"></script>
-    <script src="js/player.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
