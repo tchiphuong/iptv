@@ -1,8 +1,8 @@
 var text = "";
 var dateObj = new Date();
-var month = dateObj.getUTCMonth() + 1; //months from 1-12
-var day = dateObj.getUTCDate();
-var year = dateObj.getUTCFullYear();
+var month = dateObj.getMonth() + 1; //months from 1-12
+var day = dateObj.getDate();
+var year = dateObj.getFullYear();
 var dateLink = `${year}${pad(month)}${pad(day)}`;
 $(function () {
     var url = `https://api.vebo.xyz/api/match/fixture/home/${dateLink}`;
