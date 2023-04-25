@@ -18,39 +18,12 @@
     <script src="js/clappr-pip.min.js"></script>
     <script src="js/dash-shaka-playback.js"></script>
 </head>
-<style type="text/css">
-    body {
-        margin: 0 auto;
-    }
 
-    .quality {
-        position: absolute;
-        top: .8rem;
-        left: -3.2rem;
-        transform: rotate(-45deg);
-        padding: .1rem 2rem;
-        text-align: center;
-        width: 150px;
-    }
-
-    #player {
-        aspect-ratio: 18/9;
-        width: 100%;
-    }
-
-    body {
-        scroll-behavior: smooth;
-    }
-
-    button.active {
-        background: rgba(30, 64, 175, var(--tw-bg-opacity));
-    }
-</style>
-
-<body class="container mx-auto p-2 relative">
-    <div id="match" class="grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-4 md:gap-3 lg:gap-4"></div>
+<body>
+    <div id="match" class="container mx-auto grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-4 md:gap-3 lg:gap-4">
+    </div>
     <!-- <div style="word-wrap: break-word; white-space: pre-wrap;" id="console"></div> -->
-    <a style="position: sticky; bottom: 0;" class="text-center p-3 block" target="_blank"
+    <a style="position: sticky; bottom: 0;" class="text-center p-3 block bg-white border" target="_blank"
         href="https://chrome.google.com/webstore/detail/reproductor-m3u8-hls-%2B-da/lcipembjfkmeggpihdpdgnjildgniffl">Install
         <b>Reproductor M3U8 - HLS + DASH Player</b> into your browser</a>
     <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer" id="spin">
