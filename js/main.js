@@ -141,7 +141,7 @@ function getData(date = null) {
                     `@commentators_${e.id}`,
                     `<div class="py-2">${
                         commentators.length > 0 ? `<b>BLV: </b>${commentators}` : commentators
-                    }<div>`
+                    }</div>`
                 );
                 html += htmlTemp;
                 html += `</div></button>`;
