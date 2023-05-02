@@ -139,9 +139,9 @@ function getData(date = null) {
                 }
                 html = html.replaceAll(
                     `@commentators_${e.id}`,
-                    `<span class="py-2">${
-                        commentators ? `<b>BLV: </b>${commentators}` : commentators
-                    }<span>`
+                    `<div class="py-2">${
+                        commentators.length > 0 ? `<b>BLV: </b>${commentators}` : commentators
+                    }<div>`
                 );
                 html += htmlTemp;
                 html += `</div></button>`;
