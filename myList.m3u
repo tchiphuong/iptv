@@ -187,18 +187,18 @@ https://livecdn.fptplay.net/sdc/vinhphuc_hls.smil/chunklist_b2500000.m3u8?token=
 #EXTINF:-1 group-title="Địa phương" tvg-id="yenbai" tvg-name="TH Yên Bái" tvg-logo="https://tchiphuong.github.io/iptv/images/th-yen-bai.png",TH Yên Bái
 https://livecdn.fptplay.net/sdc/yenbai_hls.smil/chunklist_b1200000.m3u8?token=eyJjaGFubmVsX2lkIjogInllbi1iYWkiLCAicm1pcCI6ICIxMTMuMTc4LjIyMC4xMjQiLCAidXNlcl9pZCI6IDExOTQ1MjIsICJ0aW1lc3RhbXAiOiAxNjI0NTU3NTM0fQ
 
-#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-cine.png",K+ CINE [720p]
-https://tinyurl.com/mprtrms9
-#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-life.png",K+ LIFE [720p]
-https://tinyurl.com/aw6cvs6y
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-life.png",K+ LIFE [480p]
 http://103.82.24.168:5544/play/life/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1.png",K+ SPORT 1 [480p]
 http://103.82.24.168:5544/play/sdsport1/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2.png",K+ SPORT 2 [480p]
 http://103.82.24.168:5544/play/sdsport2/index.m3u8
+#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-cine.png",K+ CINE [720p]
+https://tinyurl.com/mprtrms9
+#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-life.png",K+ LIFE [720p]
+https://tinyurl.com/aw6cvs6y
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport1.png",K+ SPORT 1 [720p]
-http://103.82.24.168:5544/play/sport1/index.m3u8
+http://103.82.24.168:5544/play/sport1tn/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/k-sport2.png",K+ SPORT 2 [720p]
 http://103.82.24.168:5544/play/sport2/index.m3u8
 
