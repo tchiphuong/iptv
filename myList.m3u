@@ -738,26 +738,58 @@ http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="woman" tvg-logo="http://img-zlr1.tv360.vn/image1/2020_09_23/1600822442611/f6b738c3d05a_640_360.png",Woman
 https://vtsstr7.tv24.vn/live/smil:Woman.smil/chunklist_w982461008_b1692000.m3u8
 
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-1-live.png",AR: Abu Dhabi Sport 1
+https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-2-live.png",AR: Abu Dhabi Sport 2
+https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-3-live.png",AR: Abu Dhabi Sport 3
+https://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-4-live.png",AR: Abu Dhabi Sport 4
+https://admdn4.cdn.mangomolo.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://4.bp.blogspot.com/-JVNjabkmpxI/WQz_WNyPP-I/AAAAAAAAFww/3DdgH_LtuiM0sQxawKwrNtQASVXOtGYcACLcB/s1600/yas_sports_ae.png",AR: Abu Dhabi YAS Sport
+https://admdn1.cdn.mangomolo.com/yastv/smil:yastv.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.dubaisports.ae/content/dam/dubaisports/logos/brand/dubaisports-logo.jpg",AR: Dubai Sport 1
+https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.dubaisports.ae/content/dam/dubaisports/logos/brand/dubaisports-logo.jpg",AR: Dubai Sport 2
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.dubaisports.ae/content/dam/dubaisports/logos/brand/dubaisports-logo.jpg",AR: Dubai Sport 3
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="AstroSuperSport.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport UHD
+https://epg.pw/stream/86dd03dd29aa2e43081fc55f0909965f41cf6a343841a331483e06d3dd2c76f3.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-id="AstroSuperSport.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport
-https://webudit.salamus1.lol/ddy1/premium123/manifest.mpd
+https://epg.pw/stream/9420e53ebd1e35fdeee4ceb23abc2c8d1a1a763981c4afe5b55c586b92f515a8.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-id="AstroSuperSport2.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png",Astro Super Sport 2
-https://webudit.salamus1.lol/ddy1/premium124/manifest.mpd
+https://epg.pw/stream/0572a61ec4a4998a1c76061fd80a35351b1586fe842c06154f3ec1951632922e.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-id="AstroSuperSport3.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/164_144.png",Astro Super Sport 3
-https://webudit.salamus1.lol/ddy1/premium125/manifest.mpd
+https://epg.pw/stream/daa14b9eb342f1c51ac21a07420169a5500d52a999fda3c8522c8657a09f9f2f.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-id="AstroSuperSport4.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/241_144.png",Astro Super Sport 4
-https://webudit.salamus1.lol/ddy1/premium126/manifest.mpd
+https://epg.pw/stream/c7de0cce6cfc6952c0cdd1cb927b5187bef41a29790edc801dfef3fa197bb558.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-id="AstroSuperSport5.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/455_144.png",Astro Super Sport 5
-https://webudit.salamus1.lol/ddy1/premium43/manifest.mpd
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-hub-premier-2.png",Hub Premier 2 4K
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348096&extension=ts&play_token=zpHQS3jtnW
+https://epg.pw/stream/9a05326577ef03eef61974a84f40375e927b6d25873e497836698dd9cfceab9b.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://beinxtraespanol.com/images/beINSPORTS-XTRA_ESPANOL-LOGO_HORIZONTAL_FULL-COLOR.png",beIN Sports 1
+https://epg.pw/stream/069a07c9a137e7b1bdc02c5cf49c959a892dfc2c324a077e2fcb9541e6397d60.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-1.png",beIN Sports 1
+https://epg.pw/stream/5963ddfef46bd73852a726910c9f11dc67e348a258ff5bafc23ce69929055f23.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-2.png",beIN Sports 2
+https://epg.pw/stream/cd855eeafd355ca25944be04ad9bc6d7815fa559303c54b1e39b8a59d6f03d58.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bein-sport-3.png",beIN Sports 3
+https://epg.pw/stream/8265a6368f33971d0fd52d07e1f64806f635cd0269fd0e0bb02f5dc21438f60d.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/ixqrsj1601112641.png",Eleven 1
+https://epg.pw/stream/3c63de76b1c20ca72ed5fac83991ef568cd25e32eeaa54bb537e3893915842c5.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/i7mjna1601113121.png",Eleven 2
+https://epg.pw/stream/2c0b9eb71612e89f392859a8716e0d9bea6c9be48d34090c0c54c0c6516e20a4.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sports-1" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/686.png",Eleven Sports 1 PL
+https://epg.pw/stream/19ca9f6e327e6046d9bf711b87d8960a0d3392bad0dbcc932375737e2b8a060c.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png",Hub Premier 1 FHD
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348097&extension=ts&play_token=zpHQS3jtnW
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png",Hub Premier 2 FHD
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348098&extension=ts&play_token=zpHQS3jtnW
+https://epg.pw/stream/18fe4402d3bb1d8c768f9e2b295a52599126bd69e7b9ca18281484e86ff45484.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://tchiphuong.github.io/iptv/images/s-hub-premier-2.png",Hub Premier 2 UHD
+https://epg.pw/stream/6ad050323fd3350076233e3f0a93dbce7fb6a69e1373bbcc95bc91e793c2b01c.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/223_1920x1080_HTV.png",Hub Premier 3 FHD
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348099&extension=ts&play_token=zpHQS3jtnW
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/224_1920x1080_HTV.png",Hub Premier 4 FHD
-http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348100&extension=ts&play_token=zpHQS3jtnW
+https://epg.pw/stream/1618832c5d02a13cfe6edd7316ab904d40ba4c7a9bab049af87ad6dca9eac953.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/225_1920x1080_HTV.png",Hub Premier 5 FHD
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348101&extension=ts&play_token=zpHQS3jtnW
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/226_1920x1080_HTV.png",Hub Premier 6 FHD
@@ -780,22 +812,28 @@ http://redlabmcdn.s.llnwi.net/nv02/bs11hd/tracks-v1a1/mono.m3u8
 http://redlabmcdn.s.llnwi.net/nv02/bs12hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.jsports.co.jp/img/icon/ch4.png",J Sports 4
 http://redlabmcdn.s.llnwi.net/nv02/bs01hd/tracks-v1a1/mono.m3u
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-1-live.png",AR: Abu Dhabi Sport 1
-https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-2-live.png",AR: Abu Dhabi Sport 2
-https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-3-live.png",AR: Abu Dhabi Sport 3
-https://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-4-live.png",AR: Abu Dhabi Sport 4
-https://admdn4.cdn.mangomolo.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://4.bp.blogspot.com/-JVNjabkmpxI/WQz_WNyPP-I/AAAAAAAAFww/3DdgH_LtuiM0sQxawKwrNtQASVXOtGYcACLcB/s1600/yas_sports_ae.png",AR: Abu Dhabi YAS Sport
-https://admdn1.cdn.mangomolo.com/yastv/smil:yastv.stream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.dubaisports.ae/content/dam/dubaisports/logos/brand/dubaisports-logo.jpg",AR: Dubai Sport 1
-https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/index.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.dubaisports.ae/content/dam/dubaisports/logos/brand/dubaisports-logo.jpg",AR: Dubai Sport 2
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.dubaisports.ae/content/dam/dubaisports/logos/brand/dubaisports-logo.jpg",AR: Dubai Sport 3
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-premier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-remier.png",Match Remier
+https://epg.pw/stream/a86659ccb327c1225678ec3eb0aecbcc5e80aa7a45e2cd07f5400ea0357fe989.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-premier" tvg-logo="https://tchiphuong.github.io/iptv/images/s-match-tv",Match TV
+https://epg.pw/stream/ab398858e8825771a1734862a977bb9ca6d460e33dabdc4e82116fdb96c41157.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch631_160_115",Now Sports 1 CH631
+https://epg.pw/stream/03b4a12b70cba76e1626ddadcfdae15b14febe342b7a316dc03abdeb0f663907.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-id="polsat-sport-news" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/256/613.png",Polsat Sport News
+https://epg.pw/stream/de3c5b660bae409c24d8d4070821d8053a60f4e78727a0f81497905396eacd58.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="polsat-sport-pr2" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/128/833.png",Polsat Sport Premium 2
+https://epg.pw/stream/2f4d59bdbcddf38e26541faf631847dac80a3f9f5c57dc453490dfb68675533d.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports" tvg-logo="https://tchiphuong.github.io/iptv/images/s-setanta-1.png",Setanta Sport 1
+https://epg.pw/stream/f906e3d23ebfe13457be99516ecf90320ad729e29b49229ae9277b589aa48b8a.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="sky-sports-arena" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sky-sports-arena.png",Sky Sports Arena
+https://epg.pw/stream/3857e8bf2c199ac5d9f05ed640ace0a31108380af45ebb875f0717f44f6e35d5.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-id="sky-sports-football" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sky-sports-football.png",Sky Sports Football
+https://epg.pw/stream/364157df986e8072c60c04af60bfc8ddbc0a7133a7536527b4f9971f5d2e55a0.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-id="sky-sports-maine" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sky-sports-main-event.png",Sky Sports Main Event
+https://epg.pw/stream/7aa16a464eb2f31491816a382c813a98bffc1a8ebda880fa8d0e8c31d44fb873.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-id="sky-sports-news" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sky-sports-news.png",Sky Sports News
+https://epg.pw/stream/46c3f4cb5bc5257fa6685e86a183aa95cf8b532d78ca30374781e47fc8e66c41.ctv
+#EXTINF:-1 group-title="Thể thao" tvg-id="sky-sports-apl" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sky-sports-premier-league.png",Sky Sports Premier League
+https://epg.pw/stream/91f4b53d0136911e5104ee13ef4704e633ee9e932540d15ae4f32be0a8a43943.ctv
 #EXTINF:-1 group-title="Thể thao" tvg-id="SonySportsTen1.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png",SONY SPORTS TEN 1
 https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="SonySportsTen2.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png",SONY SPORTS TEN 2
