@@ -1,7 +1,4 @@
 #EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml" tvg-shift=0 m3uautoload=1
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/zh/tv.cctv.com.xml" tvg-shift=0 m3uautoload=2
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ms/astro.com.my.xml" tvg-shift=0 m3uautoload=3
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/en/dishtv.in.xml" tvg-shift=0 m3uautoload=4
 
 #EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
