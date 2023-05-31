@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml,https://7pal.short.gy/alex-epg" tvg-shift=0 m3uautoload=1
 
 #EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/vtv1.png",VTV1
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -492,7 +492,7 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv2/s1/index.m3u8
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv3/s1/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv4.png",SCTV4
-https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV4.smil/chunklist_b1692000.m3u8
+https://s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e7.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/live/smil:SCTV4.smil/chunklist_w903334202_b1692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv5" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv5.png",SCTV5
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv5/s1/index.m3u8
@@ -508,7 +508,7 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv7/s1/index.m3u8
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv8/s1/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv9.png",SCTV9
-https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV9.smil/chunklist_b942000.m3u8
+https://s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e7.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/live/smil:SCTV9.smil/chunklist_w642766513_b1692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv10" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv10.png",SCTV10
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index.m3u8
@@ -516,13 +516,12 @@ https://e1.endpoint.cdn.sctvonline.vn/hls/sctv10/index.m3u8
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv11/s1/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv12hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv12.png",SCTV12
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv12/s1/index.m3u8
+https://vtsstr6.tv24.vn/live/SCTV12_HD_new.smil/chunklist_w688991291_b2692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv13hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv13.png",SCTV13
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv13_s2/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv14hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv14.png",SCTV14
-https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv14/index.m3u8
+https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e7.endpoint.cdn.sctvonline.vn/nginx.s11.edge.cdn.sctvonline.vn/live/smil:SCTV14.smil/chunklist_w180432183_b1692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv15hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv15.png",SCTV15
 https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV15.smil/chunklist_b1692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv16hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv16.png",SCTV16
@@ -531,8 +530,7 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/s1/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv17hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv17.png",SCTV17
 https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV17.smil/chunklist_b1692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv18hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv18.png",SCTV18
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv18/s1/index.m3u8
+https://vtsstr6.tv24.vn/live/SCTV18_HD_new.smil/chunklist_w1736013469_b2692000.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv19hd" tvg-logo="https://tchiphuong.github.io/iptv/images/sctv19.png",SCTV19
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv19/s1/index.m3u8
@@ -737,6 +735,29 @@ https://vtsstr7.tv24.vn/live/smil:Hollywood.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="woman" tvg-logo="http://img-zlr1.tv360.vn/image1/2020_09_23/1600822442611/f6b738c3d05a_640_360.png",Woman
 https://vtsstr7.tv24.vn/live/smil:Woman.smil/chunklist.m3u8
 
+#EXTINF:-1 group-title="Thể thao" tvg-id="Astro.SuperSport.UHD.1.my" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro Super Sport
+https://7pal.short.gy/astrouhd
+#EXTINF:-1 group-title="Thể thao" tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://tchiphuong.github.io/iptv/images/s-bt-sport-ultimate.png",BT Sport Ultimate
+https://7pal.short.gy/BTUltimate
+#EXTINF:-1 group-title="Thể thao" tvg-id="4k_DIGITAL_Mono.AR.bein" tvg-logo="https://www.cne-eg.com/uploads/logos/2021114237606.png",beIN
+https://7pal.short.gy/bein-uhd
+#EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-logo="https://broccoli.tvchannellists.com/images/f/f9/Eleven_Sports_1.png" group-title="Sports",ElevenSport1
+https://7pal.short.gy/11sports1
+#EXTINF:-1 group-title="Thể thao" tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png",HUB Premier 2
+https://7pal.short.gy/HubP2uhd
+#EXTINF:-1 group-title="Thể thao" tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch611_170_122",Now Sports
+https://7pal.short.gy/nowsport4k
+#EXTINF:-1 group-title="Thể thao" tvg-id="V.sport.ULTRA.HD.fi" tvg-logo="https://i.imgur.com/J2dnfBZ.png",V Sport Ultra HD
+https://7pal.short.gy/VSportUHD
+#EXTINF:-1 group-title="Thể thao" tvg-id="SkySpMainEv.uk" tvg-logo="https://tchiphuong.github.io/iptv/images/s-sky-sports-main-event.png",Sky Sports Main Event
+https://7pal.short.gy/SSMEuhd
+#EXTINF:-1 group-title="Thể thao" tvg-id="Skysportuhd.de" tvg-logo="https://i.imgur.com/GjCWhmb.png",Sky Sport UHD (DE-LiveEvent)
+https://7pal.short.gy/SkysportUHD-DE
+#EXTINF:-1 group-title="Thể thao" tvg-id="SkysportBundesliga.de" tvg-logo="https://i.imgur.com/gttWJNb.png",Sky Sport Bundesliga UHD (DE-LiveEvent)
+https://7pal.short.gy/SkysportBdlgUHD
+#EXTINF:-1 group-title="Thể thao" tvg-id="Digi.4K.ro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/DIGI_4K.jpg",Digi
+https://7pal.short.gy/digi4k
+
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-1-live.png",AR: Abu Dhabi Sport 1
 https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://www.tunisvista.com/medias/abu-dhabi-sports-2-live.png",AR: Abu Dhabi Sport 2
@@ -787,19 +808,19 @@ https://dai.google.com/linear/hls/event/smYybI_JToWaHzwoxSE9qA/master.m3u8
 https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8
 
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV1.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-1.png",[Trung Quốc] CCTV-1 综合
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240127_1/playlist.m3u8?CONTENTID=00000110240127_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV2.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-2.png",[Trung Quốc] CCTV-2 财经
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240244_1/playlist.m3u8?CONTENTID=00000110240244_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV3.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-3.png",[Trung Quốc] CCTV-3 综艺
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240245_1/playlist.m3u8?CONTENTID=00000110240245_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+https://node1.olelive.com:6443/live/CCTV3HD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV4America.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-4.png",[Trung Quốc] CCTV-4 中文国际
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240316_1/playlist.m3u8?CONTENTID=00000110240316_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+https://node1.olelive.com:6443/live/CCTV4HD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV4America.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-4.png",[Trung Quốc] CCTV-4 中文国际欧洲
 http://113.62.253.22/live.aishang.ctlcdn.com/00000110240363_1/playlist.m3u8?CONTENTID=00000110240363_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV5.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-5.png",[Trung Quốc] CCTV-5 体育
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240246_1/playlist.m3u8?CONTENTID=00000110240246_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV5Plus.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-5-plus.png",[Trung Quốc] CCTV-5+ 体育赛事
-http://113.62.253.22/live.aishang.ctlcdn.com/00000110240128_1/playlist.m3u8?CONTENTID=00000110240128_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
+https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV6.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-6.png",[Trung Quốc] CCTV-6 电影
 http://113.62.253.22/live.aishang.ctlcdn.com/00000110240247_1/playlist.m3u8?CONTENTID=00000110240247_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV7.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-7.png",[Trung Quốc] CCTV-7 国防军事
