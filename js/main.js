@@ -1,6 +1,35 @@
 $(function () {
+    $("#cbb-standings").select2({
+        data: [
+            {
+                id: "8dcpa3h5ct098c9huu7k5uqdw",
+                text: "Preimer League",
+            },
+            {
+                id: "a8ifoz43ajhzzk88ge6zkfb4k",
+                text: "La Liga",
+            },
+            {
+                id: "e6po7lgvknonuh9xpgl5v6ot0",
+                text: "Bundesliga",
+            },
+            {
+                id: "5kx8es834lfoc4o1n0r0spyc4",
+                text: "Serie A",
+            },
+            {
+                id: "1kgezxqe9mv80hcl0yk3my32s",
+                text: "League 1",
+            },
+        ],
+    });
+    $('[data-type="tab-control"]').each(function () {
+        if ($(this).attr("tab-show")) {
+            $(this).trigger("click");
+        }
+    });
     flatpickr("#date", {
-        locale: "en",
+        locale: "vn",
         dateFormat: "d/m/Y",
         altFormat: "d/m/Y",
         defaultDate: "today",
@@ -205,3 +234,33 @@ btn.on("click", function (e) {
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "300");
 });
+
+function activeTab(element) {
+    $(element)
+        .parent()
+        .find("button")
+        .each(function (i, e) {
+            $($(e).find("div")[0]).find("span").removeClass("font-bold");
+            $($(e).find("div")[0]).removeClass("bg-indigo-700");
+            $($(e).find("div")[1]).addClass("bg-white");
+            $($(e).find("div")[1]).removeClass("bg-indigo-700");
+            $(e).addClass("text-gray-600").removeClass("text-indigo-700");
+        });
+
+    $($(element).find("div")[1]).removeClass("bg-white");
+    $($(element).find("div")[1]).addClass("bg-indigo-700");
+    $($(element).find("div")[0]).find("span").addClass("font-bold");
+    $(element).addClass("text-indigo-700");
+
+    let tabid = $(element).attr("target-tab");
+    $('[data-type="tab-item"]').each(function () {
+        $(this).addClass("hide-tab");
+        $(this).removeClass("show-tab");
+        $(this).fadeOut();
+    });
+    setTimeout(() => {
+        $("#" + tabid).removeClass("hide-tab");
+        $("#" + tabid).addClass("show-tab");
+        $("#" + tabid).fadeIn();
+    }, 200);
+}
