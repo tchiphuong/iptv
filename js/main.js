@@ -1,28 +1,45 @@
 $(function () {
     $("#cbb-standings").select2({
+        templateResult: formatState,
         data: [
             {
-                id: "8dcpa3h5ct098c9huu7k5uqdw",
+                id: "3ddfd979-8e01-4fd9-87bd-038bf3ffe8cb",
                 text: "Preimer League",
+                logo: "https://futhead.cursecdn.com/static/img/23/leagues/13.png",
             },
             {
-                id: "a8ifoz43ajhzzk88ge6zkfb4k",
+                id: "1e51d4c9-c7bd-4bdb-894e-3a71e087dbf5",
                 text: "La Liga",
+                logo: "https://futhead.cursecdn.com/static/img/17/leagues/53.png",
             },
             {
-                id: "e6po7lgvknonuh9xpgl5v6ot0",
+                id: "5789d121-8e9b-4b5e-aa06-8957ec1ec49c",
                 text: "Bundesliga",
+                logo: "https://futhead.cursecdn.com/static/img/23/leagues/19.png",
             },
             {
-                id: "5kx8es834lfoc4o1n0r0spyc4",
+                id: "ae468c32-212b-4056-9c95-83c204d8d269",
                 text: "Serie A",
+                logo: "https://futhead.cursecdn.com/static/img/23/leagues/31.png",
             },
             {
-                id: "1kgezxqe9mv80hcl0yk3my32s",
+                id: "fa4b141c-cf9c-4fcf-a08c-ad8d03624ba4",
                 text: "League 1",
+                logo: "https://futhead.cursecdn.com/static/img/23/leagues/16.png",
+            },
+            {
+                id: "4c30b4f2-9e89-40dc-8b27-e08c98db233d",
+                text: "V League",
+                logo: "https://stvinaprod.vtvcab.vn/StockDesignOnTV/Logo%20gi%E1%BA%A3i%20%C4%91%E1%BA%A5u/V-League_1.png?auto=format&fit=max&w=96",
+            },
+            {
+                id: "268b85d8-f251-4e78-b295-71efe392bbf0",
+                text: "V League 2",
+                logo: "https://stvinaprod.vtvcab.vn/StockDesignOnTV/Logo%20gi%E1%BA%A3i%20%C4%91%E1%BA%A5u/V-League%202.png?auto=format&fit=max&w=96",
             },
         ],
     });
+
     $('[data-type="tab-control"]').each(function () {
         if ($(this).attr("tab-show")) {
             $(this).trigger("click");
@@ -49,6 +66,7 @@ $(function () {
     });
 
     $("#btn-search").trigger("click");
+    getStandings("3ddfd979-8e01-4fd9-87bd-038bf3ffe8cb");
 
     $(document).on("click", "button[data-type='btn-filter']", function () {
         $("#tournament")
@@ -70,7 +88,24 @@ $(function () {
             });
         }
     });
+
+    $(document).on("change", "#cbb-standings", function () {
+        getStandings($(this).val());
+    });
 });
+
+function formatState(state) {
+    if (!state.id) {
+        return state.text;
+    }
+    var $state = $(`
+        <div class="flex items-center">
+            <img class="h-10 w-10 object-contain" src="${state.logo}" />
+            <span class="px-3">${state.text}</span>
+        </div>`);
+    return $state;
+}
+
 function pad(n) {
     return n < 10 ? "0" + n : n;
 }
@@ -86,6 +121,61 @@ function sortObj(list, key) {
         return result;
     }
     return list.sort(compare);
+}
+
+function getStandings(league = null) {
+    let url = `https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/ranking?league_id=${league}`;
+    $.ajax({
+        type: "get",
+        url: url,
+        success: function (resp) {
+            $("#table-standings tbody").empty();
+            console.log(resp.data.ranks[0].team_ranks);
+            const response = resp.data.ranks[0].team_ranks;
+            $.each(response, function (i, e) {
+                let border = "border-white";
+                if (e.color == 0) {
+                    border = "border-blue-500";
+                } else if (e.color == 1) {
+                    border = "border-yellow-500";
+                } else if (e.color == 2) {
+                    border = "border-green-500";
+                } else if (e.color >= 3) {
+                    border = "border-red-500";
+                }
+                $("#table-standings tbody").append(`
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300">
+                <td scope="row" class="${border} border-l-4 border-5 px-2 text-center border-left-2">${e.team_rank}</td>
+                <th scope="row" class="py-4 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    <img class="h-5" src="${e.team_logo}" alt="">
+                    <span class="px-2">${e.team_name}</span>
+                </th>
+                <td class="py-4 px-3 text-center">
+                    ${e.total_count}
+                </td>
+                <td class="py-4 px-3 text-center">
+                    ${e.win_count}
+                </td>
+                <td class="py-4 px-3 text-center">
+                    ${e.draw_count}
+                </td>
+                <td class="py-4 px-3 text-center">
+                    ${e.lose_count}
+                </td>
+                <td class="py-4 px-3 text-center">
+                    ${e.goal_difference}
+                </td>
+                <td class="py-4 px-3 text-center">
+                    ${e.integral}
+                </td>
+            </tr>`);
+            });
+        },
+        error: function (res) {
+            swal("Oops", "Something went wrong!", "error");
+            console.log(res);
+        },
+    });
 }
 
 function getData(date = null) {

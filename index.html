@@ -25,14 +25,7 @@
 
 <body>
     <div class="flex flex-col pb-12">
-        <div class="p-4 grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-4 sticky top-0 bg-white z-30 border shadow">
-            <div class="flex items-end content-center gap-2">
-                <div class="w-full flex items-center gap-1">
-                    <label for="date" class="text-sm font-medium text-gray-900 dark:text-white">Date:</label>
-                    <input type="text" id="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
-                </div>
-                <button id="btn-search" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Search</button>
-            </div>
+        <div class="p-4 sticky top-0 bg-white z-30 border shadow">
             <div class="flex items-end content-center gap-2 col-span-2">
                 <div class="w-full ">
                     <div class="flex px-5 justify-center">
@@ -59,40 +52,68 @@
             </div>
         </div>
         <div class="container p-3 mx-auto flex-grow">
-            <div class="sm:hidden relative w-11/12 mx-auto bg-white dark:bg-gray-800  rounded">
-                <div class="absolute inset-0 m-auto mr-4 z-0 w-6 h-6">
-                    <img class="icon icon-tabler icon-tabler-selector" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/tabs-with-icons-svg1.svg" alt="selectors" />
-                </div>
-                <select aria-label="Selected tab" class="dark:text-white form-select block w-full p-3 border border-gray-300 rounded text-gray-600 appearance-none bg-transparent relative z-10">
-                    <option class="text-sm text-gray-600">inactive</option>
-                    <option class="text-sm text-gray-600">inactive</option>
-                    <option selected class="text-sm text-gray-600">Active</option>
-                    <option class="text-sm text-gray-600">inactive</option>
-                    <option class="text-sm text-gray-600">inactive</option>
-                </select>
-            </div>
-
             <div style="word-wrap: break-word; white-space: pre-wrap" id="console"></div>
             <div class="overflow-x-hidden">
                 <div id="fixtures" data-type="tab-item">
+                    <div class="flex items-end content-center gap-2">
+                        <div class="md:w-3/12">
+                            <label for="date" class="text-sm font-medium text-gray-900 dark:text-white">Date:</label>
+                            <input type="text" id="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                        </div>
+                        <button id="btn-search" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Search</button>
+                    </div>
                     <div id="featured" class="grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-3 md:gap-3 lg:gap-4"></div>
                     <div class="flex gap-2 my-3 py-1 overflow-x-auto" id="tournament">
                     </div>
                     <div id="match" class="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3 lg:gap-4"></div>
                 </div>
                 <div id="standings" data-type="tab-item" tab-show="true">
-                    <div class="flex items-center justify-center py-6">
-                        <div class="hidden">
-                            <div class="w-4/12">
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="w-full">
+                            <div class="md:w-3/12">
                                 <label for="cbb-standings" class="text-sm font-medium text-gray-900 dark:text-white">League:</label>
                                 <select id="cbb-standings" name="">
                                 </select>
                             </div>
-                            <div class="w-8/12">
-                            </div>
                         </div>
-                        <div class="flex items-center justify-center py-6">
-                            <img class="w-90" src="https://www.vippng.com/png/detail/14-141943_coming-soon-orange-banner-coming-soon-logo-png.png" alt="">
+                        <div class="flex items-center justify-center py-6 w-full">
+                            <div class="overflow-x-auto relative w-full">
+                                <table id="table-standings" class="w-full text-sm text-left text-gray-500 dark:text-gray-400 dark:border-gray-700">
+                                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                        <tr>
+                                            <th scope="col" class="py-3 px-3 text-center"></th>
+                                            <th scope="col" class="py-3 px-3 text-center"></th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">P</span>
+                                                <span class="hidden md:block">Played</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">W</span>
+                                                <span class="hidden md:block">Won</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">D</span>
+                                                <span class="hidden md:block">Drawn</span>
+                                            </th>
+
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">L</span>
+                                                <span class="hidden md:block">Lost</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">GD</span>
+                                                <span class="hidden md:block">Goals Diference</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">Pst</span>
+                                                <span class="hidden md:block">Points</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
