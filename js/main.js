@@ -130,7 +130,6 @@ function getStandings(league = null) {
         url: url,
         success: function (resp) {
             $("#table-standings tbody").empty();
-            console.log(resp.data.ranks[0].team_ranks);
             const response = resp.data.ranks[0].team_ranks;
             $.each(response, function (i, e) {
                 let border = "border-white";
