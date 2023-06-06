@@ -1,10 +1,13 @@
 #EXTM3U tvg-url="http://lichphatsong.xyz/schedule/epg.xml,https://7pal.short.gy/alex-epg" tvg-shift=0 m3uautoload=1
 
-#EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv1.png",VTV1
+#EXTINF:-1 group-title="VTV" group-logo="https://hanngutracviet.com/uploads/tai-lieu/temp_pic/dung/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv1.png",VTV1
+#EXTGRP:VTV
 https://k4dzr60ab.vtvgiaitri.vn/vtv01/vtv01@1080p.m3u8
-#EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv1.png",VTV1
+#EXTINF:-1 group-title="VTV" group-logo="https://hanngutracviet.com/uploads/tai-lieu/temp_pic/dung/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv1.png",VTV1
+#EXTGRP:VTV
 http://live-ali2.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
-#EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv1.png",VTV1
+#EXTINF:-1 group-title="VTV" group-logo="https://hanngutracviet.com/uploads/tai-lieu/temp_pic/dung/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv1.png",VTV1
+#EXTGRP:VTV
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv2.png",VTV2
 https://k4dzr60ab.vtvgiaitri.vn/vtv02/vtv02@1080p.m3u8
