@@ -54,7 +54,8 @@ https://k4dzr60ab.vtvgiaitri.vn/vtv09/vtv09@1080p.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtv9.png",VTV9
 https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/k-cine-hd.png",K+ CINE
+#EXTINF:-1 group-title="K+" group-logo="https://kplus-website-production-cdn.azureedge.net/content/upload/1/images-mkt/logo-kplus-rec.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/square/k-cine-hd.png",K+ CINE
+#EXTGRP:K+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeycinehd?key=20/2991888829/80keokeo
 https://hqth.me/kpluscinehd?id=kplus20/seasonid:2991/cine.mpd
@@ -398,7 +399,8 @@ https://obevcimanyd179314182.thapcam.link/live/phoSD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 11
 https://obevcimanyd179314182.thapcam.link/live/mySD/playlist.m3u8
 
-#EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtvcab1.png",VTVcab 1 | Vie Giải trí HD
+#EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREnMG0PBppQfatAxdOhDba7VlL2YTcdjEiUoJ3VvTw7uTLycxXq9d2e3wcoA2p4durbA&usqp=CAU" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vtvcab1.png",VTVcab 1 | Vie Giải trí HD
+#EXTGRP:VTVcab
 https://hqth.me/getlinkvieonvtvcab1?viegiaitri/id=392/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="VTVcab" tvg-logo="https://tchiphuong.github.io/iptv/images/square/on-phim-viet.png",VTVcab 2 | ON Phim Việt
 https://hqth.me/getlinkcliptvvtvcab2?onphimviet/id=821/chunklist_b5128000.m3u8
