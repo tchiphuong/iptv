@@ -312,71 +312,71 @@ http://live-ali4.tv360.vn/manifest/Su_Kien_3/playlist_1080p.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png",TV360+ 4 TV360
 http://live-ali4.tv360.vn/manifest/Su_Kien_4/playlist_1080p.m3u8
 
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 1
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 1
 https://obevcimanyd179314182.thapcam.link/live/may1FHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 2
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 2
 https://obevcimanyd179314182.thapcam.link/live/may2FHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 3
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 3
 https://obevcimanyd179314182.thapcam.link/live/may3FHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 4
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 4
 https://obevcimanyd179314182.thapcam.link/live/oldFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 5
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 5
 https://obevcimanyd179314182.thapcam.link/live/chaFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 6
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 6
 https://obevcimanyd179314182.thapcam.link/live/trauFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 7
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 7
 https://obevcimanyd179314182.thapcam.link/live/cuonFHD/chunklist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 8
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 8
 https://obevcimanyd179314182.thapcam.link/live/batFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 9
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 9
 https://obevcimanyd179314182.thapcam.link/live/nenFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 10
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 10
 https://obevcimanyd179314182.thapcam.link/live/phoFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 11
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 11
 https://obevcimanyd179314182.thapcam.link/live/myFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 1
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 1
 https://1123139281.cdn.khmer-hd.com/may1HD/chunks.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 2
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 2
 https://1123139281.cdn.khmer-hd.com/may2HD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 3
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 3
 https://1123139281.cdn.khmer-hd.com/may3HD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 4
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 4
 https://1123139281.cdn.khmer-hd.com/oldHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 5
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 5
 https://1123139281.cdn.khmer-hd.com/chaHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 6
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 6
 https://1123139281.cdn.khmer-hd.com/trauHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 7
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 7
 https://1123139281.cdn.khmer-hd.com/cuonHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 8
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 8
 https://1123139281.cdn.khmer-hd.com/batHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 9
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 9
 https://1123139281.cdn.khmer-hd.com/nenHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 10
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 10
 https://1123139281.cdn.khmer-hd.com/phoHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 11
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 11
 https://1123139281.cdn.khmer-hd.com/myHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 1
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 1
 https://obevcimanyd179314182.thapcam.link/live/may1SD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 2
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 2
 https://obevcimanyd179314182.thapcam.link/live/may2SD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 3
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 3
 https://obevcimanyd179314182.thapcam.link/live/may3SD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 4
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 4
 https://obevcimanyd179314182.thapcam.link/live/oldSD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 5
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 5
 https://obevcimanyd179314182.thapcam.link/live/chaFHD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 6
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 6
 https://obevcimanyd179314182.thapcam.link/live/trauSD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 7
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 7
 https://obevcimanyd179314182.thapcam.link/live/cuonSD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 8
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 8
 https://obevcimanyd179314182.thapcam.link/live/batSD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 9
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 9
 https://obevcimanyd179314182.thapcam.link/live/nenSD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 10
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 10
 https://obevcimanyd179314182.thapcam.link/live/phoSD/playlist.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/square/vebotv.png",VEBOtv 11
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 11
 https://obevcimanyd179314182.thapcam.link/live/mySD/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-1.png",VTVcab 1 | Vie Giải trí HD
