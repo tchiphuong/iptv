@@ -1,0 +1,90 @@
+{
+    "provider": {
+        "epg": "http://lichphatsong.xyz/schedule/epg.xml"
+    },
+    "categories": {
+        "VTV": {
+            "name": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/backgound/vtv.png"
+        }
+    },
+    "channels": [
+        {
+            "epg_id": "vtv1hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv1.png",
+            "name": "VTV1",
+            "url": "https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv2hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv2.png",
+            "name": "VTV2",
+            "url": "https://livecdn.fptplay.net/hda1/vtv2_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv3hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv3.png",
+            "name": "VTV3",
+            "url": "https://livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv4",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv4.png",
+            "name": "VTV4",
+            "url": "https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv5hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv5.png",
+            "name": "VTV5",
+            "url": "https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv5hdtnb",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv5-tay-nam-bo.png",
+            "name": "VTV5 Tây Nam Bộ",
+            "url": "https://api.vthanhtivi.pw/v2/getlink/mytv/615/hd.m3u8"
+        },
+        {
+            "epg_id": "vtv5hdtn",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv5-tay-nguyen.png",
+            "category": "VTV",
+            "name": "VTV5 Tây Nguyên",
+            "url": "https://api.vthanhtivi.pw/v2/getlink/vtv/vtv5tn/playlist.m3u8"
+        },
+        {
+            "epg_id": "vtv6hd",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv-can-tho.png",
+            "category": "VTV",
+            "name": "VTV Cần Thơ",
+            "url": "https://livecdn.fptplay.net/hda1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv7hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv7.png",
+            "name": "VTV7",
+            "url": "https://livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv8hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv8.png",
+            "name": "VTV8",
+            "url": "https://livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/chunklist_b5000000.m3u8"
+        },
+        {
+            "epg_id": "vtv9hd",
+            "category": "VTV",
+            "icon": "https://tchiphuong.github.io/iptv/images/vtv9.png",
+            "name": "VTV9",
+            "url": "https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8"
+        }
+    ]
+}
