@@ -352,4 +352,161 @@ function activeTab(element) {
         $("#" + tabid).addClass("show-tab");
         $("#" + tabid).fadeIn();
     }, 200);
+    if ($(element).attr("target-tab") === "highlights") {
+        getHighlights();
+    }
+}
+
+function getHighlights(page = 1) {
+    let url = `https://api.vebo.xyz/api/news/xoilac/list/highlight/${page}`;
+    $.ajax({
+        async: false,
+        url: url,
+        success: function (resp) {
+            $("#list-highlights").empty();
+            let url = `https://api.vebo.xyz/api/news/xoilac/detail/${resp.data.highlight.id}`;
+            $.ajax({
+                async: false,
+                url: url,
+                success: function (resp) {
+                    video_url = resp.data.video_url;
+                },
+                error: function (res) {
+                    swal("Oops", "Something went wrong!", "error");
+                    console.log(res);
+                },
+            });
+            if (resp.data.highlight) {
+                $("#first-highlights").html(`
+                    <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:items-start hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <img class="object-cover w-full rounded-t-lg md:h-auto w-full md:w-1/2 lg:w-4/12 md:rounded-none md:rounded-l-lg" src="${resp.data.highlight.feature_image}" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">${resp.data.highlight.name}</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">${resp.data.highlight.description}</p>
+                            <div>
+                                <a href="${video_url}" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    View
+                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `);
+            }
+            $.each(resp.data.list, function (i, e) {
+                let url = `https://api.vebo.xyz/api/news/xoilac/detail/${e.id}`;
+                let video_url = "";
+                $.ajax({
+                    async: false,
+                    url: url,
+                    success: function (resp) {
+                        video_url = resp.data.video_url;
+                    },
+                    error: function (res) {
+                        swal("Oops", "Something went wrong!", "error");
+                        console.log(res);
+                    },
+                });
+                $("#list-highlights").append(`
+                    <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="${e.feature_image}" alt="" />
+                        <div class="p-5">
+                            <span>
+                                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${e.name}">${e.name}</h5>
+                            </span>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">${e.description}</p>
+                            <a href="${video_url}" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                View
+                                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                `);
+            });
+            let length = resp.data.total / resp.data.limit;
+            var maxItem = 4;
+            $("#pagination").empty();
+            if (page > 1) {
+                $("#pagination").append(`
+                    <li>
+                        <a href="#" class="px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+                    </li>
+                `);
+            }
+            if (length <= maxItem * 2) {
+                for (let i = 0; i < length; i++) {
+                    if (page == i + 1) {
+                        $("#pagination").append(`
+                        <li>
+                            <a href="#" aria-current="page" class="px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">${i + 1}</a>
+                        </li>
+                    `);
+                    } else {
+                        $("#pagination").append(`
+                        <li>
+                            <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">${i + 1}</a>
+                        </li>
+                    `);
+                    }
+                }
+            } else {
+                let start = 0;
+                let end = maxItem;
+                if (length - page >= maxItem) {
+                    start = page - maxItem;
+                    end = maxItem < page ? page : maxItem;
+                }
+                for (let i = start; i < end; i++) {
+                    if (page == i + 1) {
+                        $("#pagination").append(`
+                        <li>
+                            <a href="#" aria-current="page" class="px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">${i + 1}</a>
+                        </li>
+                    `);
+                    } else {
+                        $("#pagination").append(`
+                        <li>
+                            <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">${i + 1}</a>
+                        </li>
+                    `);
+                    }
+                }
+                $("#pagination").append(`
+                <li>
+                    <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"> ... </a>
+                </li>
+            `);
+                for (let i = parseInt(length) - maxItem; i < length; i++) {
+                    if (page == i + 1) {
+                        $("#pagination").append(`
+                        <li>
+                            <a href="#" aria-current="page" class="px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">${i + 1}</a>
+                        </li>
+                    `);
+                    } else {
+                        $("#pagination").append(`
+                        <li>
+                            <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">${i + 1}</a>
+                        </li>
+                    `);
+                    }
+                }
+            }
+            if (page < length) {
+                $("#pagination").append(`
+                    <li>
+                        <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+                    </li>
+            `);
+            }
+        },
+        error: function (res) {
+            swal("Oops", "Something went wrong!", "error");
+            console.log(res);
+        },
+    });
 }
