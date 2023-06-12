@@ -1,4 +1,5 @@
-#EXTM3U tvg-url="http://lichphatsong.xyz/schedule/epg.xml,https://7pal.short.gy/alex-epg" tvg-shift=0 m3uautoload=1
+#EXTM3U tvg-url="http://lichphatsong.xyz/schedule/epg.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U tvg-url="https://7pal.short.gy/alex-epg" tvg-shift=0 m3uautoload=1
 
 #EXTINF:-1 group-title="VTV" group-logo="https://tchiphuong.github.io/iptv/images/background/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-1.png",VTV1
 https://k4dzr60ab.vtvgiaitri.vn/vtv01/vtv01@1080p.m3u8
