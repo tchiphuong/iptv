@@ -129,17 +129,18 @@ https://live-ali4.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="angiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-an-giang.png",TH An Giang
 https://livecdn.fptplay.net/sda/angiang_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="vungtau" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ba-ria-vung-tau.png",TH Bà Rịa - Vũng Tàu
-https://livecdn.fptplay.net/sdc/bariavungtau_2000.stream/chunklist.m3u8
+https://stream.brt.vn:8081/live/tv2.stream/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="bacgiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-bac-giang.png",TH Bắc Giang
-https://livecdn.fptplay.net/sdc/bacgiang_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/bgtvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="baclieu" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-bac-lieu.png",TH Bạc Liêu
-https://livecdn.fptplay.net/sdc/baclieu_hls.smil/chunklist_b2500000.m3u8
+https://tv.thbl.vn/live/tv/tv.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="bacninh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-bac-ninh.png",TH Bắc Ninh
-https://livecdn.fptplay.net/sdc/bacninh_2000.stream/chunklist.m3u8
+https://stream.thingnet.vn/live/smil:BTV.smil/chunklist_w387730748_b1384000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="bentre" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ben-tre.png",TH Bến Tre
 https://livecdn.fptplay.net/sdc/bentre_hls.smil/chunklist_b2500000.m3u8
+
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhdinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-dinh.png",TH Bình Định
-https://livecdn.fptplay.net/sda/binhdinh_hls.smil/chunklist_b2500000.m3u8
+http://truyenhinhbinhdinhonline.dynns.com:8086/live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhduong1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-duong-1.png",TH Bình Dương 1
 https://livecdn.fptplay.net/hda3/btv1_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhduong2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-duong-2.png",TH Bình Dương 2
@@ -157,23 +158,25 @@ https://livecdn.fptplay.net/sdc/btv9_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-duong-11.png",TH Bình Dương 11
 https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhphuoc1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-phuoc-1.png",TH Bình Phước 1
-https://livecdn.fptplay.net/sdc/binhphuoc1_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/bptvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhphuoc2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-phuoc-2.png",TH Bình Phước 2
-https://livecdn.fptplay.net/sdc/binhphuoc2_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/bptvlive/tv2live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhthuan" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-thuan.png",TH Bình Thuận
-https://livecdn.fptplay.net/sdc/binhthuan_hls.smil/chunklist_b1200000.m3u8
+http://202.43.109.144:1935/thbttv/bttv/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="camau" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ca-mau.png",TH Cà Mau
-https://livecdn.fptplay.net/sdc/camau_2000.stream/chunklist.m3u8
+http://tv.ctvcamau.vn/live/tv/tv.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="cantho" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-can-tho.png",TH Cần Thơ
-https://livecdn.fptplay.net/sda/cantho_2000.stream/chunklist.m3u8
+https://live.canthotv.vn/live/tv/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="caobang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-cao-bang.png",TH Cao Bằng
 https://livecdn.fptplay.net/sda/caobang_1000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="danang1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-da-nang-1.png",TH Đà Nẵng 1
-https://livecdn.fptplay.net/sdc/danang1_2000.stream/chunklist.m3u8
+http://drtdnglive.e49a7c38.cdnviet.com/livedrt1/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="danang2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-da-nang-2.png",TH Đà Nẵng 2
-https://livecdn.fptplay.net/sdc/danang2_2000.stream/chunklist.m3u8
+http://drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="daklak" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dak-lak.png",TH Đắk Lắk
-https://livecdn.fptplay.net/sdc/daklak_2000.stream/chunklist.m3u8
+http://103.90.220.236/drtlive/tv1live-transmux.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-id="daknong" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dak-lak.png",TH Đắk Nông
+https://ngvauezm51liv.vcdn.cloud/live/smil:daknong.smil/chunklist_b3128000_sleng.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="dienbien" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dien-bien.png",TH Điện Biên
 https://livecdn.fptplay.net/sdc/dienbien_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="dongnai1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-nai-1.png",TH Đồng Nai 1
@@ -181,15 +184,15 @@ https://livecdn.fptplay.net/sda/dongnai1_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="dongnai2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-nai-2.png",TH Đồng Nai 2
 https://livecdn.fptplay.net/sda/dongnai2_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="dongthap" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-thap.png",TH Đồng Tháp
-https://livecdn.fptplay.net/sdc/dongthap_2000.stream/chunklist.m3u8
+https://618b88f69e53b.streamlock.net/THDT/thdttv/chunklist_w1446285049.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-thap-2.png",TH Đồng Tháp 2
-http://202.43.109.145:1935/thdt2/thdt2/chunklist_w1048334863.m3u8
+http://202.43.109.145:1935/thdt2/thdt2/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="gialai" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-gia-lai.png",TH Gia Lai
 https://livecdn.fptplay.net/sda/gialai_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hagiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ha-giang.png",TH Hà Giang
 https://livecdn.fptplay.net/sda/hagiang_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hanam" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ha-nam.png",TH Hà Nam
-https://livecdn.fptplay.net/sda/hanam_2000.stream/chunklist.m3u8
+http://103.90.220.236/thhnlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hanoi1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ha-noi-1.png",TH Hà Nội 1
 https://cecex9g5cpliv.vcdn.cloud/capture/smil:HN1.smil/chunklist_w878389384_b3128000_slen.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hanoi2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ha-noi-2.png",TH Hà Nội 2
@@ -201,35 +204,37 @@ https://livecdn.fptplay.net/sdc/haiduong_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="haiphong" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hai-phong-hd.png",TH Hải Phòng
 https://livecdn.fptplay.net/sdc/haiphong_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="haugiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hau-giang.png",TH Hậu Giang
-https://livecdn.fptplay.net/sda/haugiang_2000.stream/chunklist.m3u8
+https://60acee235f4d5.streamlock.net/HGTV/d1/chunklist_w1285809548.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hoabinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hoa-binh.png",TH Hòa Bình
 https://livecdn.fptplay.net/sda/hoabinh_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hungyen" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hung-yen.png",TH Hưng Yên
-https://livecdn.fptplay.net/sdc/hungyen_2000.stream/chunklist.m3u8
+http://103.90.220.236/hytvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="khanhhoa" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-khanh-hoa.png",TH Khánh Hòa
 https://livecdn.fptplay.net/sda/khanhhoa_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="kiengiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-kien-giang.png",TH Kiên Giang
-https://livecdn.fptplay.net/sda/kiengiang_2000.stream/chunklist.m3u8
+https://tv.kgtv.vn/live/kgtv/kgtv.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-id="kiengiang1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-kien-giang.png",TH Kiên Giang
+https://tv.kgtv.vn/live/kgtv1/kgtv1.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="kontum" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-kon-tum.png",TH Kon Tum
-https://livecdn.fptplay.net/sdc/kontum_2000.stream/chunklist.m3u8
+https://tv.kontumtv.vn/live/kontumtv/kontumtv.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="lamdong" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-lam-dong.png",TH Lâm Đồng
-https://livecdn.fptplay.net/sdc/lamdong_hls.smil/chunklist_b2500000.m3u8?token=
+http://118.107.85.5:1935/live/smil:LTV.smil/chunklist_b1384000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="laichau" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-lai-chau.png",TH Lai Châu
 https://livecdn.fptplay.net/sdc/laichau_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="langson" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-lang-son.png",TH Lạng Sơn
-https://livecdn.fptplay.net/sdc/langson_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/lstvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="laocai" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-lao-cai.png",TH Lào Cai
-https://livecdn.fptplay.net/sdc/laocai_hls.smil/chunklist_b2500000.m3u8
+https://cdn.3ssoft.vn/livetv/laocaitv/laocaitv/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="longan" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-long-an.png",TH Long An
-https://livecdn.fptplay.net/sdc/longan_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/la34/tvlive-transmux.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="namdinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-nam-dinh.png",TH Nam Định
 https://livecdn.fptplay.net/sdc/namdinh_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="nghean" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-nghe-an.png",TH Nghệ An
-https://livecdn.fptplay.net/sda/nghean_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/natvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="ninhbinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ninh-binh.png",TH Ninh Bình
-https://livecdn.fptplay.net/sda/ninhbinh_2000.stream/chunklist.m3u8
+http://103.90.220.236/nbtvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="ninhthuan" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-ninh-thuan.png",TH Ninh Thuận
-https://livecdn.fptplay.net/sda/ninhthuan_hls.smil/chunklist_b2500000.m3u8
+https://60acee235f4d5.streamlock.net/live/mystream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="phutho" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-phu-tho.png",TH Phú Thọ
 https://livecdn.fptplay.net/sda/phutho_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-phu-yen.png",TH Phú Yên
@@ -241,37 +246,39 @@ https://livecdn.fptplay.net/sdc/quangnam_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="quangngai" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-quang-ngai.png",TH Quảng Ngãi
 https://livecdn.fptplay.net/sda/quangngai_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="quangninh1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-quang-ninh.png",TH Quảng Ninh 1
-https://livecdn.fptplay.net/sda/quangninh1_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/qtvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="quangninh3" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-quang-ninh.png",TH Quảng Ninh 3
-https://livecdn.fptplay.net/sda/quangninh3_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/qtvlive/tv3live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="quangtri" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-quang-tri.png",TH Quảng Trị
-https://livecdn.fptplay.net/sdc/quangtri_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/qrtvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="soctrang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-soc-trang-1.png",TH Sóc Trăng 1
 http://113.163.189.104:8135/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="soctrang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-soc-trang-2.png",TH Sóc Trăng 2
 http://113.163.189.104:8135/hls-live/livepkgr/_definst_/liveevent/livestreamstv2.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="sonla" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-son-la.png",TH Sơn La
-https://livecdn.fptplay.net/sdc/sonla_hls.smil/chunklist_b2500000.m3u8
+http://103.90.220.236/sltvlive/tv1live-transmux.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="tayninh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-tay-ninh.png",TH Tây Ninh
 https://livecdn.fptplay.net/sda/tayninhhd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="thaibinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-thai-binh.png",TH Thái Bình
-https://livecdn.fptplay.net/sda/thaibinh_2000.stream/chunklist.m3u8
+http://103.90.220.236/tbtvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="thainguyen" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-thai-nguyen.png",TH Thái Nguyên
-https://livecdn.fptplay.net/sdc/thainguyen_2000.stream/chunklist.m3u8
+http://103.90.220.236/tntvlive/tv1live.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="thanhhoa" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-thanh-hoa.png",TH Thanh Hóa
 https://livecdn.fptplay.net/sda/thanhhoa_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hue" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-thua-thien-hue.png",TH Thừa Thiên Huế
 https://livecdn.fptplay.net/sdc/hue_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="tiengiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-tien-giang.png",TH Tiền Giang
-https://livecdn.fptplay.net/sda/tiengiang_hls.smil/chunklist_b2500000.m3u8
+http://123.25.238.45:1935/live/thtg/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="travinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-tra-vinh.png",TH Trà Vinh
-https://livecdn.fptplay.net/sdc/travinh_1000.stream/chunklist.m3u8
+https://60acee235f4d5.streamlock.net:443/THTV/travinhtv/chunklist.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-id="travinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-tra-vinh.png",TH Trà Vinh 2
+https://618b88f69e53b.streamlock.net:443/THTV2/travinhtv2/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="tuyenquang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-tuyen-quang.png",TH Tuyên Quang
 https://livecdn.fptplay.net/sda/tuyenquang_2000.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhphuc" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-phuc.png",TH Vĩnh Phúc
-https://livecdn.fptplay.net/sdc/vinhphuc_hls.smil/chunklist_b2500000.m3u8
+http://vinhphuctv.vn:8090/vinhphuclive/web.stream/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="yenbai" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-yen-bai.png",TH Yên Bái
-https://livecdn.fptplay.net/sdc/yenbai_hls.smil/chunklist_b1200000.m3u8
+https://yenbaitv.org.vn/hls/livestream.m3u8
 
 #EXTINF:-1 tvg-name="801" group-title="Trực tiếp" tvg-logo="https://webapi.mytv.vn/static/channel/267.png?ver=19", MyTV 801 
 https://code.vthanhtivi.pw/getlink/mytv/267/hd.m3u8
@@ -361,20 +368,32 @@ https://obevcimanyd179314182.thapcam.link/live/phoSD/playlist.m3u8
 https://obevcimanyd179314182.thapcam.link/live/mySD/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-1.png",VTVcab 1 | Vie Giải trí HD
-https://hqth.me/getlinkvieonvtvcab1?viegiaitri/id=392/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/vie-giai-tri-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-1.png",VTVcab 1 | Vie Giải trí HD
 http://live.tv360.vn/manifest/VTVCab1_SPR/playlist_480p1p7.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-2.png",VTVcab 2 | ON Phim Việt
-https://hqth.me/getlinkcliptvvtvcab2?onphimviet/id=821/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/on-phim-viet/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="vtvcab3hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-3.png",VTVcab 3 | ON Sports
+https://code.vthanhtivi.pw/getlink/cliptv/on-sports/chunklist_b5128000.m3u8
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-3.png",VTVcab 3 | ON Sports
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://code.vthanhtivi.pw/keys/onplus/?id=s2-onsportshd
 https://hqth.me/Onsportsdrm?getkey27/secure=7USmu7MBLJw0mGLlo4v7aQ/manifest.mpd
+#EXTINF:-1 tvg-id="vtvcab3hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-3.png",VTVcab 3 | ON Sports
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaZ5qZpemk8KZmqyWnKOdlaJgYmJr&time=1687383570&mytv&id=onsports
+https://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv264&offset=1&nodelay=1
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-4.png",VTVcab 4 | ON Movies
 https://hqth.me/getlinkmytvtvcab4?onmovies/id=921/v5live.m3u8
 #EXTINF:-1 tvg-id="vtvcab5hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-5.png",VTVcab 5 | E Channel
 https://hqth.me/getlinkcliptvtvcab5?onechannel/id=362/chunklist_b5128000.m3u8
+#EXTINF:-1 tvg-id="vtvcab6hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-6.png",VTVcab 6 | ON Sports+
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZuaZ1qapajlMKZmqyWnKOdlaJgYmJr&time=1687287441&onplus&id=s2-onsportsplus
+https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/HAY_TV/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-6.png",VTVcab 6 | ON Sports+
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
