@@ -425,7 +425,7 @@ function getHighlights(page = 1) {
                         <div class="flex flex-col justify-between p-4 leading-normal">
                             <span>
                                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">${resp.data.highlight.name}</h5>
-                                <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${moment(resp.data.highlight.name.split("|")[2], "D.M.YY").format("DD/MM/YYYY")}</span>
+                                <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${moment(resp.data.highlight.created_at).format("DD/MM/YYYY")}</span>
                                 <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${resp.data.highlight.name.split("|")[1]}</span>
                             </span>
                             <p class="mb-3 font-xs italic text-gray-700 dark:text-gray-400">${resp.data.highlight.description}</p>
@@ -455,7 +455,7 @@ function getHighlights(page = 1) {
                                 <div class="px-4 py-3 flex flex-col grow">
                                     <span>
                                         <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${e.name}">${e.name.split("|")[0]}</h5>
-                                        <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${moment(e.name.split("|")[2], "D.M.YY").format("DD/MM/YYYY")}</span>
+                                        <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${moment(e.created_at).format("DD/MM/YYYY")}</span>
                                         <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${e.name.split("|")[1]}</span>
                                     </span>
                                     <p class="mb-3 font-xs italic text-gray-700 grow">${e.description}</p>
