@@ -63,6 +63,12 @@ https://hqth.me/getlinksctvvtv9?id9288199201/manifest:9/index.m3u8|Referer=http:
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/xfbpj7ykqsc2pvjm0fw8y/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=nzzxy3pdbk52iahjgxlcrndf9&mykplus&id=kcine
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/tiviba60/keycine.php
 https://tiemnhazunn.click/tv360/tv360.php?id=229
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
@@ -84,7 +90,13 @@ https://tiemnhazunn.click/tv360/tv360.php?id=230
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/tiviba60/keysport2.php
 https://tiemnhazunn.click/tv360/tv360.php?id=231
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS
-EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/0q9gn3vmksdn33jk6ap54/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=bv71hnts841p48gnj6rrl3ml6&mykplus&id=kkids
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/tiviba60/keykids.php 
@@ -501,6 +513,9 @@ https://code.vthanhtivi.pw/getlink/mytv/29/hd.m3u8
 https://code.vthanhtivi.pw/getlink/mytv/30/high.m3u8
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc12hd" tvg-logo="https://i.imgur.com/qAOy5Cd.png",VTC12
 https://code.vthanhtivi.pw/getlink/mytv/463/high.m3u8
+#EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc12hd" tvg-logo="https://i.imgur.com/qAOy5Cd.png",VTC12
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://tiemnhazunn.click/vieon/vieon.php?id=vtc12
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc13hd" tvg-logo="https://i.imgur.com/2RRt2M4.png",VTC13
 https://code.vthanhtivi.pw/getlink/mytv/184/hd.m3u8
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc14hd" tvg-logo="https://i.imgur.com/jlvmYDY.png",VTC14
@@ -801,6 +816,54 @@ https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/index.m3u
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
 #EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/s-dubai-sport.png",AR: Dubai Sport 3
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-premium-1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/n472po1641043581.png",Arena Sport 1 Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=134
+https://webudit.cdnhks.lol/lb/premium134/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-premium-2" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/7493e71641043605.png",Arena Sport 2 Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=135
+https://webudit.cdnhks.lol/lb/premium135/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-premium-3" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/0ucwh51641043618.png",Arena Sport 3 Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=139
+https://webudit.cdnhks.lol/lb/premium139/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-sport-1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/hd6nx11643205736.png",Arena Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=429
+https://webudit.cdnhks.lol/lb/premium429/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-sport-2" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/do4eok1643205747.png",Arena Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=430
+https://webudit.cdnhks.lol/lb/premium430/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-sport-3" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/nnqoda1643205755.png",Arena Sport 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=139
+https://webudit.cdnhks.lol/lb/premium139/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-sport-4" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/6oo0y71643205763.png",Arena Sport 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=432
+https://webudit.cdnhks.lol/lb/premium432/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/154_144.png",Astro SuperSport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=123
+https://webudit.cdnhks.lol/lb/premium123/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png",Astro SuperSport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=124
+https://webudit.cdnhks.lol/lb/premium124/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/164_144.png",Astro SuperSport 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=125
+https://webudit.cdnhks.lol/lb/premium125/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/241_144.png",Astro SuperSport 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=126
+https://webudit.cdnhks.lol/lb/premium126/index.m3u8
+#EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/455_144.png",Astro SuperSport 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=43
+https://webudit.cdnhks.lol/lb/premium43/index.m3u8
 #EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-sport-1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/hd6nx11643205736.png",Arena Sport 1
 #http://89.187.191.99:8080/arena1/index.m3u8?token=test
 #EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-id="arena-sport-2" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/do4eok1643205747.png",Arena Sport 2
