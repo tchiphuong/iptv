@@ -334,6 +334,8 @@ https://obevcimanyd179314182.thapcam.link/live/nenFHD/playlist.m3u8
 https://obevcimanyd179314182.thapcam.link/live/phoFHD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 11
 https://obevcimanyd179314182.thapcam.link/live/myFHD/playlist.m3u8
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 12
+https://obevcimanyd179314182.thapcam.link/live/soiFHD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 1
 https://1123139281.cdn.khmer-hd.com/may1HD/chunks.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 2
@@ -356,6 +358,8 @@ https://1123139281.cdn.khmer-hd.com/nenHD/playlist.m3u8
 https://1123139281.cdn.khmer-hd.com/phoHD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 11
 https://1123139281.cdn.khmer-hd.com/myHD/playlist.m3u8
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 12
+https://1123139281.cdn.khmer-hd.com/soiHD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 1
 https://obevcimanyd179314182.thapcam.link/live/may1SD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 2
@@ -378,6 +382,8 @@ https://obevcimanyd179314182.thapcam.link/live/nenSD/playlist.m3u8
 https://obevcimanyd179314182.thapcam.link/live/phoSD/playlist.m3u8
 #EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 11
 https://obevcimanyd179314182.thapcam.link/live/mySD/playlist.m3u8
+#EXTINF:-1 group-title="Trực tiếp" group-logo="https://tchiphuong.github.io/iptv/images/background/live.png" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vebotv.png",VEBOtv 12
+https://obevcimanyd179314182.thapcam.link/live/soiSD/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab-1.png",VTVcab 1 | Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
