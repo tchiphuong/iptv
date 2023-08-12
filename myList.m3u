@@ -101,13 +101,28 @@ https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/tiviba60/keykids.php 
 https://tiemnhazunn.click/tv360/tv360.php?id=307
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/qY-5duz9En-Qw9WFPlz4z171tS5bGJ5RzOVzD5dNSB_YxOb-YWbp2MBETw5SdeVr7inZsre24qxgPYuwXkBD9A/m3u8
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/YgGyGQYSYtdxIPveeDQu0mT7IGF7-ya1C6L1QnD8dBzk_s2dPBrKqEqa0GZ0O6OFOvjJUZMaao4D-E6dVIrYCQ/m3u8
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/M2tL6tBXIY6e_Nu_1H0pBexPWAdGUC6II7L5LQoQy3cle4XFpgL5okfpRp-YPP-3hcsF4-ICUHtFjL3BBXwy0A/m3u8
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/F6GFQTWJL7Nes1Yj9E0dYJtGHPzS3gXIpK-ZC7OZfd0RicmyqHJ_lAw8ikyTSTocukygv9XGNGwBs7w9UxQkjw/m3u8
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://vip-livecdn.khanggtivi.duckdns.org/play/rPEJy2Vz2ynvl1iWmkPcW6NbJVDRb35bwVgCSF2RuRtIzMtYdoav1HR5OfJ-f0VBaJwNrituHqZxtfKJIEE9KQ/m3u8
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-1.png",K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1920x1080,AUDIO="audiod"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.ifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/2i2pye2e2bmdf63ejhgpb/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=gt80pd8l5h4dyy21x1bibv122&mykplus&id=klive1
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/klive1/key.php
 https://vngvnpt.kplus.vn/bpk-tv/prod_klive1/default/i.mpd
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-2.png",K+ LIVE 2
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1920x1080,AUDIO="audiod"
@@ -115,7 +130,7 @@ https://vngvnpt.kplus.vn/bpk-tv/prod_klive1/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/vqes5bk569d3mbzgyorwr/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=py1gjrzeqvau7ajldbma1hh9j&mykplus&id=klive2
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/klive2/key.php
 https://vngvnpt.kplus.vn/bpk-tv/prod_klive2/default/i.mpd
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-3.png",K+ LIVE 3
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1920x1080,AUDIO="audiod"
@@ -123,7 +138,7 @@ https://vngvnpt.kplus.vn/bpk-tv/prod_klive2/default/i.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/hy495wclvc1kz4r0gzive/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=sdpgdh5lo0x3lldm5ry5j75dg&mykplus&id=klive3
+#KODIPROP:inputstream.adaptive.license_key=http://keys.khanggtivi.duckdns.org/key/klive3/key.php
 https://vngvnpt.kplus.vn/bpk-tv/prod_klive3/default/i.mpd
 
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
