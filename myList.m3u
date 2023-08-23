@@ -97,6 +97,8 @@ https://code.vthanhtivi.pw/getlink/tv360/207/auto.m3u8
 https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
 
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
+https://live2onsport.vtvcab.vn/dash/K_CINE_6965/m20_index.m3u8
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://khanggtivi.xyz/key/mytv/03.php
@@ -110,6 +112,8 @@ https://akavnpt.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/maicacong/keycine.php?id=13082023
 https://akaothers.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
+https://live2onsport.vtvcab.vn/dash/K_LIFE_6965/m20_index.m3u8
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -624,6 +628,8 @@ https://live2onsport.vtvcab.vn/dash/THETHAO_GOLF_HD/m30_index.m3u8
 https://hqth.me/ongolfkiptvvieon
 
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc1hd" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1
+https://liveh12.vtvcab.vn/hls/ONVTC1_CL/index.m3u8
+#EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc1hd" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1
 https://1117141481.vnns.net/vtc1_hd/chunks.m3u8
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc1hd" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1
 https://live-zlr1.tv360.vn/manifest/VTC1_HD/playlist_1080p.m3u8
@@ -631,6 +637,8 @@ https://live-zlr1.tv360.vn/manifest/VTC1_HD/playlist_1080p.m3u8
 https://1117141481.vnns.net/VTC2/chunks.m3u8
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc2" tvg-logo="https://i.imgur.com/1FccD2h.png",VTC2
 https://code.vthanhtivi.pw/getlink/mytv/20/high.m3u8
+#EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc3hd" tvg-logo="https://i.imgur.com/vemNwkI.png",VTC3
+https://live2onsport.vtvcab.vn/dash/VTC3/m20_index.m3u8
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc3hd" tvg-logo="https://i.imgur.com/vemNwkI.png",VTC3
 https://1117141481.vnns.net/VTC3/chunks.m3u8
 #EXTINF:-1 group-title="VTC" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-id="vtc3hd" tvg-logo="https://i.imgur.com/vemNwkI.png",VTC3
@@ -741,6 +749,8 @@ https://code.vthanhtivi.pw/getlink/vieon/htv9-hd/playlist.m3u8
 #EXTINF:-1 group-title="HTV" group-logo="https://tchiphuong.github.io/iptv/images/background/htvc.png" tvg-id="htv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-9.png",HTV9
 https://drm-livecdn.hplus.com.vn/htvonline/htv9hd.1080p.nimble.tms/playlist.m3u8
 #EXTINF:-1 group-title="HTV" group-logo="https://tchiphuong.github.io/iptv/images/background/htvc.png" tvg-id="htvthethaohd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-the-thao.png",HTV Thể Thao
+https://live2onsport.vtvcab.vn/dash/HTV_THETHAO_HD/m20_index.m3u8
+#EXTINF:-1 group-title="HTV" group-logo="https://tchiphuong.github.io/iptv/images/background/htvc.png" tvg-id="htvthethaohd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-the-thao.png",HTV Thể Thao
 https://drm-livecdn.hplus.com.vn/htvonline/htvthethaohd.1080p.nimble.tms/playlist.m3u8
 #EXTINF:-1 group-title="HTV" group-logo="https://tchiphuong.github.io/iptv/images/background/htvc.png" tvg-id="htvthethaohd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-the-thao.png",HTV Thể Thao
 https://live-zlr1.tv360.vn/manifest/HTV_The_Thao_HD-50fps/playlist_HTV-TheThao-HD-50fps-1080-65M.m3u8
@@ -814,11 +824,15 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv13/index.m3u8
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV14.smil/chunklist_b1692000.m3u8
 #EXTINF:-1 group-title="SCTV" group-logo="https://tchiphuong.github.io/iptv/images/background/sctv.png" tvg-id="sctv15hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-15.png",SCTV15
+https://live2onsport.vtvcab.vn/dash/SCTV15_HD/m20_index.m3u8
+#EXTINF:-1 group-title="SCTV" group-logo="https://tchiphuong.github.io/iptv/images/background/sctv.png" tvg-id="sctv15hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-15.png",SCTV15
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e7.endpoint.cdn.sctvonline.vn/live/SCTV15HD/chunklist.m3u8
 #EXTINF:-1 group-title="SCTV" group-logo="https://tchiphuong.github.io/iptv/images/background/sctv.png" tvg-id="sctv16hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-16.png",SCTV16
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/index.m3u8
+#EXTINF:-1 group-title="SCTV" group-logo="https://tchiphuong.github.io/iptv/images/background/sctv.png" tvg-id="sctv17hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-17.png",SCTV17
+https://live2onsport.vtvcab.vn/dash/SCTV17/m20_index.m3u8
 #EXTINF:-1 group-title="SCTV" group-logo="https://tchiphuong.github.io/iptv/images/background/sctv.png" tvg-id="sctv17hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-17.png",SCTV17
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV17.smil/chunklist_b1692000.m3u8
@@ -1205,6 +1219,11 @@ https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8
 #EXTINF:-1 group-title="ZDF (Germany VPN)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Phoenix_Logo_2018_ohne_Claim.svg/117px-Phoenix_Logo_2018_ohne_Claim.svg.png",Phoenix
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 
+#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/440px-KBS_1_logo.svg.png",🇰🇵🇰🇷 KBS 1
+http://mytv.dothome.co.kr/ch/public/1.php
+#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/1200px-KBS_2_logo.svg.png",🇰🇵🇰🇷 KBS 2
+http://mytv.dothome.co.kr/ch/public/3.php
+
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV1.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-1.png",🇨🇳 FYZQHD
 https://api.olelive.com/dis/live/FYZQHD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="CCTV1.cn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-1.png",🇨🇳 CCTV-1
@@ -1333,50 +1352,698 @@ https://api.olelive.com/dis/live/DFHD/hls.m3u8
 #http://ott.mobaibox.com/PLTV/3/224/3221227393/index.m3u8
 
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/14/72c22620-c5aa-11ea-a8d3-2b56c8ce453d_original.png",🇹🇭 ALTV
-#https://cdn6.goprimetime.info/feed/202205171929/ALTV/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/ALTV3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2022/02/18/e007f990-9082-11ec-9efa-2d434afe2b14_webp_320.png",🇹🇭 Amarin34
-#https://cdn6.goprimetime.info/feed/202205171929/chamarin/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chamarin3/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2023/01/30/0195e5f0-a067-11ed-9b64-f19515391136_webp_original.png",🇹🇭 CH3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/ch3hd3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2023/01/30/0195e5f0-a067-11ed-9b64-f19515391136_webp_original.png",🇹🇭 CH3
 http://appdootv2.dootvde.com:1935/live/50001_ch3.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/05/14/4c865391-192b-46a0-a31a-4f4d500b4e07_320.png",🇹🇭 CH5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/ch5hd3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/05/14/4c865391-192b-46a0-a31a-4f4d500b4e07_320.png",🇹🇭 CH5
 http://147.50.195.35:1935/tv5hdlive/tv5hdlive/chunklist_w1165795165.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/05/14/4c865391-192b-46a0-a31a-4f4d500b4e07_320.png",🇹🇭 CH5
 https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_w1587310136.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2023/01/30/22542950-a067-11ed-85be-e93fdfce46ab_webp_original.png",🇹🇭 CH7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/ch7hd3/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2023/01/30/22542950-a067-11ed-85be-e93fdfce46ab_webp_original.png",🇹🇭 CH7
 http://appdootv2.dootvde.com:1935/live/50003_ch7.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/02/26/ebe998c5-7d25-402b-ab70-46f1ad6dcc4e.png",🇹🇭 CH8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/ch83/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/02/26/ebe998c5-7d25-402b-ab70-46f1ad6dcc4e.png",🇹🇭 CH8
 http://appdootv2.dootvde.com:1935/live/50028_ch8.stream.smil/playlist.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/11/19/ed873d50-2a22-11eb-bed4-0972e345f90c_320.png",🇹🇭 GMM25
-#https://cdn6.goprimetime.info/feed/202205171929/chgmm/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chgmm3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2021/06/15/3e4e0540-cdb4-11eb-9a22-7958179a38a7_original.png",🇹🇭 JKN18
-#https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/newtv3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/16/482a2a27-3942-4356-8f12-4aec229badc6.png",🇹🇭 MCOT
-#https://cdn6.goprimetime.info/feed/202205171929/chmcothd/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chmcothd3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/10/35a35017-8473-4953-8474-5c58d805b74a.png",🇹🇭 MONO29
-#https://cdn6.goprimetime.info/feed/202205171929/chmono29/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chmono293/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/16/952c9806-c7db-42d0-9647-415a643375b3.png",🇹🇭 Nation TV
-#https://cdn6.goprimetime.info/feed/202205171929/chnation/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chnation3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/08/19/1ff76c00-e1f4-11ea-a0b4-232d08119930_320.png",🇹🇭 NBT2
-#https://cdn6.goprimetime.info/feed/202205171929/chnbt3/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chnbt3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://i.imgur.com/uKEFgGh.png",🇹🇭 New TV
 #https://cdn6.goprimetime.info/feed/202205171929/newtv/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/16/396384be-35dc-4d11-bf04-06c9546ec7bc.png",🇹🇭 ONE31
-#https://cdn6.goprimetime.info/feed/202205171929/chonehd/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chonehd3/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2021/01/23/2c564460-5d75-11eb-9b73-89c5b53fdd5d_320.png",🇹🇭 PPTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chpptvhd3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2021/01/23/2c564460-5d75-11eb-9b73-89c5b53fdd5d_320.png",🇹🇭 PPTV
 http://appdootv2.dootvde.com:1935/live/50026_pptv_hd.stream.smil/playlist.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/08/e341b740-c0e5-11ea-90d9-278915d663f4_320.png",🇹🇭 Thai PBS
 http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/03/15/8761bb82-f902-4372-8b9f-34b019d36fb7.png",🇹🇭 Thairath TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chthairath3/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/03/15/8761bb82-f902-4372-8b9f-34b019d36fb7.png",🇹🇭 Thairath TV
 https://streaming-web.thairath.co.th/hls/playlist_hi.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/06/15/799524c0-aec1-11ea-a6df-39e5f68ac856_original.png",🇹🇭 TNN16
-#https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chtnn3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2017/10/18/f1b957db-b175-45fc-ab2b-60150f9c570a.png",🇹🇭 TNN24
 #https://cdn6.goprimetime.info/feed/202205171929/chtnn/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/14/68c64410-c5e8-11ea-8513-fb8d321e2c29_original.png",🇹🇭 TPTV
-#https://cdn6.goprimetime.info/feed/202205171929/TPTV/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/TPTV/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/03/15/58ad8ef6-52ef-4609-a55b-9a18e8e89eec.png",🇹🇭 True 4U
-#https://cdn6.goprimetime.info/feed/202205171929/202105171329/chtrue4u/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chtrue4u3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2022/02/10/e00c0e00-8a3c-11ec-8f9e-831d2ccecc69_webp_320.png",🇹🇭 TSport7
-#https://cdn6.goprimetime.info/feed/202205171929/chtsport/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chtsport3/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/10/ac08e9d4-6e97-478f-9c29-fc8e851a8c89.png",🇹🇭 Workpoint TV
-#https://cdn6.goprimetime.info/feed/202205171929/chworkpoint/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/202306140918/chworkpoint3/index.m3u8
+
+
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/2515/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",Kanal 11 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7357/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SVT1 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7350/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SVT2 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7351/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SVTB/SVT24 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7352/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV12 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/7353/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",V Sport Football FHD
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/11110/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",V Sport Vinter FHD
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/11111/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE FOOTBALL HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12032/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE GOLF HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12033/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE HITS HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12034/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE HOKEY HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12035/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE LIVE 1 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12036/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE LIVE 2 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12037/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE LIVE 3 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12038/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE LIVE 4 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12039/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE LIVE 5 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12040/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE SERIES HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12041/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE STARTS HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12042/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",CARTOON NETWORK SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12043/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DISCOVERY SCIENCE SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12044/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DISNEY JUNIOR SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12045/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DISNEY XD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12046/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",EUROSPORT 1 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12047/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",EUROSPORT 2 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12048/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HORSE & COUNTRY HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12050/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",ID DISCOVERY SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12051/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",KANAL 5 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12052/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",KANAL 9 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12053/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",KUNSKAPSKANALEN HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12054/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",MTV SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12055/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NATIONAL GEOGRAPHICS HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12056/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NICK JUNIOR SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12057/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NICKELODEON SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12058/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NICKTOONS SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12059/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",Paramount Network HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12060/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SF-KANALEN SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12061/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SJUAN HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12062/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SVT 1 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12063/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SVTB  SVT 24 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12064/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TLC HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12065/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV 3 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12066/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV 4 GULD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12067/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV 6 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12068/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV 4 FILM SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12069/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV 4 FAKTA SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12070/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV 4 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12071/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT FILM HITS HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12072/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT SERIES HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12073/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT SPORT EXTRA HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12074/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT SPORT HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12075/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT SPORT FOOTBAL HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12076/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT SPORT GOLF HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12077/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",V Sport Vinter HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12078/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT SPORT PREMIUM HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12079/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT FILM ACTION HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12081/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT FILM PREMIER HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12082/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT FILM FAMILY SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12083/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT NATURE HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12084/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT EXPLORE HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12085/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",ATG LIVE SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12086/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",C MORE FIRST HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12087/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DI TV HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12088/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",EXPRESSEN TV HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12089/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HIMLEN SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12090/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",KANAL 10 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12091/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VÄSTMANLANDS TV HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12093/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HISTORY 2 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12095/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HISTORY HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12096/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",BOOMERANG SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12097/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",BBC EARTH HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12098/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",National Geographic SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12099/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV3 SPORT SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12100/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT HISTORY HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12101/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV8 SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12102/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TV10 HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12103/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIASAT MOTOR HD SE
+#EXTGRP:Швеция | Sweden
+http://b8cd878a.edmonst.net/iptv/W7VTKMR8TMMME5/12104/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",Sport 5 4K IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12277/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Keshet 12 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2329/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Reshet 13 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2330/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Channel 9 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2331/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Kan 11 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2332/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Disney Jr IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2333/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",TeenNick IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2334/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Nick Jr IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2337/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",hop IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2338/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Home Plus IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2339/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",ONE HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2340/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Sport 5 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2341/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes Israeli Cinema
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2342/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes DRAMA HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2343/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes DOCU HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2344/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes COMEDY HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2345/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes ACTION HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2346/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes Movies Comedy IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2348/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes Movies Kids IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2349/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes Movies Action IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2350/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes Movies Drama IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2351/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",SPORT 2 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2352/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Sport 1 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2353/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Hot HBO HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2354/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Good Life IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2355/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",HOT cinema 4 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2356/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",HOT cinema 1 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2357/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Discovery HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2358/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",ZOOM IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2359/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Hot Zone
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2360/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Travel Channel IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2361/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Sport 5+ Live HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2362/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Harutz Hadramot Haturkiyot
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2363/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Hot Luli
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2364/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Kids IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2365/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Junior IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2366/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",HOT 3
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2367/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Hop! Yaldut Israelit
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2368/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Channel 98 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2369/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Baby IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2370/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",HOT cinema 2 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2371/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",HOT cinema 3 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2372/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",ONE 2 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2373/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Channel 9 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2374/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Ego Total IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2376/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Food Network IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2377/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Health IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2378/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Entertainment IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2379/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Kan Elady
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2380/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Mekan 33
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2381/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Viva+ IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2382/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yaldut IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2383/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",i24 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2386/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",VIVA IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2387/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Sport 3 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2388/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Sport 4 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2389/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yamtihoni IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2390/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Sport 5 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/2391/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Yes Docu FHD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/7113/index.m3u8
+#EXTINF:0 tvg-rec=\"3\",Eurosport 2 HD
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/7203/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DISNEY JR IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12206/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",EGO TOTAL HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12207/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",EXTREME IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12208/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",FOOD CHANNE IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12209/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HEALTH CHANNEL HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12210/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HIDABRUT IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12211/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOP CHILDHOOD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12213/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT3 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12214/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT CINEMA 2 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12215/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT8 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12216/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT COMEDY CENTRAL HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12217/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT CINEMA 4 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12218/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT ENTERTAINMENT HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12219/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT CINEMA 3 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12220/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT ZONE HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12222/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HUMOR CHANNEL HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12223/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",LIFETIME HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12224/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",MAKAN HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12225/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",MUSIC 24 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12226/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NICK JR HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12228/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NICK HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12229/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",ONE 1 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12230/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",ONE 2 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12231/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",5 STARS HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12232/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIVA HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12233/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",VIVA+ IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12234/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YAM TIHONI HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12235/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",CHANNEL 12 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12236/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",KAN 11 IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12237/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",BABY TV IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12239/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",JUNIOR IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12240/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DISCOVERY CHANNEL HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12241/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",DISNEY CHANNEL HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12242/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",E! IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12243/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOP HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12244/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HOT CINEMA 1 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12245/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",LULI IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12246/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NATIONAL GEOGRAPHICS HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12247/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NET GEO_WILD HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12248/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SPORT 1 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12249/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SPORT 2 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12250/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SPORT 3 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12251/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SPORT 4 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12252/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SPORT 5 GOLD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12254/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",SPORT 5 LIVE HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12255/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES ISRAELI CINEMA IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12257/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES DOCU HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12258/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",NAT GEO WILD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12259/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",CHANNEL 13 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12260/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",Channel 14 HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12261/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",CHANNEL 24 MUSIC HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12262/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HALA TV IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12264/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",HISTORY HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12265/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",A+ HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12266/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",BOLLYWOOD HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12267/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",BOLLYSHOW HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12268/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",KNESET CHANNE IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12269/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES MOVIES ACTION HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12270/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES MOVIES COMEDY HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12271/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES MOVIES DRAMA HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12272/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES MOVIES KIDS HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12273/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",MTV MUSIC IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12274/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",STARS IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12278/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",TRAVEL CHANNEL IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12279/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES TV ACTION HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12280/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES TV COMEDY HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12281/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",YES TV DRAMA HD IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12282/index.m3u8
+#EXTINF:0 tvg-rec=\"0\",WIZ IL
+#EXTGRP:CHÂU ÂU
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12283/index.m3u8
