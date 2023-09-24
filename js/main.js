@@ -231,7 +231,9 @@ function getData(date = null) {
                 resp.data.filter((x) => x.sport_type == "football"),
                 "timestamp"
             );
-            text += `#EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml,https://iptvx.one/EPG" tvg-shift=0 m3uautoload=1` + "\n";
+            text += `#EXTM3U x-tvg-url="" tvg-shift=0 m3uautoload=1` + "\n<br>";
+
+            lstMatch = lstMatch.filter((x) => x.is_featured).concat(lstMatch.filter((x) => !x.is_featured));
 
             var array = lstMatch.map((x) => x.tournament.unique_tournament);
             var unique = [];
@@ -243,20 +245,13 @@ function getData(date = null) {
                         name: array[i].name,
                         logo: array[i].logo,
                         is_featured: array[i].is_featured,
+                        priority: array[i].priority,
                     });
                     unique[array[i].id] = 1;
                 }
             }
 
-            var lstTournament = sortObj(
-                distinct.filter((x) => x.is_featured),
-                "name"
-            ).concat(
-                sortObj(
-                    distinct.filter((x) => !x.is_featured),
-                    "name"
-                )
-            );
+            var lstTournament = sortObj(distinct.filter((x) => x.is_featured)).concat(sortObj(distinct.filter((x) => !x.is_featured)));
             $("#tournament").empty();
             if (lstTournament.length > 0) {
                 $("#tournament").append(`
@@ -273,7 +268,7 @@ function getData(date = null) {
                     `);
                 });
             }
-            $.each(lstMatch.filter((x) => x.is_featured).concat(lstMatch.filter((x) => !x.is_featured)), function (i, e) {
+            $.each(lstMatch, function (i, e) {
                 commentators = "";
                 var link = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="${e.tournament.logo}",${moment(e.date).format("DD/MM")} ${moment(e.timestamp).format("HH:mm")} ${e.name}`;
                 var hls = "new.m3u8";
@@ -306,13 +301,13 @@ function getData(date = null) {
                         async: false,
                         url: subUrl,
                         success: function (resp) {
-                            let lstQuality = ["nhà đài", "backup 1", "backup 2"];
+                            let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
                             $.each(resp.data.play_urls, function (si, se) {
                                 commentators = resp.data.commentators || [];
                                 commentators = commentators.map((x) => x.name);
                                 hls = se.url;
-                                text += `${link} [${se.name}]` + "\n";
-                                text += hls + "\n";
+                                text += `${link} [${se.name}]` + "\n<br>";
+                                text += hls + "\n<br>";
                                 hlsUrls.push({ url: se.url, quality: se.name });
                                 if (!lstQuality.includes(se.name.toLowerCase())) {
                                     htmlTemp += `<a href="${se.url}" target="_blank" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">${se.name}</a>`;
@@ -324,11 +319,12 @@ function getData(date = null) {
                         },
                     });
                 }
-                html = html.replaceAll(`@commentators_${e.id}`, `<div class="py-2">${commentators.length > 0 ? `<b>BLV: </b>${commentators}` : commentators}</div>`);
+                html = html.replaceAll(`@commentators_${e.id}`, `<div class="py-2">${commentators.length > 0 ? `<b>BLV: </b><span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${commentators}` : commentators}</span></div>`);
                 html += htmlTemp;
                 html += `</div></button>`;
             });
             $("#match").html(html);
+            //document.write(text);
             $.each(sortObj(sortObj(hlsUrls, "url"), "quality"), function (index, item) {
                 $("#test").append(`<div>
                     <div>#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv ${index + 1} [${item.quality}]</div>
