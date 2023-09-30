@@ -1,0 +1,25 @@
+{
+    "keys": [
+        {
+            "kty": "oct",
+            "k": "tBGJr2tlyxA+y+HnLVvcDw",
+            "kid": "MLkJByBGKX/LAuLoG6hsnQ"
+        },
+        {
+            "kty": "oct",
+            "k": "+UDoLTA6JZIdztyUYldzPw",
+            "kid": "eP0JByBGKX/LAuLoG6hsnQ"
+        },
+        {
+            "kty": "oct",
+            "k": "0Gv32aL/KPORXhaelqxJdg",
+            "kid": "hQFNOCBGKX/LAuLoG6hsnQ"
+        },
+        {
+            "kty": "oct",
+            "k": "oXqJxuFWzbe6ps8V9hermA",
+            "kid": "cQ5NUG9GKX/LAuLoG6hsnQ"
+        }
+    ],
+    "type": "temporary"
+}
