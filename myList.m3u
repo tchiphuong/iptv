@@ -101,15 +101,15 @@ http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 https://live-ali4.tv360.vn/manifest/VTV6_HD/playlist_720p.m3u8
 
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/kplus/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
+https://tchiphuong.github.io/iptv/channels/kplus/mykplus/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/kplus/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
+https://tchiphuong.github.io/iptv/channels/kplus/mykplus/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/kplus/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
+https://tchiphuong.github.io/iptv/channels/kplus/mykplus/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/kplus/jQELMwC5SKb1g0ddliDuAQ==.m3u8
+https://tchiphuong.github.io/iptv/channels/kplus/mykplus/jQELMwC5SKb1g0ddliDuAQ==.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/kplus/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
+https://tchiphuong.github.io/iptv/channels/kplus/mykplus/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [cliptv]
 https://tchiphuong.github.io/iptv/channels/kplus/cliptv/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
