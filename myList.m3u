@@ -101,26 +101,46 @@ http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 https://live-ali4.tv360.vn/manifest/VTV6_HD/playlist_720p.m3u8
 
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/mykplus/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
+http://vthanhtivi.pw:5000/kcine/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/mykplus/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
+http://vthanhtivi.pw:5000/klife/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/mykplus/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
+https://asia.vthanhtivi.pw/test/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/mykplus/jQELMwC5SKb1g0ddliDuAQ==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/jQELMwC5SKb1g0ddliDuAQ==.m3u8
+https://asia.vthanhtivi.pw/ksport2/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [mykplus]
-https://tchiphuong.github.io/iptv/channels/kplus/mykplus/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
+https://asia.vthanhtivi.pw/kkids/index.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [cliptv]
-https://tchiphuong.github.io/iptv/channels/kplus/cliptv/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
+https://asia.vthanhtivi.pw/kcine/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [cliptv]
-https://tchiphuong.github.io/iptv/channels/kplus/cliptv/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
+https://asia.vthanhtivi.pw/klife/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [cliptv]
-https://tchiphuong.github.io/iptv/channels/kplus/cliptv/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
+https://asia.vthanhtivi.pw/ksport1/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [cliptv]
-https://tchiphuong.github.io/iptv/channels/kplus/cliptv/jQELMwC5SKb1g0ddliDuAQ==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/jQELMwC5SKb1g0ddliDuAQ==.m3u8
+https://asia.vthanhtivi.pw/ksport2c/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [cliptv]
-https://tchiphuong.github.io/iptv/channels/kplus/cliptv/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
+#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
+https://asia.vthanhtivi.pw/kkidsc/index.m3u8
+
+#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
+http://103.82.26.118/live_restream/kcinehd/index.m3u8
+#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
+http://103.82.26.118/live_restream/klifehd/index.m3u8
+#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
+http://103.82.26.118/live_restream/ksport1hd/index.m3u8
+#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2
+http://103.82.26.118/live_restream/ksport2hd/index.m3u8
+
 
 #EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
 http://live.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
@@ -1095,7 +1115,7 @@ http://live-vnp.vthanhtivi.pw:18001/CARTOON_NETWORK_HD/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/cbeebies.php
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cbb.smil/manifest.mpd
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cinemaxhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cinemax.png",Cinemax
-http://live-vnp.vthanhtivi.pw:18001/CINEMAX/index.m3u8
+http://vthanhtivi.pw:5000/cinemax/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cinemaxhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cinemax.png",Cinemax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
@@ -1122,7 +1142,7 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/dw/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="france24eng" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-france-24.png",France 24
 https://code.vthanhtivi.pw/getlink/vieon2/france-24-english/playlist.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="hbohd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-hbo.png",HBO
-http://live-vnp.vthanhtivi.pw:18001/HBO/index.m3u8
+http://vthanhtivi.pw:5000/hbo/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="hbohd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-hbo.png",HBO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 https://code.vthanhtivi.pw/getlink/tvfree/hbo/playlist.m3u8
