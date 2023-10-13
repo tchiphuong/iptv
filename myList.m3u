@@ -1309,6 +1309,22 @@ https://webudit.cdnhks.lol/lb/premium43/index.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://image.xumo.com/v1/channels/channel/99991785/600x600.webp?type=color_onBlack",🇪🇸 beIN Sports XTRA ñ
 https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Eleven_Sports_1_Poland.png",🇵🇱 Eleven Sports 1
+https://kusnadipepenk.github.io/ntn/elesp1.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Eleven_Sports_2_Poland.png",🇵🇱 Eleven Sports 2
+https://kusnadipepenk.github.io/ntn/elesp2.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Eleven_Sports_3_Poland.png",🇵🇱 Eleven Sports 3
+https://kusnadipepenk.github.io/ntn/elesp3.m3u8
+
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/sqxxtw1470409111.png",🇵🇹 Sport TV 1
+https://kusnadipepenk.github.io/ntn/sprtv1.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/vpwuyu1470409212.png",🇵🇹 Sport TV 2
+https://kusnadipepenk.github.io/ntn/sprtv2.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/wwsuqv1470409839.png",🇵🇹 Sport TV 3
+https://kusnadipepenk.github.io/ntn/sprtv3.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/vuytwx1470409983.png",🇵🇹 Sport TV 4
+https://kusnadipepenk.github.io/ntn/sprtv4.m3u8
+
 // #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png",🇸🇬 Hub Premier 1 FHD
 // http://xc.tvset.top:80/NOWSPORTS/VydedefZCKv7/126877
 // #EXTINF:-1 group-title="Thể thao" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png",🇸🇬 Hub Premier 2 4K
