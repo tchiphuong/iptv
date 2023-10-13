@@ -85,35 +85,25 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtv8/index.m3u8|Referer=http://sctvonl
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8|Referer=http://sctvonline.vn/
 
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [mykplus]
-#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
 http://vthanhtivi.pw:5000/kcine/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [mykplus]
-#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
 http://vthanhtivi.pw:5000/klife/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [mykplus]
-#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
 https://asia.vthanhtivi.pw/test/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [mykplus]
-#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/jQELMwC5SKb1g0ddliDuAQ==.m3u8
 https://asia.vthanhtivi.pw/ksport2/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [mykplus]
-#https://tchiphuong.github.io/iptv/channels/kplus/mykplus/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
 https://asia.vthanhtivi.pw/kkids/index.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [cliptv]
-#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/LEpM9Y9bsKVe0MLrTrCSDA==.m3u8
 https://asia.vthanhtivi.pw/kcine/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [cliptv]
-#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/EqtWvQ5JUtNYei3fmBuVfQ==.m3u8
 https://asia.vthanhtivi.pw/klife/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [cliptv]
-#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/hfnSS7WyRVmT6siDpIQH3Q==.m3u8
 https://asia.vthanhtivi.pw/ksport1/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [cliptv]
-#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/jQELMwC5SKb1g0ddliDuAQ==.m3u8
 https://asia.vthanhtivi.pw/ksport2c/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [cliptv]
-#https://tchiphuong.github.io/iptv/channels/kplus/cliptv/GqyaluOWWHPGKnZo2ZlS1Q==.m3u8
 https://asia.vthanhtivi.pw/kkidsc/index.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
