@@ -84,37 +84,14 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtv8/index.m3u8|Referer=http://sctvonl
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [mykplus]
-http://vthanhtivi.pw:5000/kcine/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [mykplus]
-http://vthanhtivi.pw:5000/klife/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [mykplus]
-https://asia.vthanhtivi.pw/test/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [mykplus]
-https://asia.vthanhtivi.pw/ksport2/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [mykplus]
-https://asia.vthanhtivi.pw/kkids/index.m3u8
-
-#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE [cliptv]
-https://asia.vthanhtivi.pw/kcine/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE [cliptv]
-https://asia.vthanhtivi.pw/klife/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1 [cliptv]
-https://asia.vthanhtivi.pw/ksport1/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2 [cliptv]
-https://asia.vthanhtivi.pw/ksport2c/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS [cliptv]
-https://asia.vthanhtivi.pw/kkidsc/index.m3u8
-
+#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-action.png",K+ ACTION
+http://103.82.26.118/live_restream/klifehd/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
 http://103.82.26.118/live_restream/kcinehd/index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="klifehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-life.png",K+ LIFE
-http://103.82.26.118/live_restream/klifehd/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
 http://103.82.26.118/live_restream/ksport1hd/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2
 http://103.82.26.118/live_restream/ksport2hd/index.m3u8
-
 
 #EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
 http://live.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
