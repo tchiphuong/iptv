@@ -86,31 +86,31 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8|Referer=http://sctvonl
 
 #EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kaction" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-action.png",K+ ACTION
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/52/index.m3u8
+http://103.166.184.82/cloud/stream/52/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/51/index.m3u8
+http://103.166.184.82/cloud/stream/51/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png", K+ KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/6/index.m3u8
+http://103.166.184.82/cloud/stream/6/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/45/index.m3u8
+http://103.166.184.82/cloud/stream/45/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
 http://103.82.26.118/live_restream/ksport1hd/index.m3u8
 #EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/46/index.m3u8
+http://103.166.184.82/cloud/stream/46/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="klive1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-1.png", K+ LIVE 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/47/index.m3u8
+http://103.166.184.82/cloud/stream/47/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="klive2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-2.png", K+ LIVE 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/48/index.m3u8
+http://103.166.184.82/cloud/stream/48/index.m3u8?username=khangtv&password=khangtv
 #EXTINF:-1 group-title="K+" tvg-id="klive3" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-live-3.png", K+ LIVE 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36
-http://103.166.184.82/cloud/stream/49/index.m3u8
+http://103.166.184.82/cloud/stream/49/index.m3u8?username=khangtv&password=khangtv
 
 #EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
