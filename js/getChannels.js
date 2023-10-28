@@ -9080,14 +9080,6 @@ $(function () {
                     </div>
                 `);
                 if (element.channels) {
-                    console.log(
-                        1,
-                        element.group
-                            .toLowerCase()
-                            .replace(/[^a-zA-Z0-9]/g, "")
-                            .trim()
-                    );
-
                     $(
                         `#list-channels-${element.group
                             .toLowerCase()
@@ -9096,9 +9088,6 @@ $(function () {
                     ).empty();
 
                     for (const object of element.channels) {
-                        if (element.group == "K+") {
-                            console.log(object);
-                        }
                         if (object.url) {
                             $(
                                 `#list-channels-${element.group
@@ -9107,7 +9096,7 @@ $(function () {
                                     .trim()}`
                             ).append(`
                                 <a class="bg-white border border-gray-200 rounded-lg shadow flex flex-col" href="${object.url}" target="_blank">
-                                    <img class="rounded-t-lg object-cover" src="${object.tvgLogo}" alt="${object.name}" style="aspect-ratio: 16/9;">
+                                    <img class="rounded-t-lg object-contain" src="${object.tvgLogo}" alt="${object.name}" style="aspect-ratio: 16/9;">
                                     <div class="p-4">
                                     <span class="text-lg font-bold">${object.name}</span>
                                     </div>
@@ -9186,6 +9175,5 @@ function groupByGroupTitle(objects) {
             groups.push({ group: groupTitle, channels: [object] });
         }
     }
-    console.log(groups);
     return groups;
 }
