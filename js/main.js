@@ -357,29 +357,20 @@ function activeTab(element) {
         .parent()
         .find("button")
         .each(function (i, e) {
-            $($(e).find("div")[0]).find("span").removeClass("font-bold");
-            $($(e).find("div")[0]).removeClass("bg-indigo-700");
-            $($(e).find("div")[1]).addClass("bg-white");
-            $($(e).find("div")[1]).removeClass("bg-indigo-700");
-            $(e).addClass("text-gray-600").removeClass("text-indigo-700");
+            if (e == element) {
+                $(e).removeClass("text-gray-700 bg-white").addClass("text-white bg-indigo-700").find("span").addClass("text-white font-bold").removeClass("text-gray-700");
+            } else {
+                $(e).addClass("text-gray-700 bg-white").removeClass("text-white bg-indigo-700").find("span").removeClass("text-white font-bold").addClass("text-gray-700");
+            }
         });
-
-    $($(element).find("div")[1]).removeClass("bg-white");
-    $($(element).find("div")[1]).addClass("bg-indigo-700");
-    $($(element).find("div")[0]).find("span").addClass("font-bold");
-    $(element).addClass("text-indigo-700");
 
     let tabid = $(element).attr("target-tab");
     $('[data-type="tab-item"]').each(function () {
-        $(this).addClass("hide-tab");
-        $(this).removeClass("show-tab");
-        $(this).fadeOut();
+        $(this).hide(ShowLoading());
     });
     setTimeout(() => {
-        $("#" + tabid).removeClass("hide-tab");
-        $("#" + tabid).addClass("show-tab");
-        $("#" + tabid).fadeIn();
-    }, 200);
+        $("#" + tabid).show(CloseLoading());
+    }, 50);
     if ($(element).attr("target-tab") === "highlights") {
         getHighlights();
     }

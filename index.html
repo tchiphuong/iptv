@@ -17,44 +17,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/clappr.min.js"></script>
+    <!-- <script src="js/clappr.min.js"></script>
     <script src="js/level-selector.min.js"></script>
     <script src="js/clappr-pip.min.js"></script>
-    <script src="js/dash-shaka-playback.js"></script>
+    <script src="js/dash-shaka-playback.js"></script> -->
 </head>
 
 <body>
     <div class="flex flex-col pb-12">
-        <div class="p-4 sticky top-0 bg-white z-30 border shadow">
-            <div class="flex items-end content-center gap-2 col-span-2">
-                <div class="w-full ">
-                    <div class="flex px-5 justify-center">
-                        <button data-type="tab-control" target-tab="fixtures" tab-show="true" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 dark:focus:text-indigo-400 text-sm border-indigo-700 pt-3 rounded-t text-indigo-700 dark:text-indigo-400 px-6 cursor-pointer">
-                            <div class="flex items-center mb-3">
-                                <span class="ml-1 font-normal">Fixtures</span>
-                            </div>
-                            <div class="w-full h-1 bg-indigo-700 rounded-t-md"></div>
-                        </button>
-                        <button data-type="tab-control" target-tab="standings" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 dark:focus:text-indigo-400 text-sm border-indigo-700 pt-3 rounded-t text-gray-600 px-6 hover:text-indigo-700 dark:hover:text-indigo-400 dark:text-indigo-400 cursor-pointer">
-                            <div class="flex items-center mb-3">
-                                <span class="ml-1 font-normal">Standings</span>
-                            </div>
-                            <div class="w-full h-1 bg-white rounded-t-md"></div>
-                        </button>
-                        <button data-type="tab-control" target-tab="highlights" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 dark:focus:text-indigo-400 text-sm border-indigo-700 pt-3 rounded-t text-gray-600 px-6 hover:text-indigo-700 dark:hover:text-indigo-400 dark:text-indigo-400 cursor-pointer">
-                            <div class="flex items-center mb-3">
-                                <span class="ml-1 font-normal">Highlights</span>
-                            </div>
-                            <div class="w-full h-1 bg-white rounded-t-md"></div>
-                        </button>
-                        <button data-type="tab-control" target-tab="live-channels" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 dark:focus:text-indigo-400 text-sm border-indigo-700 pt-3 rounded-t text-gray-600 px-6 hover:text-indigo-700 dark:hover:text-indigo-400 dark:text-indigo-400 cursor-pointer">
-                            <div class="flex items-center mb-3">
-                                <span class="ml-1 font-normal">Live Channels</span>
-                            </div>
-                            <div class="w-full h-1 bg-white rounded-t-md"></div>
-                        </button>
+        <div class="sticky top-0 bg-white z-30 border shadow">
+            <div class="flex px-5 pt-2 border-b-2 border-indigo-700">
+                <button data-type="tab-control" target-tab="fixtures" tab-show="true" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+                    <div class="flex items-center mb-3">
+                        <span class="ml-1 font-normal">Fixtures</span>
                     </div>
-                </div>
+                </button>
+                <button data-type="tab-control" target-tab="standings" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+                    <div class="flex items-center mb-3">
+                        <span class="ml-1 font-normal">Standings</span>
+                    </div>
+                </button>
+                <button data-type="tab-control" target-tab="highlights" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+                    <div class="flex items-center mb-3">
+                        <span class="ml-1 font-normal">Highlights</span>
+                    </div>
+                </button>
+                <button data-type="tab-control" target-tab="live-channels" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+                    <div class="flex items-center mb-3">
+                        <span class="ml-1 font-normal">Live Channels</span>
+                    </div>
+                </button>
             </div>
         </div>
         <div class="container p-3 mx-auto flex-grow">
@@ -96,7 +88,7 @@
                         <ul id="pagination" class="inline-flex items-center -space-x-px"></ul>
                     </div>
                 </div>
-                <div id="live-channels">
+                <div id="live-channels" data-type="tab-item">
                 </div>
             </div>
         </div>
