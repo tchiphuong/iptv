@@ -129,6 +129,7 @@ function getStandings(league = null) {
     let url = `https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/ranking?league_id=${league}`;
     var standings = "";
     $.ajax({
+        async: false,
         type: "get",
         url: url,
         success: function (resp) {
@@ -236,6 +237,9 @@ function getData(date = null, live = false) {
     $.ajax({
         url: url,
         async: false,
+        beforeSend: function () {
+            ShowLoading();
+        },
         success: function (resp) {
             if (resp.data.length == 0) {
                 html = `<div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
@@ -317,6 +321,9 @@ function getData(date = null, live = false) {
                     $.ajax({
                         async: false,
                         url: subUrl,
+                        beforeSend: function () {
+                            ShowLoading();
+                        },
                         success: function (resp) {
                             let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
                             $.each(resp.data.play_urls, function (si, se) {
@@ -331,7 +338,11 @@ function getData(date = null, live = false) {
                                 }
                             });
                         },
+                        complete: function (m) {
+                            CloseLoading();
+                        },
                         error: function (res) {
+                            CloseLoading();
                             swal("Oops", "Something went wrong!", "error");
                         },
                     });
@@ -350,7 +361,11 @@ function getData(date = null, live = false) {
                     </div>`);
             });
         },
+        complete: function (m) {
+            CloseLoading();
+        },
         error: function (res) {
+            CloseLoading();
             swal("Oops", "Something went wrong!", "error");
         },
     });
@@ -449,6 +464,7 @@ function getHighlights(page = 1) {
             $.each(resp.data.list, function (i, e) {
                 let url = `https://api.vebo.xyz/api/news/xoilac/detail/${e.id}`;
                 $.ajax({
+                    async: false,
                     url: url,
                     beforeSend: function () {
                         ShowLoading();
