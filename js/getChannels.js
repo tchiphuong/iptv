@@ -9050,18 +9050,28 @@ var targetURL = "https://www.antmediatv.xyz/";
 var url = "https://cors-anywhere.herokuapp.com/" + targetURL;
 
 $(function () {
-    $.ajax({
-        url: targetURL,
-        method: "GET",
-        dataType: "text",
-        success: function (text) {
-            textResponse = text;
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-            console.error("Lỗi: " + errorThrown);
-        },
-    });
+    textResponse = "";
+    var dateObj = new Date();
+    var month = dateObj.getMonth() + 1; //months from 1-12
+    var day = dateObj.getDate();
+    var year = dateObj.getFullYear();
+    var dateLink = `${year}${pad(month)}${pad(day)}`;
+    if (~~localStorage.date < ~~dateLink) {
+        localStorage.date = dateLink;
+        $.ajax({
+            url: targetURL,
+            method: "GET",
+            dataType: "text",
+            success: function (text) {
+                localStorage.content = text;
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.error("Lỗi: " + errorThrown);
+            },
+        });
+    }
 
+    textResponse = localStorage.content;
     var lstExcludes = ["info", "update"];
     itemList = groupByGroupTitle(parseM3U(textResponse));
     $("#live-channels").empty();
