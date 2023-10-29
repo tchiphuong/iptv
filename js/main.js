@@ -52,7 +52,7 @@ $(function () {
 
     $("#btn-search").on("click", function () {
         var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-        getData(date);
+        getData(date, true);
     });
 
     $("#btn-search").trigger("click");
@@ -62,9 +62,9 @@ $(function () {
         $("#tournament")
             .find("button[data-type='btn-filter']")
             .each(function () {
-                $(this).removeClass("bg-blue-700 text-white");
+                $(this).removeClass("bg-blue-700 text-white active");
             });
-        $(this).addClass("bg-blue-700 text-white");
+        $(this).addClass("bg-blue-700 text-white active");
         const id = $(this).attr("id");
         $(`button[data-type="match"]`).each(function () {
             $(this).addClass("invisible opaciy-0 hidden");
@@ -82,6 +82,18 @@ $(function () {
     $(document).on("change", "#cbb-standings", function () {
         getStandings($(this).val());
     });
+
+    setInterval(function () {
+        var dateObj = new Date();
+        var month = dateObj.getMonth() + 1; //months from 1-12
+        var day = dateObj.getDate();
+        var year = dateObj.getFullYear();
+        var dateLink = `${year}${pad(month)}${pad(day)}`;
+        var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
+        if (date == dateLink) {
+            getData(dateLink, false);
+        }
+    }, 1000);
 });
 
 function formatState(state) {
@@ -203,8 +215,10 @@ function getStandings(league = null) {
     });
 }
 
-function getData(date = null) {
-    $("#all").trigger("click");
+function getData(date = null, live = false) {
+    if (live) {
+        $("#all").trigger("click");
+    }
     var text = "";
     var html = "";
     var htmlTemp = "";
@@ -221,6 +235,7 @@ function getData(date = null) {
     }
     $.ajax({
         url: url,
+        async: false,
         success: function (resp) {
             if (resp.data.length == 0) {
                 html = `<div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
@@ -250,23 +265,24 @@ function getData(date = null) {
                     unique[array[i].id] = 1;
                 }
             }
-
-            var lstTournament = sortObj(distinct.filter((x) => x.is_featured)).concat(sortObj(distinct.filter((x) => !x.is_featured)));
-            $("#tournament").empty();
-            if (lstTournament.length > 0) {
-                $("#tournament").append(`
-                <button data-type="btn-filter" id="all" type="button" class="bg-blue-700 text-white flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
-                <div class="whitespace-nowrap">All</div>
-                </button>
-                `);
-                $.each(lstTournament, function (i, e) {
+            if (live) {
+                var lstTournament = sortObj(distinct.filter((x) => x.is_featured)).concat(sortObj(distinct.filter((x) => !x.is_featured)));
+                $("#tournament").empty();
+                if (lstTournament.length > 0) {
                     $("#tournament").append(`
-                    <button data-type="btn-filter" id="${e.id}" type="button" class="flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
-                    <img src="${e.logo}" class="object-contain" style="width: 30px; height: 30px;" alt="">
-                    <div class="whitespace-nowrap pr-2">${e.name}</div>
-                    </button>
+                        <button data-type="btn-filter" id="all" type="button" class="bg-blue-700 text-white flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
+                            <div class="whitespace-nowrap">All</div>
+                        </button>
                     `);
-                });
+                    $.each(lstTournament, function (i, e) {
+                        $("#tournament").append(`
+                            <button data-type="btn-filter" id="${e.id}" type="button" class="flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
+                                <img src="${e.logo}" class="object-contain" style="width: 30px; height: 30px;" alt="">
+                                <div class="whitespace-nowrap pr-2">${e.name}</div>
+                            </button>
+                        `);
+                    });
+                }
             }
             $.each(lstMatch, function (i, e) {
                 commentators = "";
@@ -296,6 +312,7 @@ function getData(date = null) {
                             </div>
                         <div>@commentators_${e.id}</div>
                         <div class="flex gap-1 justify-center items-center flex-wrap">`;
+                commentators = (e.commentators && e.commentators.map((x) => x.name).join("; ")) || [];
                 if (e.is_live) {
                     $.ajax({
                         async: false,
@@ -304,7 +321,7 @@ function getData(date = null) {
                             let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
                             $.each(resp.data.play_urls, function (si, se) {
                                 commentators = resp.data.commentators || [];
-                                commentators = commentators.map((x) => x.name);
+                                commentators = commentators.map((x) => x.name).join("; ");
                                 hls = se.url;
                                 text += `${link} [${se.name}]` + "\n<br>";
                                 text += hls + "\n<br>";
@@ -319,11 +336,12 @@ function getData(date = null) {
                         },
                     });
                 }
-                html = html.replaceAll(`@commentators_${e.id}`, `<div class="py-2">${commentators.length > 0 ? `<b>BLV: </b><span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${commentators}` : commentators}</span></div>`);
+                html = html.replaceAll(`@commentators_${e.id}`, `<div class="py-2">${commentators && commentators.length > 0 ? `<b>BLV: </b><span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${commentators}` : commentators}</span></div>`);
                 html += htmlTemp;
                 html += `</div></button>`;
             });
             $("#match").html(html);
+            $("button[data-type='btn-filter'].active").trigger("click");
             //document.write(text);
             $.each(sortObj(sortObj(hlsUrls, "url"), "quality"), function (index, item) {
                 $("#test").append(`<div>
