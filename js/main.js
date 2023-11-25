@@ -83,17 +83,17 @@ $(function () {
         getStandings($(this).val());
     });
 
-    setInterval(function () {
-        var dateObj = new Date();
-        var month = dateObj.getMonth() + 1; //months from 1-12
-        var day = dateObj.getDate();
-        var year = dateObj.getFullYear();
-        var dateLink = `${year}${pad(month)}${pad(day)}`;
-        var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-        if (date == dateLink) {
-            getData(dateLink, false);
-        }
-    }, 1000);
+    // setInterval(function () {
+    //     var dateObj = new Date();
+    //     var month = dateObj.getMonth() + 1; //months from 1-12
+    //     var day = dateObj.getDate();
+    //     var year = dateObj.getFullYear();
+    //     var dateLink = `${year}${pad(month)}${pad(day)}`;
+    //     var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
+    //     if (date == dateLink) {
+    //         getData(dateLink, false);
+    //     }
+    // }, 1000);
 });
 
 function formatState(state) {
