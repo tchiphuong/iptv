@@ -1,3 +1,4 @@
+var host = "https://tchiphuong.github.io/iptv/";
 $(function () {
     var cbbdata = [];
     $.ajax({
@@ -328,13 +329,13 @@ function getData(date = null, live = false) {
                             let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
                             $.each(resp.data.play_urls, function (si, se) {
                                 commentators = resp.data.commentators || [];
-                                commentators = commentators.map((x) => x.name).join("; ");
+                                commentators = commentators.map((x) => x.name).join(", ");
                                 hls = se.url;
                                 text += `${link} [${se.name}]` + "\n<br>";
                                 text += hls + "\n<br>";
                                 hlsUrls.push({ url: se.url, quality: se.name });
                                 if (!lstQuality.includes(se.name.toLowerCase())) {
-                                    htmlTemp += `<a href="https://watch.ezyproxy.com/v6/?link=${se.url}" target="_blank" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">${se.name}</a>`;
+                                    htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${commentators})" target="_blank" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">${se.name}</a>`;
                                 }
                             });
                         },
