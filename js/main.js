@@ -1,5 +1,4 @@
-//var host = "https://tchiphuong.github.io/iptv/";
-var host = "http://127.0.0.1:5501/";
+var host = "https://tchiphuong.github.io/iptv/";
 $(function () {
     var cbbdata = [];
     $.ajax({
