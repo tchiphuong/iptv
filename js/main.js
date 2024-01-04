@@ -402,6 +402,7 @@ function activeTab(element) {
     $('[data-type="tab-item"]').each(function () {
         $(this).hide(ShowLoading());
     });
+    $("title").text($(element).text().trim());
     setTimeout(() => {
         $("#" + tabid).show(CloseLoading());
     }, 50);
