@@ -297,12 +297,12 @@ function getData(date = null, live = false) {
                 htmlTemp = "";
                 html += `<button data-type="match" tournament="${e.tournament.unique_tournament.id}" class="relative flex flex-col justify-center items-center rounded-lg overflow-hidden mx-auto border-2 border-gray-300 shadow w-full ${e.timestamp <= new Date().valueOf() ? (e.is_featured ? "border-red-500" : "border-yellow-500") : ""}">
                         <div class="flex font-bold bg-gray-200 w-full p-2 justify-center items-center">
-                            <img style="height: 32px; max-width: 50%;" class="object-contain" src="${e.tournament.logo}" alt="${e.tournament.name}" />
+                            <img style="height: 32px; max-width: 50%;" class="object-contain" src="${e.tournament.logo}" alt="${e.tournament.name}" loading="lazy">
                             <span class="truncate px-3" title="${e.tournament.name}">${e.tournament.name}</span>    
                         </div>
                         <div class="flex justify-center items-center p-3 flex-grow w-full">
                             <div class="flex flex-col justify-start items-center h-full w-4/12">
-                                <img class="object-contain" style="width: 64px; height: 64px;" src="${e.home.logo || e.tournament.logo}">
+                                <img class="object-contain" style="width: 64px; height: 64px;" src="${e.home.logo || e.tournament.logo}" loading="lazy">
                                 <span class="text-center" title="${e.home.name}">${e.home.short_name}</span>
                             </div>
                             <div class="text-center flex-grow h-full">
@@ -311,7 +311,7 @@ function getData(date = null, live = false) {
                                 <div>${moment(e.timestamp).format("HH:mm")}</div>
                             </div>
                             <div class="flex flex-col justify-start items-center h-full w-4/12">
-                                <img class="object-contain" style="width: 64px; height: 64px;" src="${e.away.logo || e.tournament.logo}">
+                                <img class="object-contain" style="width: 64px; height: 64px;" src="${e.away.logo || e.tournament.logo}" loading="lazy">
                                 <span class="text-center" title="${e.away.name}">${e.away.short_name}</span>
                             </div>
                             </div>
@@ -443,7 +443,7 @@ function getHighlights(page = 1) {
                 });
                 $("#first-highlights").html(`
                     <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:items-start hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img class="object-cover w-full rounded-t-lg md:h-auto w-full md:w-1/2 lg:w-4/12 md:rounded-none md:rounded-l-lg object-cover" style="aspect-ratio: 16/9;" src="${resp.data.highlight.feature_image}" alt="${resp.data.highlight.name}">
+                        <img class="object-cover w-full rounded-t-lg md:h-auto w-full md:w-1/2 lg:w-4/12 md:rounded-none md:rounded-l-lg object-cover" style="aspect-ratio: 16/9;" src="${resp.data.highlight.feature_image}" alt="${resp.data.highlight.name}" loading="lazy">
                         <div class="flex flex-col justify-between p-4 leading-normal">
                             <span>
                                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">${resp.data.highlight.name}</h5>
@@ -474,7 +474,7 @@ function getHighlights(page = 1) {
                     success: function (resp) {
                         $("#list-highlights").append(`
                             <div class="bg-white border border-gray-200 rounded-lg shadow flex flex-col">
-                                <img class="rounded-t-lg object-cover" src="${e.feature_image}" alt="${e.name}"" style="aspect-ratio: 16/9;" />
+                                <img class="rounded-t-lg object-cover" src="${e.feature_image}" alt="${e.name}"" style="aspect-ratio: 16/9;" loading="lazy">
                                 <div class="px-4 py-3 flex flex-col grow">
                                     <span>
                                         <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${e.name}">${e.name.split("|")[0]}</h5>
