@@ -44,8 +44,9 @@ $(function () {
         onChange: function (selectedDates, dateStr, instance) {
             // var date = moment(new Date(selectedDates)).format("YYYYMMDD");
             // getData(date);
-            var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-            getData(date);
+            //var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
+            //getData(date);
+            $("#btn-search").trigger("click");
         },
     });
 
