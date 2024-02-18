@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml,http://cvtv.xyz/xmltv,http://epg.51zmt.top:8000/e.xml"
 
 #EXTINF:-1 group-title="VTV" group-logo="https://tchiphuong.github.io/iptv/images/background/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-1.png",VTV1
+https://vod-local.danet.vn/live/vtv1/chunklist_w1666125624.m3u8
+#EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-1.png",VTV1
 http://viettel.nekocdn.xyz/VTV1/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-2.png",VTV2
 http://viettel.nekocdn.xyz/VTV2/index.m3u8
@@ -10,7 +12,7 @@ http://str1.cvtv.xyz/vtv2?token=live
 http://viettel.nekocdn.xyz/VTV3/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv3hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-3.png",VTV3
 http://str1.cvtv.xyz/VTV3HD?token=live
-#EXTINF:-1 group-title="VTV" tvg-id="vtv4" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-4.png",VTV4
+#EXTINF:-1 group-title="VTV" tvg-id="vtv4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-4.png",VTV4
 http://viettel.nekocdn.xyz/VTV4/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5.png",VTV5
 http://viettel.nekocdn.xyz/VTV5/index.m3u8
@@ -37,7 +39,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtv2/index.m3u8|Referer=http://sctvonl
 #EXTINF:-1 group-title="VTV" tvg-id="vtv3hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-3.png",VTV3 [SCTV]
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv3/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:-1 group-title="VTV" tvg-id="vtv4" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-4.png",VTV4 [SCTV]
+#EXTINF:-1 group-title="VTV" tvg-id="vtv4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-4.png",VTV4 [SCTV]
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv4/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5.png",VTV5 [SCTV]
@@ -270,6 +272,8 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab23/index.m3u8|Referer=http://sct
 
 #EXTINF:-1 group-title="VTC" tvg-id="vtc1hd" group-logo="https://tchiphuong.github.io/iptv/images/background/vtc.png" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1
 https://liveh12.vtvcab.vn/hls/ONVTC1_CL/index.m3u8
+#EXTINF:-1 group-title="VTC" tvg-id="vtc1hd" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1
+https://vod-local.danet.vn/live/vtc1/chunklist_w1452213505.m3u8
 #EXTINF:-1 group-title="VTC" tvg-id="vtc1hd" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1 
 https://1117141481.vnns.net/VTC1/chunks.m3u8
 #EXTINF:-1 group-title="VTC" tvg-id="vtc2" tvg-logo="https://i.imgur.com/1FccD2h.png",VTC2 
@@ -314,26 +318,37 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtc9/index.m3u8|Referer=http://sctvonl
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtc10/index.m3u8|Referer=http://sctvonline.vn/
 
+#EXTINF:-1 group-title="VTC" tvg-id="vtc1hd" tvg-logo="https://i.imgur.com/Pc2ZuX0.png",VTC1
+https://stream.vov.vn/7afa915852a353450270c8d780351be31708268451/vtc1-video/chunklist.m3u8
+#EXTINF:-1 group-title="VTC" tvg-id="vtc10" tvg-logo="https://i.imgur.com/F6x7ZNA.png",VTC10
+https://vcdn.vtc.gov.vn:8443/vtc10/smil:vtc10.smil/chunklist_w1014579111_b2228000_sleng.m3u8
+
 #EXTINF:-1 group-title="Thời sự" group-logo="https://ak.picdn.net/shutterstock/videos/1055155337/thumb/1.jpg" tvg-id="ttxvn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vnews.png",VNews
 https://zjizeoupprliv.vcdn.cloud/live/smil:vnews.smil/chunklist_w1162889655_b3128000_sleng.m3u8
+#EXTINF:-1 group-title="Thời sự" tvg-id="ttxvn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vnews.png",VNews
+https://liveh34.vtvcab.vn/hls/TTXVN_VNEWS/03.m3u8
+#EXTINF:-1 group-title="Thời sự" tvg-id="ttxvn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vnews.png",VNews
+https://vod-local.danet.vn/live/ttxvn/chunklist_w693960904.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="antvhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/antv.png",ANTV
 https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="antvhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/antv.png",ANTV
-https://fjp7rl09suliv.vcdn.cloud/channel/antv/channel/antv_1080p/chunks.m3u8
-#EXTINF:-1 group-title="Thời sự" tvg-id="antvhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/antv.png",ANTV
-https://live-ali4.tv360.vn/manifest/ANTV_SPR/playlist_360p.m3u8
+https://vod-local.danet.vn/live/antv/chunklist_w1532322622.m3u8
+#EXTINF:-1 group-title="Thời sự" tvg-id="nhandan" tvg-logo="https://tchiphuong.github.io/iptv/images/background/nhan-dan.png",Nhân Dân
+https://liveh34.vtvcab.vn/hls/ONNHANDAN_CL/03.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="nhandan" tvg-logo="https://tchiphuong.github.io/iptv/images/background/nhan-dan.png",Nhân Dân
 https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist_w1915921234.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="quochoi" tvg-logo="https://tchiphuong.github.io/iptv/images/background/quoc-hoi.png",Quốc hội
-https://live-zlr1.tv360.vn/manifest/Quoc_Hoi_HD/playlist_1080p.m3u8
+https://liveh12.vtvcab.vn/hls/ONQUOCHOI_CL/04.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="quochoi" tvg-logo="https://tchiphuong.github.io/iptv/images/background/quoc-hoi.png",Quốc hội
-https://mmcgaytxkoliv.vcdn.cloud/live/smil:quochoitv.smil/chunklist_w321829516_b3128000_ps20230703210000_pd2700000_DVR_sleng.m3u8
+https://vod-local.danet.vn/live/quochoi/chunklist_w1566609896.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="qpvnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/qpvn.png",Quốc Phòng Việt Nam
-https://live-ali2.tv360.vn/manifest/QPVN_HD/playlist_1080p.m3u8
+https://vod-local.danet.vn/live/quocphong/chunklist_w836236787.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="qpvnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/qpvn.png",Quốc Phòng Việt Nam
 http://27.76.137.122:1935/standard/smil:standard.smil/chunklist_w1652842709_b996000_sleng.m3u8
+#EXTINF:-1 group-title="Thời sự" tvg-id="qpvnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/qpvn.png",Quốc Phòng Việt Nam
+https://liveh34.vtvcab.vn/hls/ONQUOCPHONG_CL/03.m3u8
 #EXTINF:-1 group-title="Thời sự" tvg-id="vovtvhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vov.png",VOV TV
-http://103.90.220.236/vovlive/tv1live.m3u8
+https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 
 #EXTINF:-1 group-title="HTV" group-logo="https://tchiphuong.github.io/iptv/images/background/htvc.png" tvg-id="htv1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-1.png",HTV1
 https://drm-livecdn.hplus.com.vn/htvonline/htv1.720p.nimble.tms/playlist.m3u8
@@ -422,10 +437,6 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv8/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-9.png",SCTV9
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv9/index.m3u8
-#EXTINF:-1 group-title="SCTV" tvg-id="sctv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-9.png",SCTV9
-http://live-vnp.vthanhtivi.pw:18001/SCTV9/index.m3u8
-#EXTINF:-1 group-title="SCTV" tvg-id="sctv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-9.png",SCTV9
-http://live.vthanhtivi.pw/sctv9
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv10" tvg-logo="https://tchiphuong.github.io/iptv/images/background/sctv-10.png",SCTV10
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv10/index.m3u8
@@ -519,7 +530,7 @@ https://code.vthanhtivi.pw/getlink/vieon/binh-duong-4/playlist.m3u8
 https://code.vthanhtivi.pw/getlink/vieon/btv6/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="btv9_an_vien" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-duong-9.png",TH Bình Dương 9
 https://livecdn-vthn-vnw.vieon.vn/livetv/45ef7f63082488218aa1a8c93bb7c185/playlist.m3u8
-#EXTINF:-1 group-title="Địa phương" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-duong-11.png",TH Bình Dương 11
+#EXTINF:-1 group-title="Địa phương" tvg-id="binhduong11" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-duong-11.png",TH Bình Dương 11
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon/btv11/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="binhphuoc1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-binh-phuoc-1.png",TH Bình Phước 1
@@ -553,7 +564,7 @@ http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist_w1490477581_b1384000.m3u
 https://code.vthanhtivi.pw/getlink/dnlive/dnrtv3/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="dongthap" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-thap.png",TH Đồng Tháp
 https://618b88f69e53b.streamlock.net/THDT/thdttv/chunklist_w1446285049.m3u8
-#EXTINF:-1 group-title="Địa phương" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-thap-2.png",TH Đồng Tháp 2
+#EXTINF:-1 group-title="Địa phương" tvg-id="dongthap2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-dong-thap-2.png",TH Đồng Tháp 2
 http://202.43.109.145:1935/thdt2/thdt2/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="gialai" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-gia-lai.png",TH Gia Lai
 https://code.vthanhtivi.pw/getlink/tv360/55/2.m3u8
@@ -605,7 +616,7 @@ http://103.90.220.236/nbtvlive/tv1live.m3u8
 https://60acee235f4d5.streamlock.net/live/mystream/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="phutho" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-phu-tho.png",TH Phú Thọ
 https://code.vthanhtivi.pw/getlink/mytv/410/hd.m3u8
-#EXTINF:-1 group-title="Địa phương" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-phu-yen.png",TH Phú Yên
+#EXTINF:-1 group-title="Địa phương" tvg-id="phuyen" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-phu-yen.png",TH Phú Yên
 http://113.161.4.48:8080/phuyen/tv/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="quangbinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-quang-binh.png",TH Quảng Bình
 https://code.vthanhtivi.pw/getlink/nethubtv/9359/1.m3u8
@@ -651,60 +662,31 @@ https://live.yenbaitv.org.vn/hls/livestream.m3u8
 #EXTINF:-1 group-title="Nước ngoài" group-logo="https://universalbackground.com/wordpress/wp-content/uploads/2016/07/shutterstock_349541210.jpg" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-aniplus.png",Aniplus
 http://210.210.155.35/dr9445/h/h02/01.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="animalhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-animal-planet.png",Animal Planet
-http://vthanhtivi.pw:5000/animal/index.m3u8
+http://fpt.vthanhtivi.pw/animal/mono.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-discovery.png",Discovery
-http://vthanhtivi.pw:5000/discovery/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-discovery.png",Discovery
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-https://code.vthanhtivi.pw/getlink/tvfree/discovery/playlist.m3u8
-
+http://fpt.vthanhtivi.pw/discovery/mono.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="abcaustralia" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-abc.png",ABC Australia
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/abcaustralia.php
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/aplus.smil/manifest.mpd
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="animaxhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-animax.png",Animax
-http://live-vnp.vthanhtivi.pw:18001/ANIMAX_HD/index.m3u8
+http://fpt.vthanhtivi.pw/animax/mono.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="afnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-afn.png",Asian Food Network
 https://code.vthanhtivi.pw/getlink/tv360/oGzQXBxC153F2hWExDXNxg/1696760359/215/playlist.m3u8
 #EXTINF:0 group-title="Nước ngoài" tvg-id="axnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-axn.png",AXN
-http://vthanhtivi.pw:5000/axn/index.m3u8
-#EXTINF:0 group-title="Nước ngoài" tvg-id="axnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-axn.png",AXN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-https://code.vthanhtivi.pw/getlink/tvfree/axn/playlist.m3u8
+http://fpt.vthanhtivi.pw/axn/mono.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="bbcearth" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-bbc-earth.png",BBC Earth
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/bbcearth.php
-https://s7770.cdn.mytvnet.vn/pkg20/live_dzones/bbcearth.smil/manifest.mpd
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="bbcearth" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-bbc-earth.png",BBC Earth
-http://vthanhtivi.pw:5000/bbcearth/index.m3u8
+http://fpt.vthanhtivi.pw/bbcearth/mono.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="bbclifestyle" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-bbc-life-style.png",BBC Lifestyle
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/bbclifestyle.php
 https://s7772.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="bbcnews" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-bbc-new.png",BBC News [mytv]
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/bbcnews.php
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="bbcnews" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-bbc-new.png",BBC News
 https://s7773.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="boomerang" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cartoonito.png",Cartoonito
 http://live-vnp.vthanhtivi.pw:18001/BOOMERANG_HD/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cartoonhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cartoon-network.png",Cartoon Network
-http://live-vnp.vthanhtivi.pw:18001/CARTOON_NETWORK_HD/index.m3u8
+http://fpt.vthanhtivi.pw/cartoon/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cbeebies" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cbeebies.png",Cbeebies
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/keyy/cbeebies.php
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cbb.smil/manifest.mpd
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cinemaxhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cinemax.png",Cinemax
-http://vthanhtivi.pw:5000/cinemax/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cinemaxhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cinemax.png",Cinemax
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
+http://fpt.vthanhtivi.pw/cinemax/mono.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cna" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cna.png",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="cna" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-cna.png",CNA
