@@ -1,0 +1,657 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <link href="./build/tailwind.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100">
+  <div class="sticky top-0 bg-white z-30 border shadow">
+    <div class="flex px-5 pt-2 border-b-2 border-indigo-700">
+      <button data-type="tab-control" target-tab="fixtures" tab-show="true" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+        <div class="flex items-center mb-3">
+          <span class="ml-1 font-normal">Fixtures</span>
+        </div>
+      </button>
+      <button data-type="tab-control" target-tab="standings" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+        <div class="flex items-center mb-3">
+          <span class="ml-1 font-normal">Standings</span>
+        </div>
+      </button>
+      <button data-type="tab-control" target-tab="highlights" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+        <div class="flex items-center mb-3">
+          <span class="ml-1 font-normal">Highlights</span>
+        </div>
+      </button>
+      <!-- <button data-type="tab-control" target-tab="live-channels" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
+          <div class="flex items-center mb-3">
+              <span class="ml-1 font-normal">Live Channels</span>
+          </div>
+      </button> -->
+    </div>
+  </div>
+  <nav class="h-16 bg-red-500 text-white">
+    <ul class="flex h-full items-center justify-center gap-3">
+      <li class="px-3 py-2 hover:opacity-80">
+        <a href="#fixtures">Fixtures</a>
+      </li>
+      <li class="px-3 py-2 hover:opacity-80">
+        <a href="#standing">Standing</a>
+      </li>
+      <li class="px-3 py-2 hover:opacity-80">
+        <a href="#hightlights">Hightlights</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="container mx-auto flex flex-col gap-2 py-3">
+    <div class="mx-2">
+      <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
+        <img class="h-10" src="https://img.thesports.com/football/competition/d3cd84441d4de605d84a14521ef56920.png" alt="" />
+        <h1 class="flex-1 py-2 text-xl font-bold">Premier League</h1>
+      </div>
+      <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3">
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mx-2">
+      <div class="flex cursor-pointer select-none items-center gap-2 rounded-md bg-white p-2 hover:opacity-80">
+        <img class="h-10" src="https://img.thesports.com/football/competition/e6ee784bdd6af4694075206cd069387e.png" alt="" />
+        <h1 class="flex-1 py-2 text-xl font-bold">La Liga</h1>
+        <span class="px-2">
+          <!-- angle-down icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+            <path d="M 278.78534 386.01047 Q 256 404.77487 233.21466 386.01047 L 18.764399 171.56021 L 18.764399 171.56021 Q 0 148.77487 18.764399 125.98953 Q 41.54974 107.22513 64.335075 125.98953 L 256 317.65445 L 256 317.65445 L 447.66492 125.98953 L 447.66492 125.98953 Q 470.45026 107.22513 493.2356 125.98953 Q 512 148.77487 493.2356 171.56021 L 278.78534 386.01047 L 278.78534 386.01047 Z" />
+          </svg>
+        </span>
+      </div>
+      <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3">
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <div class="flex w-full flex-col">
+            <div class="flex w-full gap-2 p-3">
+              <div class="flex flex-1 flex-col gap-3 pr-2">
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/2122445133f0eeeecbb61fe49fb69022.png" loading="lazy" />
+                  <div class="flex-1">Arsenal</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img class="h-10 w-10 object-contain" src="https://img.thesports.com/football/team/c4a6528a2ee147b99c9885ef24385a4e.png" loading="lazy" />
+                  <div class="flex-1">Manchester City</div>
+                  <span class="text-[20px] font-bold">0</span>
+                </div>
+              </div>
+              <div class="h-100 w-[1px] bg-gray-300"></div>
+              <div class="flex flex-col justify-around">
+                <div class="flex items-center gap-1">
+                  <!-- calendar-day icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
+                  </svg>
+                  <span>25/02/2024</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
+                  </svg>
+                  <span>22:00</span>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <div class="flex items-center gap-1">
+                  <!-- microphone-lines icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                    <path
+                      d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
+                  </svg>
+                  <span>Người Thỏ</span>
+                </div>
+              </div>
+            </div>
+            <div class="mx-2 h-[1px] bg-gray-300"></div>
+            <div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">
+              <a class="px-2" href="#">SD1</a>
+              <a class="px-2" href="#">SD2</a>
+              <a class="px-2" href="#">HD</a>
+              <a class="px-2" href="#">FHD</a>
+              <a class="px-2" href="#">Nhà đài</a>
+              <a class="px-2" href="#">Backup 1</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
