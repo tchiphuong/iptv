@@ -328,8 +328,19 @@ function getData(date = null, live = false) {
                                 },
                             });
                         }
+                        const borderColor = e.timestamp <= new Date().valueOf() ? (e.is_featured ? "border-red-500" : "border-yellow-500") : "";
                         html += `
-                            <div class="relative flex overflow-hidden rounded-md border ${e.timestamp <= new Date().valueOf() ? (e.is_featured ? "border-red-500" : "border-yellow-500") : ""} bg-white shadow">
+                            <div class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow">
+                                ${
+                                    borderColor !== ""
+                                        ? `
+                                            <span class="ease absolute left-0 top-0 h-full w-0 border-0 border-t-2 ${borderColor} transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
+                                            <span class="ease absolute right-0 top-0 h-0 w-full border-0 border-r-2 ${borderColor} transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
+                                            <span class="ease absolute bottom-0 right-0 h-full w-0 border-0 border-b-2 ${borderColor} transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
+                                            <span class="ease absolute bottom-0 left-0 h-0 w-full border-0 border-l-2 ${borderColor} transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
+                                        `
+                                        : ""
+                                }
                                 <div class="flex w-full flex-col">
                                 <div class="flex w-full gap-2 p-3">
                                     <div class="flex flex-1 flex-col gap-3 pr-2">
@@ -375,7 +386,7 @@ function getData(date = null, live = false) {
                                 </div>
                             </div>
                         `;
-                        commentators = (e.commentators && e.commentators.map((x) => x.name).join("; ")) || [];
+                        //commentators = (e.commentators && e.commentators.map((x) => x.name).join("; ")) || [];
                     });
                     $("button[data-type='btn-filter'].active").trigger("click");
                     $.each(sortObj(sortObj(hlsUrls, "url"), "quality"), function (index, item) {

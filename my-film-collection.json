@@ -284,31 +284,181 @@
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
                 },
                 "episodes": [
-                    { "episode": 1, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28891_4ce5f309/index.m3u8" },
-                    { "episode": 2, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28892_9df67c34/index.m3u8" },
-                    { "episode": 3, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28893_4b9fbba3/index.m3u8" },
-                    { "episode": 4, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28894_39cb8797/index.m3u8" },
-                    { "episode": 5, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28895_0efee81e/index.m3u8" },
-                    { "episode": 6, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28896_fa108725/index.m3u8" },
-                    { "episode": 7, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28897_ea2208f7/index.m3u8" },
-                    { "episode": 8, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28898_4306b524/index.m3u8" },
-                    { "episode": 9, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28899_3776124e/index.m3u8" },
-                    { "episode": 10, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28900_edb470e3/index.m3u8" },
-                    { "episode": 11, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28901_765435cf/index.m3u8" },
-                    { "episode": 12, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28902_c8c84efc/index.m3u8" },
-                    { "episode": 13, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28903_5fe12e68/index.m3u8" },
-                    { "episode": 14, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28904_605751d7/index.m3u8" },
-                    { "episode": 15, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28905_bfecfb8e/index.m3u8" },
-                    { "episode": 16, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28906_f37a7ff9/index.m3u8" },
-                    { "episode": 17, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28907_33ea7e56/index.m3u8" },
-                    { "episode": 18, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28908_efe296b0/index.m3u8" },
-                    { "episode": 19, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28909_e4ee4304/index.m3u8" },
-                    { "episode": 20, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28910_ce2d0079/index.m3u8" },
-                    { "episode": 21, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28911_08229f73/index.m3u8" },
-                    { "episode": 22, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28912_583caa91/index.m3u8" },
-                    { "episode": 23, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28913_b5e184d1/index.m3u8" },
-                    { "episode": 24, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28914_b463d51a/index.m3u8" },
-                    { "episode": 25, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg" }, "video": "https://hd1080.opstream2.com/20221129/28915_3de81f8b/index.m3u8" }
+                    {
+                        "episode": 1,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28891_4ce5f309/index.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28892_9df67c34/index.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28893_4b9fbba3/index.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28894_39cb8797/index.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28895_0efee81e/index.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28896_fa108725/index.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28897_ea2208f7/index.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28898_4306b524/index.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28899_3776124e/index.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28900_edb470e3/index.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28901_765435cf/index.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28902_c8c84efc/index.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28903_5fe12e68/index.m3u8"
+                    },
+                    {
+                        "episode": 14,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28904_605751d7/index.m3u8"
+                    },
+                    {
+                        "episode": 15,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28905_bfecfb8e/index.m3u8"
+                    },
+                    {
+                        "episode": 16,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28906_f37a7ff9/index.m3u8"
+                    },
+                    {
+                        "episode": 17,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28907_33ea7e56/index.m3u8"
+                    },
+                    {
+                        "episode": 18,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28908_efe296b0/index.m3u8"
+                    },
+                    {
+                        "episode": 19,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28909_e4ee4304/index.m3u8"
+                    },
+                    {
+                        "episode": 20,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28910_ce2d0079/index.m3u8"
+                    },
+                    {
+                        "episode": 21,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28911_08229f73/index.m3u8"
+                    },
+                    {
+                        "episode": 22,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28912_583caa91/index.m3u8"
+                    },
+                    {
+                        "episode": 23,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28913_b5e184d1/index.m3u8"
+                    },
+                    {
+                        "episode": 24,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28914_b463d51a/index.m3u8"
+                    },
+                    {
+                        "episode": 25,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221129/28915_3de81f8b/index.m3u8"
+                    }
                 ]
             },
             {
@@ -320,36 +470,216 @@
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
                 },
                 "episodes": [
-                    { "episode": 1, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34066_557532e1/index.m3u8" },
-                    { "episode": 2, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34065_92d38fd8/index.m3u8" },
-                    { "episode": 3, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34067_6d13e86c/index.m3u8" },
-                    { "episode": 4, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34068_14405c46/index.m3u8" },
-                    { "episode": 5, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34130_8159c7e1/index.m3u8" },
-                    { "episode": 6, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34131_9ccb03f6/index.m3u8" },
-                    { "episode": 7, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34132_a3652f66/index.m3u8" },
-                    { "episode": 8, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34072_9ba366f1/index.m3u8" },
-                    { "episode": 9, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34073_8b8378a3/index.m3u8" },
-                    { "episode": 10, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34077_3373b3db/index.m3u8" },
-                    { "episode": 11, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34074_2ee2832c/index.m3u8" },
-                    { "episode": 12, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34075_d5bdb10a/index.m3u8" },
-                    { "episode": 13, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34076_590ab0a3/index.m3u8" },
-                    { "episode": 14, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34078_5de2f0ee/index.m3u8" },
-                    { "episode": 15, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34079_73826020/index.m3u8" },
-                    { "episode": 16, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34080_9730098a/index.m3u8" },
-                    { "episode": 17, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34081_448027e1/index.m3u8" },
-                    { "episode": 18, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34082_49e2a930/index.m3u8" },
-                    { "episode": 19, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34083_3d44a58f/index.m3u8" },
-                    { "episode": 20, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34084_eb80c004/index.m3u8" },
-                    { "episode": 21, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34085_fd52fce4/index.m3u8" },
-                    { "episode": 22, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34086_640a7118/index.m3u8" },
-                    { "episode": 23, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34089_ad552c32/index.m3u8" },
-                    { "episode": 24, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34088_eabb4885/index.m3u8" },
-                    { "episode": 25, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34087_e4f27632/index.m3u8" },
-                    { "episode": 26, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34091_d7aecf79/index.m3u8" },
-                    { "episode": 27, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34090_ff80762f/index.m3u8" },
-                    { "episode": 28, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34092_cccc521a/index.m3u8" },
-                    { "episode": 29, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34093_44130b0a/index.m3u8" },
-                    { "episode": 30, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg" }, "video": "https://1080.opstream4.com/20220703/34094_0a286db6/index.m3u8" }
+                    {
+                        "episode": 1,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34066_557532e1/index.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34065_92d38fd8/index.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34067_6d13e86c/index.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34068_14405c46/index.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34130_8159c7e1/index.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34131_9ccb03f6/index.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34132_a3652f66/index.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34072_9ba366f1/index.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34073_8b8378a3/index.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34077_3373b3db/index.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34074_2ee2832c/index.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34075_d5bdb10a/index.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34076_590ab0a3/index.m3u8"
+                    },
+                    {
+                        "episode": 14,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34078_5de2f0ee/index.m3u8"
+                    },
+                    {
+                        "episode": 15,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34079_73826020/index.m3u8"
+                    },
+                    {
+                        "episode": 16,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34080_9730098a/index.m3u8"
+                    },
+                    {
+                        "episode": 17,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34081_448027e1/index.m3u8"
+                    },
+                    {
+                        "episode": 18,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34082_49e2a930/index.m3u8"
+                    },
+                    {
+                        "episode": 19,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34083_3d44a58f/index.m3u8"
+                    },
+                    {
+                        "episode": 20,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34084_eb80c004/index.m3u8"
+                    },
+                    {
+                        "episode": 21,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34085_fd52fce4/index.m3u8"
+                    },
+                    {
+                        "episode": 22,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34086_640a7118/index.m3u8"
+                    },
+                    {
+                        "episode": 23,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34089_ad552c32/index.m3u8"
+                    },
+                    {
+                        "episode": 24,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34088_eabb4885/index.m3u8"
+                    },
+                    {
+                        "episode": 25,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34087_e4f27632/index.m3u8"
+                    },
+                    {
+                        "episode": 26,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34091_d7aecf79/index.m3u8"
+                    },
+                    {
+                        "episode": 27,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34090_ff80762f/index.m3u8"
+                    },
+                    {
+                        "episode": 28,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34092_cccc521a/index.m3u8"
+                    },
+                    {
+                        "episode": 29,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34093_44130b0a/index.m3u8"
+                    },
+                    {
+                        "episode": 30,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220703/34094_0a286db6/index.m3u8"
+                    }
                 ]
             },
             {
@@ -361,36 +691,216 @@
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
                 },
                 "episodes": [
-                    { "episode": 1, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23190_cf7cc980/index.m3u8" },
-                    { "episode": 2, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23191_9b7ac0ed/index.m3u8" },
-                    { "episode": 3, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23192_942ef2d1/index.m3u8" },
-                    { "episode": 4, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23193_9d4acdf7/index.m3u8" },
-                    { "episode": 5, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23194_0d850c80/index.m3u8" },
-                    { "episode": 6, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23195_befca83f/index.m3u8" },
-                    { "episode": 7, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23196_74b8707b/index.m3u8" },
-                    { "episode": 8, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23197_4ab84c9f/index.m3u8" },
-                    { "episode": 9, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23198_1b7a524b/index.m3u8" },
-                    { "episode": 10, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23199_52bab942/index.m3u8" },
-                    { "episode": 11, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23200_f6d6b15e/index.m3u8" },
-                    { "episode": 12, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23201_9d093aee/index.m3u8" },
-                    { "episode": 13, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23202_b5fe6290/index.m3u8" },
-                    { "episode": 14, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23203_3836d0c1/index.m3u8" },
-                    { "episode": 15, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23204_e6000d92/index.m3u8" },
-                    { "episode": 16, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23205_21ea7fbd/index.m3u8" },
-                    { "episode": 17, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23206_ba64a4e4/index.m3u8" },
-                    { "episode": 18, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23207_10bc48b1/index.m3u8" },
-                    { "episode": 19, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23208_9ce2a09f/index.m3u8" },
-                    { "episode": 20, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23209_fe417529/index.m3u8" },
-                    { "episode": 21, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23210_fa47fcbe/index.m3u8" },
-                    { "episode": 22, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23211_6e16f59e/index.m3u8" },
-                    { "episode": 23, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23212_27f5ea5d/index.m3u8" },
-                    { "episode": 24, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23213_f20b8fee/index.m3u8" },
-                    { "episode": 25, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23214_5fa5e3ac/index.m3u8" },
-                    { "episode": 26, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23215_acdd7c73/index.m3u8" },
-                    { "episode": 27, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23216_dd8d9b82/index.m3u8" },
-                    { "episode": 28, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23217_4a7c6592/index.m3u8" },
-                    { "episode": 29, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23218_efaa1af9/index.m3u8" },
-                    { "episode": 30, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg" }, "video": "https://kd.opstream3.com/20221006/23219_e3f6347c/index.m3u8" }
+                    {
+                        "episode": 1,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23190_cf7cc980/index.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23191_9b7ac0ed/index.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23192_942ef2d1/index.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23193_9d4acdf7/index.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23194_0d850c80/index.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23195_befca83f/index.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23196_74b8707b/index.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23197_4ab84c9f/index.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23198_1b7a524b/index.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23199_52bab942/index.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23200_f6d6b15e/index.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23201_9d093aee/index.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23202_b5fe6290/index.m3u8"
+                    },
+                    {
+                        "episode": 14,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23203_3836d0c1/index.m3u8"
+                    },
+                    {
+                        "episode": 15,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23204_e6000d92/index.m3u8"
+                    },
+                    {
+                        "episode": 16,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23205_21ea7fbd/index.m3u8"
+                    },
+                    {
+                        "episode": 17,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23206_ba64a4e4/index.m3u8"
+                    },
+                    {
+                        "episode": 18,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23207_10bc48b1/index.m3u8"
+                    },
+                    {
+                        "episode": 19,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23208_9ce2a09f/index.m3u8"
+                    },
+                    {
+                        "episode": 20,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23209_fe417529/index.m3u8"
+                    },
+                    {
+                        "episode": 21,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23210_fa47fcbe/index.m3u8"
+                    },
+                    {
+                        "episode": 22,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23211_6e16f59e/index.m3u8"
+                    },
+                    {
+                        "episode": 23,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23212_27f5ea5d/index.m3u8"
+                    },
+                    {
+                        "episode": 24,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23213_f20b8fee/index.m3u8"
+                    },
+                    {
+                        "episode": 25,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23214_5fa5e3ac/index.m3u8"
+                    },
+                    {
+                        "episode": 26,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23215_acdd7c73/index.m3u8"
+                    },
+                    {
+                        "episode": 27,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23216_dd8d9b82/index.m3u8"
+                    },
+                    {
+                        "episode": 28,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23217_4a7c6592/index.m3u8"
+                    },
+                    {
+                        "episode": 29,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23218_efaa1af9/index.m3u8"
+                    },
+                    {
+                        "episode": 30,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221006/23219_e3f6347c/index.m3u8"
+                    }
                 ]
             },
             {
@@ -402,36 +912,216 @@
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
                 },
                 "episodes": [
-                    { "episode": 1, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11341_07e62fc5/index.m3u8" },
-                    { "episode": 2, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11343_7bf78925/index.m3u8" },
-                    { "episode": 3, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11347_53f3c4ae/index.m3u8" },
-                    { "episode": 4, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11350_c9289a88/index.m3u8" },
-                    { "episode": 5, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11354_81ee94c9/index.m3u8" },
-                    { "episode": 6, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11357_efe6f4d7/index.m3u8" },
-                    { "episode": 7, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11361_1f050771/index.m3u8" },
-                    { "episode": 8, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11363_a0a13153/index.m3u8" },
-                    { "episode": 9, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11366_b11391bf/index.m3u8" },
-                    { "episode": 10, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11370_43c25fe6/index.m3u8" },
-                    { "episode": 11, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11375_eeefbe6f/index.m3u8" },
-                    { "episode": 12, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11378_01cda830/index.m3u8" },
-                    { "episode": 13, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11385_74628294/index.m3u8" },
-                    { "episode": 14, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://1080.opstream4.com/20220704/34271_4f44bf20/index.m3u8" },
-                    { "episode": 15, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11394_a5283b3e/index.m3u8" },
-                    { "episode": 16, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11396_e857c044/index.m3u8" },
-                    { "episode": 17, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11400_7153c9d6/index.m3u8" },
-                    { "episode": 18, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11405_855fbb1d/index.m3u8" },
-                    { "episode": 19, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11410_bba5615e/index.m3u8" },
-                    { "episode": 20, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11413_53b2acc8/index.m3u8" },
-                    { "episode": 21, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11416_3bf9aa7b/index.m3u8" },
-                    { "episode": 22, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11420_175b15fe/index.m3u8" },
-                    { "episode": 23, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11424_d50e154b/index.m3u8" },
-                    { "episode": 24, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11425_c7611030/index.m3u8" },
-                    { "episode": 25, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11431_52388b5e/index.m3u8" },
-                    { "episode": 26, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11434_e16ea388/index.m3u8" },
-                    { "episode": 27, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11439_3f320f96/index.m3u8" },
-                    { "episode": 28, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11442_97aa7711/index.m3u8" },
-                    { "episode": 29, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11447_ff7b5bde/index.m3u8" },
-                    { "episode": 30, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg" }, "video": "https://hd1080.opstream2.com/20220505/11450_9c685480/index.m3u8" }
+                    {
+                        "episode": 1,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11341_07e62fc5/index.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11343_7bf78925/index.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11347_53f3c4ae/index.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11350_c9289a88/index.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11354_81ee94c9/index.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11357_efe6f4d7/index.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11361_1f050771/index.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11363_a0a13153/index.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11366_b11391bf/index.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11370_43c25fe6/index.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11375_eeefbe6f/index.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11378_01cda830/index.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11385_74628294/index.m3u8"
+                    },
+                    {
+                        "episode": 14,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20220704/34271_4f44bf20/index.m3u8"
+                    },
+                    {
+                        "episode": 15,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11394_a5283b3e/index.m3u8"
+                    },
+                    {
+                        "episode": 16,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11396_e857c044/index.m3u8"
+                    },
+                    {
+                        "episode": 17,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11400_7153c9d6/index.m3u8"
+                    },
+                    {
+                        "episode": 18,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11405_855fbb1d/index.m3u8"
+                    },
+                    {
+                        "episode": 19,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11410_bba5615e/index.m3u8"
+                    },
+                    {
+                        "episode": 20,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11413_53b2acc8/index.m3u8"
+                    },
+                    {
+                        "episode": 21,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11416_3bf9aa7b/index.m3u8"
+                    },
+                    {
+                        "episode": 22,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11420_175b15fe/index.m3u8"
+                    },
+                    {
+                        "episode": 23,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11424_d50e154b/index.m3u8"
+                    },
+                    {
+                        "episode": 24,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11425_c7611030/index.m3u8"
+                    },
+                    {
+                        "episode": 25,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11431_52388b5e/index.m3u8"
+                    },
+                    {
+                        "episode": 26,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11434_e16ea388/index.m3u8"
+                    },
+                    {
+                        "episode": 27,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11439_3f320f96/index.m3u8"
+                    },
+                    {
+                        "episode": 28,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11442_97aa7711/index.m3u8"
+                    },
+                    {
+                        "episode": 29,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11447_ff7b5bde/index.m3u8"
+                    },
+                    {
+                        "episode": 30,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20220505/11450_9c685480/index.m3u8"
+                    }
                 ]
             },
             {
@@ -444,36 +1134,217 @@
                     "poster": "https://phimyeuthich.com/uploads/movie/Forensic%20Heroes%20s05%2020221008.jpg"
                 },
                 "episodes": [
-                    { "episode": 1, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221201/29044_b020210d/index.m3u8" },
-                    { "episode": 2, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221201/29045_9400cbdb/index.m3u8" },
-                    { "episode": 3, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221201/29046_42cbd25e/index.m3u8" },
-                    { "episode": 4, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221201/29047_fa16595c/index.m3u8" },
-                    { "episode": 5, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221201/29048_9bae3a73/index.m3u8" },
-                    { "episode": 6, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221203/26783_a7f8533e/index.m3u8" },
-                    { "episode": 7, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221203/26784_e579fe07/index.m3u8" },
-                    { "episode": 8, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221204/39111_213fdb21/index.m3u8" },
-                    { "episode": 9, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221206/29483_1c630b6f/index.m3u8" },
-                    { "episode": 10, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221206/29484_7dfdd22e/index.m3u8" },
-                    { "episode": 11, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221207/29604_adda0994/index.m3u8" },
-                    { "episode": 12, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221212/39508_36cc3908/index.m3u8" },
-                    { "episode": 13, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221208/39362_603496b4/index.m3u8" },
-                    { "episode": 14, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221210/29832_1393c0bd/index.m3u8" },
-                    { "episode": 15, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://kd.opstream3.com/20221210/28280_8038685c/index.m3u8" },
-                    { "episode": 16, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221212/39470_7932d80e/index.m3u8" },
-                    { "episode": 17, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221212/27023_1e98bcea/index.m3u8" },
-                    { "episode": 18, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221213/27049_4d03b816/index.m3u8" },
-                    { "episode": 19, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221214/27107_95eb7e0f/index.m3u8" },
-                    { "episode": 20, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221215/39670_edb646da/index.m3u8" },
-                    { "episode": 21, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221216/39725_d6ca82b7/index.m3u8" },
-                    { "episode": 22, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221217/27492_2073e765/index.m3u8" },
-                    { "episode": 23, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221219/27556_e8643890/index.m3u8" },
-                    { "episode": 24, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hdbo.opstream5.com/20221219/27575_b37d99af/index.m3u8" },
-                    { "episode": 25, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://hd1080.opstream2.com/20221220/30079_45f42376/index.m3u8" },
-                    { "episode": 26, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221222/39979_f1ec1f89/index.m3u8" },
-                    { "episode": 27, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221222/39980_bdaf74d3/index.m3u8" },
-                    { "episode": 28, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://kd.opstream3.com/20221223/28779_6a397c3a/index.m3u8" },
-                    { "episode": 29, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221224/39996_ccd6a448/index.m3u8" },
-                    { "episode": 30, "info": { "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg" }, "video": "https://1080.opstream4.com/20221225/40044_80d66891/index.m3u8" }
+                    {
+                        "episode": 1,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221201/29044_b020210d/index.m3u8",
+                        "sssss": "https://vip.opstream15.com/20221201/29044_b020210d/3000k/hls/mixed.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221201/29045_9400cbdb/index.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221201/29046_42cbd25e/index.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221201/29047_fa16595c/index.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221201/29048_9bae3a73/index.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221203/26783_a7f8533e/index.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221203/26784_e579fe07/index.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221204/39111_213fdb21/index.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221206/29483_1c630b6f/index.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221206/29484_7dfdd22e/index.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221207/29604_adda0994/index.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221212/39508_36cc3908/index.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221208/39362_603496b4/index.m3u8"
+                    },
+                    {
+                        "episode": 14,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221210/29832_1393c0bd/index.m3u8"
+                    },
+                    {
+                        "episode": 15,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221210/28280_8038685c/index.m3u8"
+                    },
+                    {
+                        "episode": 16,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221212/39470_7932d80e/index.m3u8"
+                    },
+                    {
+                        "episode": 17,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221212/27023_1e98bcea/index.m3u8"
+                    },
+                    {
+                        "episode": 18,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221213/27049_4d03b816/index.m3u8"
+                    },
+                    {
+                        "episode": 19,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221214/27107_95eb7e0f/index.m3u8"
+                    },
+                    {
+                        "episode": 20,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221215/39670_edb646da/index.m3u8"
+                    },
+                    {
+                        "episode": 21,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221216/39725_d6ca82b7/index.m3u8"
+                    },
+                    {
+                        "episode": 22,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221217/27492_2073e765/index.m3u8"
+                    },
+                    {
+                        "episode": 23,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221219/27556_e8643890/index.m3u8"
+                    },
+                    {
+                        "episode": 24,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hdbo.opstream5.com/20221219/27575_b37d99af/index.m3u8"
+                    },
+                    {
+                        "episode": 25,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://hd1080.opstream2.com/20221220/30079_45f42376/index.m3u8"
+                    },
+                    {
+                        "episode": 26,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221222/39979_f1ec1f89/index.m3u8"
+                    },
+                    {
+                        "episode": 27,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221222/39980_bdaf74d3/index.m3u8"
+                    },
+                    {
+                        "episode": 28,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://kd.opstream3.com/20221223/28779_6a397c3a/index.m3u8"
+                    },
+                    {
+                        "episode": 29,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221224/39996_ccd6a448/index.m3u8"
+                    },
+                    {
+                        "episode": 30,
+                        "info": {
+                            "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-5.jpg"
+                        },
+                        "video": "https://1080.opstream4.com/20221225/40044_80d66891/index.m3u8"
+                    }
                 ]
             }
         ]

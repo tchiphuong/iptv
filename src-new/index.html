@@ -9,28 +9,23 @@
   <link href="./build/tailwind.css" rel="stylesheet" />
 </head>
 <body class="bg-gray-100">
-  <div class="sticky top-0 bg-white z-30 border shadow">
-    <div class="flex px-5 pt-2 border-b-2 border-indigo-700">
-      <button data-type="tab-control" target-tab="fixtures" tab-show="true" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
-        <div class="flex items-center mb-3">
+  <div class="sticky top-0 z-30 border bg-white shadow">
+    <div class="flex border-b-2 border-indigo-700 px-5 pt-2">
+      <button data-type="tab-control" target-tab="fixtures" tab-show="true" onclick="activeTab(this)" class="cursor-pointer rounded-t-md px-4 pt-3 text-sm text-gray-600 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
+        <div class="mb-3 flex items-center">
           <span class="ml-1 font-normal">Fixtures</span>
         </div>
       </button>
-      <button data-type="tab-control" target-tab="standings" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
-        <div class="flex items-center mb-3">
+      <button data-type="tab-control" target-tab="standings" onclick="activeTab(this)" class="cursor-pointer rounded-t-md px-4 pt-3 text-sm text-gray-600 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
+        <div class="mb-3 flex items-center">
           <span class="ml-1 font-normal">Standings</span>
         </div>
       </button>
-      <button data-type="tab-control" target-tab="highlights" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
-        <div class="flex items-center mb-3">
+      <button data-type="tab-control" target-tab="highlights" onclick="activeTab(this)" class="cursor-pointer rounded-t-md px-4 pt-3 text-sm text-gray-600 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
+        <div class="mb-3 flex items-center">
           <span class="ml-1 font-normal">Highlights</span>
         </div>
       </button>
-      <!-- <button data-type="tab-control" target-tab="live-channels" onclick="activeTab(this)" class="focus:outline-none focus:text-indigo-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-indigo-700 cursor-pointer">
-          <div class="flex items-center mb-3">
-              <span class="ml-1 font-normal">Live Channels</span>
-          </div>
-      </button> -->
     </div>
   </div>
   <nav class="h-16 bg-red-500 text-white">
@@ -53,7 +48,11 @@
         <h1 class="flex-1 py-2 text-xl font-bold">Premier League</h1>
       </div>
       <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3">
-        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+        <div class="group relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+          <span class="ease absolute left-0 top-0 h-full w-0 border-0 border-t-2 border-red-500 transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
+          <span class="ease absolute right-0 top-0 h-0 w-full border-0 border-r-2 border-red-500 transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
+          <span class="ease absolute bottom-0 right-0 h-full w-0 border-0 border-b-2 border-red-500 transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
+          <span class="ease absolute bottom-0 left-0 h-0 w-full border-0 border-l-2 border-red-500 transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
           <div class="flex w-full flex-col">
             <div class="flex w-full gap-2 p-3">
               <div class="flex flex-1 flex-col gap-3 pr-2">
@@ -106,7 +105,11 @@
             </div>
           </div>
         </div>
-        <div class="relative flex overflow-hidden rounded-md border border-red-500 bg-white shadow">
+        <div class="group relative flex overflow-hidden rounded-md border border-yellow-500 bg-white shadow">
+          <span class="ease absolute left-0 top-0 h-full w-0 border-0 border-t-2 border-yellow-500 transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
+          <span class="ease absolute right-0 top-0 h-0 w-full border-0 border-r-2 border-yellow-500 transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
+          <span class="ease absolute bottom-0 right-0 h-full w-0 border-0 border-b-2 border-yellow-500 transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
+          <span class="ease absolute bottom-0 left-0 h-0 w-full border-0 border-l-2 border-yellow-500 transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
           <div class="flex w-full flex-col">
             <div class="flex w-full gap-2 p-3">
               <div class="flex flex-1 flex-col gap-3 pr-2">
