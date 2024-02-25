@@ -315,7 +315,7 @@ function getData(date = null, live = false) {
                                         hlsUrls.push({ url: se.url, quality: se.name });
                                         if (!lstQuality.includes(se.name.toLowerCase())) {
                                             // htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${commentators})" target="_blank" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">${se.name}</a>`;
-                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${commentators})" target="_blank" class="px-2">${se.name}</a>`;
+                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${commentators})" target="_blank" class="px-2 hover:opacity-80">${se.name}</a>`;
                                         }
                                     });
                                 },
@@ -382,7 +382,7 @@ function getData(date = null, live = false) {
                                     </div>
                                     </div>
                                 </div>
-                                ${htmlTemp == "" ? "" : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold">${htmlTemp}</div>`}
+                                ${htmlTemp == "" ? "" : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold z-10">${htmlTemp}</div>`}
                                 </div>
                             </div>
                         `;
