@@ -60,7 +60,7 @@ $(function () {
                                     .trim()}`
                             ).append(`
                                 <a class="bg-white border border-gray-200 rounded-lg shadow flex flex-col" href="${object.url}" target="_blank">
-                                    <img class="rounded-t-lg object-contain" src="${object.tvgLogo}" alt="${object.name}" style="aspect-ratio: 16/9;">
+                                    <img class="rounded-t-lg object-contain" src="${object.tvgLogo}" alt="${object.name}" style="aspect-ratio: 16/9;" loading="lazy">
                                     <div class="p-4">
                                     <span class="text-lg font-bold">${object.name}</span>
                                     </div>

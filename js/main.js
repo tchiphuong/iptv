@@ -1,102 +1,87 @@
 var host = "https://tchiphuong.github.io/iptv/";
-$(function () {
-    var cbbdata = [];
-    $.ajax({
-        async: false,
-        url: "https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues",
-        beforeSend: function () {
-            ShowLoading();
-        },
-        success: function (resp) {
-            cbbdata = sortObj(resp.data, "order_number")
-                .filter((item) => item.sport_type === 1 && item.app_display)
-                .map((item) => ({
-                    id: item.league_sync_id,
-                    text: item.name,
-                    logo: item.logo,
-                }));
-        },
-        error: function (res) {
-            swal("Oops", "Something went wrong!", "error");
-        },
-        complete: function () {
-            CloseLoading();
-        },
-    });
-
-    $("#cbb-standings").select2({
-        templateResult: formatState,
-        templateSelection: formatState,
-        data: cbbdata,
-    });
-
-    $('[data-type="tab-control"]').each(function () {
-        if ($(this).attr("tab-show")) {
-            $(this).trigger("click");
-        }
-    });
-    flatpickr("#date", {
-        minDate: moment().subtract(2, "days").format("YYYY-MM-DD"),
-        locale: "vn",
-        dateFormat: "d/m/Y",
-        altFormat: "d/m/Y",
-        defaultDate: "today",
-        onChange: function (selectedDates, dateStr, instance) {
-            // var date = moment(new Date(selectedDates)).format("YYYYMMDD");
-            // getData(date);
-            //var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-            //getData(date);
-            $("#btn-search").trigger("click");
-        },
-    });
-
-    $(".shortcut-buttons-flatpickr-button").addClass("text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800");
-
-    $("#btn-search").on("click", function () {
-        var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-        getData(date, true);
-    });
-
-    $("#btn-search").trigger("click");
-    getStandings(cbbdata[0].id);
-
-    $(document).on("click", "button[data-type='btn-filter']", function () {
-        $("#tournament")
-            .find("button[data-type='btn-filter']")
-            .each(function () {
-                $(this).removeClass("bg-blue-700 text-white active");
-            });
-        $(this).addClass("bg-blue-700 text-white active");
-        const id = $(this).attr("id");
-        $(`[data-type="match"]`).each(function () {
-            $(this).addClass("invisible opaciy-0 hidden");
+(async function () {
+    try {
+        const resp = await $.ajax({
+            url: "https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues",
+            beforeSend: function () {
+                ShowLoading();
+            },
         });
-        $(`[tournament='${id}']`).each(function () {
-            $(this).removeClass("invisible opaciy-0 hidden");
+
+        const cbbdata = sortObj(resp.data, "order_number")
+            .filter((item) => item.sport_type === 1 && item.app_display)
+            .map((item) => ({
+                id: item.league_sync_id,
+                text: item.name,
+                logo: item.logo,
+            }));
+
+        $("#cbb-standings").select2({
+            templateResult: formatState,
+            templateSelection: formatState,
+            data: cbbdata,
         });
-        if (id == "all") {
-            $(`[data-type="match"]`).each(function () {
-                $(this).removeClass("invisible opaciy-0 hidden");
-            });
-        }
-    });
 
-    $(document).on("change", "#cbb-standings", function () {
-        getStandings($(this).val());
-    });
+        $('[data-type="tab-control"]').each(function () {
+            if ($(this).attr("tab-show")) {
+                $(this).trigger("click");
+            }
+        });
 
-    // setInterval(function () {
-    //     var dateObj = new Date();
-    //     var month = dateObj.getMonth() + 1; //months from 1-12
-    //     var day = dateObj.getDate();
-    //     var year = dateObj.getFullYear();
-    //     var dateLink = `${year}${pad(month)}${pad(day)}`;
-    //     var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-    //     if (date == dateLink) {
-    //         getData(dateLink, false);
-    //     }
-    // }, 1000);
-});
+        flatpickr("#date", {
+            minDate: moment().subtract(2, "days").format("YYYY-MM-DD"),
+            locale: "vn",
+            dateFormat: "d/m/Y",
+            altFormat: "d/m/Y",
+            defaultDate: "today",
+            onChange: function (selectedDates, dateStr, instance) {
+                $("#btn-search").trigger("click");
+            },
+        });
+
+        $(".shortcut-buttons-flatpickr-button").addClass("text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800");
+
+        $("#btn-search").on("click", function () {
+            const date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
+            getData(date, true);
+        });
+
+        $("#btn-search").trigger("click");
+
+        $(document).on("click", "button[data-type='btn-filter']", function () {
+            const id = $(this).attr("id");
+            $("#tournament").find("button[data-type='btn-filter']").removeClass("bg-blue-700 text-white active");
+            $(this).addClass("bg-blue-700 text-white active");
+            $(`[data-type="match"]`).addClass("invisible opacity-0 hidden");
+            if (id !== "all") {
+                $(`[tournament='${id}']`).removeClass("invisible opacity-0 hidden");
+            } else {
+                $(`[data-type="match"]`).removeClass("invisible opacity-0 hidden");
+            }
+        });
+
+        $(document).on("change", "#cbb-standings", function () {
+            getStandings($(this).val());
+        });
+
+        CloseLoading(); // Đóng loading sau khi mọi thứ đã được xử lý
+    } catch (error) {
+        swal("Oops", "Something went wrong!", "error");
+        CloseLoading(); // Đóng loading nếu có lỗi xảy ra
+    }
+})();
+
+// setInterval(function () {
+//     var dateObj = new Date();
+//     var month = dateObj.getMonth() + 1; //months from 1-12
+//     var day = dateObj.getDate();
+//     var year = dateObj.getFullYear();
+//     var dateLink = `${year}${pad(month)}${pad(day)}`;
+//     var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
+//     if (date == dateLink) {
+//         getData(dateLink, false);
+//     }
+// }, 1000);
 
 function formatState(state) {
     if (!state.id) {
@@ -126,95 +111,89 @@ function sortObj(list, key) {
     }
     return list.sort(compare);
 }
-
 function getStandings(league = null) {
     let url = `https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/ranking?league_id=${league}`;
-    var standings = "";
-    $.ajax({
-        async: false,
-        type: "get",
-        url: url,
-        success: function (resp) {
-            $("#list-standings").empty();
-            standings += `<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 dark:border-gray-700">`;
-            $.each(resp.data.ranks, function (i, e) {
-                standings += `<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                <tr>
-                                    <th scope="col" class="py-3 px-3 text-center"></th>
-                                    <th scope="col" class="py-3 px-3 text-center"></th>
-                                    <th scope="col" class="py-3 px-3 text-center">
-                                        <span class="md:hidden">P</span>
-                                        <span class="hidden md:block">Played</span>
-                                    </th>
-                                    <th scope="col" class="py-3 px-3 text-center">
-                                        <span class="md:hidden">W</span>
-                                        <span class="hidden md:block">Won</span>
-                                    </th>
-                                    <th scope="col" class="py-3 px-3 text-center">
-                                        <span class="md:hidden">D</span>
-                                        <span class="hidden md:block">Drawn</span>
-                                    </th>
-                                    <th scope="col" class="py-3 px-3 text-center">
-                                        <span class="md:hidden">L</span>
-                                        <span class="hidden md:block">Lost</span>
-                                    </th>
-                                    <th scope="col" class="py-3 px-3 text-center">
-                                        <span class="md:hidden">GD</span>
-                                        <span class="hidden md:block">Goals Diference</span>
-                                    </th>
-                                    <th scope="col" class="py-3 px-3 text-center">
-                                        <span class="md:hidden">Pst</span>
-                                        <span class="hidden md:block">Points</span>
-                                    </th>
-                                </tr>
-                            </thead>
-                        <tbody>`;
-                $.each(e.team_ranks, function (i, se) {
-                    let border = "border-white";
-                    if (se.color == 0) {
-                        border = "border-blue-500";
-                    } else if (se.color == 1) {
-                        border = "border-yellow-500";
-                    } else if (se.color == 2) {
-                        border = "border-green-500";
-                    } else if (se.color >= 3) {
-                        border = "border-red-500";
-                    }
-                    standings += `
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300">
-                            <td scope="row" class="${border} border-l-4 border-5 px-2 text-center border-left-2">${se.team_rank}</td>
-                            <th scope="row" class="py-4 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                <img class="h-5" src="${se.team_logo}" alt="">
-                                <span class="px-2">${se.team_name}</span>
-                            </th>
-                            <td class="py-4 px-3 text-center">
-                                ${se.total_count}
-                            </td>
-                            <td class="py-4 px-3 text-center">
-                                ${se.win_count}
-                            </td>
-                            <td class="py-4 px-3 text-center">
-                                ${se.draw_count}
-                            </td>
-                            <td class="py-4 px-3 text-center">
-                                ${se.lose_count}
-                            </td>
-                            <td class="py-4 px-3 text-center">
-                                ${se.goal_difference}
-                            </td>
-                            <td class="py-4 px-3 text-center">
-                                ${se.integral}
-                            </td>
-                        </tr>`;
+
+    return new Promise((resolve, reject) => {
+        $.ajax({
+            type: "GET",
+            url: url,
+            success: function (resp) {
+                $("#list-standings").empty();
+                let standings = "";
+
+                resp.data.ranks.forEach((e) => {
+                    standings += `<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 dark:border-gray-700">`;
+                    standings += `<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                        <tr>
+                                            <th scope="col" class="py-3 px-3 text-center"></th>
+                                            <th scope="col" class="py-3 px-3 text-center"></th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">P</span>
+                                                <span class="hidden md:block">Played</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">W</span>
+                                                <span class="hidden md:block">Won</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">D</span>
+                                                <span class="hidden md:block">Drawn</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">L</span>
+                                                <span class="hidden md:block">Lost</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">GD</span>
+                                                <span class="hidden md:block">Goals Diference</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">Pst</span>
+                                                <span class="hidden md:block">Points</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>`;
+
+                    e.team_ranks.forEach((se) => {
+                        let border = "border-white";
+                        if (se.color == 0) {
+                            border = "border-blue-500";
+                        } else if (se.color == 1) {
+                            border = "border-yellow-500";
+                        } else if (se.color == 2) {
+                            border = "border-green-500";
+                        } else if (se.color >= 3) {
+                            border = "border-red-500";
+                        }
+
+                        standings += `
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300">
+                                <td scope="row" class="${border} border-l-4 border-5 px-2 text-center border-left-2">${se.team_rank}</td>
+                                <th scope="row" class="py-4 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <img class="h-5" src="${se.team_logo}" alt="">
+                                    <span class="px-2">${se.team_name}</span>
+                                </th>
+                                <td class="py-4 px-3 text-center">${se.total_count}</td>
+                                <td class="py-4 px-3 text-center">${se.win_count}</td>
+                                <td class="py-4 px-3 text-center">${se.draw_count}</td>
+                                <td class="py-4 px-3 text-center">${se.lose_count}</td>
+                                <td class="py-4 px-3 text-center">${se.goal_difference}</td>
+                                <td class="py-4 px-3 text-center">${se.integral}</td>
+                            </tr>`;
+                    });
+
+                    standings += `</tbody></table>`;
                 });
-                standings += `</tbody>`;
-            });
-            standings += `</table>`;
-            $("#list-standings").append(standings);
-        },
-        error: function (res) {
-            swal("Oops", "Something went wrong!", "error");
-        },
+
+                $("#list-standings").append(standings);
+                resolve();
+            },
+            error: function (res) {
+                reject("Something went wrong!");
+            },
+        });
     });
 }
 
@@ -222,16 +201,13 @@ function getData(date = null, live = false) {
     if (live) {
         $("#all").trigger("click");
     }
-    var text = "";
     var html = "";
     var htmlTemp = "";
-    var commentators;
     var dateObj = new Date();
     var month = dateObj.getMonth() + 1; //months from 1-12
     var day = dateObj.getDate();
     var year = dateObj.getFullYear();
     var dateLink = `${year}${pad(month)}${pad(day)}`;
-    var hlsUrls = [];
     var url = `https://api.vebo.xyz/api/match/fixture/home/${dateLink}`;
     if (date) {
         url = `https://api.vebo.xyz/api/match/fixture/home/${date}`;
@@ -252,7 +228,6 @@ function getData(date = null, live = false) {
                 resp.data.filter((x) => x.sport_type == "football"),
                 "timestamp"
             );
-            text += `#EXTM3U x-tvg-url="" tvg-shift=0 m3uautoload=1` + "\n<br>";
 
             lstMatch = lstMatch.filter((x) => x.is_featured).concat(lstMatch.filter((x) => !x.is_featured));
 
@@ -271,7 +246,6 @@ function getData(date = null, live = false) {
                     unique[array[i].id] = 1;
                 }
             }
-            // if (live) {
             var lstTournament = sortObj(distinct.filter((x) => x.is_featured)).concat(sortObj(distinct.filter((x) => !x.is_featured)));
             $("#tournament").empty();
             $("#featured").empty();
@@ -289,12 +263,8 @@ function getData(date = null, live = false) {
                                 <div class="whitespace-nowrap pr-2">${te.name}</div>
                             </button>
                         `);
-                    // }
                     const lstMatchFiltered = lstMatch.filter((match) => match.tournament.unique_tournament.id === te.id);
                     $.each(lstMatchFiltered, function (i, e) {
-                        commentators = "";
-                        var link = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="${e.tournament.logo}",${moment(e.date).format("DD/MM")} ${moment(e.timestamp).format("HH:mm")} ${e.name}`;
-                        var hls = "new.m3u8";
                         var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
                         htmlTemp = "";
                         if (e.is_live) {
@@ -306,16 +276,10 @@ function getData(date = null, live = false) {
                                 },
                                 success: function (resp) {
                                     let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
+                                    lstQuality = [];
                                     $.each(resp.data.play_urls, function (si, se) {
-                                        commentators = resp.data.commentators || [];
-                                        commentators = commentators.map((x) => x.name).join(", ");
-                                        hls = se.url;
-                                        text += `${link} [${se.name}]` + "\n<br>";
-                                        text += hls + "\n<br>";
-                                        hlsUrls.push({ url: se.url, quality: se.name });
                                         if (!lstQuality.includes(se.name.toLowerCase())) {
-                                            // htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${commentators})" target="_blank" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">${se.name}</a>`;
-                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${commentators})" target="_blank" class="px-2 hover:opacity-80">${se.name}</a>`;
+                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${(e.commentators && e.commentators.map((x) => x.name).join("; ")) || "..."})" target="_blank" class="px-2 hover:opacity-80">${se.name}</a>`;
                                         }
                                     });
                                 },
@@ -382,21 +346,18 @@ function getData(date = null, live = false) {
                                     </div>
                                     </div>
                                 </div>
-                                ${htmlTemp == "" ? "" : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center gap-2 px-1 py-2 font-bold z-10">${htmlTemp}</div>`}
+                                ${
+                                    htmlTemp == ""
+                                        ? ""
+                                        : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center px-1 py-2 font-bold z-10">
+                                            <img class="h-6" src="./images/live.gif"><span>Live:</span>${htmlTemp}</div>`
+                                }
                                 </div>
                             </div>
                         `;
-                        //commentators = (e.commentators && e.commentators.map((x) => x.name).join("; ")) || [];
                     });
                     $("button[data-type='btn-filter'].active").trigger("click");
-                    $.each(sortObj(sortObj(hlsUrls, "url"), "quality"), function (index, item) {
-                        $("#test").append(`
-                            <div>
-                                <div>#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://tchiphuong.github.io/iptv/images/vebotv.png",VEBOtv ${index + 1} [${item.quality}]</div>
-                                <a href="${item.url}" target="_blank">${item.url}</a>
-                            </div>
-                        `);
-                    });
+
                     featured = `
                         <div data-type="match" tournament="${te.id}" class="mx-2">
                             <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
@@ -419,42 +380,38 @@ function getData(date = null, live = false) {
         },
     });
 }
-var btn = $("#button");
 
-$(window).scroll(function () {
-    if ($(window).scrollTop() > 60) {
-        btn.addClass("show");
-    } else {
-        btn.removeClass("show");
-    }
+var btn = $("#button");
+var windowObj = $(window);
+
+windowObj.scroll(function () {
+    btn.toggleClass("show", windowObj.scrollTop() > 60);
 });
 
 btn.on("click", function (e) {
     e.preventDefault();
-    $("html, body").animate({ scrollTop: 0 }, "300");
+    $("html, body").animate({ scrollTop: 0 }, 300);
 });
 
 function activeTab(element) {
-    $(element)
-        .parent()
-        .find("button")
-        .each(function (i, e) {
-            if (e == element) {
-                $(e).removeClass("text-gray-700 bg-white").addClass("text-white bg-indigo-700").find("span").addClass("text-white font-bold").removeClass("text-gray-700");
-            } else {
-                $(e).addClass("text-gray-700 bg-white").removeClass("text-white bg-indigo-700").find("span").removeClass("text-white font-bold").addClass("text-gray-700");
-            }
-        });
+    const targetTab = $(element).attr("target-tab");
+    const buttons = $(element).parent().find("button");
 
-    let tabid = $(element).attr("target-tab");
-    $('[data-type="tab-item"]').each(function () {
-        $(this).hide(ShowLoading());
+    buttons.each(function (i, e) {
+        const isCurrentButton = e === element;
+        $(e).toggleClass("text-gray-700 bg-white", !isCurrentButton).toggleClass("text-white bg-indigo-700", isCurrentButton).find("span").toggleClass("text-white font-bold", isCurrentButton).toggleClass("text-gray-700", !isCurrentButton);
     });
+
+    $('[data-type="tab-item"]').hide(ShowLoading());
     $("title").text($(element).text().trim());
+
     setTimeout(() => {
-        $("#" + tabid).show(CloseLoading());
+        $("#" + targetTab).show(CloseLoading());
     }, 50);
-    if ($(element).attr("target-tab") === "highlights") {
+
+    if (targetTab === "standings") {
+        $("#cbb-standings").trigger("change");
+    } else if (targetTab === "highlights") {
         getHighlights();
     }
 }
@@ -462,102 +419,100 @@ function activeTab(element) {
 function getHighlights(page = 1) {
     ShowLoading();
     let url = `https://api.vebo.xyz/api/news/xoilac/list/highlight/${page}`;
+
+    // Perform AJAX request to get highlights
     $.ajax({
-        async: false,
         url: url,
         beforeSend: function () {
             ShowLoading();
         },
-        success: function (resp) {
+    })
+        .done(function (resp) {
+            // Display highlight only if it's the first page
+            if (page === 1 && resp.data.highlight) {
+                let highlightId = resp.data.highlight.id;
+                let highlightUrl = `https://api.vebo.xyz/api/news/xoilac/detail/${highlightId}`;
+
+                // Perform AJAX request to get detail of the first highlight
+                $.ajax({
+                    url: highlightUrl,
+                })
+                    .done(function (highlightResp) {
+                        let videoUrl = highlightResp.data.video_url;
+                        displayHighlight(resp.data.highlight, videoUrl, true);
+                    })
+                    .fail(function () {
+                        showError();
+                    })
+                    .always(function () {
+                        CloseLoading();
+                    });
+            }
+
+            // Clear previous highlights before displaying new ones
             $("#first-highlights").empty();
             $("#list-highlights").empty();
-            if (resp.data.highlight) {
-                let url = `https://api.vebo.xyz/api/news/xoilac/detail/${resp.data.highlight.id}`;
+
+            // Loop through other highlights and display them
+            resp.data.list.forEach(function (highlight) {
+                let highlightUrl = `https://api.vebo.xyz/api/news/xoilac/detail/${highlight.id}`;
+
+                // Perform AJAX request to get detail of each highlight
                 $.ajax({
-                    async: false,
-                    url: url,
-                    beforeSend: function () {
-                        ShowLoading();
-                    },
-                    success: function (resp) {
-                        video_url = resp.data.video_url;
-                    },
-                    error: function (res) {
-                        swal("Oops", "Something went wrong!", "error");
-                    },
-                    complete: function () {
+                    url: highlightUrl,
+                })
+                    .done(function (detailResp) {
+                        displayHighlight(highlight, detailResp.data.video_url);
+                    })
+                    .fail(function () {
+                        showError();
+                    })
+                    .always(function () {
                         CloseLoading();
-                    },
-                });
-                $("#first-highlights").html(`
-                    <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:items-start hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img class="object-cover w-full rounded-t-lg md:h-auto md:w-1/2 lg:w-4/12 md:rounded-none md:rounded-l-lg " style="aspect-ratio: 16/9;" src="${resp.data.highlight.feature_image}" alt="${resp.data.highlight.name}" loading="lazy">
-                        <div class="flex flex-col justify-between p-4 leading-normal">
-                            <span>
-                                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">${resp.data.highlight.name}</h5>
-                                <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${moment(resp.data.highlight.created_at).format("DD/MM/YYYY")}</span>
-                                <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${resp.data.highlight.name.split("|")[1]}</span>
-                            </span>
-                            <p class="mb-3 font-xs italic text-gray-700 dark:text-gray-400">${resp.data.highlight.description}</p>
-                            <div>
-                                <a href="${host}get-key.html?url=${video_url}&title=${resp.data.highlight.name.split("|")[0]}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    View
-                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                `);
-            }
-            $.each(resp.data.list, function (i, e) {
-                let url = `https://api.vebo.xyz/api/news/xoilac/detail/${e.id}`;
-                $.ajax({
-                    async: false,
-                    url: url,
-                    beforeSend: function () {
-                        ShowLoading();
-                    },
-                    success: function (resp) {
-                        $("#list-highlights").append(`
-                            <div class="bg-white border border-gray-200 rounded-lg shadow flex flex-col">
-                                <img class="rounded-t-lg object-cover" src="${e.feature_image}" alt="${e.name}"" style="aspect-ratio: 16/9;" loading="lazy">
-                                <div class="px-4 py-3 flex flex-col grow">
-                                    <span>
-                                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${e.name}">${e.name.split("|")[0]}</h5>
-                                        <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${moment(e.created_at).format("DD/MM/YYYY")}</span>
-                                        <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${e.name.split("|")[1]}</span>
-                                    </span>
-                                    <p class="mb-3 font-xs italic text-gray-700 grow">${e.description}</p>
-                                    <a href="${host}get-key.html?url=${resp.data.video_url}&title=${e.name.split("|")[0]}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                        View
-                                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        `);
-                    },
-                    error: function (res) {
-                        swal("Oops", "Something went wrong!", "error");
-                    },
-                    complete: function () {
-                        CloseLoading();
-                    },
-                });
+                    });
             });
 
             createPagination(resp);
-        },
-        error: function (res) {
-            swal("Oops", "Something went wrong!", "error");
-        },
-        complete: function () {
+        })
+        .fail(function () {
+            showError();
             CloseLoading();
-        },
-    });
+        });
+}
+
+function displayHighlight(highlight, videoUrl, first = false) {
+    let formattedDate = moment(highlight.created_at).format("DD/MM/YYYY");
+    let [title, category] = highlight.name.split("|");
+
+    let html = `
+        <div class="bg-white border border-gray-200 rounded-lg shadow flex flex-col">
+            <img class="rounded-t-lg object-cover" src="${highlight.feature_image}" alt="${highlight.name}" style="aspect-ratio: 16/9;" loading="lazy">
+            <div class="px-4 py-3 flex flex-col grow">
+                <span>
+                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${title}">${title}</h5>
+                    <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${formattedDate}</span>
+                    <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${category}</span>
+                </span>
+                <p class="mb-3 font-xs italic text-gray-700 grow">${highlight.description}</p>
+                <a href="${host}get-key.html?url=${videoUrl}&title=${title}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    View
+                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    `;
+
+    if (first) {
+        $("#first-highlights").html(html);
+    } else {
+        $("#list-highlights").append(html);
+    }
+}
+
+function showError() {
+    swal("Oops", "Something went wrong!", "error");
 }
 
 function changePage(page) {

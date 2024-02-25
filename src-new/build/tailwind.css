@@ -743,6 +743,9 @@ video {
 .hidden {
   display: none;
 }
+.aspect-\[16\/9\] {
+  aspect-ratio: 16/9;
+}
 .h-0 {
   height: 0px;
 }
@@ -1724,6 +1727,9 @@ video {
 .pt-3 {
   padding-top: 0.75rem;
 }
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -2209,8 +2215,20 @@ video {
 }
 @media (min-width: 1024px) {
 
+  .lg\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }
 @media (prefers-color-scheme: dark) {
