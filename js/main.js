@@ -42,8 +42,12 @@ var host = "https://tchiphuong.github.io/iptv/";
         $(".shortcut-buttons-flatpickr-button").addClass("text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800");
 
         $("#btn-search").on("click", function () {
-            const date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-            getData(date, true);
+            const date = $("#date")[0]._flatpickr.selectedDates[0];
+            if (date != undefined) {
+                getData(moment(new Date(date)).format("YYYYMMDD"), true);
+            } else {
+                getData();
+            }
         });
 
         $("#btn-search").trigger("click");
@@ -70,6 +74,10 @@ var host = "https://tchiphuong.github.io/iptv/";
         CloseLoading(); // Đóng loading nếu có lỗi xảy ra
     }
 })();
+
+$(document).on("click", "#clear-date", function () {
+    $("#date")[0]._flatpickr.clear();
+});
 
 // setInterval(function () {
 //     var dateObj = new Date();
@@ -209,6 +217,8 @@ function getData(date = null, live = false) {
     var year = dateObj.getFullYear();
     var dateLink = `${year}${pad(month)}${pad(day)}`;
     var url = `https://api.vebo.xyz/api/match/fixture/home/${dateLink}`;
+    url = `https://api.vebo.xyz/api/match/featured`;
+    url = `https://live.vebo.xyz/api/match/live`;
     if (date) {
         url = `https://api.vebo.xyz/api/match/fixture/home/${date}`;
     }
@@ -292,7 +302,7 @@ function getData(date = null, live = false) {
                                 },
                             });
                         }
-                        const borderColor = e.timestamp <= new Date().valueOf() ? (e.is_featured ? "border-red-500" : "border-yellow-500") : "";
+                        const borderColor = e.is_live ? (e.is_featured ? "border-red-500" : "border-yellow-500") : "";
                         html += `
                             <div class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow">
                                 ${
@@ -309,13 +319,15 @@ function getData(date = null, live = false) {
                                 <div class="flex w-full gap-2 p-3">
                                     <div class="flex flex-1 flex-col gap-3 pr-2">
                                     <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${e.home.logo || e.tournament.logo}" loading="lazy" />
+                                        <img class="h-10 w-10 object-contain" src="${e.home.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.kibrispdr.org/data/957/tameng-logo-esport-29.png';"/>
                                         <div class="flex-1" title="${e.home.name}">${e.home.short_name}</div>
+                                        ${e.home_red_cards > 0 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />` : ""}
                                         <span class="text-[20px] font-bold">${e.timestamp <= new Date().valueOf() ? e.scores.home : "-"}</span>
                                     </div>
                                     <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${e.away.logo || e.tournament.logo}" loading="lazy" />
+                                        <img class="h-10 w-10 object-contain" src="${e.away.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.kibrispdr.org/data/957/tameng-logo-esport-29.png';"/>
                                         <div class="flex-1" title="${e.away.name}">${e.away.short_name}</div>
+                                        ${e.away_red_cards > 0 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />` : ""}
                                         <span class="text-[20px] font-bold">${e.timestamp <= new Date().valueOf() ? e.scores.away : "-"}</span>
                                     </div>
                                     </div>
@@ -361,7 +373,7 @@ function getData(date = null, live = false) {
                     featured = `
                         <div data-type="match" tournament="${te.id}" class="mx-2">
                             <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
-                                <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy"/>
+                                <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.kibrispdr.org/data/957/tameng-logo-esport-29.png';"/>
                                 <h1 class="flex-1 py-2 text-xl font-bold">${te.name}</h1>
                             </div>
                             <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3">${html}</div>

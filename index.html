@@ -54,7 +54,15 @@
                 <div class="flex items-end content-center gap-2 px-2">
                     <div class="md:w-3/12">
                         <label for="date" class="text-sm font-medium text-gray-900 dark:text-white">Date:</label>
-                        <input type="text" id="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                        <div class="relative">
+                            <input type="text" id="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                            <a id="clear-date" class="absolute top-1/2 right-3 cursor-pointer hover:opacity-80 w-5" style="transform: translateY(-50%)">
+                                <!-- xmark icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                                    <path d="M 490.5389 73.58084 Q 512 47.520958 490.5389 21.461079 Q 464.47903 0 438.41916 21.461079 L 256 203.88023 L 256 203.88023 L 73.58084 21.461079 L 73.58084 21.461079 Q 47.520958 0 21.461079 21.461079 Q 0 47.520958 21.461079 73.58084 L 203.88023 256 L 203.88023 256 L 21.461079 438.41916 L 21.461079 438.41916 Q 0 464.47903 21.461079 490.5389 Q 47.520958 512 73.58084 490.5389 L 256 308.11975 L 256 308.11975 L 438.41916 490.5389 L 438.41916 490.5389 Q 464.47903 512 490.5389 490.5389 Q 512 464.47903 490.5389 438.41916 L 308.11975 256 L 308.11975 256 L 490.5389 73.58084 L 490.5389 73.58084 Z" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <button id="btn-search" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Search</button>
                 </div>
@@ -98,9 +106,9 @@
                     <div id="live-channels" data-type="tab-item"></div>
                 </div>
             </div>
-            <a class="text-center p-3 block bg-white border fixed bottom-0 inset-x-0" target="_blank" href="https://chrome.google.com/webstore/detail/reproductor-m3u8-hls-%2B-da/lcipembjfkmeggpihdpdgnjildgniffl">
+            <!-- <a class="text-center p-3 block bg-white border fixed bottom-0 inset-x-0" target="_blank" href="https://chrome.google.com/webstore/detail/reproductor-m3u8-hls-%2B-da/lcipembjfkmeggpihdpdgnjildgniffl">
                 <span>Install <b>Reproductor M3U8 - HLS + DASH Player</b> into your browser</span>
-            </a>
+            </a> -->
         </div>
         <button id="button" type="button" title="Scroll to top" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"></button>
         <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer" id="spin" style="display: none">
