@@ -1,4 +1,44 @@
 var host = "https://tchiphuong.github.io/iptv/";
+$(document).ready(function () {
+    const $ele = $("#tournament");
+    $ele.css("cursor", "grab");
+
+    let pos = { top: 0, left: 0, x: 0, y: 0 };
+
+    const mouseDownHandler = function (e) {
+        $ele.css("cursor", "grabbing");
+        $ele.css("user-select", "none");
+
+        pos = {
+            left: $ele.scrollLeft(),
+            top: $ele.scrollTop(),
+            x: e.clientX,
+            y: e.clientY,
+        };
+
+        $(document).on("mousemove", mouseMoveHandler);
+        $(document).on("mouseup", mouseUpHandler);
+    };
+
+    const mouseMoveHandler = function (e) {
+        const dx = e.clientX - pos.x;
+        const dy = e.clientY - pos.y;
+
+        $ele.scrollTop(pos.top - dy);
+        $ele.scrollLeft(pos.left - dx);
+    };
+
+    const mouseUpHandler = function () {
+        $ele.css("cursor", "grab");
+        $ele.css("user-select", "");
+
+        $(document).off("mousemove", mouseMoveHandler);
+        $(document).off("mouseup", mouseUpHandler);
+    };
+
+    $ele.on("mousedown", mouseDownHandler);
+});
+
 (async function () {
     try {
         const resp = await $.ajax({
