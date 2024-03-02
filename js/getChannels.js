@@ -51,13 +51,6 @@ $(function () {
                         
                     </div>
                 `);
-                console.log(element);
-                console.log(
-                    element.group
-                        .toLowerCase()
-                        .replace(/[^a-zA-Z0-9]/g, "")
-                        .trim()
-                );
                 if (element.channels) {
                     $(
                         `#list-channels-${element.group

@@ -316,7 +316,7 @@ function getData(date = null, live = false) {
                     $.each(lstMatchFiltered, function (i, e) {
                         var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
                         htmlTemp = "";
-                        if (e.is_live) {
+                        if (e.is_live && e.match_status !== "finished") {
                             $.ajax({
                                 async: false,
                                 url: subUrl,
@@ -325,10 +325,12 @@ function getData(date = null, live = false) {
                                 },
                                 success: function (resp) {
                                     let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
-                                    lstQuality = [];
+                                    lstQuality = ["backup 1", "backup 2"];
                                     $.each(resp.data.play_urls, function (si, se) {
                                         if (!lstQuality.includes(se.name.toLowerCase())) {
-                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${(e.commentators && e.commentators.map((x) => x.name).join("; ")) || "..."})" target="_blank" class="px-2 hover:opacity-80">${se.name}</a>`;
+                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${(e.commentators && e.commentators.map((x) => x.name).join("; ")) || "..."})" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
+                                            ${se.name}
+                                            </a>`;
                                         }
                                     });
                                 },
@@ -384,7 +386,7 @@ function getData(date = null, live = false) {
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                         <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
                                         </svg>
-                                        <span>${moment(e.timestamp).format("HH:mm")}</span>
+                                        <span>${moment(e.timestamp).format("HH:mm")}</span>${e.is_live && e.match_status === "live" ? `<img class="h-6" src="./images/live.gif">` : ""}
                                     </div>
                                     <div class="h-[1px] bg-gray-300"></div>
                                     <div class="flex items-center gap-1">
@@ -400,8 +402,9 @@ function getData(date = null, live = false) {
                                 ${
                                     htmlTemp == ""
                                         ? ""
-                                        : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center px-1 py-2 font-bold z-10">
-                                            <img class="h-6" src="./images/live.gif"><span>Live:</span>${htmlTemp}</div>`
+                                        : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center px-1 py-2 font-bold z-10 gap-2 justify-center">
+                                                ${htmlTemp}
+                                            </div>`
                                 }
                                 </div>
                             </div>
