@@ -26,12 +26,20 @@ $(function () {
         });
     }
 
-    var lstExcludes = ["info", "update"];
+    var lstExcludes = ["info", "update", "sctv", "tintcquct", "vthanhnetwork", "knhqungbthilan", "knhqungbnga", "knhqungbtrungquc", "knhqungbphp", "knhqungbc", "knhqungbm", "knhqungbanh", "foxsportsnetwork", "formula1", "knhtrongnc", "radio", "phimtruyn"];
     itemList = groupByGroupTitle(parseM3U(localStorage.content));
     $("#live-channels").empty();
     if (itemList) {
         itemList.forEach((element) => {
-            if (lstExcludes.filter((x) => element.group.toLowerCase().includes(x)) == 0) {
+            if (
+                lstExcludes.filter((x) =>
+                    element.group
+                        .toLowerCase()
+                        .replace(/[^a-zA-Z0-9]/g, "")
+                        .trim()
+                        .includes(x)
+                ) == 0
+            ) {
                 $("#live-channels").append(`
                     <div class="m-4 px-2 ml-0 border-l-4 border-yellow-500 text-lg font-bold">
                         ${element.group}
@@ -43,6 +51,13 @@ $(function () {
                         
                     </div>
                 `);
+                console.log(element);
+                console.log(
+                    element.group
+                        .toLowerCase()
+                        .replace(/[^a-zA-Z0-9]/g, "")
+                        .trim()
+                );
                 if (element.channels) {
                     $(
                         `#list-channels-${element.group
@@ -60,9 +75,8 @@ $(function () {
                                     .trim()}`
                             ).append(`
                                 <a class="bg-white border border-gray-200 rounded-lg shadow flex flex-col" href="${object.url}" target="_blank">
-                                    <img class="rounded-t-lg object-contain" src="${object.tvgLogo}" alt="${object.name}" style="aspect-ratio: 16/9;" loading="lazy">
-                                    <div class="p-4">
-                                    <span class="text-lg font-bold">${object.name}</span>
+                                    <img class="rounded-t-lg object-contain" src="${object.tvgLogo}" alt="${object.name}" style="aspect-ratio: 16/9;" loading="lazy" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png';">
+                                    <span class="text-xs lg:text-lg font-bold px-3 py-2">${object.name}</span>
                                     </div>
                                 </a>
                             `);

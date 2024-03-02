@@ -52,31 +52,30 @@
         <main class="container mx-auto">
             <div id="fixtures" data-type="tab-item" tab-show="true">
                 <div class="flex items-end content-center gap-2 px-2">
-                    <div class="md:w-3/12">
-                        <label for="date" class="text-sm font-medium text-gray-900 dark:text-white">Date:</label>
-                        <div class="relative">
-                            <input type="text" id="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
-                            <a id="clear-date" class="absolute top-1/2 right-3 cursor-pointer hover:opacity-80 w-5" style="transform: translateY(-50%)">
-                                <!-- xmark icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+                    <div class="w-full md:w-3/12">
+                        <label for="date-input" class="text-sm font-medium text-gray-900 dark:text-white">Date:</label>
+                        <p id="date" class="relative flatpickr flex" data-id="strap">
+                            <input id="date-input" type="text" placeholder="Select Date.." data-input="" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg block flex-1 p-2.5 ring-0" readonly="readonly" />
+                            <a class="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer *:focus:ring-4 font-medium text-sm flex items-center justify-center p-3 hover:text-red-500" title="clear" data-clear="">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                     <path d="M 490.5389 73.58084 Q 512 47.520958 490.5389 21.461079 Q 464.47903 0 438.41916 21.461079 L 256 203.88023 L 256 203.88023 L 73.58084 21.461079 L 73.58084 21.461079 Q 47.520958 0 21.461079 21.461079 Q 0 47.520958 21.461079 73.58084 L 203.88023 256 L 203.88023 256 L 21.461079 438.41916 L 21.461079 438.41916 Q 0 464.47903 21.461079 490.5389 Q 47.520958 512 73.58084 490.5389 L 256 308.11975 L 256 308.11975 L 438.41916 490.5389 L 438.41916 490.5389 Q 464.47903 512 490.5389 490.5389 Q 512 464.47903 490.5389 438.41916 L 308.11975 256 L 308.11975 256 L 490.5389 73.58084 L 490.5389 73.58084 Z" />
                                 </svg>
                             </a>
-                        </div>
+                        </p>
                     </div>
-                    <button id="btn-search" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Search</button>
+                    <button id="btn-search" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2">Search</button>
                 </div>
-                <div class="flex gap-2 my-3 py-1 px-2 overflow-x-auto" id="tournament"></div>
+                <div class="flex gap-2 my-3 py-1 overflow-x-auto relative" id="tournament"></div>
                 <div id="featured" class="flex flex-col gap-2 py-3">
-                    <div class="mx-2">
+                    <!-- <div class="mx-2">
                         <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
                             <img class="h-10" src="https://img.thesports.com/football/competition/d3cd84441d4de605d84a14521ef56920.png" alt="" />
                             <h1 class="flex-1 py-2 text-xl font-bold">Premier League</h1>
                         </div>
                         <div id="match" class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3"></div>
-                    </div>
+                    </div> -->
                 </div>
-                <div id="match" class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3"></div>
+                <!-- <div id="match" class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3"></div> -->
             </div>
         </main>
         <div class="flex flex-col pb-12">
@@ -97,7 +96,7 @@
                         </div>
                     </div>
                     <div id="highlights" data-type="tab-item">
-                        <div class="py-3 lg:py-4" id="first-highlights"></div>
+                        <div id="first-highlights" class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-4"></div>
                         <div id="list-highlights" class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-4"></div>
                         <div class="py-3 lg:py-4 text-center">
                             <ul id="pagination" class="inline-flex items-center -space-x-px"></ul>

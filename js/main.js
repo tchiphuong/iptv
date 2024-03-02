@@ -72,8 +72,7 @@ $(document).ready(function () {
             minDate: moment().subtract(2, "days").format("YYYY-MM-DD"),
             locale: "vn",
             dateFormat: "d/m/Y",
-            altFormat: "d/m/Y",
-            defaultDate: "today",
+            wrap: true,
             onChange: function (selectedDates, dateStr, instance) {
                 $("#btn-search").trigger("click");
             },
@@ -94,8 +93,8 @@ $(document).ready(function () {
 
         $(document).on("click", "button[data-type='btn-filter']", function () {
             const id = $(this).attr("id");
-            $("#tournament").find("button[data-type='btn-filter']").removeClass("bg-blue-700 text-white active");
-            $(this).addClass("bg-blue-700 text-white active");
+            $("#tournament").find("button[data-type='btn-filter']").removeClass("bg-blue-700 text-white active").addClass("bg-white");
+            $(this).addClass("bg-blue-700 text-white active").removeClass("bg-white");
             $(`[data-type="match"]`).addClass("invisible opacity-0 hidden");
             if (id !== "all") {
                 $(`[tournament='${id}']`).removeClass("invisible opacity-0 hidden");
@@ -302,7 +301,7 @@ function getData(date = null, live = false) {
             var featured = "";
             if (lstTournament.length > 0) {
                 $("#tournament").append(`
-                        <button data-type="btn-filter" id="all" type="button" class="bg-blue-700 text-white flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
+                        <button data-type="btn-filter" id="all" type="button" class="bg-blue-700 text-white sticky left-0 flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
                             <div class="whitespace-nowrap">All</div>
                         </button>
                     `);
@@ -359,13 +358,13 @@ function getData(date = null, live = false) {
                                 <div class="flex w-full gap-2 p-3">
                                     <div class="flex flex-1 flex-col gap-3 pr-2">
                                     <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${e.home.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.kibrispdr.org/data/957/tameng-logo-esport-29.png';"/>
+                                        <img class="h-10 w-10 object-contain" src="${e.home.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
                                         <div class="flex-1" title="${e.home.name}">${e.home.short_name}</div>
                                         ${e.home_red_cards > 0 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />` : ""}
                                         <span class="text-[20px] font-bold">${e.timestamp <= new Date().valueOf() ? e.scores.home : "-"}</span>
                                     </div>
                                     <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${e.away.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.kibrispdr.org/data/957/tameng-logo-esport-29.png';"/>
+                                        <img class="h-10 w-10 object-contain" src="${e.away.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
                                         <div class="flex-1" title="${e.away.name}">${e.away.short_name}</div>
                                         ${e.away_red_cards > 0 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />` : ""}
                                         <span class="text-[20px] font-bold">${e.timestamp <= new Date().valueOf() ? e.scores.away : "-"}</span>
@@ -413,7 +412,7 @@ function getData(date = null, live = false) {
                     featured = `
                         <div data-type="match" tournament="${te.id}" class="mx-2">
                             <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
-                                <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.kibrispdr.org/data/957/tameng-logo-esport-29.png';"/>
+                                <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
                                 <h1 class="flex-1 py-2 text-xl font-bold">${te.name}</h1>
                             </div>
                             <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3">${html}</div>
@@ -451,7 +450,7 @@ function activeTab(element) {
 
     buttons.each(function (i, e) {
         const isCurrentButton = e === element;
-        $(e).toggleClass("text-gray-700 bg-white", !isCurrentButton).toggleClass("text-white bg-indigo-700", isCurrentButton).find("span").toggleClass("text-white font-bold", isCurrentButton).toggleClass("text-gray-700", !isCurrentButton);
+        $(e).toggleClass("text-gray-700 bg-white", !isCurrentButton).toggleClass("text-white bg-blue-700", isCurrentButton).find("span").toggleClass("text-white font-bold", isCurrentButton).toggleClass("text-gray-700", !isCurrentButton);
     });
 
     $('[data-type="tab-item"]').hide(ShowLoading());
