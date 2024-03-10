@@ -78,7 +78,9 @@ $(document).ready(function () {
             },
         });
 
-        $(".shortcut-buttons-flatpickr-button").addClass("text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800");
+        $(".shortcut-buttons-flatpickr-button").addClass(
+            "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        );
 
         $("#btn-search").on("click", function () {
             const date = $("#date")[0]._flatpickr.selectedDates[0];
@@ -93,7 +95,10 @@ $(document).ready(function () {
 
         $(document).on("click", "button[data-type='btn-filter']", function () {
             const id = $(this).attr("id");
-            $("#tournament").find("button[data-type='btn-filter']").removeClass("bg-blue-700 text-white active").addClass("bg-white");
+            $("#tournament")
+                .find("button[data-type='btn-filter']")
+                .removeClass("bg-blue-700 text-white active")
+                .addClass("bg-white");
             $(this).addClass("bg-blue-700 text-white active").removeClass("bg-white");
             $(`[data-type="match"]`).addClass("invisible opacity-0 hidden");
             if (id !== "all") {
@@ -273,12 +278,16 @@ function getData(date = null, live = false) {
                 <span class="font-medium">Data not found!</div>`;
                 swal("Oops", "Data not found!", "error");
             }
-            var lstMatch = sortObj(
-                resp.data.filter((x) => x.sport_type == "football"),
-                "timestamp"
-            );
+            // var lstMatch = sortObj(
+            //     resp.data.filter((x) => x.sport_type == "football"),
+            //     "timestamp"
+            // );
 
-            lstMatch = lstMatch.filter((x) => x.is_featured).concat(lstMatch.filter((x) => !x.is_featured));
+            var lstMatch = resp.data.filter((x) => x.sport_type == "football");
+
+            lstMatch = lstMatch
+                .filter((x) => x.is_featured)
+                .concat(lstMatch.filter((x) => !x.is_featured));
 
             var array = lstMatch.map((x) => x.tournament.unique_tournament);
             var unique = [];
@@ -295,7 +304,10 @@ function getData(date = null, live = false) {
                     unique[array[i].id] = 1;
                 }
             }
-            var lstTournament = sortObj(distinct.filter((x) => x.is_featured)).concat(sortObj(distinct.filter((x) => !x.is_featured)));
+            var lstTournament = sortObj(distinct.filter((x) => x.is_featured)).concat(
+                sortObj(distinct.filter((x) => !x.is_featured))
+            );
+
             $("#tournament").empty();
             $("#featured").empty();
             var featured = "";
@@ -312,7 +324,9 @@ function getData(date = null, live = false) {
                                 <div class="whitespace-nowrap pr-2">${te.name}</div>
                             </button>
                         `);
-                    const lstMatchFiltered = lstMatch.filter((match) => match.tournament.unique_tournament.id === te.id);
+                    const lstMatchFiltered = lstMatch.filter(
+                        (match) => match.tournament.unique_tournament.id === te.id
+                    );
                     $.each(lstMatchFiltered, function (i, e) {
                         var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
                         htmlTemp = "";
@@ -324,11 +338,24 @@ function getData(date = null, live = false) {
                                     ShowLoading();
                                 },
                                 success: function (resp) {
-                                    let lstQuality = ["nhà đài", "backup 1", "backup 2", "sd", "sd1", "sd2"];
+                                    let lstQuality = [
+                                        "nhà đài",
+                                        "backup 1",
+                                        "backup 2",
+                                        "sd",
+                                        "sd1",
+                                        "sd2",
+                                    ];
                                     lstQuality = ["backup 1", "backup 2"];
                                     $.each(resp.data.play_urls, function (si, se) {
                                         if (!lstQuality.includes(se.name.toLowerCase())) {
-                                            htmlTemp += `<a href="${host}get-key.html?url=${se.url}&title=${e.home.short_name} - ${e.away.short_name} (${(e.commentators && e.commentators.map((x) => x.name).join("; ")) || "..."})" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
+                                            htmlTemp += `<a href="${host}get-key.html?url=${
+                                                se.url
+                                            }&title=${e.home.short_name} - ${e.away.short_name} (${
+                                                (e.commentators &&
+                                                    e.commentators.map((x) => x.name).join("; ")) ||
+                                                "..."
+                                            })" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
                                             ${se.name}
                                             </a>`;
                                         }
@@ -343,7 +370,11 @@ function getData(date = null, live = false) {
                                 },
                             });
                         }
-                        const borderColor = e.is_live ? (e.is_featured ? "border-red-500" : "border-yellow-500") : "";
+                        const borderColor = e.is_live
+                            ? e.is_featured
+                                ? "border-red-500"
+                                : "border-yellow-500"
+                            : "";
                         html += `
                             <div class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow">
                                 ${
@@ -360,16 +391,40 @@ function getData(date = null, live = false) {
                                 <div class="flex w-full gap-2 p-3">
                                     <div class="flex flex-1 flex-col gap-3 pr-2">
                                     <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${e.home.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                        <div class="flex-1" title="${e.home.name}">${e.home.short_name}</div>
-                                        ${e.home_red_cards > 0 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />` : ""}
-                                        <span class="text-[20px] font-bold">${e.timestamp <= new Date().valueOf() ? e.scores.home : "-"}</span>
+                                        <img class="h-10 w-10 object-contain" src="${
+                                            e.home.logo || e.tournament.logo
+                                        }" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
+                                        <div class="flex-1" title="${e.home.name}">${
+                            e.home.short_name
+                        }</div>
+                                        ${
+                                            e.home_red_cards > 0
+                                                ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />`
+                                                : ""
+                                        }
+                                        <span class="text-[20px] font-bold">${
+                                            e.timestamp <= new Date().valueOf()
+                                                ? e.scores.home
+                                                : "-"
+                                        }</span>
                                     </div>
                                     <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${e.away.logo || e.tournament.logo}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                        <div class="flex-1" title="${e.away.name}">${e.away.short_name}</div>
-                                        ${e.away_red_cards > 0 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />` : ""}
-                                        <span class="text-[20px] font-bold">${e.timestamp <= new Date().valueOf() ? e.scores.away : "-"}</span>
+                                        <img class="h-10 w-10 object-contain" src="${
+                                            e.away.logo || e.tournament.logo
+                                        }" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
+                                        <div class="flex-1" title="${e.away.name}">${
+                            e.away.short_name
+                        }</div>
+                                        ${
+                                            e.away_red_cards > 0
+                                                ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />`
+                                                : ""
+                                        }
+                                        <span class="text-[20px] font-bold">${
+                                            e.timestamp <= new Date().valueOf()
+                                                ? e.scores.away
+                                                : "-"
+                                        }</span>
                                     </div>
                                     </div>
                                     <div class="h-100 w-[1px] bg-gray-300"></div>
@@ -386,7 +441,11 @@ function getData(date = null, live = false) {
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                         <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
                                         </svg>
-                                        <span>${moment(e.timestamp).format("HH:mm")}</span>${e.is_live && e.match_status === "live" ? `<img class="h-6" src="./images/live.gif">` : ""}
+                                        <span>${moment(e.timestamp).format("HH:mm")}</span>${
+                            e.is_live && e.match_status === "live"
+                                ? `<img class="h-6" src="./images/live.gif">`
+                                : ""
+                        }
                                     </div>
                                     <div class="h-[1px] bg-gray-300"></div>
                                     <div class="flex items-center gap-1">
@@ -395,7 +454,11 @@ function getData(date = null, live = false) {
                                         <path
                                             d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
                                         </svg>
-                                        <span>${(e.commentators && e.commentators.map((x) => x.name).join("<br/>")) || "..."}</span>
+                                        <span>${
+                                            (e.commentators &&
+                                                e.commentators.map((x) => x.name).join("<br/>")) ||
+                                            "..."
+                                        }</span>
                                     </div>
                                     </div>
                                 </div>
@@ -453,7 +516,12 @@ function activeTab(element) {
 
     buttons.each(function (i, e) {
         const isCurrentButton = e === element;
-        $(e).toggleClass("text-gray-700 bg-white", !isCurrentButton).toggleClass("text-white bg-blue-700", isCurrentButton).find("span").toggleClass("text-white font-bold", isCurrentButton).toggleClass("text-gray-700", !isCurrentButton);
+        $(e)
+            .toggleClass("text-gray-700 bg-white", !isCurrentButton)
+            .toggleClass("text-white bg-blue-700", isCurrentButton)
+            .find("span")
+            .toggleClass("text-white font-bold", isCurrentButton)
+            .toggleClass("text-gray-700", !isCurrentButton);
     });
 
     $('[data-type="tab-item"]').hide(ShowLoading());
@@ -588,37 +656,63 @@ function createPagination(resp) {
     var endPage = Math.min(currentPage + halfMaxVisiblePages, totalPages);
 
     if (currentPage > 1) {
-        paginationHTML += '<li><a href="#" class="h-10 w-10 flex items-center justify-center px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' + (currentPage - 1) + ')"><span class="sr-only">Previous</span> <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/> </svg></a></li>';
-        paginationHTML += '<li><a href="#" class="h-10 w-10 flex items-center justify-center px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" onclick="changePage(1)">1</a></li>';
+        paginationHTML +=
+            '<li><a href="#" class="h-10 w-10 flex items-center justify-center px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' +
+            (currentPage - 1) +
+            ')"><span class="sr-only">Previous</span> <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/> </svg></a></li>';
+        paginationHTML +=
+            '<li><a href="#" class="h-10 w-10 flex items-center justify-center px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" onclick="changePage(1)">1</a></li>';
     }
 
     if (currentPage === 1) {
-        paginationHTML += '<li><span class="h-10 flex px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700">1</span></li>';
+        paginationHTML +=
+            '<li><span class="h-10 flex px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700">1</span></li>';
     }
 
     if (startPage >= 2) {
-        paginationHTML += '<li><span class="h-10 w-10 flex px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">...</span></li>';
+        paginationHTML +=
+            '<li><span class="h-10 w-10 flex px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">...</span></li>';
     }
     for (var i = startPage; i <= endPage; i++) {
         if (i > 1 && i < totalPages) {
             if (i === currentPage) {
-                paginationHTML += '<li><span class="h-10 flex px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700">' + i + "</span></li>";
+                paginationHTML +=
+                    '<li><span class="h-10 flex px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700">' +
+                    i +
+                    "</span></li>";
             } else {
-                paginationHTML += '<li><a href="#" class="h-10 flex px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' + i + ')">' + i + "</a></li>";
+                paginationHTML +=
+                    '<li><a href="#" class="h-10 flex px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' +
+                    i +
+                    ')">' +
+                    i +
+                    "</a></li>";
             }
         }
     }
     if (endPage < totalPages - 1) {
-        paginationHTML += '<li><span class="h-10 flex px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">...</span></li>';
+        paginationHTML +=
+            '<li><span class="h-10 flex px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">...</span></li>';
     }
 
     if (currentPage === totalPages) {
-        paginationHTML += '<li><span class="h-10 flex px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700">' + totalPages + "</span></li>";
+        paginationHTML +=
+            '<li><span class="h-10 flex px-3 py-2 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700">' +
+            totalPages +
+            "</span></li>";
     }
 
     if (currentPage < totalPages) {
-        paginationHTML += '<li><a href="#" class="h-10 w-10 flex items-center justify-center px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' + totalPages + ')">' + totalPages + "</a></li>";
-        paginationHTML += '<li><a href="#" class="h-10 flex items-center justify-center px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' + (currentPage + 1) + ')"><span class="sr-only">Next</span><svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/></svg><a></li>';
+        paginationHTML +=
+            '<li><a href="#" class="h-10 w-10 flex items-center justify-center px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' +
+            totalPages +
+            ')">' +
+            totalPages +
+            "</a></li>";
+        paginationHTML +=
+            '<li><a href="#" class="h-10 flex items-center justify-center px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700" onclick="changePage(' +
+            (currentPage + 1) +
+            ')"><span class="sr-only">Next</span><svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/></svg><a></li>';
     }
 
     $("#pagination").html(paginationHTML);
