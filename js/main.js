@@ -268,7 +268,7 @@ function getData(date = null, live = false) {
     }
     $.ajax({
         url: url,
-        async: false,
+        //async: false,
         beforeSend: function () {
             ShowLoading();
         },
@@ -317,7 +317,8 @@ function getData(date = null, live = false) {
                             <div class="whitespace-nowrap">All</div>
                         </button>
                     `);
-                $.each(lstTournament, function (i, te) {
+                //$.each(lstTournament, function (i, te) {
+                for (let te of lstTournament) {
                     $("#tournament").append(`
                             <button data-type="btn-filter" id="${te.id}" type="button" class="flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
                                 <img src="${te.logo}" class="object-contain" style="width: 30px; height: 30px;" alt="">
@@ -327,12 +328,11 @@ function getData(date = null, live = false) {
                     const lstMatchFiltered = lstMatch.filter(
                         (match) => match.tournament.unique_tournament.id === te.id
                     );
-                    $.each(lstMatchFiltered, function (i, e) {
+                    for (let e of lstMatchFiltered) {
                         var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
                         htmlTemp = "";
                         if (e.is_live && e.match_status !== "finished") {
                             $.ajax({
-                                async: false,
                                 url: subUrl,
                                 beforeSend: function () {
                                     ShowLoading();
@@ -347,7 +347,7 @@ function getData(date = null, live = false) {
                                         "sd2",
                                     ];
                                     lstQuality = ["backup 1", "backup 2"];
-                                    $.each(resp.data.play_urls, function (si, se) {
+                                    for (let se of resp.data.play_urls) {
                                         if (!lstQuality.includes(se.name.toLowerCase())) {
                                             htmlTemp += `<a href="${host}get-key.html?url=${
                                                 se.url
@@ -359,7 +359,7 @@ function getData(date = null, live = false) {
                                             ${se.name}
                                             </a>`;
                                         }
-                                    });
+                                    }
                                 },
                                 complete: function (m) {
                                     CloseLoading();
@@ -472,7 +472,7 @@ function getData(date = null, live = false) {
                                 </div>
                             </div>
                         `;
-                    });
+                    }
                     $("button[data-type='btn-filter'].active").trigger("click");
 
                     featured = `
@@ -485,7 +485,7 @@ function getData(date = null, live = false) {
                         </div>`;
                     $("#featured").append(featured);
                     html = "";
-                });
+                }
             }
         },
         complete: function (m) {

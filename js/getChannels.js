@@ -26,7 +26,25 @@ $(function () {
         });
     }
 
-    var lstExcludes = ["info", "update", "sctv", "tintcquct", "vthanhnetwork", "knhqungbthilan", "knhqungbnga", "knhqungbtrungquc", "knhqungbphp", "knhqungbc", "knhqungbm", "knhqungbanh", "foxsportsnetwork", "formula1", "knhtrongnc", "radio", "phimtruyn"];
+    var lstExcludes = [
+        "info",
+        "update",
+        "sctv",
+        "tintcquct",
+        "vthanhnetwork",
+        "knhqungbthilan",
+        "knhqungbnga",
+        "knhqungbtrungquc",
+        "knhqungbphp",
+        "knhqungbc",
+        "knhqungbm",
+        "knhqungbanh",
+        "foxsportsnetwork",
+        "formula1",
+        "knhtrongnc",
+        "radio",
+        "phimtruyn",
+    ];
     itemList = groupByGroupTitle(parseM3U(localStorage.content));
     $("#live-channels").empty();
     if (itemList) {
