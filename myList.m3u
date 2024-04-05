@@ -1644,72 +1644,112 @@ https://api.olelive.com/dis/live/CCTV16HD/hls.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="17" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-17.png",🇨🇳 CCTV-17
 https://api.olelive.com/dis/live/CCTV17HD/hls.m3u8
 
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/14/72c22620-c5aa-11ea-a8d3-2b56c8ce453d_original.png",🇹🇭 ALTV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="ALTV" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/14/72c22620-c5aa-11ea-a8d3-2b56c8ce453d_original.png",🇹🇭 ALTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ALTV3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2022/02/18/e007f990-9082-11ec-9efa-2d434afe2b14_webp_320.png",🇹🇭 Amarin34
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="AmarinTV HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/05789d4a-9286-4bf3-9322-f11cd3b9e887.jpg",🇹🇭 Amarin34
+https://ctrl.laotv.la/live/AMARINTVHD/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="AmarinTV HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/05789d4a-9286-4bf3-9322-f11cd3b9e887.jpg",🇹🇭 Amarin34
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chamarin3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2023/01/30/0195e5f0-a067-11ed-9b64-f19515391136_webp_original.png",🇹🇭 CH3
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH3" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/0305efec-42e2-44e6-9beb-a0d0f949478e.jpg",🇹🇭 CH3
+https://ctrl.laotv.la/live/3HD/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH3" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/0305efec-42e2-44e6-9beb-a0d0f949478e.jpg",🇹🇭 CH3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/05/14/4c865391-192b-46a0-a31a-4f4d500b4e07_320.png",🇹🇭 CH5
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH5" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/549f5f1a-3013-46f3-8c28-db79470ee53d.jpg",🇹🇭 CH5
+https://ctrl.laotv.la/live/Thai5/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH5" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/549f5f1a-3013-46f3-8c28-db79470ee53d.jpg",🇹🇭 CH5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch5hd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2023/01/30/22542950-a067-11ed-85be-e93fdfce46ab_webp_original.png",🇹🇭 CH7
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH7 HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
+https://ctrl.laotv.la/live/Thai7/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH7 HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch7hd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/02/26/ebe998c5-7d25-402b-ab70-46f1ad6dcc4e.png",🇹🇭 CH8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH7 HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch7hd/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH8" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/9c8f6d50-fa5b-432d-a010-4cd17c975a86.jpg",🇹🇭 CH8
+https://ctrl.laotv.la/live/CH8/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH8" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/9c8f6d50-fa5b-432d-a010-4cd17c975a86.jpg",🇹🇭 CH8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch83/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/11/19/ed873d50-2a22-11eb-bed4-0972e345f90c_320.png",🇹🇭 GMM25
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="GMM 25" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/eae5cda1-ddc4-4708-afee-d42c0002ba2b.jpg",🇹🇭 GMM25
+https://ctrl.laotv.la/live/GMM25/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="GMM 25" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/eae5cda1-ddc4-4708-afee-d42c0002ba2b.jpg",🇹🇭 GMM25
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chgmm3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2021/06/15/3e4e0540-cdb4-11eb-9a22-7958179a38a7_original.png",🇹🇭 JKN18
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="JKN 18" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240314/video/b75cb2fb-8823-40a9-a24a-be60bf1211c1.jpg",🇹🇭 JKN18
+https://ctrl.laotv.la/live/JKN18/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="JKN 18" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240314/video/b75cb2fb-8823-40a9-a24a-be60bf1211c1.jpg",🇹🇭 JKN18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/16/482a2a27-3942-4356-8f12-4aec229badc6.png",🇹🇭 MCOT
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="MCOT HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b6da8973-f3cb-4a3c-b2dd-130bea66eec4.jpg",🇹🇭 MCOT
+https://ctrl.laotv.la/live/Mcot/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="MCOT HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b6da8973-f3cb-4a3c-b2dd-130bea66eec4.jpg",🇹🇭 MCOT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmcothd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/10/35a35017-8473-4953-8474-5c58d805b74a.png",🇹🇭 MONO29
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Mono29 Plus" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b8e35936-78b0-4041-8ea1-4aad186c5ec0.jpg",🇹🇭 MONO29
+https://ctrl.laotv.la/live/Mono29/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Mono29 Plus" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b8e35936-78b0-4041-8ea1-4aad186c5ec0.jpg",🇹🇭 MONO29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmono293/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/16/952c9806-c7db-42d0-9647-415a643375b3.png",🇹🇭 Nation TV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Nation TV" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/e2093b48-4808-49ae-a01f-54419186d82b.jpg",🇹🇭 Nation TV
+https://ctrl.laotv.la/live/NationTV/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Nation TV" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/e2093b48-4808-49ae-a01f-54419186d82b.jpg",🇹🇭 Nation TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/08/19/1ff76c00-e1f4-11ea-a0b4-232d08119930_320.png",🇹🇭 NBT2
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="NBT" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/3338d4bb-148b-4e33-a12a-1d979724b622.jpg",🇹🇭 NBT2
+https://ctrl.laotv.la/live/NBT/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="NBT" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/3338d4bb-148b-4e33-a12a-1d979724b622.jpg",🇹🇭 NBT2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnbt3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://i.imgur.com/uKEFgGh.png",🇹🇭 New TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/16/396384be-35dc-4d11-bf04-06c9546ec7bc.png",🇹🇭 ONE31
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="ONE31 HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/2305dacf-be72-40f4-a8b0-4b5bec6e8805.jpg",🇹🇭 ONE31
+https://ctrl.laotv.la/live/OneHD/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="ONE31 HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/2305dacf-be72-40f4-a8b0-4b5bec6e8805.jpg",🇹🇭 ONE31
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chonehd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2021/01/23/2c564460-5d75-11eb-9b73-89c5b53fdd5d_320.png",🇹🇭 PPTV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="PPTV HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/46ef287b-7137-43af-9807-7ad5d26f8fab.jpg",🇹🇭 PPTV
+https://ctrl.laotv.la/live/PPTVHD/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="PPTV HD" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/46ef287b-7137-43af-9807-7ad5d26f8fab.jpg",🇹🇭 PPTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chpptvhd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/08/e341b740-c0e5-11ea-90d9-278915d663f4_320.png",🇹🇭 Thai PBS
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="ThaiPBS" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/552020ee-0b07-4b36-946a-c4d6f7b58d46.jpg",🇹🇭 Thai PBS
+https://ctrl.laotv.la/live/ThaiPBS/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="ThaiPBS" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/552020ee-0b07-4b36-946a-c4d6f7b58d46.jpg",🇹🇭 Thai PBS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthaipbs3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/03/15/8761bb82-f902-4372-8b9f-34b019d36fb7.png",🇹🇭 Thairath TV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Thairath TV" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b74b4f45-2a89-42bd-9e37-188147b78ed9.jpg",🇹🇭 Thairath TV
+https://ctrl.laotv.la/live/THAIRATHTVHD/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Thairath TV" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b74b4f45-2a89-42bd-9e37-188147b78ed9.jpg",🇹🇭 Thairath TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/06/15/799524c0-aec1-11ea-a6df-39e5f68ac856_original.png",🇹🇭 TNN16
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN16" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/f44edddb-d3a1-42ef-9730-fb4f279067bd.jpg",🇹🇭 TNN16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtnn3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2017/10/18/f1b957db-b175-45fc-ab2b-60150f9c570a.png",🇹🇭 TNN24
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN16" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/f44edddb-d3a1-42ef-9730-fb4f279067bd.jpg",🇹🇭 TNN16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtnn/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/14/68c64410-c5e8-11ea-8513-fb8d321e2c29_original.png",🇹🇭 TPTV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN2" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/5b97d770-5616-4d8a-bfac-8e385892aaab.jpg",🇹🇭 TNN2
+https://ctrl.laotv.la/live/TNN2/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN24" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/53ef9038-76bd-4ad0-8ef0-30d28db340b1.jpg",🇹🇭 TNN24
+https://ctrl.laotv.la/live/TNN24/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="TPTV" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/55a6449e-48c8-4808-8752-246eab2a1a86.jpg",🇹🇭 TPTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/TPTV/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/03/15/58ad8ef6-52ef-4609-a55b-9a18e8e89eec.png",🇹🇭 True 4U
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="True4U" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/00afd2f1-c0cc-4f7a-9b7d-81a0c1a5e564.jpg",🇹🇭 True 4U
+https://ctrl.laotv.la/live/True4U/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="True4U" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/00afd2f1-c0cc-4f7a-9b7d-81a0c1a5e564.jpg",🇹🇭 True 4U
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtrue4u3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2022/02/10/e00c0e00-8a3c-11ec-8f9e-831d2ccecc69_webp_320.png",🇹🇭 TSport7
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="T Sports 7" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/286d95f4-e5ff-4934-baf3-dce21d4f47bb.jpg",🇹🇭 T Sport7
+https://ctrl.laotv.la/live/TSports7/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="T Sports 7" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/286d95f4-e5ff-4934-baf3-dce21d4f47bb.jpg",🇹🇭 T Sport7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://cms.dmpcdn.com/livetv/2019/01/10/ac08e9d4-6e97-478f-9c29-fc8e851a8c89.png",🇹🇭 Workpoint TV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Workpoint" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/483d2bb2-92d5-4319-b267-5d60caf0c013.jpg",🇹🇭 Workpoint TV
+https://ctrl.laotv.la/live/WorkPoint/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="Workpoint" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/483d2bb2-92d5-4319-b267-5d60caf0c013.jpg",🇹🇭 Workpoint TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint3/index.m3u8
