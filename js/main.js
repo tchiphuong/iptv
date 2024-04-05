@@ -74,7 +74,7 @@ $(document).ready(function () {
             dateFormat: "d/m/Y",
             wrap: true,
             onChange: function (selectedDates, dateStr, instance) {
-                $("#btn-search").trigger("click");
+                // $("#btn-search").trigger("click");
             },
         });
 
@@ -333,6 +333,7 @@ function getData(date = null, live = false) {
                         htmlTemp = "";
                         if (e.is_live && e.match_status !== "finished") {
                             $.ajax({
+                                async: false,
                                 url: subUrl,
                                 beforeSend: function () {
                                     ShowLoading();
