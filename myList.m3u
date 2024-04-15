@@ -1,4 +1,8 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG_LITE,http://lichphatsong.xyz/schedule/epg.xml,https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,https://akkradet.github.io/IPTV-THAI/guide.xml"
+#EXTM3U url-tvg="https://iptvx.one/EPG_LITE,
+http://lichphatsong.xyz/schedule/epg.xml,
+https://www.bevy.be/bevyfiles/singaporepremium.xml,
+https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,
+https://akkradet.github.io/IPTV-THAI/guide.xml"
 
 #EXTINF:-1 group-title="VTV" group-logo="https://tchiphuong.github.io/iptv/images/background/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-1.png",VTV1
 https://lms-vnetwork-vtv.swiftfederation.com/vtvgo/vtv1-manifest.m3u8
@@ -392,19 +396,6 @@ https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 #EXTINF:-1 group-title="HTV" group-logo="https://tchiphuong.github.io/iptv/images/background/htvc.png" tvg-id="htv1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-1.png",HTV1
 https://wintv.fun/360/190/index.m3u8
 #EXTINF:-1 group-title="HTV" tvg-id="htv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-2.png",HTV2
-https://wintv.fun/360/191/index.m3u8
-#EXTINF:-1 group-title="HTV" tvg-id="htv3" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-3.png",HTV3
-https://wintv.fun/360/192/index.m3u8
-#EXTINF:-1 group-title="HTV" tvg-id="htvkey" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-key.png",HTV Key
-https://drm-livecdn.hplus.com.vn/htvonline/htv4.480p.nimble.tms/playlist.m3u8
-#EXTINF:-1 group-title="HTV" tvg-id="htvkey" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-key.png",HTV Key
-https://wintv.fun/360/9/index.m3u8
-#EXTINF:-1 group-title="HTV" tvg-id="htv7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-7.png",HTV7
-https://wintv.fun/360/193/index.m3u8
-#EXTINF:-1 group-title="HTV" tvg-id="htv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-9.png",HTV9
-https://wintv.fun/360/194/index.m3u8
-
-#EXTINF:-1 group-title="HTV" tvg-id="htv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-2.png",HTV2
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e2.endpoint.cdn.sctvonline.vn/hls/htv2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 group-title="HTV" tvg-id="htv3" tvg-logo="https://tchiphuong.github.io/iptv/images/background/htv-3.png",HTV3
@@ -463,8 +454,6 @@ https://e8.endpoint.cdn.sctvonline.vn/hls/sctv4/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv5" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/sctv-5.png",SCTV5
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e8.endpoint.cdn.sctvonline.vn/hls/sctv5/index.m3u8
-#EXTINF:-1 group-title="SCTV" tvg-id="sctv6hd" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/sctv-6.png",SCTV6
-https://wintv.fun/360/232/index.m3u8
 #EXTINF:-1 group-title="SCTV" tvg-id="sctv6hd" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/sctv-6.png",SCTV6
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv6/index.m3u8
@@ -727,19 +716,68 @@ https://live.yenbaitv.org.vn/hls/livestream.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="yenbai" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-yen-bai.png",TH Yên Bái
 https://wintv.fun/360/95/index.m3u8
 
-#EXTINF:-1 group-title="Nước ngoài" group-logo="https://universalbackground.com/wordpress/wp-content/uploads/2016/07/shutterstock_349541210.jpg" tvg-id="animalhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-animal-planet.png",Animal Planet
+#EXTINF:-1 group-title="Nước ngoài" group-logo="https://universalbackground.com/wordpress/wp-content/uploads/2016/07/shutterstock_349541210.jpg" tvg-id="animalhd" tvg-logo="https://i.vimeocdn.com/video/743208338-0c9bce18370b30386d37e406ac3e949b2e09db1200832d0cd68a6ac2ed849648-d?f=webp",Animal Planet
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/194/animalplanet/manifest.mpd
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryasiahd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-discovery-asia.png",Discovery Asia
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="animalhd" tvg-logo="https://i.vimeocdn.com/video/743208338-0c9bce18370b30386d37e406ac3e949b2e09db1200832d0cd68a6ac2ed849648-d?f=webp",Animal Planet
+https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryasiahd" tvg-logo="https://imaginary.endpoint.cdn.sctvonline.vn/tenants/none_tenant/photos/12_cb8fc96b.jpg?s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn&type=auto&version=9&width=1200",Discovery Asia
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
-// #EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryhd" tvg-logo="https://tchiphuong.github.io/iptv/images/nn-discovery.png",Discovery
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryasiahd" tvg-logo="https://imaginary.endpoint.cdn.sctvonline.vn/tenants/none_tenant/photos/12_cb8fc96b.jpg?s3_origin=https%3A%2F%2Fsctv-main-2.s3-hcm.cloud.cmctelecom.vn&type=auto&version=9&width=1200",Discovery Asia
+https://cdn1.skygo.mn/live/disk1/Discovery_Asia/HLS-FTA/Discovery_Asia.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryhd" tvg-logo="https://i.vimeocdn.com/video/485271452-b5735a3341cdd75216d78153487fa565e307c90ecfc3c7000b37871fb0c318d8-d_640?f=webp",Discovery
+https://tv.durbinlive.com/api/dc/Discovery_Bangla.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryhd" tvg-logo="https://i.vimeocdn.com/video/485271452-b5735a3341cdd75216d78153487fa565e307c90ecfc3c7000b37871fb0c318d8-d_640?f=webp",Discovery
+https://denver1769.pages.dev/Discovery/discovery_hd_english.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="dmax" tvg-logo="https://i.vimeocdn.com/video/661085850-327b7c0d1dad5e9f116a02ed7adde0b292c6f0fb227f011e38928283e6e9c1fc-d?f=webp",DMAX
+https://denver1769.pages.dev/Discovery/dmax_hd.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://i.vimeocdn.com/video/587741649-52545106de9b3c38590598e023a6d10c7130070947db2353ea4db8ea23cd9642-d?f=webp",Food Network
+https://denver1769.pages.dev/Discovery/food_network_hd_english.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="hgtv" tvg-logo="https://i.vimeocdn.com/video/633976125-f6ffab5cdc45008c4d9bd48132dad3f54c0f5fa1b09fafa522d57135b85e8adf-d?f=webp",HGTV
+https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="tlchd" tvg-logo="https://i.vimeocdn.com/video/530496827-fb33c3ef3c85393d165c10d1f485990d5629e5264cdd3afc94392140801b00b0-d?f=webp",TLC
+https://denver1769.pages.dev/Discovery/tlc_hd_english.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch528_425_305",Travel Channel Asia
+https://denver1769.pages.dev/Discovery/trvl_channel_hd_english.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="outdoorhd" tvg-logo="https://pbs.twimg.com/media/DyiAjxqU8AAli39.jpg",Outdoor
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://www.ifi-id.com/wp-content/uploads/2021/10/FSP-Logo_0006_Page-35-Media-Partner-TV5-MONDE.jpg",TV5 Monde Asie
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC10/index.m3u8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://presse.tv5monde.com/wp-content/uploads/2023/11/54cf0e49fe5a8230a6ab6d0c4eeeb4f0.png",TV5 Monde Style
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC25/index.m3u8
+
+
+#EXTINF:-1 tvg-id="HBO HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo.png" group-title="Nước ngoài",HBO (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a407479f074d43d798478c1212d95876:3afb53a2643939cd7128fa7ceded533a
+https://tglmp01.akamaized.net/out/v1/29687feb8f96427ca7348cd59c2338d9/manifest.mpd
+#EXTINF:-1 tvg-id="HBO Hits HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-hits.png" group-title="Nước ngoài",HBO Hits (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=473fabdc05ac4d9b94fd34f33f73394f:1072b1e61206c3859607984f872e549c
+https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.mpd
+#EXTINF:-1 tvg-id="HBO Family HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-family.png" group-title="Nước ngoài",HBO Family (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=363b551913124d6b80074ca295b25129:a6c6efcab0076d572e5732fb6451d19c
+https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd
+#EXTINF:-1 tvg-id="HBO Signature HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-signature.png" group-title="Nước ngoài",HBO Signature (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=90480f571f5d410891d7add7103c1e84:b64f887d2480bcaea992c2f0826449a9
+https://tglmp02.akamaized.net/out/v1/b37a81eb3585471cb9c639c78edcdefa/manifest.mpd
+#EXTINF:-1 tvg-id="Cinemax HD" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-cinemax.png" group-title="Nước ngoài",Cinemax (Sg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=32bc2ee6869144b88bee3babf202f88e:50d3b9ec49e1570621d45822923607f7
+https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.mpd
+
+// #EXTINF:-1 group-title="Nước ngoài" tvg-id="discoveryhd" tvg-logo="https://i.vimeocdn.com/video/485271452-b5735a3341cdd75216d78153487fa565e307c90ecfc3c7000b37871fb0c318d8-d_640?f=webp",Discovery
 // #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 // #KODIPROP:inputstream.adaptive.manifest_type=mpd
 // #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -972,7 +1010,7 @@ https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0002/DASH/S0002.mpd
 https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0003.mpd
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VSHfjjc/Bein-4.png" group-title="BeIN Sport",🇹🇭 BeIN Sports 4 AIS
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://license.dstv.com/widevine/getLicense?CrmId=afl&AccountId=afl&ContentId=SH2&SessionId=D3C00F885C24B9C6&Ticket=C839A8D71AB94299
+#KODIPROP:inputstream.adaptive.license_key=3fd52d1e9ba4b180aec12c9295b62c0f:bb274e33da0c709e62c55d0cba911889
 https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0004/DASH/S0004.mpd
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8z92d2F/Bein-5.png" group-title="BeIN Sport",🇹🇭 BeIN Sports 5 AIS
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1673,6 +1711,11 @@ https://ott1.cyberhost.ro/sdash/LIVE$LookSport3HD/index.mpd/Manifest?start=LIVE&
 #KODIPROP:inputstream.adaptive.license_key=c68ec2e525d8406b6c3cedbac72debae:a0f28f93fb9834d331df3ddedeb8a565
 https://ott.cyberhost.ro/sdash/LIVE$LookSport2HD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC
 
+#EXTINF:-1 group-title="Thể thao" tvg-id="spotv1" tvg-logo="https://thumbor.prod.vidiocdn.com/hoP8i7-OI9MdCdOS8urSOimvp94=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17139/spotv-1-9fe953.jpg",SPOTV ASIA
+http://202.150.161.68/spotv1/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="spotv2" tvg-logo="https://thumbor.prod.vidiocdn.com/qWrg-PcfzEqD7aELRO9UAHkyMhk=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17140/spotv-2-98d406.jpg",SPOTV2 ASIA
+http://202.150.161.68/spotv2/index.m3u8
+
 // #EXTINF:-1 group-title="Thể thao" tvg-id="match" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/k3gmp81628519750.png",Match TV
 // http://str1.cvtv.xyz/Match?token=live
 // #EXTINF:-1 group-title="Thể thao" tvg-id="mf1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/cz682u1628519810.png",Match Futbol 1
@@ -2036,27 +2079,6 @@ https://ctrl.laotv.la/live/WorkPoint/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="Workpoint" tvg-logo="https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/483d2bb2-92d5-4319-b267-5d60caf0c013.jpg",🇹🇭 Workpoint TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint3/index.m3u8
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a407479f074d43d798478c1212d95876:3afb53a2643939cd7128fa7ceded533a
-#EXTINF:-1 tvg-id="hbo-hd" tvg-url="" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo.png" group-title="Nước ngoài",HBO (Sg)
-https://tglmp01.akamaized.net/out/v1/29687feb8f96427ca7348cd59c2338d9/manifest.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=473fabdc05ac4d9b94fd34f33f73394f:1072b1e61206c3859607984f872e549c
-#EXTINF:-1 tvg-id="HBO Hits HD" tvg-url="" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-hits.png" group-title="Nước ngoài",HBO Hits (Sg)
-https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=363b551913124d6b80074ca295b25129:a6c6efcab0076d572e5732fb6451d19c
-#EXTINF:-1 tvg-id="HBO Family HD" tvg-url="" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-family.png" group-title="Nước ngoài",HBO Family (Sg)
-https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=90480f571f5d410891d7add7103c1e84:b64f887d2480bcaea992c2f0826449a9
-#EXTINF:-1 tvg-id="HBO Signature HD" tvg-url="" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-hbo-signature.png" group-title="Nước ngoài",HBO Signature (Sg)
-https://tglmp02.akamaized.net/out/v1/b37a81eb3585471cb9c639c78edcdefa/manifest.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=32bc2ee6869144b88bee3babf202f88e:50d3b9ec49e1570621d45822923607f7
-#EXTINF:-1 tvg-id="Cinemax HD" tvg-url="" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/nn-cinemax.png" group-title="Nước ngoài",Cinemax (Sg)
-https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.mpd
 
 
 #EXTINF:-1 group-title="SPORTS"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/2560px-Bein_sport_logo.png",BeIN Sports 1 ID
