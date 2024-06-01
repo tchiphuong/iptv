@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4000000
+http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554620_&extension=m3u8
