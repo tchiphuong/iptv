@@ -123,18 +123,52 @@ $(document).ready(function () {
 
         $("#btn-search").trigger("click");
 
+        $("#checked-live").on("change", function () {
+            ShowLoading();
+            setTimeout(() => {
+                var isChecked = $(this).is(":checked");
+                $("[data-type='match-detail']").each(function () {
+                    var status = $(this).attr("data-status");
+                    $(this).toggleClass(
+                        "invisible opacity-0 hidden",
+                        isChecked && status !== "live"
+                    );
+                });
+                $("[data-type='match']").each(function () {
+                    var $matchDetails = $(this).find("[data-type='match-detail']");
+                    var tournamentAttribute = $(this).attr("tournament");
+                    var allNonLive =
+                        $matchDetails.filter("[data-status!='live']").length ===
+                        $matchDetails.length;
+                    $(this).toggleClass("invisible opacity-0 hidden", isChecked && allNonLive);
+                    $(`#${tournamentAttribute}`).toggleClass(
+                        "invisible opacity-0 hidden",
+                        isChecked && allNonLive
+                    );
+                });
+                $("button[data-type='btn-filter']#all").trigger("click");
+                CloseLoading();
+            }, 100);
+        });
+
         $(document).on("click", "button[data-type='btn-filter']", function () {
             const id = $(this).attr("id");
-            $("#tournament")
-                .find("button[data-type='btn-filter']")
-                .removeClass("bg-blue-700 text-white active")
-                .addClass("bg-white");
+            const $buttons = $("#tournament").find("button[data-type='btn-filter']").not(".hidden");
+            const $matches = $("[data-type='match']");
+
+            $buttons.removeClass("bg-blue-700 text-white active").addClass("bg-white");
             $(this).addClass("bg-blue-700 text-white active").removeClass("bg-white");
-            $(`[data-type="match"]`).addClass("invisible opacity-0 hidden");
-            if (id !== "all") {
-                $(`[tournament='${id}']`).removeClass("invisible opacity-0 hidden");
+            $matches.addClass("invisible opacity-0 hidden");
+
+            if (id === "all") {
+                $buttons.each(function () {
+                    var btnId = $(this).attr("id");
+                    $matches
+                        .filter(`[tournament='${btnId}']`)
+                        .removeClass("invisible opacity-0 hidden");
+                });
             } else {
-                $(`[data-type="match"]`).removeClass("invisible opacity-0 hidden");
+                $matches.filter(`[tournament='${id}']`).removeClass("invisible opacity-0 hidden");
             }
         });
 
@@ -409,17 +443,13 @@ function getData(date = null, live = false) {
                                 : "border-yellow-500"
                             : "";
                         html += `
-                            <div class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow">
-                                ${
-                                    borderColor !== ""
-                                        ? `
-                                            <span class="ease absolute left-0 top-0 h-full w-0 border-0 border-t-2 ${borderColor} transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
-                                            <span class="ease absolute right-0 top-0 h-0 w-full border-0 border-r-2 ${borderColor} transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
-                                            <span class="ease absolute bottom-0 right-0 h-full w-0 border-0 border-b-2 ${borderColor} transition-all duration-200 group-hover:w-full group-hover:rounded-md"></span>
-                                            <span class="ease absolute bottom-0 left-0 h-0 w-full border-0 border-l-2 ${borderColor} transition-all duration-200 group-hover:h-full group-hover:rounded-md"></span>
-                                        `
-                                        : ""
-                                }
+                            <div class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow ${
+                            borderColor !== ""
+                                ? `
+                                        hover:shadow-xl
+                                    `
+                                : ""
+                        }" data-type='match-detail' data-status="${e.match_status}">
                                 <div class="flex w-full flex-col">
                                 <div class="flex w-full gap-2 p-3">
                                     <div class="flex flex-1 flex-col gap-3 pr-2">
@@ -427,7 +457,7 @@ function getData(date = null, live = false) {
                                         <img class="h-10 w-10 object-contain" src="${
                                             e.home.logo || e.tournament.logo
                                         }" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                        <div class="flex-1" title="${e.home.name}">${
+                                        <div class="flex-1 line-clamp-1" title="${e.home.name}">${
                             e.home.short_name
                         }</div>
                                         ${
@@ -445,7 +475,7 @@ function getData(date = null, live = false) {
                                         <img class="h-10 w-10 object-contain" src="${
                                             e.away.logo || e.tournament.logo
                                         }" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                        <div class="flex-1" title="${e.away.name}">${
+                                        <div class="flex-1 line-clamp-1" title="${e.away.name}">${
                             e.away.short_name
                         }</div>
                                         ${
@@ -514,7 +544,7 @@ function getData(date = null, live = false) {
                                 <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
                                 <h1 class="flex-1 py-2 text-xl font-bold">${te.name}</h1>
                             </div>
-                            <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3">${html}</div>
+                            <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">${html}</div>
                         </div>`;
                     $("#featured").append(featured);
                     html = "";

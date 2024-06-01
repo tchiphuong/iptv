@@ -18,10 +18,10 @@
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
         />
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
-        <link
+        <!-- <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.10/tailwind.min.css"
-        />
+        /> -->
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
@@ -126,6 +126,20 @@
                     >
                         Search
                     </button>
+                    <div class="w-full md:w-3/12">
+                        <div class="flex items-center">
+                            <input
+                                id="checked-live"
+                                type="checkbox"
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                            />
+                            <label
+                                for="checked-live"
+                                class="ms-2 px-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                >Is live</label
+                            >
+                        </div>
+                    </div>
                 </div>
                 <div class="flex gap-2 my-3 py-1 overflow-x-auto relative" id="tournament"></div>
                 <div id="featured" class="flex flex-col gap-2 py-3">

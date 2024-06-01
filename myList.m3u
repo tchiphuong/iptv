@@ -520,6 +520,16 @@ https://tchiphuong.github.io/iptv/channels/sports/astrosport3.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-4" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000288_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport 4
 https://tchiphuong.github.io/iptv/channels/sports/astrosport4.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-1" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000014_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport
+http://kmkus.wanicelife.com:8880/3ca04303n08/asfefd4wr34/1722
+#EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-2" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000069_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport 2
+http://kmkus.wanicelife.com:8880/3ca04303n08/asfefd4wr34/59219
+#EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-3" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000157_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport 3
+http://kmkus.wanicelife.com:8880/3ca04303n08/asfefd4wr34/1720
+#EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-4" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000288_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport 4
+http://kmkus.wanicelife.com:8880/3ca04303n08/asfefd4wr34/1719
+#EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-5" tvg-logo="https://linear-poster.astro.com.my/prod/poster/W-Sport_V1_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport 5
+http://kmkus.wanicelife.com:8880/3ca04303n08/asfefd4wr34/1713
+#EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-1" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000014_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/assp1.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="astro-supersport-2" tvg-logo="https://linear-poster.astro.com.my/prod/poster/ivp_default_10000069_IVP_LAND_1280x720.jpg",🇲🇾 Astro SuperSport 2
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/assp2.m3u8
@@ -992,23 +1002,23 @@ https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd
 // https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-520/stream.mpd
 
 
-#EXTINF:-1 group-title="Thể thao" tvg-id="viasat-sport-se" tvg-logo="https://www.allente.no/globalassets/global/streaming/streaming-logos/json/v_sport1_dark_bg.png",V SPORT 1
+#EXTINF:-1 group-title="Thể thao" tvg-id="viasat-sport-se" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/40051-4.png",V SPORT 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=04c5eaf62cd75f2d947ab4d621f39256:76967598962e7a7314a2b251e9070725
-https://director.streaming.telia.com/tvm-packager-prod/group1/6089c17d47a23d76645ceaf4/manifest.mpd|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/50056-4.png",V SPORT FOOTBALL
+https://director.streaming.telia.com/tvm-packager-prod/group1/6089c17d47a23d76645ceaf4/manifest.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/50056-4.png",V SPORT FOOTBALL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ce37e20374e55be6bb4d26837af27605:52cc532f748fcbf2b806dad4289bf84c
 https://director.streaming.telia.com/tvm-packager-prod/group1/60896dfd47a23d7c065cd68c/manifest.mpd
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/40052-4.png",V SPORT PREMIUM
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/40052-4.png",V SPORT PREMIUM
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cbd13b7a883e53e98d5c7f34d0013be8:d5bc9e92f214d77520ab7faa1ecad10b
 https://director.streaming.telia.com/tvm-packager-prod/group1/60896c3647a23d7f115cd57a/manifest.mpd
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20092-4.png",V SPORT EXTRA
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20092-4.png",V SPORT EXTRA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bc972382f04c531983b7aab6bf642ad8:ddfd212680eb891b755610eac5becf85
 https://director.streaming.telia.com/tvm-packager-prod/group3/60ae4f5e1522bd739f6959a1/manifest.mpd
-#EXTINF:-1 group-title="Thể thao" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/20092-4.png",V SPORT ULTRA
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/50105-4.png",V SPORT ULTRA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c02b1c0a644d5aa4b7176ae585c572dc:5a7799ea89ea65e3bac9a10684e616bc
 https://director.streaming.telia.com/tvm-packager-prod/group3/60b76e87baa9d5ddc9262457/manifest.mpd
