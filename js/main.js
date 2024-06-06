@@ -544,7 +544,7 @@ function getData(date = null, live = false) {
                                 <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
                                 <h1 class="flex-1 py-2 text-xl font-bold">${te.name}</h1>
                             </div>
-                            <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">${html}</div>
+                            <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">${html}</div>
                         </div>`;
                     $("#featured").append(featured);
                     html = "";

@@ -1,4 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4000000
-http://livein1.com:8080/play/live.php?mac=00:1a:79:b1:85:5e&extension=m3u8&stream=186481
+http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554602_&extension=m3u8
+
+#http://livein1.com:8080/play/live.php?mac=00:1a:79:b1:85:5e&extension=m3u8&stream=186481
