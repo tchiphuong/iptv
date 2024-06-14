@@ -224,3 +224,17 @@
         opacity: 0;
     }
 }
+[data-type="match"]:hover .live-url {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.live-url {
+    background-color: rgba(255, 255, 255, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}

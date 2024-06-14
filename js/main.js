@@ -127,23 +127,13 @@ $(document).ready(function () {
             ShowLoading();
             setTimeout(() => {
                 var isChecked = $(this).is(":checked");
-                $("[data-type='match-detail']").each(function () {
-                    var status = $(this).attr("data-status");
-                    $(this).toggleClass(
-                        "invisible opacity-0 hidden",
-                        isChecked && status !== "live"
-                    );
-                });
                 $("[data-type='match']").each(function () {
-                    var $matchDetails = $(this).find("[data-type='match-detail']");
-                    var tournamentAttribute = $(this).attr("tournament");
-                    var allNonLive =
-                        $matchDetails.filter("[data-status!='live']").length ===
-                        $matchDetails.length;
-                    $(this).toggleClass("invisible opacity-0 hidden", isChecked && allNonLive);
-                    $(`#${tournamentAttribute}`).toggleClass(
+                    const isLive = $(this).attr("match-live") == "true";
+                    const tournament = $(this).attr("tournament");
+                    $(this).toggleClass("invisible opacity-0 hidden", isChecked && !isLive);
+                    $(`[data-type="btn-filter"]#${tournament}`).toggleClass(
                         "invisible opacity-0 hidden",
-                        isChecked && allNonLive
+                        isChecked && !isLive
                     );
                 });
                 $("button[data-type='btn-filter']#all").trigger("click");
@@ -188,14 +178,10 @@ $(document).on("click", "#clear-date", function () {
 });
 
 // setInterval(function () {
-//     var dateObj = new Date();
-//     var month = dateObj.getMonth() + 1; //months from 1-12
-//     var day = dateObj.getDate();
-//     var year = dateObj.getFullYear();
-//     var dateLink = `${year}${pad(month)}${pad(day)}`;
-//     var date = moment(new Date($("#date")[0]._flatpickr.selectedDates[0])).format("YYYYMMDD");
-//     if (date == dateLink) {
-//         getData(dateLink, false);
+//     var dateLink = moment(new Date()).format("YYYYMMDD");
+//     var date = moment(new $("#date")[0]._flatpickr.selectedDates[0]).format("YYYYMMDD");
+//     if (!date || date == dateLink) {
+//         // getData(dateLink, false);
 //     }
 // }, 1000);
 
@@ -211,10 +197,6 @@ function formatState(state) {
     return $state;
 }
 
-function pad(n) {
-    return n < 10 ? "0" + n : n;
-}
-
 function sortObj(list, key) {
     function compare(a, b) {
         a = a[key];
@@ -227,6 +209,7 @@ function sortObj(list, key) {
     }
     return list.sort(compare);
 }
+
 function getStandings(league = null) {
     let url = `https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/ranking?league_id=${league}`;
     url = `https://api.vieon.vn/backend/cm/v5/football/ratings?competition_code=${league}`;
@@ -300,15 +283,11 @@ function getStandings(league = null) {
 
 function getData(date = null, live = false) {
     if (live) {
-        $("#all").trigger("click");
+        // $("#all").trigger("click");
     }
     var html = "";
     var htmlTemp = "";
-    var dateObj = new Date();
-    var month = dateObj.getMonth() + 1; //months from 1-12
-    var day = dateObj.getDate();
-    var year = dateObj.getFullYear();
-    var dateLink = `${year}${pad(month)}${pad(day)}`;
+    var dateLink = moment(new Date()).format("YYYYMMDD");
     var url = `https://api.vebo.xyz/api/match/fixture/${dateLink}`;
     url = `https://api.vebo.xyz/api/match/featured`;
     url = `https://live.vebo.xyz/api/match/live`;
@@ -359,7 +338,14 @@ function getData(date = null, live = false) {
 
             $("#tournament").empty();
             $("#featured").empty();
-            var featured = "";
+            $("#match").empty();
+            const statusTranslations = {
+                finished: "Hết giờ",
+                live: "Trực tiếp",
+                pending: "",
+                delay: "Hoãn lại",
+                canceled: "Huỷ",
+            };
             if (lstTournament.length > 0) {
                 $("#tournament").append(`
                         <button data-type="btn-filter" id="all" type="button" class="bg-blue-700 text-white sticky left-0 flex min-w-min gap-2 items-center justify-center font-medium rounded-lg text-sm px-5 py-2.5 mr-2 focus:outline-none border-2">
@@ -374,92 +360,108 @@ function getData(date = null, live = false) {
                                 <div class="whitespace-nowrap pr-2">${te.name}</div>
                             </button>
                         `);
-                    const lstMatchFiltered = lstMatch.filter(
-                        (match) => match.tournament.unique_tournament.id === te.id
-                    );
-                    for (let e of lstMatchFiltered) {
-                        var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
-                        htmlTemp = "";
-                        if (e.is_live && e.match_status !== "finished") {
-                            $.ajax({
-                                async: false,
-                                url: subUrl,
-                                beforeSend: function () {
+                }
+                // const lstMatchFiltered = lstMatch.filter(
+                //     (match) => match.tournament.unique_tournament.id === te.id
+                // );
+                for (let e of lstMatch) {
+                    var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
+                    htmlTemp = "";
+                    if (e.is_live && e.match_status !== "finished") {
+                        $.ajax({
+                            async: false,
+                            url: subUrl,
+                            beforeSend: function () {
                                     ShowLoading();
-                                },
-                                success: function (resp) {
-                                    let lstQuality = [
-                                        "nhà đài",
-                                        "backup 1",
-                                        "backup 2",
-                                        "sd",
-                                        "sd1",
-                                        "sd2",
-                                    ];
-                                    //lstQuality = ["backup 1", "backup 2"];
-                                    for (let i = resp.data.play_urls.length - 1; i > -1; i--) {
-                                        if (
-                                            !lstQuality.includes(
-                                                resp.data.play_urls[i].name.toLowerCase()
-                                            )
-                                        ) {
-                                            urlshls.push({
-                                                id: e.id,
-                                                time: `${moment(e.timestamp).format(
-                                                    "HH:mm"
-                                                )} - ${moment(e.date).format("DD/MM/YYYY")}`,
-                                                title: `${e.home.short_name} - ${e.away.short_name}`,
-                                                quality: resp.data.play_urls[i].name,
-                                                url: resp.data.play_urls[i].url,
-                                            });
-                                        }
+                            },
+                            success: function (resp) {
+                                let lstQuality = [
+                                    "nhà đài",
+                                    "backup 1",
+                                    "backup 2",
+                                    "sd",
+                                    "sd1",
+                                    "sd2",
+                                ];
+                                //lstQuality = ["backup 1", "backup 2"];
+                                for (let i = resp.data.play_urls.length - 1; i > -1; i--) {
+                                    if (
+                                        !lstQuality.includes(
+                                            resp.data.play_urls[i].name.toLowerCase()
+                                        )
+                                    ) {
+                                        urlshls.push({
+                                            id: e.id,
+                                            time: `${moment(e.timestamp).format(
+                                                "HH:mm"
+                                            )} - ${moment(e.date).format("DD/MM/YYYY")}`,
+                                            title: `${e.home.short_name} - ${e.away.short_name}`,
+                                            quality: resp.data.play_urls[i].name,
+                                            url: resp.data.play_urls[i].url,
+                                        });
                                     }
-                                    for (let se of resp.data.play_urls) {
-                                        if (!lstQuality.includes(se.name.toLowerCase())) {
-                                            htmlTemp += `<a href="${host}get-key.html?url=${
-                                                se.url
-                                            }&title=${e.home.short_name} - ${e.away.short_name} (${
-                                                (e.commentators &&
-                                                    e.commentators.map((x) => x.name).join("; ")) ||
-                                                "..."
-                                            })" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
+                                }
+                                for (let se of resp.data.play_urls) {
+                                    if (!lstQuality.includes(se.name.toLowerCase())) {
+                                        htmlTemp += `<a href="${host}get-key.html?url=${
+                                            se.url
+                                        }&title=${e.home.short_name} - ${e.away.short_name} (${
+                                            (e.commentators &&
+                                                e.commentators.map((x) => x.name).join("; ")) ||
+                                            "..."
+                                        })" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
                                             ${se.name}
                                             </a>`;
-                                        }
                                     }
-                                },
-                                complete: function (m) {
+                                }
+                            },
+                            complete: function (m) {
                                     CloseLoading();
-                                },
-                                error: function (res) {
+                            },
+                            error: function (res) {
                                     CloseLoading();
-                                    swal("Oops", "Something went wrong!", "error");
-                                },
-                            });
-                        }
-                        const borderColor = e.is_live
-                            ? e.is_featured
-                                ? "border-red-500"
-                                : "border-yellow-500"
-                            : "";
-                        html += `
-                            <div class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow ${
-                            borderColor !== ""
-                                ? `
+                                swal("Oops", "Something went wrong!", "error");
+                            },
+                        });
+                    }
+                    const borderColor = e.is_live
+                        ? e.is_featured
+                            ? "border-red-500"
+                            : "border-yellow-500"
+                        : "";
+                    html += `
+                            <div data-type="match" match="${e.id}" tournament="${
+                        e.tournament.unique_tournament.id
+                    }" match-live="${
+                        (e.is_live && e.match_status === "live") || htmlTemp != ""
+                    }" class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow relative ${
+                        borderColor !== ""
+                            ? `
                                         hover:shadow-xl
                                     `
-                                : ""
-                        }" data-type='match-detail' data-status="${e.match_status}">
-                                <div class="flex w-full flex-col">
+                            : ""
+                    }">
+                        <div class="flex w-full flex-col">
+                            <div class="px-4 mt-2 flex items-center gap-2">
+                            <img class="object-contain" style="height: 20px;" src="${
+                                e.tournament.logo
+                            }" loading="lazy" onerror="this.onerror=null; this.src='./images/undefined.png';"/>
+                            <div class="font-bold whitespace-nowrap line-clamp-1 flex-1" title="${
+                                e.tournament.name
+                            }">${e.tournament.name}</div>
+                            <span class="text-xs italic bold text-red-400">${
+                                statusTranslations[e.match_status]
+                            }</span>
+                        </div>
                                 <div class="flex w-full gap-2 p-3">
                                     <div class="flex flex-1 flex-col gap-3 pr-2">
-                                    <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${
+                                    <div class="flex items-center gap-2 justify-center">
+                                        <img class="h-9 w-9 object-contain" src="${
                                             e.home.logo || e.tournament.logo
-                                        }" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                        <div class="flex-1 line-clamp-1" title="${e.home.name}">${
-                            e.home.short_name
-                        }</div>
+                                        }" loading="lazy" onerror="this.onerror=null; this.src='./images/undefined.png';"/>
+                                        <div class="flex-1 line-clamp-1 text-sm" title="${
+                                            e.home.name
+                                        }">${e.home.short_name}</div>
                                         ${
                                             e.home_red_cards > 0
                                                 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />`
@@ -471,13 +473,13 @@ function getData(date = null, live = false) {
                                                 : "-"
                                         }</span>
                                     </div>
-                                    <div class="flex items-center gap-2">
-                                        <img class="h-10 w-10 object-contain" src="${
+                                    <div class="flex items-center gap-2 justify-center">
+                                        <img class="h-9 w-9 object-contain" src="${
                                             e.away.logo || e.tournament.logo
-                                        }" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                        <div class="flex-1 line-clamp-1" title="${e.away.name}">${
-                            e.away.short_name
-                        }</div>
+                                        }" loading="lazy" onerror="this.onerror=null; this.src='./images/undefined.png';"/>
+                                        <div class="flex-1 line-clamp-1 text-sm" title="${
+                                            e.away.name
+                                        }">${e.away.short_name}</div>
                                         ${
                                             e.away_red_cards > 0
                                                 ? `<img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="" />`
@@ -497,18 +499,22 @@ function getData(date = null, live = false) {
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                         <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
                                         </svg>
-                                        <span>${moment(e.date).format("DD/MM/YYYY")}</span>
+                                        <span class="text-sm">${moment(e.date).format(
+                                            "DD/MM/YYYY"
+                                        )}</span>
                                     </div>
                                     <div class="flex items-center gap-1">
                                         <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                         <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z" />
                                         </svg>
-                                        <span>${moment(e.timestamp).format("HH:mm")}</span>${
-                            e.is_live && e.match_status === "live"
-                                ? `<img class="h-6" src="./images/live.gif">`
-                                : ""
-                        }
+                                        <span class="text-sm">${moment(e.timestamp).format(
+                                            "HH:mm"
+                                        )}</span>${
+                        (e.is_live && e.match_status === "live") || htmlTemp != ""
+                            ? `<img class="h-6" src="./images/live.gif">`
+                            : ""
+                    }
                                     </div>
                                     <div class="h-[1px] bg-gray-300"></div>
                                     <div class="flex items-center gap-1">
@@ -517,7 +523,7 @@ function getData(date = null, live = false) {
                                         <path
                                             d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z" />
                                         </svg>
-                                        <span>${
+                                        <span class="text-sm">${
                                             (e.commentators &&
                                                 e.commentators.map((x) => x.name).join("<br/>")) ||
                                             "..."
@@ -528,34 +534,34 @@ function getData(date = null, live = false) {
                                 ${
                                     htmlTemp == ""
                                         ? ""
-                                        : `<div class="mx-2 h-[1px] bg-gray-300"></div><div class="flex flex-wrap items-center px-1 py-2 font-bold z-10 gap-2 justify-center">
+                                        : `<div class="flex flex-wrap items-center px-1 py-2 font-bold z-10 gap-2 justify-center absolute bottom-0 inset-x-0 live-url">
                                                 ${htmlTemp}
                                             </div>`
                                 }
                                 </div>
                             </div>
                         `;
-                    }
-                    $("button[data-type='btn-filter'].active").trigger("click");
-
-                    featured = `
-                        <div data-type="match" tournament="${te.id}" class="mx-2">
-                            <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
-                                <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-32.png';"/>
-                                <h1 class="flex-1 py-2 text-xl font-bold">${te.name}</h1>
-                            </div>
-                            <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">${html}</div>
-                        </div>`;
-                    $("#featured").append(featured);
-                    html = "";
                 }
+                $("button[data-type='btn-filter'].active").trigger("click");
+
+                // featured = `
+                //         <divclass="mx-2">
+                //             <div class="flex cursor-pointer select-none items-center gap-2 rounded-md p-2 hover:opacity-80">
+                //                 <img class="h-10" src="${te.logo}" alt="${te.name}" loading="lazy" onerror="this.onerror=null; this.src='./images/undefined.png';"/>
+                //                 <h1 class="flex-1 py-2 text-xl font-bold">${te.name}</h1>
+                //             </div>
+                //             <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">${html}</div>
+                //         </divclass=>`;
+                $("#match").append(html);
+                html = "";
+                // }
             }
         },
         complete: function (m) {
-            CloseLoading();
+                CloseLoading();
         },
         error: function (res) {
-            CloseLoading();
+                CloseLoading();
             swal("Oops", "Something went wrong!", "error");
         },
     });
