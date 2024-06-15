@@ -283,14 +283,17 @@ function getStandings(league = null) {
 
 function getData(date = null, live = false) {
     if (live) {
-        // $("#all").trigger("click");
+        $("#all").trigger("click");
     }
+    const isFeatured = $("#checked-featured").is(":checked");
     var html = "";
     var htmlTemp = "";
     var dateLink = moment(new Date()).format("YYYYMMDD");
     var url = `https://api.vebo.xyz/api/match/fixture/${dateLink}`;
     url = `https://api.vebo.xyz/api/match/featured`;
-    url = `https://live.vebo.xyz/api/match/live`;
+    if (!isFeatured) {
+        url = `https://live.vebo.xyz/api/match/live`;
+    }
     if (date) {
         url = `https://api.vebo.xyz/api/match/fixture/${date}`;
     }
@@ -372,7 +375,7 @@ function getData(date = null, live = false) {
                             async: false,
                             url: subUrl,
                             beforeSend: function () {
-                                    ShowLoading();
+                                ShowLoading();
                             },
                             success: function (resp) {
                                 let lstQuality = [
@@ -416,10 +419,10 @@ function getData(date = null, live = false) {
                                 }
                             },
                             complete: function (m) {
-                                    CloseLoading();
+                                CloseLoading();
                             },
                             error: function (res) {
-                                    CloseLoading();
+                                CloseLoading();
                                 swal("Oops", "Something went wrong!", "error");
                             },
                         });
@@ -434,16 +437,12 @@ function getData(date = null, live = false) {
                         e.tournament.unique_tournament.id
                     }" match-live="${
                         (e.is_live && e.match_status === "live") || htmlTemp != ""
-                    }" class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow relative ${
-                        borderColor !== ""
-                            ? `
-                                        hover:shadow-xl
-                                    `
-                            : ""
+                    }" class="group relative flex overflow-hidden rounded-md border ${borderColor} bg-white shadow relative dark:bg-red-500 ${
+                        borderColor !== "" ? `hover:shadow-xl` : ""
                     }">
-                        <div class="flex w-full flex-col">
-                            <div class="px-4 mt-2 flex items-center gap-2">
-                            <img class="object-contain" style="height: 20px;" src="${
+                            <div class="flex w-full flex-col">
+                            <div class="px-3 mt-2 flex items-center gap-2">
+                            <img class="object-contain w-9 h-9 p-1" src="${
                                 e.tournament.logo
                             }" loading="lazy" onerror="this.onerror=null; this.src='./images/undefined.png';"/>
                             <div class="font-bold whitespace-nowrap line-clamp-1 flex-1" title="${
@@ -499,9 +498,9 @@ function getData(date = null, live = false) {
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                         <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z" />
                                         </svg>
-                                        <span class="text-sm">${moment(e.date).format(
-                                            "DD/MM/YYYY"
-                                        )}</span>
+                                        <span class="text-sm">${moment(e.date)
+                                            .locale("vi")
+                                            .format("dd, DD/MM/YY")}</span>
                                     </div>
                                     <div class="flex items-center gap-1">
                                         <!-- clock icon by Free Icons (https://free-icons.github.io/free-icons/) -->
@@ -510,11 +509,13 @@ function getData(date = null, live = false) {
                                         </svg>
                                         <span class="text-sm">${moment(e.timestamp).format(
                                             "HH:mm"
-                                        )}</span>${
-                        (e.is_live && e.match_status === "live") || htmlTemp != ""
-                            ? `<img class="h-6" src="./images/live.gif">`
-                            : ""
-                    }
+                                        )}</span>
+                                        ${
+                                            (e.is_live && e.match_status === "live") ||
+                                            htmlTemp != ""
+                                                ? `<img class="h-6" src="./images/live.gif">`
+                                                : ""
+                                        }
                                     </div>
                                     <div class="h-[1px] bg-gray-300"></div>
                                     <div class="flex items-center gap-1">
@@ -558,10 +559,10 @@ function getData(date = null, live = false) {
             }
         },
         complete: function (m) {
-                CloseLoading();
+            CloseLoading();
         },
         error: function (res) {
-                CloseLoading();
+            CloseLoading();
             swal("Oops", "Something went wrong!", "error");
         },
     });
@@ -672,15 +673,20 @@ function getHighlights(page = 1) {
 }
 
 function displayHighlight(highlight, videoUrl, first = false) {
-    let formattedDate = moment(highlight.created_at).format("DD/MM/YYYY");
+    let formattedDate = moment(highlight.created_at).locale("vi").format("dd, DD/MM/YYYY");
     let [title, category] = highlight.name.split("|");
 
     let html = `
         <div class="bg-white border border-gray-200 rounded-lg shadow flex flex-col">
-            <img class="rounded-t-lg object-cover" src="${highlight.feature_image}" alt="${highlight.name}" style="aspect-ratio: 16/9;" loading="lazy">
+            <img class="rounded-t-lg object-cover" src="${highlight.feature_image}" alt="${
+        highlight.name
+    }" style="aspect-ratio: 16/9;" loading="lazy">
             <div class="px-4 py-3 flex flex-col grow">
                 <span>
-                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${title}">${title}</h5>
+                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${title}">${title.replace(
+        "Highlights ",
+        ""
+    )}</h5>
                     <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${formattedDate}</span>
                     <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${category}</span>
                 </span>
@@ -697,6 +703,9 @@ function displayHighlight(highlight, videoUrl, first = false) {
 
     if (first) {
         $("#first-highlights").html(html);
+        $("#first-highlights").append(html);
+        $("#first-highlights").append(html);
+        $("#first-highlights").append(html);
     } else {
         $("#list-highlights").append(html);
     }

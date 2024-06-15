@@ -43,7 +43,7 @@
     </head>
 
     <body class="bg-gray-100">
-        <nav class="sticky top-0 bg-white z-30 border shadow">
+        <nav class="sticky top-0 bg-white z-30 border shadow" style="z-index: 9999999">
             <div class="flex px-5 pt-2 border-b-2 border-blue-700">
                 <button
                     data-type="tab-control"
@@ -84,13 +84,13 @@
             </div>
         </nav>
         <main class="container mx-auto">
-            <div id="fixtures" data-type="tab-item" tab-show="true">
-                <div class="flex flex-col md:flex-row gap-2 p-2">
+            <div id="fixtures" class="p-2" data-type="tab-item" tab-show="true">
+                <div class="flex flex-col md:flex-row gap-2">
                     <div class="w-full md:w-4/12 lg:w-3/12 flex items-center gap-2">
                         <label
                             for="date-input"
                             class="text-sm font-medium text-gray-900 dark:text-white"
-                            >Date:</label
+                            >Ngày:</label
                         >
                         <p id="date" class="relative flatpickr flex flex-1" data-id="strap">
                             <input
@@ -120,14 +120,25 @@
                         </p>
                     </div>
                     <div class="flex">
-                        <button
-                            id="btn-search"
-                            type="button"
-                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2"
-                        >
-                            Search
-                        </button>
                         <div class="flex items-center">
+                            <input
+                                id="checked-featured"
+                                type="checkbox"
+                                checked
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                            />
+                            <label
+                                for="checked-featured"
+                                class="ms-2 px-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                >Trận cầu tâm điểm</label
+                            >
+                            <button
+                                id="btn-search"
+                                type="button"
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2"
+                            >
+                                Search
+                            </button>
                             <input
                                 id="checked-live"
                                 type="checkbox"
@@ -136,7 +147,7 @@
                             <label
                                 for="checked-live"
                                 class="ms-2 px-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                                >Is live</label
+                                >Đang trực tiếp</label
                             >
                         </div>
                     </div>
@@ -184,7 +195,7 @@
                     <div id="highlights" data-type="tab-item">
                         <div
                             id="first-highlights"
-                            class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-4"
+                            class="grid grid-cols-1 py-3 lg:py-4 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-4"
                         ></div>
                         <div
                             id="list-highlights"
@@ -194,13 +205,13 @@
                             <ul id="pagination" class="inline-flex items-center -space-x-px"></ul>
                         </div>
                     </div>
-                    <div id="euro-2024" data-type="tab-item">
+                    <!-- <div id="euro-2024" data-type="tab-item">
                         <img
                             class="w-full"
                             src="https://image.discovery.indazn.com/ca/v2/ca/image?id=570b2c2b-b82c-40b0-8dd0-32ce8fa0a8c3"
                             alt=""
                         />
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- <a class="text-center p-3 block bg-white border fixed bottom-0 inset-x-0" target="_blank" href="https://chrome.google.com/webstore/detail/reproductor-m3u8-hls-%2B-da/lcipembjfkmeggpihdpdgnjildgniffl">
@@ -260,6 +271,7 @@
         </div> -->
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js"></script>
         <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/BrowserFS/2.0.0/browserfs.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>

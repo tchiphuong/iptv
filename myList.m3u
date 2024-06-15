@@ -5,7 +5,7 @@ http://171.238.181.52:18080/154.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-2.png",VTV2
 http://118.107.85.4:1935/live/smil:VTV2.smil/chunks.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv3hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-3.png",VTV3
-http://118.107.85.4:1935/live/smil:VTV3.smil/chunks.m3u8
+http://171.238.181.52:18080/155.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-4.png",VTV4
 http://s4.nihontv.net:21585/vtv4/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5.png",VTV5
@@ -15,7 +15,7 @@ https://lms-vnetwork-vtv.swiftfederation.com/vtvgo/vtv5tnb-manifest.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hdtn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5-tn.png",VTV5 Tây Nguyên
 https://lms-vnetwork-vtv.swiftfederation.com/vtvgo/vtv5tn-manifest.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv6hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-6-can-tho.png",VTV Cần Thơ
-https://lms-vnetwork-vtv.swiftfederation.com/vtvgo/vtv6-manifest.m3u8
+http://171.238.181.52:18080/156.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-7.png",VTV7
 http://dinhdong.ddns.net:13579/udp/225.1.3.15:30120
 #EXTINF:-1 group-title="VTV" tvg-id="vtv8hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-8.png",VTV8
