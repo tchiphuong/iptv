@@ -445,11 +445,12 @@ function getData(date = null, live = false) {
                             <img class="object-contain w-9 h-9 p-1" src="${
                                 e.tournament.logo
                             }" loading="lazy" onerror="this.onerror=null; this.src='./images/undefined.png';"/>
-                            <div class="font-bold whitespace-nowrap line-clamp-1 flex-1" title="${
+                            <div class="font-bold line-clamp-1 flex-1" title="${
                                 e.tournament.name
                             }">${e.tournament.name}</div>
-                            <span class="text-xs italic bold text-red-400">${
-                                statusTranslations[e.match_status]
+                            <span class="inline-flex items-center justify-center px-1.5 py-0.5 text-xs text-white bg-red-500 rounded-full">${
+                                statusTranslations[e.match_status] ||
+                                moment(e.timestamp).locale("vi").startOf("hour").fromNow()
                             }</span>
                         </div>
                                 <div class="flex w-full gap-2 p-3">
