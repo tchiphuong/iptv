@@ -44,9 +44,23 @@
         <div id="videoContainer"></div>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script type="text/javascript">
-            document.write("<scr" + 'ipt language="javascript" type="text/javascript" src="http://1294937123.us.mixmarket.biz/uni/us/1294937123/?div=mix_block_1294937123&r=' + escape(document.referrer) + "&rnd=" + Math.round(Math.random() * 100000) + '" charset="windows-1251"><' + "/scr" + "ipt>");
+            document.write(
+                "<scr" +
+                    'ipt language="javascript" type="text/javascript" src="http://1294937123.us.mixmarket.biz/uni/us/1294937123/?div=mix_block_1294937123&r=' +
+                    escape(document.referrer) +
+                    "&rnd=" +
+                    Math.round(Math.random() * 100000) +
+                    '" charset="windows-1251"><' +
+                    "/scr" +
+                    "ipt>"
+            );
         </script>
-        <script language="javascript" type="text/javascript" src="http://1294937123.us.mixmarket.biz/uni/us/1294937123/?div=mix_block_1294937123&amp;r=http%3A//stackoverflow.com/questions/39240278/block-ads-with-html-js&amp;rnd=39740" charset="windows-1251"></script>
+        <script
+            language="javascript"
+            type="text/javascript"
+            src="http://1294937123.us.mixmarket.biz/uni/us/1294937123/?div=mix_block_1294937123&amp;r=http%3A//stackoverflow.com/questions/39240278/block-ads-with-html-js&amp;rnd=39740"
+            charset="windows-1251"
+        ></script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var videoContainer = document.getElementById("videoContainer");
@@ -60,17 +74,21 @@
 
                     // Thay đổi title nếu có tham số 'title'
                     if (urlParser.searchParams.get("title")) {
-                        document.getElementById("pageTitle").innerText = urlParser.searchParams.get("title");
+                        document.getElementById("pageTitle").innerText =
+                            urlParser.searchParams.get("title");
                     }
 
                     var iframe = document.createElement("iframe");
                     iframe.id = "videoFrame";
-                    iframe.src = "https://xem.bdhub.xyz/v7/?link=" + url;
+                    iframe.src = "https://t.fdcdn.xyz/v11/?link=" + url;
                     iframe.width = "100%";
                     iframe.height = "100%";
                     iframe.setAttribute("allowfullscreen", "true");
                     iframe.setAttribute("autoplay", "1");
-                    iframe.setAttribute("sandbox", "allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation");
+                    iframe.setAttribute(
+                        "sandbox",
+                        "allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"
+                    );
 
                     videoContainer.appendChild(iframe);
                 } else {

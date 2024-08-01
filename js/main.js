@@ -799,14 +799,14 @@ function createPagination(resp) {
 
 function getM3u8() {
     let template = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="vebomay1" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/vebotv.png",VEBOtv 1
-                    #EXTVLCOPT:http-referrer=https://xem.bdhub.xyz
-                    https://obevcimanyd179249207.thapcam.link/live/may1FHD/playlist.m3u8#|Referer=https://xem.bdhub.xyz`;
+                    #EXTVLCOPT:http-referrer=https://t.fdcdn.xyz
+                    https://obevcimanyd179249207.thapcam.link/live/may1FHD/playlist.m3u8#|Referer=https://t.fdcdn.xyz`;
     let result = "";
     console.log(urlshls);
     for (let item of urlshls) {
         result += `#EXTINF:-1 group-title="Trực tiếp" tvg-id="${item.id}" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/vebotv.png",[${item.time}] - ${item.title}
-        #EXTVLCOPT:http-referrer=https://xem.bdhub.xyz
-        ${item.url}#|Referer=https://xem.bdhub.xyz
+        #EXTVLCOPT:http-referrer=https://t.fdcdn.xyz
+        ${item.url}#|Referer=https://t.fdcdn.xyz
         `;
     }
     return result;
