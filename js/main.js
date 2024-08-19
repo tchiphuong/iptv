@@ -260,8 +260,8 @@ function getStandings(league = null) {
                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300">
                                 <td scope="row" class="border-l-4 border-5 px-2 text-center border-left-2">${e.position}</td>
                                 <th scope="row" class="py-4 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <img class="h-5" src="${e.team.crestUrl}" alt="">
-                                    <span class="px-2">${e.team.shortName}</span>
+                                    <img class="h-5" src="${e.team.crestUrl}" alt="${e.team.tla}">
+                                    <span class="px-2 line-clamp-1" title="${e.team.shortName}">${e.team.name}</span>
                                 </th>
                                 <td class="py-4 px-3 text-center">${e.playedGames}</td>
                                 <td class="py-4 px-3 text-center">${e.goalDifference}</td>
@@ -704,9 +704,30 @@ function displayHighlight(highlight, videoUrl, first = false) {
 
     if (first) {
         $("#first-highlights").html(html);
-        $("#first-highlights").append(html);
-        $("#first-highlights").append(html);
-        $("#first-highlights").append(html);
+        $("#first-highlights").html(`
+                <div class="bg-white border border-gray-200 rounded-lg shadow flex flex-col md:flex-row">
+                <img class="rounded-l-lg object-cover w-full md:w-6/12 lg:w-4/12 xl:w-3/12" src="${
+                    highlight.feature_image
+                }" alt="${highlight.name}" style="aspect-ratio: 16/9;" loading="lazy">
+            <div class="px-4 py-3 flex flex-col grow">
+                <span>
+                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white" title="${title}">${title.replace(
+            "Highlights ",
+            ""
+        )}</h5>
+                    <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${formattedDate}</span>
+                    <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${category}</span>
+                </span>
+                <p class="mb-3 font-xs italic text-gray-700 grow">${highlight.description}</p>
+                <a href="${host}get-key.html?url=${videoUrl}&title=${title}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    View
+                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+            `);
     } else {
         $("#list-highlights").append(html);
     }
