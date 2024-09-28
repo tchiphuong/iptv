@@ -2,15 +2,11 @@ var start;
 var offset;
 
 var itemList = [];
-var targetURL = "https://www.antmediatv.xyz/";
+var targetURL = "https://raw.githubusercontent.com/luongtamlong/Dak-Lak-IPTV/main/daklakiptv.m3u";
 var url = "https://cors-anywhere.herokuapp.com/" + targetURL;
 
 $(function () {
-    var dateObj = new Date();
-    var month = dateObj.getMonth() + 1; //months from 1-12
-    var day = dateObj.getDate();
-    var year = dateObj.getFullYear();
-    var dateLink = `${year}${pad(month)}${pad(day)}`;
+    var dateLink = moment(new Date()).format("YYYYMMDD");
     if (~~localStorage.date < ~~dateLink) {
         localStorage.date = dateLink;
         $.ajax({
@@ -100,6 +96,7 @@ $(function () {
 });
 
 function parseM3U(text) {
+    console.log(text);
     const lines = text.split("\n");
     const objects = [];
 
