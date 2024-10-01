@@ -106,7 +106,9 @@
                                     $("#playUrl").append(`<li><a class="hover:text-blue-600 hover:font-bold" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
                                 }
                             });
-                            setPlayer(playUrl.filter(x => x.name === "FullHD")[0].url)
+                            if (playUrl) {
+                                setPlayer(playUrl.filter(x => x.name === "FullHD")[0].url)
+                            }
 
                             $("a[data-type='url']").on("click", function (event) {
                                 event.preventDefault();
