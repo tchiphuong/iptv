@@ -368,64 +368,64 @@ function getData(date = null, live = false) {
                 //     (match) => match.tournament.unique_tournament.id === te.id
                 // );
                 for (let e of lstMatch) {
-                    var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
+                    // var subUrl = `https://api.vebo.xyz/api/match/${e.id}/meta`;
                     htmlTemp = "";
                     if (e.is_live && e.match_status !== "finished") {
-                        $.ajax({
-                            async: false,
-                            url: subUrl,
-                            beforeSend: function () {
-                                ShowLoading();
-                            },
-                            success: function (resp) {
-                                let lstQuality = [
-                                    "nhà đài",
-                                    "backup 1",
-                                    "backup 2",
-                                    "sd",
-                                    "sd1",
-                                    "sd2",
-                                ];
-                                //lstQuality = ["backup 1", "backup 2"];
-                                for (let i = resp.data.play_urls.length - 1; i > -1; i--) {
-                                    if (
-                                        !lstQuality.includes(
-                                            resp.data.play_urls[i].name.toLowerCase()
-                                        )
-                                    ) {
-                                        urlshls.push({
-                                            id: e.id,
-                                            time: `${moment(e.timestamp).format(
-                                                "HH:mm"
-                                            )} - ${moment(e.date).format("DD/MM/YYYY")}`,
-                                            title: `${e.home.short_name} - ${e.away.short_name}`,
-                                            quality: resp.data.play_urls[i].name,
-                                            url: resp.data.play_urls[i].url,
-                                        });
-                                    }
-                                }
-                                for (let se of resp.data.play_urls) {
-                                    if (!lstQuality.includes(se.name.toLowerCase())) {
-                                        htmlTemp += `<a href="${host}get-key.html?url=${
-                                            se.url
-                                        }&title=${e.home.short_name} - ${e.away.short_name} (${
-                                            (e.commentators &&
-                                                e.commentators.map((x) => x.name).join("; ")) ||
-                                            "..."
-                                        })" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
-                                            ${se.name}
-                                            </a>`;
-                                    }
-                                }
-                            },
-                            complete: function (m) {
-                                CloseLoading();
-                            },
-                            error: function (res) {
-                                CloseLoading();
-                                swal("Oops", "Something went wrong!", "error");
-                            },
-                        });
+                        // $.ajax({
+                        //     async: false,
+                        //     url: subUrl,
+                        //     beforeSend: function () {
+                        //         ShowLoading();
+                        //     },
+                        //     success: function (resp) {
+                        //         let lstQuality = [
+                        //             "nhà đài",
+                        //             "backup 1",
+                        //             "backup 2",
+                        //             "sd",
+                        //             "sd1",
+                        //             "sd2",
+                        //         ];
+                        //         //lstQuality = ["backup 1", "backup 2"];
+                        //         for (let i = resp.data.play_urls.length - 1; i > -1; i--) {
+                        //             if (
+                        //                 !lstQuality.includes(
+                        //                     resp.data.play_urls[i].name.toLowerCase()
+                        //                 )
+                        //             ) {
+                        //                 urlshls.push({
+                        //                     id: e.id,
+                        //                     time: `${moment(e.timestamp).format(
+                        //                         "HH:mm"
+                        //                     )} - ${moment(e.date).format("DD/MM/YYYY")}`,
+                        //                     title: `${e.home.short_name} - ${e.away.short_name}`,
+                        //                     quality: resp.data.play_urls[i].name,
+                        //                     url: resp.data.play_urls[i].url,
+                        //                 });
+                        //             }
+                        //         }
+                        //         for (let se of resp.data.play_urls) {
+                        //             if (!lstQuality.includes(se.name.toLowerCase())) {
+                        //                 htmlTemp += `<a href="${host}get-key.html?url=${
+                        //                     se.url
+                        //                 }&title=${e.home.short_name} - ${e.away.short_name} (${
+                        //                     (e.commentators &&
+                        //                         e.commentators.map((x) => x.name).join("; ")) ||
+                        //                     "..."
+                        //                 })" target="_blank" class="text-white flex items-center gap-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1">
+                        //                     ${se.name}
+                        //                     </a>`;
+                        //             }
+                        //         }
+                        //     },
+                        //     complete: function (m) {
+                        //         CloseLoading();
+                        //     },
+                        //     error: function (res) {
+                        //         CloseLoading();
+                        //         swal("Oops", "Something went wrong!", "error");
+                        //     },
+                        // });
                     }
                     const borderColor = e.is_live
                         ? e.is_featured
@@ -433,7 +433,9 @@ function getData(date = null, live = false) {
                             : "border-yellow-500"
                         : "";
                     html += `
-                            <div data-type="match" match="${e.id}" tournament="${
+                            <a href="${host}get-key.html?id=${e.id}&title=${e.name} (${
+                        (e.commentators && e.commentators.map((x) => x.name).join("; ")) || "..."
+                    })&isLive=1" target="_blank" data-type="match" match="${e.id}" tournament="${
                         e.tournament.unique_tournament.id
                     }" match-live="${
                         (e.is_live && e.match_status === "live") || htmlTemp != ""
@@ -541,7 +543,7 @@ function getData(date = null, live = false) {
                                             </div>`
                                 }
                                 </div>
-                            </div>
+                            </a>
                         `;
                 }
                 $("button[data-type='btn-filter'].active").trigger("click");
@@ -624,45 +626,12 @@ function getHighlights(page = 1) {
             // Display highlight only if it's the first page
             if (page === 1 && resp.data.highlight) {
                 let highlightId = resp.data.highlight.id;
-                let highlightUrl = `https://api.vebo.xyz/api/news/xoilac/detail/${highlightId}`;
-
-                // Perform AJAX request to get detail of the first highlight
-                $.ajax({
-                    url: highlightUrl,
-                })
-                    .done(function (highlightResp) {
-                        let videoUrl = highlightResp.data.video_url;
-                        displayHighlight(resp.data.highlight, videoUrl, true);
-                    })
-                    .fail(function () {
-                        showError();
-                    })
-                    .always(function () {
-                        CloseLoading();
-                    });
+                displayHighlight(resp.data.highlight, null, true);
             }
-
-            // Clear previous highlights before displaying new ones
-            $("#first-highlights").empty();
             $("#list-highlights").empty();
-
             // Loop through other highlights and display them
             resp.data.list.forEach(function (highlight) {
-                let highlightUrl = `https://api.vebo.xyz/api/news/xoilac/detail/${highlight.id}`;
-
-                // Perform AJAX request to get detail of each highlight
-                $.ajax({
-                    url: highlightUrl,
-                })
-                    .done(function (detailResp) {
-                        displayHighlight(highlight, detailResp.data.video_url);
-                    })
-                    .fail(function () {
-                        showError();
-                    })
-                    .always(function () {
-                        CloseLoading();
-                    });
+                displayHighlight(highlight, null);
             });
 
             createPagination(resp);
@@ -692,7 +661,9 @@ function displayHighlight(highlight, videoUrl, first = false) {
                     <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${category}</span>
                 </span>
                 <p class="mb-3 font-xs italic text-gray-700 grow">${highlight.description}</p>
-                <a href="${host}get-key.html?url=${videoUrl}&title=${title}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="${host}get-key.html?id=${
+        highlight.id
+    }&title=${title}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     View
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -719,7 +690,9 @@ function displayHighlight(highlight, videoUrl, first = false) {
                     <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${category}</span>
                 </span>
                 <p class="mb-3 font-xs italic text-gray-700 grow">${highlight.description}</p>
-                <a href="${host}get-key.html?url=${videoUrl}&title=${title}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="${host}get-key.html?id=${
+            highlight.id
+        }&title=${title}" target="_blank" class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     View
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>

@@ -1,82 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="./images/live.png" />
-        <meta property="og:image" content="./images/thumbnail.png" />
-        <meta property="og:url" content="https://tchiphuong.github.io/iptv" />
-        <meta property="og:type" content="article" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <title id="pageTitle">Your Page</title>
-        <style>
-            body,
-            html {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-            }
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/live.png" />
+    <title id="pageTitle">Fixtures</title>
+    <meta property="og:image" content="https://tchiphuong.github.io/iptv/images/thumbnail.png" />
+    <meta property="og:url" content="https://tchiphuong.github.io/iptv" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./src-new//build/tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.10/tailwind.min.css" />
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
 
-            #videoContainer {
-                width: 100%;
-                height: 100%;
-            }
+        #videoContainer {
+            width: 100%;
+            height: 100%;
+        }
 
-            #videoFrame {
-                width: 100%;
-                height: 100%;
-                border: none;
-                /* Remove border around iframe */
-            }
+        #videoFrame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
 
-            img,
-            .bz-WI0XY,
-            .jw-logo.jw-logo-bottom-right.jw-reset {
-                display: none !important;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="videoContainer"></div>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var videoContainer = document.getElementById("videoContainer");
+        img,
+        .bz-WI0XY,
+        .jw-logo.jw-logo-bottom-right.jw-reset {
+            display: none !important;
+        }
 
-                var urlParser = new URL(window.location.href);
-                var url = "";
+        .min-h-14 {
+            min-height: 3.5rem;
+        }
+    </style>
+</head>
+<body class="flex flex-col">
+    <div class="flex gap-1 flex-wrap items-center p-1 shadow min-h-14">
+        <a href="/" class="flex items-center gap-1">
+            <!-- house icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                <path
+                    d="M 511.11265164644715 256.4436741767764 Q 510.2253032928943 267.9792027729636 502.23916811091857 275.96533795493934 L 502.23916811091857 275.96533795493934 L 502.23916811091857 275.96533795493934 Q 494.2530329289428 283.95147313691507 482.71750433275565 284.8388214904679 L 454.3223570190641 284.8388214904679 L 454.3223570190641 284.8388214904679 L 455.209705372617 426.81455805892546 L 455.209705372617 426.81455805892546 Q 454.3223570190641 430.3639514731369 454.3223570190641 433.91334488734833 L 454.3223570190641 448.11091854419413 L 454.3223570190641 448.11091854419413 Q 454.3223570190641 463.19584055459273 443.6741767764298 472.95667244367417 Q 433.91334488734833 483.6048526863085 418.82842287694973 483.6048526863085 L 404.630849220104 483.6048526863085 L 404.630849220104 483.6048526863085 Q 402.8561525129983 483.6048526863085 401.9688041594454 483.6048526863085 Q 400.19410745233967 483.6048526863085 398.41941074523396 483.6048526863085 L 369.1369150779896 483.6048526863085 L 347.840554592721 483.6048526863085 Q 332.75563258232233 483.6048526863085 322.9948006932409 472.95667244367417 Q 312.34662045060657 463.19584055459273 312.34662045060657 448.11091854419413 L 312.34662045060657 426.81455805892546 L 312.34662045060657 426.81455805892546 L 312.34662045060657 370.02426343154247 L 312.34662045060657 370.02426343154247 Q 312.34662045060657 357.6013864818024 304.36048526863084 349.6152512998267 Q 296.3743500866551 341.62911611785097 283.95147313691507 341.62911611785097 L 227.16117850953205 341.62911611785097 L 227.16117850953205 341.62911611785097 Q 214.73830155979203 341.62911611785097 206.75216637781628 349.6152512998267 Q 198.76603119584055 357.6013864818024 198.76603119584055 370.02426343154247 L 198.76603119584055 426.81455805892546 L 198.76603119584055 426.81455805892546 L 198.76603119584055 448.11091854419413 L 198.76603119584055 448.11091854419413 Q 198.76603119584055 463.19584055459273 188.11785095320624 472.95667244367417 Q 178.35701906412478 483.6048526863085 163.27209705372616 483.6048526863085 L 141.97573656845753 483.6048526863085 L 113.58058925476602 483.6048526863085 Q 112.69324090121317 483.6048526863085 111.8058925476603 483.6048526863085 Q 110.91854419410745 483.6048526863085 110.03119584055459 483.6048526863085 Q 108.25649913344887 483.6048526863085 106.48180242634315 483.6048526863085 L 92.2842287694974 483.6048526863085 L 92.2842287694974 483.6048526863085 Q 77.19930675909879 483.6048526863085 67.43847487001733 472.95667244367417 Q 56.79029462738301 463.19584055459273 56.79029462738301 448.11091854419413 L 56.79029462738301 348.72790294627384 L 56.79029462738301 348.72790294627384 Q 56.79029462738301 347.840554592721 56.79029462738301 346.06585788561523 L 56.79029462738301 284.8388214904679 L 56.79029462738301 284.8388214904679 L 28.395147313691506 284.8388214904679 L 28.395147313691506 284.8388214904679 Q 15.972270363951473 283.95147313691507 7.986135181975737 275.96533795493934 Q 0 267.9792027729636 0 256.4436741767764 Q 0 244.02079722703638 8.873483535528596 235.1473136915078 L 236.03466204506066 36.38128249566724 L 236.03466204506066 36.38128249566724 Q 245.79549393414212 28.395147313691506 255.55632582322357 29.28249566724437 Q 266.2045060658579 29.28249566724437 274.19064124783364 35.493934142114384 L 501.35181975736566 235.1473136915078 L 501.35181975736566 235.1473136915078 Q 512 244.02079722703638 511.11265164644715 256.4436741767764 L 511.11265164644715 256.4436741767764 Z" />
+            </svg>
+            <span class="hidden md:block">Trang chủ</span>
+        </a>
+        <span>/</span>
+        <div id="title" class="font-bold"></div>
+        <ul id="playUrl" class="flex gap-2 flex-wrap items-center">
+        </ul>
+    </div>
+    <div id="videoContainer"></div>
+    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer flex flex-col gap-2" id="spin" style="display: none">
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <span class="font-bold">Please wait ...</span>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/ajax.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var urlParser = new URL(window.location.href);
+            if (urlParser.searchParams.get("id")) {
+                const id = urlParser.searchParams.get("id")
+                const isLive = urlParser.searchParams.get("isLive")
+                if (isLive == 1) {
+                    $.ajax({
+                        url: `https://api.vebo.xyz/api/match/${id}/meta`,
+                    })
+                        .done(function (response) {
+                            console.log(response)
+                            const playUrl = response.data.play_urls
+                            playUrl.forEach(element => {
+                                if (element.name === "FullHD") {
+                                    $("#playUrl").append(`<li><a class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
+                                } else {
+                                    $("#playUrl").append(`<li><a class="hover:text-blue-600 hover:font-bold" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
+                                }
+                            });
+                            setPlayer(playUrl.filter(x => x.name === "FullHD")[0].url)
 
-                // Kiểm tra xem có tham số 'url' hay không
-                if (urlParser.searchParams.get("url")) {
-                    url = urlParser.searchParams.get("url");
-
-                    // Thay đổi title nếu có tham số 'title'
-                    if (urlParser.searchParams.get("title")) {
-                        document.getElementById("pageTitle").innerText =
-                            urlParser.searchParams.get("title");
-                    }
-
-                    var iframe = document.createElement("iframe");
-                    iframe.id = "videoFrame";
-                    iframe.src =
-                        "https://t.fdcdn.xyz/v11/?link=" + url + "&t=tr&theme_id=ck&is_live=0";
-                    iframe.width = "100%";
-                    iframe.height = "100%";
-                    iframe.setAttribute("allowfullscreen", "true");
-                    iframe.setAttribute("autoplay", "1");
-                    iframe.setAttribute(
-                        "sandbox",
-                        "allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"
-                    );
-
-                    videoContainer.appendChild(iframe);
-                } else {
-                    // Handle the case when 'url' parameter is not present
-                    console.error('Missing "url" parameter.');
+                            $("a[data-type='url']").on("click", function (event) {
+                                event.preventDefault();
+                                const _this = $(this);
+                                setPlayer(_this.attr('href'))
+                                $("a[data-type='url']").removeClass("flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg").addClass("hover:text-blue-600 hover:font-bold");
+                                _this.addClass("flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg").removeClass("hover:text-blue-600 hover:font-bold");
+                            });
+                        })
+                        .fail(function () {
+                            CloseLoading();
+                        })
+                        .always(function () {
+                            CloseLoading();
+                        });
                 }
-            });
-        </script>
-    </body>
+                else {
+                    $.ajax({
+                        url: ` https://api.vebo.xyz/api/news/xoilac/detail/${id}`,
+                    })
+                        .done(function (response) {
+                            console.log(response)
+                            const playUrl = response.data.video_url
+                            setPlayer(playUrl)
+                        })
+                        .fail(function () {
+                            CloseLoading();
+                        })
+                        .always(function () {
+                            CloseLoading();
+                        });
+                }
+            }
+            if (urlParser.searchParams.get("title")) {
+                $("#pageTitle").text(urlParser.searchParams.get("title"));
+                $("#title").text(urlParser.searchParams.get("title"));
+            }
+        });
+
+        function setPlayer(url) {
+            var iframe = `<iframe id="videoFrame" 
+                            src="https://t.fdcdn.xyz/v11/?link=${url}&t=tr&theme_id=ck&is_live=0" 
+                            width="100%" 
+                            height="100%"
+                            allowfullscreen="true" 
+                            autoplay="1" 
+                            sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                        </iframe>`;
+            // Using jQuery to empty the container and append the new iframe
+            $("#videoContainer").empty().append(iframe);
+            CloseLoading()
+        }
+    </script>
+</body>
 </html>
