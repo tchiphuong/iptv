@@ -12,7 +12,7 @@
     <meta property="og:image:type" content="image/jpeg" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -31,19 +31,29 @@
 
         #videoContainer {
             width: 100%;
-            height: 100%;
+            min-height: calc((100vw * 9) / 16);
+            z-index: 2;
         }
 
-        #videoFrame {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .main-content {
+            margin-bottom: -100px;
         }
 
-        img,
-        .bz-WI0XY,
-        .jw-logo.jw-logo-bottom-right.jw-reset {
-            display: none !important;
+        @media (min-width: 1024px) {
+            .main-content {
+                margin-bottom: 0;
+            }
+
+            #videoContainer {
+                width: 100%;
+                min-height: unset;
+            }
+        }
+
+        #chat {
+            height: calc(100% + 100px);
+            transform: translateY(-100px);
+            z-index: 1;
         }
 
         .min-h-14 {
@@ -52,8 +62,8 @@
     </style>
 </head>
 <body class="flex flex-col">
-    <div class="flex gap-1 flex-wrap items-center p-1 shadow min-h-14">
-        <a href="/" class="flex items-center gap-1">
+    <div class="flex gap-1 flex-wrap items-center p-1 shadow min-h-14 px-4 w-full">
+        <a href="./" class="flex items-center gap-1">
             <!-- house icon by Free Icons (https://free-icons.github.io/free-icons/) -->
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                 <path
@@ -63,30 +73,71 @@
         </a>
         <span>/</span>
         <div id="title" class="font-bold"></div>
-        <ul id="playUrl" class="flex gap-2 flex-wrap items-center">
-        </ul>
+        <div id="commentators" class="flex -space-x-4 rtl:space-x-reverse"></div>
+        <ul id="playUrl" class="flex gap-2 flex-wrap items-center flex-grow"></ul>
+        <button id="chatButton" class="px-3 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hidden" title="Bật/tắt chat">
+            <!-- house icon by Free Icons (https://free-icons.github.io/free-icons/) -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 514 448">
+                <path d="M 514 208 Q 513 266 479 313 L 479 313 L 479 313 Q 445 360 387 388 L 387 388 L 387 388 Q 330 415 258 416 Q 202 416 154 398 Q 135 412 100 429 Q 62 446 18 448 Q 8 448 3 438 Q 0 428 7 421 Q 7 421 7 421 Q 7 421 7 421 Q 7 421 7 421 Q 7 421 7 421 Q 7 421 7 421 Q 7 421 7 421 Q 7 421 7 421 Q 7 421 7 421 L 7 420 L 7 420 Q 7 420 7 420 Q 7 420 8 419 Q 10 417 13 413 Q 20 406 28 392 Q 45 366 50 329 Q 3 277 2 208 Q 3 150 37 103 Q 71 56 129 28 Q 186 1 258 0 Q 330 1 387 28 Q 445 56 479 103 Q 513 150 514 208 L 514 208 Z" />
+            </svg>
+        </button>
     </div>
-    <div id="videoContainer"></div>
-    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer flex flex-col gap-2" id="spin" style="display: none">
-        <div class="lds-spinner">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <div class="flex flex-1 flex-col lg:flex-row overflow-hidden main-content">
+        <div id="videoContainer" class="flex-1"></div>
+        <div id="chat-wrap" class="h-full hidden">
+            <div class="h-full">
+                <div class="flex border-b">
+                    <button id="tab1Button" class="tab-button w-full py-2 text-center bg-black text-blue-700 font-semibold border-blue-700 focus:outline-none">
+                        Chung
+                    </button>
+                    <button id="tab2Button" class="tab-button w-full py-2 text-center bg-black text-gray-100 hover:text-blue-700 focus:outline-none">
+                        Trận đấu
+                    </button>
+                </div>
+
+                <div class="h-full">
+                    <div id="tab1Content" class="tab-content h-full">
+                        <div class="h-full" style="height: calc(100% + 20px);">
+                            <iframe id="videoFrame" src="https://www6.cbox.ws/box/?boxid=827198&boxtag=wskql9" width="100%" height="100%" allowfullscreen="true" autoplay="1" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div id="tab2Content" class="tab-content h-full hidden overflow-hidden">
+                        <div id="chat" class=""></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <span class="font-bold">Please wait ...</span>
+    </div>
+
+    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer flex flex-col gap-2" id="spin" style="display: none">
+        <div class="loader"></div>
     </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/ajax.js" crossorigin="anonymous"></script>
     <script>
+        $(document).ready(function () {
+            $('#chatButton').click(function () {
+                $('#chat-wrap').toggleClass('hidden');
+            });
+
+            $(document).ready(function () {
+                $('#tab1Button').click(function () {
+                    $('#tab1Content').removeClass('hidden').addClass('block');
+                    $('#tab2Content').removeClass('block').addClass('hidden');
+                    $(this).addClass('text-blue-700 font-semibold').removeClass('text-gray-100');
+                    $('#tab2Button').removeClass('text-blue-700 font-semibold').addClass('text-gray-100');
+                });
+
+                $('#tab2Button').click(function () {
+                    $('#tab2Content').removeClass('hidden').addClass('block');
+                    $('#tab1Content').removeClass('block').addClass('hidden');
+                    $(this).addClass('text-blue-700 font-semibold').removeClass('text-gray-100');
+                    $('#tab1Button').removeClass('text-blue-700 font-semibold').addClass('text-gray-100');
+                });
+            });
+        });
         document.addEventListener("DOMContentLoaded", function () {
             var urlParser = new URL(window.location.href);
             if (urlParser.searchParams.get("id")) {
@@ -94,20 +145,36 @@
                 const isLive = urlParser.searchParams.get("isLive")
                 if (isLive == 1) {
                     $.ajax({
-                        url: `https://api.vebo.xyz/api/match/${id}/meta`,
+                        url: `https://api.vebo.xyz/api/match/${id}/meta`
                     })
                         .done(function (response) {
                             console.log(response)
                             const playUrl = response.data.play_urls
-                            playUrl.forEach(element => {
-                                if (element.name === "FullHD") {
-                                    $("#playUrl").append(`<li><a class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
+                            if (playUrl && playUrl.length > 1) {
+                                let lstQuality = ["nhà đài"];
+                                playUrl.forEach(element => {
+                                    if (!lstQuality.includes(element.name.toLowerCase())) {
+                                        if (element.name === "FullHD") {
+                                            $("#playUrl").append(`<li><a class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
+                                        } else {
+                                            $("#playUrl").append(`<li><a class="hover:text-blue-600 hover:font-bold" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
+                                        }
+                                    }
+                                });
+                                response.data.commentators.forEach(element => {
+                                    $("#commentators").append(`<img class="w-10 h-10 border-2 border-white rounded-full shadow dark:border-gray-800" src="${element.avatar}" alt="${element.name}" title="${element.name}">`)
+                                });
+                                var fullHD = playUrl.find(x => x.name === "FullHD")?.url
+                                if (fullHD) {
+                                    setPlayer(fullHD);
                                 } else {
-                                    $("#playUrl").append(`<li><a class="hover:text-blue-600 hover:font-bold" data-type="url" href="${element.url}" title="${element.name}">${element.name}</a></li>`)
+                                    setPlayer(playUrl[0]?.url);
                                 }
-                            });
-                            if (playUrl) {
-                                setPlayer(playUrl.filter(x => x.name === "FullHD")[0].url)
+                            } else {
+                                swal("Oops", "Trận đấu chưa bắt đầu!", "error")
+                                    .then(() => {
+                                        window.close();
+                                    });
                             }
 
                             $("a[data-type='url']").on("click", function (event) {
@@ -124,15 +191,45 @@
                         .always(function () {
                             CloseLoading();
                         });
-                }
-                else {
+
                     $.ajax({
-                        url: ` https://api.vebo.xyz/api/news/xoilac/detail/${id}`,
+                        url: `https://api.vebo.xyz/api/match/${id}`,
                     })
                         .done(function (response) {
                             console.log(response)
-                            const playUrl = response.data.video_url
+                            var iframe = `<iframe id="videoFrame" 
+                                src="https://chat.vebotv.me/?token=&room=${response.data.key_sync}" 
+                                width="100%" 
+                                height="100%"
+                                allowfullscreen="true" 
+                                autoplay="1" 
+                                sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                                </iframe>`;
+                            // Using jQuery to empty the container and append the new iframe
+                            $("#chat-wrap").removeClass("hidden");
+                            $("#chatButton").removeClass("hidden");
+                            $("#chat").empty().append(iframe);
+
+
+                            $("#pageTitle").text(response.data.name);
+                            $("#title").text(`${response.data.name}`);
+                        })
+                        .fail(function () {
+                            CloseLoading();
+                        })
+                        .always(function () {
+                            CloseLoading();
+                        });
+                }
+                else {
+                    $.ajax({
+                        url: `https://api.vebo.xyz/api/news/xoilac/detail/${id}`,
+                    })
+                        .done(function (response) {
+                            console.log(response)
+                            const playUrl = response?.data?.video_url
                             setPlayer(playUrl)
+                            $('[property="og:image"]').attr("content", response.data.feature_image)
                         })
                         .fail(function () {
                             CloseLoading();
@@ -149,16 +246,18 @@
         });
 
         function setPlayer(url) {
-            var iframe = `<iframe id="videoFrame" 
-                            src="https://t.fdcdn.xyz/v11/?link=${url}&t=tr&theme_id=ck&is_live=0" 
-                            width="100%" 
-                            height="100%"
-                            allowfullscreen="true" 
-                            autoplay="1" 
-                            sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
-                        </iframe>`;
-            // Using jQuery to empty the container and append the new iframe
-            $("#videoContainer").empty().append(iframe);
+            if (url) {
+                var iframe = `<iframe id="videoFrame" 
+                src="https://t.fdcdn.xyz/v11/?link=${url}&t=tr&theme_id=ck&is_live=0" 
+                width="100%" 
+                height="100%"
+                allowfullscreen="true" 
+                autoplay="1" 
+                sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                </iframe>`;
+                // Using jQuery to empty the container and append the new iframe
+                $("#videoContainer").empty().append(iframe);
+            }
             CloseLoading()
         }
     </script>
