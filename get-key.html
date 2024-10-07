@@ -196,6 +196,12 @@
                         url: `https://api.vebo.xyz/api/match/${id}`,
                     })
                         .done(function (response) {
+                            if (response.data.match_status === "finished") {
+                                swal("Oops", "Trận đấu đã kết thúc!", "error")
+                                    .then(() => {
+                                        window.close();
+                                    });
+                            }
                             console.log(response)
                             var iframe = `<iframe id="videoFrame" 
                                 src="https://chat.vebotv.me/?token=&room=${response.data.key_sync}" 

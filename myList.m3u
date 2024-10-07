@@ -15,22 +15,50 @@ https://thvip.site/360/157/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hdtn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5-tn.png",VTV5 Tây Nguyên
 https://thvip.site/360/207/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv6hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-6-can-tho.png",VTV Cần Thơ
-http://thvip.site/vtv6/index.m3u8
+https://thvip.site/vtv6/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-7.png",VTV7
-http://thvip.site/vtv7/index.m3u8
+https://thvip.site/vtv7/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv8hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-8.png",VTV8
-http://thvip.site/vtv8/index.m3u8
+https://thvip.site/vtv8/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-9.png",VTV9
-http://thvip.site/vtv9/index.m3u8
+https://thvip.site/vtv9/index.m3u8
 
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/02/07/10/1707277391585/b85d2c1429ae_640_360.png",TV360+1
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/02/07/10/1707277391585/b85d2c1429ae_640_360.png",TV360+1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://thvip.site/360/2554/index.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/02/07/10/1707277438156/631fcbb373ae_640_360.png",TV360+2
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/02/07/10/1707277438156/631fcbb373ae_640_360.png",TV360+2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://thvip.site/360/1/index.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/04/09/21/1712672418208/a559e0adf25f_640_360.png",TV360+3
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/04/09/21/1712672418208/a559e0adf25f_640_360.png",TV360+3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://thvip.site/360/148/index.m3u8
-#EXTINF:-1 group-title="Trực tiếp" tvg-id="" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/04/09/21/1712673208613/4a711ecfa1b3_640_360.png",TV360+4
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/04/09/21/1712673208613/4a711ecfa1b3_640_360.png",TV360+4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://thvip.site/360/2458/index.m3u8
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686793977173/462bf48b67aa_640_360.png", TV360+1
+#EXTVLCOPT:http-user-agent=VThanhTivi
+http://222.254.231.99:1024/rtp/239.12.251.72:5000
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686794009990/d06c292dfa18_640_360.png", TV360+2
+#EXTVLCOPT:http-user-agent=VMT
+http://222.254.231.99:1024/rtp/239.12.252.59:5000
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png", TV360+3
+#EXTVLCOPT:http-user-agent=VMT
+http://222.254.231.99:1024/rtp/239.12.251.253:5000 
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png", TV360+4
+#EXTVLCOPT:http-user-agent=VMT
+https://tth.vn/TV360⁺⁴
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/19/17/1726740960539/cb834040831f_640_360.png", TV360+5
+#EXTVLCOPT:http-user-agent=VMT
+https://thvip.site/360/9867/index.m3u8
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/19/17/1726740923372/3668f8c5f024_640_360.png", TV360+6
+https://thvip.site/360/9868/index.m3u8
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/20/06/1726788697117/30d4679fe59d_640_360.png", TV360+7
+https://thvip.site/360/9869/index.m3u8
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/20/00/172676698597/300138c2bbe3_640_360.png", TV360+8
+https://thvip.site/360/9870/index.m3u8
+#EXTINF:-1 group-title="TV360+" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/30/22/1727709197325/1be646ba55c5_640_360.png", TV360+9
+https://thvip.site/360/9887/index.m3u8
+
 #EXTINF:-1 group-title="Trực tiếp" tvg-logo="https://i.imgur.com/IaCI72L.png",ON Plus 01
 https://liveh34.vtvcab.vn/hls/ONSPORT01/index.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-logo="https://i.imgur.com/IaCI72L.png",ON Plus 02
@@ -51,19 +79,6 @@ https://liveh34.vtvcab.vn/hls/ONSPORT08/index.m3u8
 https://liveh34.vtvcab.vn/hls/ONSPORT09/index.m3u8
 #EXTINF:-1 group-title="Trực tiếp" tvg-logo="https://i.imgur.com/IaCI72L.png",ON Plus 10
 https://liveh34.vtvcab.vn/hls/ONSPORT10/index.m3u8
-
-#EXTINF:-1 group-title="K+" group-logo="https://tchiphuong.github.io/iptv/images/background/k-plus.png" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-cine.png",K+ CINE
-http://gg.gg/1c8wg8
-#EXTINF:-1 group-title="K+" tvg-id="kactionhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-action.png",K+ ACTION
-http://gg.gg/1c6f18
-#EXTINF:-1 group-title="K+" tvg-id="kactionhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-action.png",K+ ACTION
-http://gg.gg/1c8wh8
-#EXTINF:-1 group-title="K+" tvg-id="ksport1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-1.png",K+ SPORT 1
-http://gg.gg/1c6f1z
-#EXTINF:-1 group-title="K+" tvg-id="ksport2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-sport-2.png", K+ SPORT 2
-http://gg.gg/1c6f0k
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/k-kids.png",K+ KIDS
-http://gg.gg/1c6f1z
 
 #EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
@@ -1314,6 +1329,13 @@ https://strm.yandex.ru/kal/match_football3_hd/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=9839b170b4fc384f243bffd8929b71a2:34cdd6f3e1bf6a9f9d54e9165abf8c09
 https://video.beeline.tv/live/d/channel512.isml/manifest-stb.mpd
 
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-football1" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2bmhk079s3jpn70.png",🇷🇺 Match Football 1
+https://lj9mu2e1cgt.a.trbcdn.net/m1_laliga/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-football2" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2jmhk079s3jpn8g.png",🇷🇺 Match Football 2
+https://lj9mu2e1cgt.a.trbcdn.net/m2_laliga/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-football3" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2rmhk079s3jpna0.png",🇷🇺 Match Football 3
+https://lj9mu2e1cgt.a.trbcdn.net/m3_laliga/index.m3u8
+
 #EXTINF:-1 group-title="Thể thao" tvg-id="setanta-kz" tvg-logo="https://epgx.site/p/setanta-kz.png",🇰🇿 SETANTA SPORTS
 https://bkm.beetv.kz/btv/live/hls/000004619.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="setanta1-kz" tvg-logo="https://epgx.site/p/setanta1-kz.png",🇰🇿 SETANTA SPORTS 1
@@ -1324,6 +1346,16 @@ https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports-plus" tvg-logo="https://epgx.site/p/setanta-sports-plus.png",🇷🇺 SETANTA SPORTS 2
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
+
+#EXTINF:-1 group-title="Thể thao" tvg-id="setanta1-kz" tvg-logo="https://epgx.site/p/setanta1-kz.png",🇰🇿 SETANTA SPORTS 1
+https://25axin5tbn8.a.trbcdn.net/Setanta1_La_Liga/index.m3u8
+
+#EXTINF:-1 group-title="LVTT SPORT DRM TiviMate" tvg-id="lvtt4" tvg-logo="https://yt3.googleusercontent.com/I0csx-UprXbr_3VormnNGiBq0NW1692f-Jo9moJeCIqRyb8hf5hH4CgfI-enXEYfbHVxDXqbeA=s900-c-k-c0x00ffffff-no-rj",LVTT SPORT 4 (DRM)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1658b366669f443384cefee3ec401d65:CCE0929C1AB140670002D4C253C73654
+https://cdnlb.tvplayhome.lt/live/eds/Setanta21_HD_HVC/GO3_LIVE_DASH_HVC/Setanta21_HD_HVC.mpd
 
 #EXTINF:-1 group-title="Thể thao" tvg-id="canal_bein1" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/BeIn_Sports_HD_1_France.png",🇫🇷 Canal BeIN 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
