@@ -36,7 +36,7 @@
         }
 
         .main-content {
-            margin-bottom: -100px;
+            margin-bottom: 0;
         }
 
         @media (min-width: 1024px) {
@@ -72,7 +72,11 @@
             <span class="hidden md:block">Trang chủ</span>
         </a>
         <span>/</span>
-        <div id="title" class="font-bold"></div>
+        <img id="home" class="w-8 h-8 object-cover hidden">
+        <span> vs </span>
+        <img id="away" class="w-8 h-8 object-cover hidden">
+        <span> | </span>
+        <!-- <div id="title" class="font-bold"></div> -->
         <div id="commentators" class="flex -space-x-4 rtl:space-x-reverse"></div>
         <ul id="playUrl" class="flex gap-2 flex-wrap items-center flex-grow"></ul>
         <button id="chatButton" class="px-3 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hidden" title="Bật/tắt chat">
@@ -204,7 +208,7 @@
                             }
                             console.log(response)
                             var iframe = `<iframe id="videoFrame" 
-                                src="https://chat.vebotv.me/?token=&room=${response.data.key_sync}" 
+                                src="https://chat.vebotv.me/?token=&room=${response.data.key_sync || response.data.room_id}" 
                                 width="100%" 
                                 height="100%"
                                 allowfullscreen="true" 
@@ -218,7 +222,9 @@
 
 
                             $("#pageTitle").text(response.data.name);
-                            $("#title").text(`${response.data.name}`);
+                            // $("#title").text(`${response.data.name}`);
+                            $("#home").attr("src", response.data.home.logo).attr("alt", response.data.home.name).removeClass("hidden");
+                            $("#away").attr("src", response.data.away.logo).attr("alt", response.data.away.name).removeClass("hidden");
                         })
                         .fail(function () {
                             CloseLoading();
@@ -254,7 +260,7 @@
         function setPlayer(url) {
             if (url) {
                 var iframe = `<iframe id="videoFrame" 
-                src="https://t.fdcdn.xyz/v11/?link=${url}&t=tr&theme_id=ck&is_live=0" 
+                src="https://t.fdcdn.xyz/v11/?link=${url}&t=tr&theme_id=tc&is_live=0" 
                 width="100%" 
                 height="100%"
                 allowfullscreen="true" 
