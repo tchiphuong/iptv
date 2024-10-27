@@ -208,7 +208,7 @@
                             }
                             console.log(response)
                             var iframe = `<iframe id="videoFrame" 
-                                src="https://chat.vebotv.me/?token=&room=${response.data.key_sync || response.data.room_id}" 
+                                src="https://chat.vebotv.me/?token=&room=${response.data.room_id}" 
                                 width="100%" 
                                 height="100%"
                                 allowfullscreen="true" 
@@ -223,8 +223,8 @@
 
                             $("#pageTitle").text(response.data.name);
                             // $("#title").text(`${response.data.name}`);
-                            $("#home").attr("src", response.data.home.logo).attr("alt", response.data.home.name).removeClass("hidden");
-                            $("#away").attr("src", response.data.away.logo).attr("alt", response.data.away.name).removeClass("hidden");
+                            $("#home").attr("src", response.data.home.logo).attr("alt", response.data.home.name).attr("title", response.data.home.name).removeClass("hidden");
+                            $("#away").attr("src", response.data.away.logo).attr("alt", response.data.away.name).attr("title", response.data.away.name).removeClass("hidden");
                         })
                         .fail(function () {
                             CloseLoading();
