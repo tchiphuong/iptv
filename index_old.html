@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/live.png" />
+    <title>Fixtures</title>
+    <meta property="og:image" content="https://tchiphuong.github.io/iptv/images/thumbnail.png" />
+    <meta property="og:url" content="https://tchiphuong.github.io/iptv" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./src-new//build/tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.10/tailwind.min.css" />
+</head>
+<style>
+    html,
+    body {
+        font-family: "Inter", sans-serif;
+    }
+</style>
+<body class="bg-gray-100">
+    <nav class="sticky top-0 bg-white z-30 border shadow" style="z-index: 9999999">
+        <div class="flex px-5 pt-2 border-b-2 border-blue-700">
+            <button data-type="tab-control" target-tab="fixtures" tab-show="true" onclick="activeTab(this)" class="focus:outline-none focus:text-blue-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-blue-700 cursor-pointer">
+                <div class="flex items-center mb-3">
+                    <span class="ml-1 font-normal">Fixtures</span>
+                </div>
+            </button>
+            <button data-type="tab-control" target-tab="standings" onclick="activeTab(this)" class="focus:outline-none focus:text-blue-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-blue-700 cursor-pointer">
+                <div class="flex items-center mb-3">
+                    <span class="ml-1 font-normal">Standings</span>
+                </div>
+            </button>
+            <button data-type="tab-control" target-tab="highlights" onclick="activeTab(this)" class="focus:outline-none focus:text-blue-700 text-sm pt-3 rounded-t-md text-gray-600 px-4 hover:text-blue-700 cursor-pointer">
+                <div class="flex items-center mb-3">
+                    <span class="ml-1 font-normal">Highlights</span>
+                </div>
+            </button>
+        </div>
+    </nav>
+    <main class="container mx-auto">
+        <div id="fixtures" class="p-2" data-type="tab-item" tab-show="true">
+            <div class="flex flex-col md:flex-row gap-2">
+                <div class="w-full md:w-4/12 lg:w-3/12 flex items-center gap-2">
+                    <label for="date-input" class="text-sm font-medium text-gray-900 dark:text-white">Ngày:</label>
+                    <p id="date" class="relative flatpickr flex flex-1" data-id="strap">
+                        <input id="date-input" type="text" placeholder="Select Date.." data-input="" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg block flex-1 p-2.5 ring-0" readonly="readonly" />
+                        <a class="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer *:focus:ring-4 font-medium text-sm flex items-center justify-center p-3 hover:text-red-500" title="clear" data-clear="">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                                <path d="M 490.5389 73.58084 Q 512 47.520958 490.5389 21.461079 Q 464.47903 0 438.41916 21.461079 L 256 203.88023 L 256 203.88023 L 73.58084 21.461079 L 73.58084 21.461079 Q 47.520958 0 21.461079 21.461079 Q 0 47.520958 21.461079 73.58084 L 203.88023 256 L 203.88023 256 L 21.461079 438.41916 L 21.461079 438.41916 Q 0 464.47903 21.461079 490.5389 Q 47.520958 512 73.58084 490.5389 L 256 308.11975 L 256 308.11975 L 438.41916 490.5389 L 438.41916 490.5389 Q 464.47903 512 490.5389 490.5389 Q 512 464.47903 490.5389 438.41916 L 308.11975 256 L 308.11975 256 L 490.5389 73.58084 L 490.5389 73.58084 Z" />
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+                <div class="flex">
+                    <div class="flex items-center">
+                        <input id="checked-featured" type="checkbox" checked class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                        <label for="checked-featured" class="ms-2 px-2 text-sm font-medium text-gray-900 dark:text-gray-300">Trận cầu tâm điểm</label>
+                        <button id="btn-search" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2">
+                            Search
+                        </button>
+                        <input id="checked-live" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+                        <label for="checked-live" class="ms-2 px-2 text-sm font-medium text-gray-900 dark:text-gray-300">Đang trực tiếp</label>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-3 pt-3"></div>
+            <div class="flex gap-2 my-3 py-1 overflow-x-auto relative" id="tournament"></div>
+            <div id="match" class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"></div>
+        </div>
+    </main>
+    <div class="flex flex-col pb-12">
+        <div class="container p-3 mx-auto flex-grow">
+            <div style="word-wrap: break-word; white-space: pre-wrap" id="console"></div>
+            <div class="overflow-x-hidden">
+                <div id="standings" data-type="tab-item">
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="w-full">
+                            <div class="md:w-3/12">
+                                <label for="cbb-standings" class="text-sm font-medium text-gray-900 dark:text-white">League:</label>
+                                <select id="cbb-standings" name=""></select>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center py-6 w-full">
+                            <div class="overflow-x-auto relative w-full" id="list-standings"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="highlights" data-type="tab-item">
+                    <div id="first-highlights" class="grid grid-cols-1 py-3 lg:py-4 gap-3 lg:gap-4"></div>
+                    <div id="list-highlights" class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-4"></div>
+                    <div class="py-3 lg:py-4 text-center">
+                        <ul id="pagination" class="inline-flex items-center -space-x-px"></ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <button id="button" type="button" title="Scroll to top" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"></button>
+    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer flex flex-col gap-2" id="spin" style="display: none">
+        <div class="loader"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/BrowserFS/2.0.0/browserfs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.5.1/flatpickr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/vn.js"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/ajax.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" crossorigin="anonymous"></script>
+</body>
+</html>
