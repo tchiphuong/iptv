@@ -85,7 +85,7 @@
                                             <span x-show="match.homeRedCards > 0">
                                                 <img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="Thẻ đỏ" class="h-6" />
                                             </span>
-                                            <span class="text-xl font-bold" x-text="['live', 'finished'].includes() ? match.homeScore : ''"></span>
+                                            <span class="text-xl font-bold" x-text="['live', 'finished'].includes(match.match_status) ? match.homeScore : ''"></span>
                                         </div>
                                         <div class="flex items-center gap-2">
                                             <img class="h-10 w-10 object-contain" :src="match.awayLogo || fallbackLogo(match.awayTeam)" loading="lazy" @error="match.awayLogo = fallbackLogo(match.awayTeam)">
@@ -93,7 +93,7 @@
                                             <span x-show="match.awayRedCards > 0">
                                                 <img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="Thẻ đỏ" class="h-6" />
                                             </span>
-                                            <span class="text-xl font-bold" x-text="['live', 'finished'].includes() ? match.awayScore : ''"></span>
+                                            <span class="text-xl font-bold" x-text="['live', 'finished'].includes(match.match_status) ? match.awayScore : ''"></span>
                                         </div>
                                     </div>
                                     <div class="flex flex-col justify-between">
