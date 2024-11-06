@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,13 +10,14 @@
     <meta property="og:url" content="https://tchiphuong.github.io/iptv" />
     <meta property="og:type" content="article" />
     <meta property="og:image:type" content="image/jpeg" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/vi.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
 </head>
-<body class="font-['Inter'] bg-gray-100" x-data="fixturesComponent()" x-init="init()">
+<body class="font-['Inter'] bg-gray-100 h-full" x-data="fixturesComponent()" x-init="init()">
     <!-- Loading overlay -->
     <div id="loadingOverlay" x-show="loading" class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50 flex items-center justify-center">
         <div class="bg-white p-5 rounded-lg shadow-lg flex items-center">
@@ -27,8 +28,8 @@
             <span class="text-gray-700 text-lg font-semibold">Đang tải dữ liệu...</span>
         </div>
     </div>
-    <div>
-        <div class="relative bg-white shadow flex justify-center sticky top-0 z-50">
+    <div class="h-full flex flex-col">
+        <div class="bg-white shadow flex justify-center sticky top-0 z-50">
             <div class="flex space-x-4 p-3">
                 <button @click="tab = 'fixtures'; selectTab(tab)" :class="{'bg-blue-600 text-white rounded-full shadow-lg transform scale-105 transition-all duration-300 ease-in-out': tab === 'fixtures', 
                                   'bg-white text-gray-700 hover:bg-blue-100 transition duration-300 ease-in-out rounded-full': tab !== 'fixtures'}" class="px-3 py-1 font-semibold">
@@ -45,93 +46,155 @@
             </div>
         </div>
 
-        <main class="container mx-auto px-2">
-            <div x-show="tab === 'fixtures'" class="flex flex-col gap-2 py-4">
-                <!-- New section for displaying unique tournaments within fixtures -->
-                <div class="overflow-x-auto py-1">
-                    <div class="flex flex-nowrap gap-2">
-                        <template x-for="tournament in tournaments" :key="tournament.id">
-                            <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm hover:shadow-md transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" title="" x-bind:title="tournament.name">
-                                <img :src="tournament.logo || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
-                                <div x-text="tournament.name" class="truncate min-w-min font-semibold"></div>
-                            </button>
-                        </template>
+        <main class="container mx-auto px-2 flex-grow">
+            <div class="relative h-full">
+                <div x-show="tab === 'fixtures'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                    <div class="flex flex-col gap-2 py-4">
+                        <!-- New section for displaying unique tournaments within fixtures -->
+                        <div class="overflow-x-auto py-1">
+                            <div class="flex flex-nowrap gap-2">
+                                <template x-for="tournament in tournaments" :key="tournament.id">
+                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm hover:shadow-md transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" title="" x-bind:title="tournament.name">
+                                        <img :src="tournament.logo || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
+                                        <div x-text="tournament.name" class="truncate min-w-min font-semibold"></div>
+                                    </button>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+                            <template x-for="match in matches" :key="match.id">
+                                <a :href="`https://tchiphuong.github.io/iptv/get-key.html?id=${match.id}&title=${match.title}&isLive=1`" target="_blank" data-type="match" :data-tournament="match.tournament.id" :match="match.id" :match-live="match.isLive" x-show="selectedTournament === null || match.tournament.id === selectedTournament" class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-300 bg-white shadow-md hover:scale-105 hover:shadow-lg">
+                                    <div class="flex w-full flex-col p-4">
+                                        <div class="flex items-center gap-3 mb-2">
+                                            <img class="object-contain w-12 h-12" :src="match.tournament.logo || fallbackLogo(match.tournament.name)" loading="lazy" @error="match.tournament.logo = fallbackLogo(match.tournament.name)">
+                                            <div class="flex items-center justify-between mt-2 flex-grow">
+                                                <span class="font-bold text-lg line-clamp-1 flex-grow" x-text="match.tournament.name" :title="match.tournament.name"></span>
+                                                <div class="flex items-center gap-3 ml-3">
+                                                    <span x-show="match.match_status === 'finished'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-gray-300 rounded-full shadow-md w-max" x-text="'Hết giờ'"></span>
+                                                    <span x-show="match.match_status === 'delay'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max" x-text="'Hoãn lại'"></span>
+                                                    <span x-show="match.match_status === 'canceled'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-red-500 rounded-full shadow-md w-max" x-text="'Huỷ'"></span>
+                                                    <span x-show="match.match_status === 'live' && moment().isSameOrAfter(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-white bg-red-600 rounded-full shadow-md w-max">Trực tiếp</span>
+                                                    <span x-show="match.match_status !== 'live' && moment().isBefore(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max">
+                                                        <span x-text="`${moment.duration(moment(match.startTime).diff(moment())).humanize(true)}`"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex w-full gap-4">
+                                            <div class="flex flex-1 flex-col gap-2">
+                                                <div class="flex items-center gap-2">
+                                                    <img class="h-10 w-10 object-contain" :src="match.homeLogo || fallbackLogo(match.homeTeam)" loading="lazy" @error="match.homeLogo = fallbackLogo(match.homeTeam)">
+                                                    <div class="flex-1 text-sm font-semibold line-clamp-1" x-text="match.homeTeam" :title="match.homeTeam"></div>
+                                                    <span x-show="match.homeRedCards > 0">
+                                                        <img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="Thẻ đỏ" class="h-6" />
+                                                    </span>
+                                                    <span class="text-xl font-bold" x-text="['live', 'finished'].includes(match.match_status) ? match.homeScore : ''"></span>
+                                                </div>
+                                                <div class="flex items-center gap-2">
+                                                    <img class="h-10 w-10 object-contain" :src="match.awayLogo || fallbackLogo(match.awayTeam)" loading="lazy" @error="match.awayLogo = fallbackLogo(match.awayTeam)">
+                                                    <div class="flex-1 text-sm font-semibold line-clamp-1" x-text="match.awayTeam" :title="match.awayTeam"></div>
+                                                    <span x-show="match.awayRedCards > 0">
+                                                        <img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="Thẻ đỏ" class="h-6" />
+                                                    </span>
+                                                    <span class="text-xl font-bold" x-text="['live', 'finished'].includes(match.match_status) ? match.awayScore : ''"></span>
+                                                </div>
+                                            </div>
+                                            <div class="flex flex-col justify-between">
+                                                <div class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512" class="text-gray-500">
+                                                        <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z"></path>
+                                                    </svg>
+                                                    <span class="text-sm text-gray-600" x-text="match.dateFormatted"></span>
+                                                </div>
+                                                <div class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512" class="text-gray-500">
+                                                        <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z"></path>
+                                                    </svg>
+                                                    <span class="text-sm text-gray-600" x-text="match.timeFormatted"></span>
+                                                    <img class="h-6" src="https://tchiphuong.github.io/iptv/images/live.gif" x-show="match.isLive && match.match_status === 'live'">
+                                                </div>
+                                                <div class="flex items-center gap-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512" class="text-gray-500">
+                                                        <path
+                                                            d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="text-sm line-clamp-2 text-gray-600 truncate" x-html="match.commentator.join('</br>')" :title="match.commentator.join(', ')"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </template>
+                        </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
-                    <template x-for="match in matches" :key="match.id">
-                        <a :href="`https://tchiphuong.github.io/iptv/get-key.html?id=${match.id}&title=${match.title}&isLive=1`" target="_blank" data-type="match" :data-tournament="match.tournament.id" :match="match.id" :match-live="match.isLive" x-show="selectedTournament === null || match.tournament.id === selectedTournament" class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-300 bg-white shadow-md hover:scale-105 hover:shadow-lg">
-                            <div class="flex w-full flex-col p-4">
-                                <div class="flex items-center gap-3 mb-2">
-                                    <img class="object-contain w-12 h-12" :src="match.tournament.logo || fallbackLogo(match.tournament.name)" loading="lazy" @error="match.tournament.logo = fallbackLogo(match.tournament.name)">
-                                    <div class="flex items-center justify-between mt-2 flex-grow">
-                                        <span class="font-bold text-lg line-clamp-1 flex-grow" x-text="match.tournament.name" :title="match.tournament.name"></span>
-                                        <div class="flex items-center gap-3 ml-3">
-                                            <span x-show="match.match_status === 'finished'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-gray-300 rounded-full shadow-md w-max" x-text="'Hết giờ'"></span>
-                                            <span x-show="match.match_status === 'delay'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max" x-text="'Hoãn lại'"></span>
-                                            <span x-show="match.match_status === 'canceled'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-red-500 rounded-full shadow-md w-max" x-text="'Huỷ'"></span>
-                                            <span x-show="match.match_status === 'live' && moment().isSameOrAfter(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-white bg-red-600 rounded-full shadow-md w-max">Trực tiếp</span>
-                                            <span x-show="match.match_status !== 'live' && moment().isBefore(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max">
-                                                <span x-text="`${moment.duration(moment(match.startTime).diff(moment())).humanize(true)}`"></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex w-full gap-4">
-                                    <div class="flex flex-1 flex-col gap-2">
-                                        <div class="flex items-center gap-2">
-                                            <img class="h-10 w-10 object-contain" :src="match.homeLogo || fallbackLogo(match.homeTeam)" loading="lazy" @error="match.homeLogo = fallbackLogo(match.homeTeam)">
-                                            <div class="flex-1 text-sm font-semibold line-clamp-1" x-text="match.homeTeam" :title="match.homeTeam"></div>
-                                            <span x-show="match.homeRedCards > 0">
-                                                <img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="Thẻ đỏ" class="h-6" />
-                                            </span>
-                                            <span class="text-xl font-bold" x-text="['live', 'finished'].includes(match.match_status) ? match.homeScore : ''"></span>
-                                        </div>
-                                        <div class="flex items-center gap-2">
-                                            <img class="h-10 w-10 object-contain" :src="match.awayLogo || fallbackLogo(match.awayTeam)" loading="lazy" @error="match.awayLogo = fallbackLogo(match.awayTeam)">
-                                            <div class="flex-1 text-sm font-semibold line-clamp-1" x-text="match.awayTeam" :title="match.awayTeam"></div>
-                                            <span x-show="match.awayRedCards > 0">
-                                                <img src="https://ssl.gstatic.com/onebox/sports/soccer_timeline/red-card-right.svg" alt="Thẻ đỏ" class="h-6" />
-                                            </span>
-                                            <span class="text-xl font-bold" x-text="['live', 'finished'].includes(match.match_status) ? match.awayScore : ''"></span>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-col justify-between">
-                                        <div class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512" class="text-gray-500">
-                                                <path d="M 160 0 Q 182 2 184 24 L 184 64 L 184 64 L 328 64 L 328 64 L 328 24 L 328 24 Q 330 2 352 0 Q 374 2 376 24 L 376 64 L 376 64 L 416 64 L 416 64 Q 443 65 461 83 Q 479 101 480 128 L 480 144 L 480 144 L 480 192 L 480 192 L 480 448 L 480 448 Q 479 475 461 493 Q 443 511 416 512 L 96 512 L 96 512 Q 69 511 51 493 Q 33 475 32 448 L 32 192 L 32 192 L 32 144 L 32 144 L 32 128 L 32 128 Q 33 101 51 83 Q 69 65 96 64 L 136 64 L 136 64 L 136 24 L 136 24 Q 138 2 160 0 L 160 0 Z M 432 192 L 80 192 L 432 192 L 80 192 L 80 448 L 80 448 Q 81 463 96 464 L 416 464 L 416 464 Q 431 463 432 448 L 432 192 L 432 192 Z M 144 256 L 240 256 L 144 256 L 240 256 Q 255 257 256 272 L 256 368 L 256 368 Q 255 383 240 384 L 144 384 L 144 384 Q 129 383 128 368 L 128 272 L 128 272 Q 129 257 144 256 L 144 256 Z"></path>
-                                            </svg>
-                                            <span class="text-sm text-gray-600" x-text="match.dateFormatted"></span>
-                                        </div>
-                                        <div class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512" class="text-gray-500">
-                                                <path d="M 464 256 Q 464 313 436 360 L 436 360 L 436 360 Q 409 407 360 436 Q 311 464 256 464 Q 201 464 152 436 Q 103 407 76 360 Q 48 313 48 256 Q 48 199 76 152 Q 103 105 152 76 Q 201 48 256 48 Q 311 48 360 76 Q 409 105 436 152 Q 464 199 464 256 L 464 256 Z M 0 256 Q 1 326 34 384 L 34 384 L 34 384 Q 68 442 128 478 Q 189 512 256 512 Q 323 512 384 478 Q 444 442 478 384 Q 511 326 512 256 Q 511 186 478 128 Q 444 70 384 34 Q 323 0 256 0 Q 189 0 128 34 Q 68 70 34 128 Q 1 186 0 256 L 0 256 Z M 232 120 L 232 256 L 232 120 L 232 256 Q 232 269 243 276 L 339 340 L 339 340 Q 358 351 372 333 Q 383 314 365 300 L 280 243 L 280 243 L 280 120 L 280 120 Q 278 98 256 96 Q 234 98 232 120 L 232 120 Z"></path>
-                                            </svg>
-                                            <span class="text-sm text-gray-600" x-text="match.timeFormatted"></span>
-                                            <img class="h-6" src="https://tchiphuong.github.io/iptv/images/live.gif" x-show="match.isLive && match.match_status === 'live'">
-                                        </div>
-                                        <div class="flex items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512" class="text-gray-500">
-                                                <path
-                                                    d="M 304 128 L 304 160 L 304 128 L 304 160 L 272 160 L 272 160 Q 257 161 256 176 Q 257 191 272 192 L 304 192 L 304 192 L 304 224 L 304 224 L 272 224 L 272 224 Q 257 225 256 240 Q 257 255 272 256 L 304 256 L 304 256 Q 303 276 290 290 Q 276 303 256 304 Q 236 303 222 290 Q 209 276 208 256 L 208 96 L 208 96 Q 209 76 222 62 Q 236 49 256 48 Q 276 49 290 62 Q 303 76 304 96 L 272 96 L 272 96 Q 257 97 256 112 Q 257 127 272 128 L 304 128 L 304 128 Z M 160 96 L 160 256 L 160 96 L 160 256 Q 161 297 188 324 Q 215 351 256 352 Q 297 351 324 324 Q 351 297 352 256 L 352 96 L 352 96 Q 351 55 324 28 Q 297 1 256 0 Q 215 1 188 28 Q 161 55 160 96 L 160 96 Z M 128 216 Q 126 194 104 192 Q 82 194 80 216 L 80 256 L 80 256 Q 81 324 124 372 Q 166 420 232 430 L 232 464 L 232 464 L 184 464 L 184 464 Q 162 466 160 488 Q 162 510 184 512 L 256 512 L 328 512 Q 350 510 352 488 Q 350 466 328 464 L 280 464 L 280 464 L 280 430 L 280 430 Q 346 420 388 372 Q 431 324 432 256 L 432 216 L 432 216 Q 430 194 408 192 Q 386 194 384 216 L 384 256 L 384 256 Q 383 310 347 347 Q 310 383 256 384 Q 202 383 165 347 Q 129 310 128 256 L 128 216 L 128 216 Z">
-                                                </path>
-                                            </svg>
-                                            <span class="text-sm line-clamp-2 text-gray-600 truncate" x-html="match.commentator.join('</br>')" :title="match.commentator.join(', ')"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </template>
+
+                <div x-show="tab === 'standings'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                    <div class="flex py-2">
+                        <!-- <div class="w-3/12">
+                            <select name="" id="" class="w-full"></select>
+                        </div> -->
+                    </div>
+                    <table class="w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
+                        <thead class="text-xs text-gray-700 uppercase bg-white border-b">
+                            <tr>
+                                <th scope="col" class="py-3 px-3 text-center"></th>
+                                <th scope="col" class="py-3 px-3 text-center">Team</th>
+                                <th scope="col" class="py-3 px-3 text-center">
+                                    <span class="md:hidden">P</span>
+                                    <span class="hidden md:block whitespace-nowrap">Played</span>
+                                </th>
+                                <th scope="col" class="py-3 px-3 text-center">
+                                    <span class="md:hidden">GA</span>
+                                    <span class="hidden md:block whitespace-nowrap">Goals Against</span>
+                                </th>
+                                <th scope="col" class="py-3 px-3 text-center">
+                                    <span class="md:hidden">GD</span>
+                                    <span class="hidden md:block whitespace-nowrap">Goals Diference</span>
+                                </th>
+                                <th scope="col" class="py-3 px-3 text-center">
+                                    <span class="md:hidden">Pst</span>
+                                    <span class="hidden md:block whitespace-nowrap">Points</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
+                                <td scope="row" class="px-2 text-center">1</td>
+                                <td scope="row" class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
+                                    <img class="h-8" src="https://crests.football-data.org/64.png" alt="LIV">
+                                    <span class="px-2 line-clamp-1 font-semibold" title="Liverpool">
+                                        <span class="md:hidden">Liverpool</span>
+                                        <span class="hidden md:block">Liverpool FC</span>
+                                    </span>
+                                </td>
+                                <td class="py-2 px-3 text-center">10</td>
+                                <td class="py-2 px-3 text-center">6</td>
+                                <td class="py-2 px-3 text-center">13</td>
+                                <td class="py-2 px-3 text-center">25</td>
+                            </tr>
+                            <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
+                                <td scope="row" class="px-2 text-center">2</td>
+                                <td scope="row" class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
+                                    <img class="h-8" src="https://crests.football-data.org/65.png" alt="MCI">
+                                    <span class="px-2 line-clamp-1 font-semibold" title="Man City">
+                                        <span class="md:hidden">Man City</span>
+                                        <span class="hidden md:block">Manchester City FC</span>
+                                    </span>
+                                </td>
+                                <td class="py-2 px-3 text-center">10</td>
+                                <td class="py-2 px-3 text-center">11</td>
+                                <td class="py-2 px-3 text-center">10</td>
+                                <td class="py-2 px-3 text-center">23</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
 
-            <div x-show="tab === 'standings'" class="mt-5">
-                <p>Standings content goes here.</p>
-            </div>
-
-            <div x-show="tab === 'highlights'" class="mt-5">
-                <p>Highlights content goes here.</p>
+                <div x-show="tab === 'highlights'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                    <p>Highlights content goes here.</p>
+                </div>
             </div>
         </main>
     </div>
