@@ -1,0 +1,7 @@
+npm install -D tailwindcss postcss autoprefixer
+npm install -D prettier prettier-plugin-tailwindcss
+npx tailwindcss init
+
+npx tailwindcss build css/tailwind.css -o css/styles.min.css --minify --watch
+npx tailwindcss-cli build css/tailwind.css -o css/styles.css --watch
+npm run dev

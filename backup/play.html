@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="noindex" />
+        <title></title>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+        ></script>
+        <script src="//ssl.p.jwpcdn.com/player/v/8.30.1/jwplayer.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/ecocdn/sdkv2/jwplayer.hlsjs.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/ecocdn/sdkv2/v288/hls.min.js"></script>
+        <style>
+            body {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                background: #000;
+            }
+            #vbplayer {
+                top: 0 !important;
+                left: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                /*margin: 0;
+            padding: 0;*/
+                margin-bottom: 70px;
+            }
+            .jwplayer {
+                position: absolute !important;
+            }
+            .jw-button-container {
+                padding: 0 !important;
+                margin-top: -6px !important;
+                /*margin-bottom: 6px !important;*/
+            }
+            .jw-icon-rewind,
+            .jw-settings-sharing {
+                display: none !important;
+            }
+            .jw-controlbar .jw-button-image {
+                max-height: 30px !important;
+            }
+            /*.jwplayer.jw-stretch-uniform .jw-media video {
+            object-fit: fill !important;
+        }*/
+            .jw-wrapper .jw-media {
+            }
+            .jw-logo-bottom-right,
+            .jw-logo-bottom-left {
+                max-width: 200px;
+                margin-right: 0 !important;
+                margin-left: 0 !important;
+            }
+        </style>
+        <style>
+            #worldcup-theme {
+                position: absolute !important;
+                display: block !important;
+                z-index: 99;
+            }
+            #worldcup-theme,
+            .vbb-wrap {
+                z-index: 99;
+            }
+            .bet-flex {
+                max-width: 235px !important;
+            }
+            .jw-skip.jw-skippable,
+            .jw-skip.jw-reset {
+                top: 70px;
+            }
+            .vb-bet {
+                bottom: 45px !important;
+            }
+
+            .jwplayer .jw-plugin-vast.jw-plugin {
+                bottom: 0 !important;
+            }
+            .jw-banner {
+                max-width: 40% !important;
+                /*margin-bottom: 45px !important;*/
+            }
+            .jw-vast-nonlinear-close-button {
+                /*margin-bottom: 45px !important;*/
+            }
+            iframe {
+                /*width: 100%;
+            height: 100%;
+            aspect-ratio: 16 / 9;*/
+            }
+        </style>
+        <!--    <link rel="stylesheet" href="/css/player-bet.css?v=1.0.3">
+        <script defer="defer" src="/js/chunk-vendors.8a4844f4.js"></script>
+        <script defer="defer" src="/js/app.bcb6f979.js"></script>-->
+        <script>
+            jwplayer.key = "7MeMRClEneUmFoHRO3u3ypzAZXlVgNtBE2pKDw==";
+            //jwplayer.key = 'uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=';
+            //jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+        </script>
+    </head>
+    <body>
+        <div id="vbplayer"></div>
+        <script>
+            //var isIOS      = /iPad|iPhone|iPod/.test(navigator.userAgent);
+            let jid = "vbplayer";
+            var url = "https://obevcimanyd179249207.thapcam.link/live/xienFHD/playlist.m3u8";
+            //var url        = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8";
+
+            var player = jwplayer(jid);
+            let conf = {
+                sources: [
+                    { file: url, type: "hls", label: "240", default: true },
+                    {
+                        file: "https://ctrl.laotv.la/live/K+Sport1/index.m3u8",
+                        type: "hls",
+                        label: "240",
+                        default: false,
+                    },
+                    { file: url, type: "hls", label: "240", default: true },
+                    {
+                        file: "https://ctrl.laotv.la/live/K+Sport2/index.m3u8",
+                        type: "hls",
+                        label: "240",
+                        default: false,
+                    },
+                ],
+                flashplayer: `/jwplayer.flash.swf`,
+                primary: "html5",
+                preload: "auto",
+                width: "100%",
+                height: "100%",
+                stretching: "uniform",
+                floating: {
+                    dismissible: true,
+                    mode: "notVisible",
+                },
+                hlsjsdefault: true,
+                hlsjsConfig: {
+                    liveSyncDurationCount: 6,
+                    p2pConfig,
+                },
+                sharing: { sites: ["reddit", "facebook", "twitter"] },
+                onXhrOpen: function (xhr, url) {
+                    xhr.setRequestHeader("http-referrer", "https://xem.bdhub.xyz");
+                },
+            };
+            player.setup(conf);
+        </script>
+    </body>
+</html>

@@ -10,12 +10,9 @@
     <meta property="og:url" content="https://tchiphuong.github.io/iptv" />
     <meta property="og:type" content="article" />
     <meta property="og:image:type" content="image/jpeg" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/vi.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
+    <link rel="stylesheet" href="./css/inter.css" />
+    <link rel="stylesheet" href="./css/select2.min.css" />
+    <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 <body class="font-['Inter'] bg-gray-100 h-full" x-data="fixturesComponent()" x-init="init()">
     <!-- Loading overlay -->
@@ -76,7 +73,7 @@
                                                     <span x-show="match.match_status === 'finished'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-gray-300 rounded-full shadow-md w-max" x-text="'Hết giờ'"></span>
                                                     <span x-show="match.match_status === 'delay'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max" x-text="'Hoãn lại'"></span>
                                                     <span x-show="match.match_status === 'canceled'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-red-500 rounded-full shadow-md w-max" x-text="'Huỷ'"></span>
-                                                    <span x-show="match.match_status === 'live' && moment().isSameOrAfter(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-white bg-red-600 rounded-full shadow-md w-max">Trực tiếp</span>
+                                                    <span x-show="match.match_status === 'live' || moment().isSameOrAfter(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-white bg-red-600 rounded-full shadow-md w-max">Trực tiếp</span>
                                                     <span x-show="match.match_status !== 'live' && moment().isBefore(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max">
                                                         <span x-text="`${moment.duration(moment(match.startTime).diff(moment())).humanize(true)}`"></span>
                                                     </span>
@@ -134,12 +131,12 @@
                 </div>
 
                 <div x-show="tab === 'standings'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                    <div class="flex py-2">
-                        <!-- <div class="w-3/12">
-                            <select name="" id="" class="w-full"></select>
-                        </div> -->
+                    <div class="flex py-2 gap-2">
+                        <div class="w-full md:w-1/2 lg:w-3/12 xl:w-3/12">
+                            <select id="cbb-standings"></select>
+                        </div>
                     </div>
-                    <table class="w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
+                    <table class=" w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
                         <thead class="text-xs text-gray-700 uppercase bg-white border-b">
                             <tr>
                                 <th scope="col" class="py-3 px-3 text-center"></th>
@@ -202,6 +199,12 @@
         </main>
     </div>
 
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/moment.min.js"></script>
+    <script src="./js/vi.min.js"></script>
+    <script src="./js/moment-timezone-with-data.min.js"></script>
+    <script src="./js/alpinejs.min.js" defer></script>
+    <script src="./js/select2.min.js"></script>
     <script>
         moment.locale('vi'); // Đặt ngôn ngữ l tiếng Việt
         moment.tz.setDefault("Asia/Ho_Chi_Minh"); // Thay đổi múi giờ theo nhu cầu
@@ -394,6 +397,55 @@
                 }
             };
         }
+
+        $(document).ready(function () {
+            var cbbdata = [
+                {
+                    id: "PL",
+                    text: "Premier League",
+                    logo: "https://stvinaprod.vtvcab.vn/1d862540-b0e4-417e-a9dc-b3ae9fdf0ef8.png?auto=format&fit=max&w=96",
+                },
+                {
+                    id: "PD",
+                    text: "La Liga",
+                    logo: "https://stvinaprod.vtvcab.vn/70316e8e-7d04-4c32-aee2-113b08c7406f.png?auto=format&fit=max&w=96",
+                },
+                {
+                    id: "SA",
+                    text: "Serie A",
+                    logo: "https://stvinaprod.vtvcab.vn/639f8feb-cd5e-429c-b96f-4f1e4a9836b7.png?auto=format&fit=max&w=96",
+                },
+                {
+                    id: "FL1",
+                    text: "Ligue 1",
+                    logo: "https://stvinaprod.vtvcab.vn/93cfba44-285c-4381-ad0e-73c18996c36b.png?auto=format&fit=max&w=96",
+                },
+                {
+                    id: "BL1",
+                    text: "Bundesliga",
+                    logo: "https://stvinaprod.vtvcab.vn/42ecbe34-3751-492c-981f-5afb96f71b39.png?auto=format&fit=max&w=96",
+                },
+            ];
+
+            function formatState(state) {
+                if (!state.id) {
+                    return state.text;
+                }
+                var $state = $(`
+                    <div class="flex items-center gap-2">
+                        <img class="h-6 w-6 object-contain rounded-full" src="${state.logo}" />
+                        <span>${state.text}</span>
+                    </div>`);
+                return $state;
+            }
+
+            $("#cbb-standings").select2({
+                templateResult: formatState,
+                templateSelection: formatState,
+                data: cbbdata,
+                width: '100%',
+            });
+        });
     </script>
 </body>
 </html>

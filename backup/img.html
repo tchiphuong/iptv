@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <h1>Auto Generate Logo</h1>
+        </div>
+        <div class="row">
+            <div class="col-3 form-group">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" type="text" id="name">
+            </div>
+            <div class="col-3 form-group">
+                <label for="formFile" class="form-label">Select tvg-logo</label>
+                <input class="form-control" type="file" id="formFile" accept="image/png">
+            </div>
+            <div class="col-3 form-group">
+                <label for="formFile" class="form-label">Url tvg-logo</label>
+                <input class="form-control" type="text" id="urlFile">
+            </div>
+            <div class="col-3 form-group form-check">
+                <input type="checkbox" class="form-check-input" id="is-shadow" checked>
+                <label class="form-check-label" for="is-shadow">Shadow</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 d-flex flex-column justify-content-start py-4">
+                <div id="fill" style="padding: 20px; width: 408px; height: 230px; overflow: hidden; display: flex; justify-content: center; align-items: center; background: url(images/background.jpg); background-position: center; background-size: cover;">
+                    <img id="img-fill" src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca_w200.gif" style="aspect-ratio: 1/1; height: 100%; object-fit: contain;" alt="">
+                </div>
+                <div class="py-2 d-flex align-items-end">
+                    <button id="download-img-fill" class="btn btn-primary">Download</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex flex-column justify-content-start py-4">
+                <div id="tranparent" class="border" style="padding: 50px 40px ;width: 408px; height: 230px; border-radius: .5rem; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+                    <img id="img-tranparent" src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca_w200.gif" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="">
+                </div>
+                <div class="py-2 d-flex align-items-end">
+                    <button id="download-img-tranparent" class="btn btn-primary">Download</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex flex-column justify-content-start py-4">
+                <div id="square" class="border" style="padding: 50px 40px ;width: 230px; height: 230px; border-radius: .5rem; overflow: hidden; display: flex; justify-content: center; align-items: center; background: url(images/background.jpg); background-position: center; background-size: cover;">
+                    <img id="img-square" src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca_w200.gif" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="">
+                </div>
+                <div class="py-2 d-flex align-items-end">
+                    <button id="download-img-square" class="btn btn-primary">Download</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/html2canvas.min.js"></script>
+<script>
+    $(function () {
+        setShadow($("#is-shadow").is(":checked"));
+
+        $("#is-shadow").on("change", function () {
+            setShadow($("#is-shadow").is(":checked"));
+        })
+
+        $("#formFile").on("change", function () {
+            if ($("#formFile").prop('files')[0]) {
+                $("#create-logo").removeClass("disabled");
+                const inputFile = $("#formFile").prop('files')[0];
+                console.log(inputFile)
+                $("#img-fill").attr("src", URL.createObjectURL(inputFile));
+                $("#img-tranparent").attr("src", URL.createObjectURL(inputFile));
+                $("#img-square").attr("src", URL.createObjectURL(inputFile));
+            }
+        });
+
+        $("#urlFile").on("change", function () {
+
+            $("#img-fill").prop("src", $(this).val());
+            $("#img-tranparent").prop("src", $(this).val());
+            $("#img-square").prop("src", $(this).val());
+        })
+
+        $("#download-img-fill").on("click", function () {
+            const toImgArea = document.getElementById("fill");
+            // transform to canvas
+            html2canvas(toImgArea, {
+                type: "view",
+            }).then(function (canvas) {
+                var a = document.createElement("a");
+                // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
+                a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
+                a.download = ($("#name").val() || "image") + ".jpg";
+                a.target = "_blank";
+                a.click();
+            });
+        });
+
+        $("#download-img-tranparent").on("click", function () {
+            const toImgArea = document.getElementById("tranparent");
+            // transform to canvas
+            html2canvas(toImgArea, {
+                type: "view",
+            }).then(function (canvas) {
+                var a = document.createElement("a");
+                // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
+                a.href = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+                a.download = ($("#name").val() || "image") + ".png";
+                a.target = "_blank";
+                a.click();
+            });
+        });
+
+        $("#download-img-square").on("click", function () {
+            const toImgArea = document.getElementById("square");
+            // transform to canvas
+            html2canvas(toImgArea, {
+                type: "view",
+            }).then(function (canvas) {
+                var a = document.createElement("a");
+                // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
+                a.href = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+                a.download = ($("#name").val() || "image") + "-square.png";
+                a.target = "_blank";
+                a.click();
+            });
+        })
+    })
+
+    function setShadow(is_shadow = true) {
+        if (is_shadow) {
+            $("img").css("filter", "drop-shadow(0 0 0.25rem rgb(0, 0, 0, .6))")
+        } else {
+            $("img").css("filter", "")
+        }
+
+    }
+</script>
+</html>

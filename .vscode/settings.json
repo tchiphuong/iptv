@@ -1,0 +1,6 @@
+{
+        "liveServer.settings.port": 5500,
+        "editor.tabSize": 4, // Sử dụng 4 spaces cho thụt lề
+        "editor.insertSpaces": true, // Sử dụng spaces thay vì tab
+        "prettier.tabWidth": 4 // Thiết lập Prettier sử dụng 4 spaces
+}
