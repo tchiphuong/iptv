@@ -74,7 +74,7 @@
                                                     <span x-show="match.match_status === 'delay'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max" x-text="'Hoãn lại'"></span>
                                                     <span x-show="match.match_status === 'canceled'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-red-500 rounded-full shadow-md w-max" x-text="'Huỷ'"></span>
                                                     <span x-show="match.match_status === 'live' || moment().isSameOrAfter(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-white bg-red-600 rounded-full shadow-md w-max">Trực tiếp</span>
-                                                    <span x-show="match.match_status !== 'live' && moment().isBefore(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max">
+                                                    <span x-show="match.match_status !== 'live' && match.match_status !== 'canceled' && match.match_status !== 'delay'&&match.match_status !== 'finished' && moment().isBefore(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max">
                                                         <span x-text="`${moment.duration(moment(match.startTime).diff(moment())).humanize(true)}`"></span>
                                                     </span>
                                                 </div>
@@ -131,65 +131,72 @@
                 </div>
 
                 <div x-show="tab === 'standings'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                    <div class="flex py-2 gap-2">
-                        <div class="w-full md:w-1/2 lg:w-3/12 xl:w-3/12">
-                            <select id="cbb-standings"></select>
+                    <div x-data="rankingsComponent()" x-ref="rankings" class="flex flex-col gap-2 py-2">
+                        <!-- Loading overlay -->
+                        <div id="loadingOverlay" x-show="loading" class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50 flex items-center justify-center">
+                            <div class="bg-white p-5 rounded-lg shadow-lg flex items-center">
+                                <svg class="animate-spin h-8 w-8 text-blue-500 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                <span class="text-gray-700 text-lg font-semibold">Đang tải dữ liệu...</span>
+                            </div>
                         </div>
+                        <div class="flex gap-2">
+                            <div class="w-full md:w-1/2 lg:w-3/12 xl:w-3/12" x-data="leagueSelectComponent($refs.rankings)">
+                                <select id="cbb-standings" x-model="selectedLeagueId">
+                                    <option value="">Select a league</option>
+                                </select>
+                            </div>
+                        </div>
+                        <template x-for="(rank, index) in ranks" :key="index">
+                            <div>
+                                <h2 class="text-lg font-semibold pt-2" x-text="rank.group_name"></h2>
+                                <table class="w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
+                                    <thead class="text-xs text-gray-700 uppercase bg-white border-b">
+                                        <tr>
+                                            <th scope="col" class="py-3 px-3 text-center"></th>
+                                            <th scope="col" class="py-3 px-3 text-center">Team</th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">P</span>
+                                                <span class="hidden md:block whitespace-nowrap">Played</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">GA</span>
+                                                <span class="hidden md:block whitespace-nowrap">Goals Against</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">GD</span>
+                                                <span class="hidden md:block whitespace-nowrap">Goals Diference</span>
+                                            </th>
+                                            <th scope="col" class="py-3 px-3 text-center">
+                                                <span class="md:hidden">Pst</span>
+                                                <span class="hidden md:block whitespace-nowrap">Points</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <template x-for="team in rank.team_ranks" :key="team.team_id">
+                                            <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
+                                                <td x-text="team.team_rank" class="px-2 text-center"></td>
+                                                <td class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
+                                                    <img :src="team.team_logo_custom || team.team_logo || fallbackLogo(team.team_name)" :alt="team.team_name" class="h-8" loading="lazy" @error="team.team_logo_custom = fallbackLogo(team.team_name)">
+                                                    <span class="px-2 line-clamp-1 font-semibold" x-text="team.team_name"></span>
+                                                </td>
+                                                <td x-text="team.total_count" class="py-2 px-3 text-center"></td>
+                                                <td x-text="team.lose_score" class="py-2 px-3 text-center"></td>
+                                                <td x-text="team.goal_difference" class="py-2 px-3 text-center"></td>
+                                                <td x-text="team.integral" class="py-2 px-3 text-center"></td>
+                                            </tr>
+                                        </template>
+                                        <tr x-show="rank.team_ranks.length === 0">
+                                            <td colspan="6" class="text-center py-9">Data not founds</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </template>
                     </div>
-                    <table class=" w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
-                        <thead class="text-xs text-gray-700 uppercase bg-white border-b">
-                            <tr>
-                                <th scope="col" class="py-3 px-3 text-center"></th>
-                                <th scope="col" class="py-3 px-3 text-center">Team</th>
-                                <th scope="col" class="py-3 px-3 text-center">
-                                    <span class="md:hidden">P</span>
-                                    <span class="hidden md:block whitespace-nowrap">Played</span>
-                                </th>
-                                <th scope="col" class="py-3 px-3 text-center">
-                                    <span class="md:hidden">GA</span>
-                                    <span class="hidden md:block whitespace-nowrap">Goals Against</span>
-                                </th>
-                                <th scope="col" class="py-3 px-3 text-center">
-                                    <span class="md:hidden">GD</span>
-                                    <span class="hidden md:block whitespace-nowrap">Goals Diference</span>
-                                </th>
-                                <th scope="col" class="py-3 px-3 text-center">
-                                    <span class="md:hidden">Pst</span>
-                                    <span class="hidden md:block whitespace-nowrap">Points</span>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
-                                <td scope="row" class="px-2 text-center">1</td>
-                                <td scope="row" class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
-                                    <img class="h-8" src="https://crests.football-data.org/64.png" alt="LIV">
-                                    <span class="px-2 line-clamp-1 font-semibold" title="Liverpool">
-                                        <span class="md:hidden">Liverpool</span>
-                                        <span class="hidden md:block">Liverpool FC</span>
-                                    </span>
-                                </td>
-                                <td class="py-2 px-3 text-center">10</td>
-                                <td class="py-2 px-3 text-center">6</td>
-                                <td class="py-2 px-3 text-center">13</td>
-                                <td class="py-2 px-3 text-center">25</td>
-                            </tr>
-                            <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
-                                <td scope="row" class="px-2 text-center">2</td>
-                                <td scope="row" class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
-                                    <img class="h-8" src="https://crests.football-data.org/65.png" alt="MCI">
-                                    <span class="px-2 line-clamp-1 font-semibold" title="Man City">
-                                        <span class="md:hidden">Man City</span>
-                                        <span class="hidden md:block">Manchester City FC</span>
-                                    </span>
-                                </td>
-                                <td class="py-2 px-3 text-center">10</td>
-                                <td class="py-2 px-3 text-center">11</td>
-                                <td class="py-2 px-3 text-center">10</td>
-                                <td class="py-2 px-3 text-center">23</td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
 
                 <div x-show="tab === 'highlights'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
@@ -234,6 +241,7 @@
 
                     var url = `https://api.vebo.xyz/api/match/featured`;
                     // url = "https://api.vebo.xyz/api/match/fixture/20241103"
+                    //url = "https://live.vebo.xyz/api/match/live"
                     try {
                         this.loading = true;
                         const response = await fetch(url);
@@ -398,54 +406,97 @@
             };
         }
 
-        $(document).ready(function () {
-            var cbbdata = [
-                {
-                    id: "PL",
-                    text: "Premier League",
-                    logo: "https://stvinaprod.vtvcab.vn/1d862540-b0e4-417e-a9dc-b3ae9fdf0ef8.png?auto=format&fit=max&w=96",
+        function rankingsComponent() {
+            return {
+                teams: [],
+                selectedLeagueId: '',
+                loading: false,
+                ranks: [],
+                fetchRankingsForLeague() {
+                    if (!this.selectedLeagueId) return; // Đảm bảo đã chọn một giải đấu
+                    const url = `https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/ranking?league_id=${this.selectedLeagueId}`;
+                    this.loading = true;
+                    fetch(url)
+                        .then(response => response.json())
+                        .then(data => {
+                            this.loading = false;
+                            if (data.success && data.data && data.data.ranks.length > 0) {
+                                this.ranks = data.data.ranks; // Lưu trữ dữ liệu nhóm
+                            } else {
+                                console.error('No ranking data available');
+                                this.ranks = [];
+                            }
+                            console.log(this.ranks);
+                        })
+                        .catch(error => {
+                            this.loading = false;
+                            console.error('Error fetching rankings:', error);
+                            alert('Error fetching rankings. Please try again later.');
+                        });
                 },
-                {
-                    id: "PD",
-                    text: "La Liga",
-                    logo: "https://stvinaprod.vtvcab.vn/70316e8e-7d04-4c32-aee2-113b08c7406f.png?auto=format&fit=max&w=96",
-                },
-                {
-                    id: "SA",
-                    text: "Serie A",
-                    logo: "https://stvinaprod.vtvcab.vn/639f8feb-cd5e-429c-b96f-4f1e4a9836b7.png?auto=format&fit=max&w=96",
-                },
-                {
-                    id: "FL1",
-                    text: "Ligue 1",
-                    logo: "https://stvinaprod.vtvcab.vn/93cfba44-285c-4381-ad0e-73c18996c36b.png?auto=format&fit=max&w=96",
-                },
-                {
-                    id: "BL1",
-                    text: "Bundesliga",
-                    logo: "https://stvinaprod.vtvcab.vn/42ecbe34-3751-492c-981f-5afb96f71b39.png?auto=format&fit=max&w=96",
-                },
-            ];
-
-            function formatState(state) {
-                if (!state.id) {
-                    return state.text;
+                fallbackLogo(name) {
+                    return `https://ui-avatars.com/api/?format=svg&rounded=true&name=${encodeURIComponent(name)}`;
                 }
-                var $state = $(`
-                    <div class="flex items-center gap-2">
-                        <img class="h-6 w-6 object-contain rounded-full" src="${state.logo}" />
-                        <span>${state.text}</span>
-                    </div>`);
-                return $state;
-            }
+            };
+        }
 
-            $("#cbb-standings").select2({
-                templateResult: formatState,
-                templateSelection: formatState,
-                data: cbbdata,
-                width: '100%',
-            });
-        });
+        function leagueSelectComponent() {
+            return {
+                selectedLeagueId: '',
+                leagues: [],
+                init() {
+                    this.fetchLeagues();
+                },
+                fetchLeagues() {
+                    const url = 'https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/';
+                    fetch(url)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success && data.data) {
+                                // Filter leagues where sport_type is 1
+                                this.leagues = data.data
+                                    .filter(league => league.sport_type === 1) // Filtering logic
+                                    // Sort leagues by league_type, then by order_number
+                                    .sort((a, b) => {
+                                        return a.order_number - b.order_number;
+                                    })
+                                    .map(league => ({
+                                        id: league.league_sync_id,
+                                        name: league.name,
+                                        logo: league.logo // Assuming logo is available
+                                    }));
+
+                                // Initialize Select2 after leagues are loaded
+                                this.$nextTick(() => {
+                                    $('#cbb-standings').select2({
+                                        templateResult: this.formatState,
+                                        templateSelection: this.formatState,
+                                        data: this.leagues,
+                                        width: '100%'
+                                    }).on('change', (e) => {
+                                        this.selectedLeagueId = $(e.target).val(); // Update the model
+                                        this.fetchRankingsForLeague(); // Call the method to fetch rankings
+                                    });
+                                });
+                            } else {
+                                console.error('No league data available');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error loading the leagues:', error);
+                        });
+                },
+                formatState(league) {
+                    if (!league.id) {
+                        return league.text; // Return the default text if no ID
+                    }
+                    return $(`<div class="flex items-center gap-2">
+                        <img class="h-6 w-6 object-contain rounded-full" src="${league.logo}" />
+                        <span>${league.name}</span>
+                    </div>`);
+                }
+            };
+        }
     </script>
 </body>
 </html>
