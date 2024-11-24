@@ -2,7 +2,7 @@
 
 @tailwind components;
 
-input {
+input:not([type="checkbox"]) {
     @apply box-border h-10 w-full rounded-md border border-solid border-transparent bg-white px-2 shadow outline-none focus:border-blue-600 dark:border-gray-700 dark:bg-gray-700;
 }
 
@@ -151,7 +151,7 @@ input {
     .select2-selection--single,
 .select2-container--default.select2-container--open.select2-container--below
     .select2-selection--multiple {
-    @apply border-blue-600 border-b-transparent;
+    @apply border-b-0 border-blue-600;
 }
 
 .select2-container--default
@@ -281,7 +281,7 @@ input {
 
 .select2-container--default .select2-results > .select2-results__options {
     /* Hight of the dropdown zone where the options or results are visible */
-    @apply h-full max-h-32 overflow-y-auto;
+    @apply h-full max-h-96 overflow-y-auto;
 }
 
 .select2-container--default .select2-results__option[role="group"] {

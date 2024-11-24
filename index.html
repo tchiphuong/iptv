@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="./css/inter.css" />
     <link rel="stylesheet" href="./css/select2.min.css" />
     <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
-<body class="font-['Inter'] bg-gray-100 h-full" x-data="fixturesComponent()" x-init="init()">
+<body class="font-['Inter'] bg-gray-100 h-full" x-data="fixturesComponent()" x-init="initFixtures()">
     <!-- Loading overlay -->
     <div id="loadingOverlay" x-show="loading" class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50 flex items-center justify-center">
         <div class="bg-white p-5 rounded-lg shadow-lg flex items-center">
@@ -40,21 +41,43 @@
                                   'bg-white text-gray-700 hover:bg-blue-100 transition duration-300 ease-in-out rounded-full': tab !== 'highlights'}" class="px-3 py-1 font-semibold">
                     Highlights
                 </button>
-                <a href="https://tchiphuong.github.io/iptv/index_old.html" class="px-3 py-1 font-semibold bg-white text-gray-700 hover:bg-blue-100 transition duration-300 ease-in-out rounded-full">
-                    Old version
-                </a>
             </div>
         </div>
 
         <main class="container mx-auto px-2 flex-grow">
             <div class="relative h-full">
                 <div x-show="tab === 'fixtures'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                    <div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                        <div class="w-full" x-data="leagueSelectComponent($refs.rankings)">
+                            <p id="date" class="relative flatpickr flex flex-1" data-id="strap">
+                                <input id="date-input" type="text" placeholder="Chọn ngày..." data-input="" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg block flex-1 p-2.5 ring-0" readonly="readonly" x-model="selectedDate" />
+                                <a class="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer font-medium text-sm flex items-center justify-center p-3 hover:text-red-500" title="clear" data-clear="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
+                                        <path d="M 490.5389 73.58084 Q 512 47.520958 490.5389 21.461079 Q 464.47903 0 438.41916 21.461079 L 256 203.88023 L 256 203.88023 L 73.58084 21.461079 L 73.58084 21.461079 Q 47.520958 0 21.461079 21.461079 Q 0 47.520958 21.461079 73.58084 L 203.88023 256 L 203.88023 256 L 21.461079 438.41916 L 21.461079 438.41916 Q 0 464.47903 21.461079 490.5389 Q 47.520958 512 73.58084 490.5389 L 256 308.11975 L 256 308.11975 L 438.41916 490.5389 L 438.41916 490.5389 Q 464.47903 512 490.5389 490.5389 Q 512 464.47903 490.5389 438.41916 L 308.11975 256 L 308.11975 256 L 490.5389 73.58084 L 490.5389 73.58084 Z" />
+                                    </svg>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="flex items-center">
+                                    <input x-model="isCheckFeatured" id="checked-featured" type="checkbox" :disabled="selectedDate !== ''" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring focus:ring-blue-500 focus:ring-opacity-50" />
+                                    <label for="checked-featured" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Trận cầu tâm điểm</label>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 flex-grow">
+                                <button @click="loadFixtures()" class="text-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700 transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center justify-center">
+                                    Tìm kiếm
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="flex flex-col gap-2 py-4">
                         <!-- New section for displaying unique tournaments within fixtures -->
                         <div class="overflow-x-auto py-1">
                             <div class="flex flex-nowrap gap-2">
                                 <template x-for="tournament in tournaments" :key="tournament.id">
-                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm hover:shadow-md transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" title="" x-bind:title="tournament.name">
+                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" title="" x-bind:title="tournament.name">
                                         <img :src="tournament.logo || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
                                         <div x-text="tournament.name" class="truncate min-w-min font-semibold"></div>
                                     </button>
@@ -70,13 +93,7 @@
                                             <div class="flex items-center justify-between mt-2 flex-grow">
                                                 <span class="font-bold text-lg line-clamp-1 flex-grow" x-text="match.tournament.name" :title="match.tournament.name"></span>
                                                 <div class="flex items-center gap-3 ml-3">
-                                                    <span x-show="match.match_status === 'finished'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-gray-300 rounded-full shadow-md w-max" x-text="'Hết giờ'"></span>
-                                                    <span x-show="match.match_status === 'delay'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max" x-text="'Hoãn lại'"></span>
-                                                    <span x-show="match.match_status === 'canceled'" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-red-500 rounded-full shadow-md w-max" x-text="'Huỷ'"></span>
-                                                    <span x-show="match.match_status === 'live' || moment().isSameOrAfter(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-white bg-red-600 rounded-full shadow-md w-max">Trực tiếp</span>
-                                                    <span x-show="match.match_status !== 'live' && match.match_status !== 'canceled' && match.match_status !== 'delay'&&match.match_status !== 'finished' && moment().isBefore(moment(match.startTime))" class="inline-flex items-center justify-center px-3 py-1 text-xs text-gray-700 bg-yellow-300 rounded-full shadow-md w-max">
-                                                        <span x-text="`${moment.duration(moment(match.startTime).diff(moment())).humanize(true)}`"></span>
-                                                    </span>
+                                                    <span x-text="match.status.text" :class="match.status.class" class="inline-flex items-center justify-center px-3 py-1 text-xs rounded-full shadow-md w-max"></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +160,7 @@
                             </div>
                         </div>
                         <div class="flex gap-2">
-                            <div class="w-full md:w-1/2 lg:w-3/12 xl:w-3/12" x-data="leagueSelectComponent($refs.rankings)">
+                            <div class="w-full md:w-1/2 lg:w-4/12 xl:w-3/12" x-data="leagueSelectComponent($refs.rankings)" x-init="initLeague()">
                                 <select id="cbb-standings" x-model="selectedLeagueId">
                                     <option value="">Select a league</option>
                                 </select>
@@ -155,7 +172,7 @@
                                 <table class="w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
                                     <thead class="text-xs text-gray-700 uppercase bg-white border-b">
                                         <tr>
-                                            <th scope="col" class="py-3 px-3 text-center"></th>
+                                            <th scope="col" class="py-3 px-3 text-center">#</th>
                                             <th scope="col" class="py-3 px-3 text-center">Team</th>
                                             <th scope="col" class="py-3 px-3 text-center">
                                                 <span class="md:hidden">P</span>
@@ -189,13 +206,13 @@
                                                 <td x-text="team.integral" class="py-2 px-3 text-center"></td>
                                             </tr>
                                         </template>
-                                        <tr x-show="rank.team_ranks.length === 0">
-                                            <td colspan="6" class="text-center py-9">Data not founds</td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </template>
+                        <div x-show="ranks.length === 0" class="text-center py-9">
+                            Bảng xếp hạng chưa được cập nhật
+                        </div>
                     </div>
                 </div>
 
@@ -212,9 +229,12 @@
     <script src="./js/moment-timezone-with-data.min.js"></script>
     <script src="./js/alpinejs.min.js" defer></script>
     <script src="./js/select2.min.js"></script>
+    <script src="./js/select2.vi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.5.1/flatpickr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/vn.min.js"></script>
     <script>
-        moment.locale('vi'); // Đặt ngôn ngữ l tiếng Việt
-        moment.tz.setDefault("Asia/Ho_Chi_Minh"); // Thay đổi múi giờ theo nhu cầu
+        moment.locale('vi');
+        moment.tz.setDefault("Asia/Ho_Chi_Minh");
         function fixturesComponent() {
             return {
                 tab: 'fixtures',
@@ -228,20 +248,27 @@
                 hasLoadedFixtures: false,
                 matchStatusLabels: {
                     finished: "Hết giờ",
-                    live: "Trực tiếp",
-                    pending: "",
                     delay: "Hoãn lại",
                     canceled: "Huỷ",
                 },
-                selectedTournament: null, // Track the selected tournament
+                selectedTournament: null,
                 loading: true,
+                selectedDate: '',
+                isCheckFeatured: true,
+                url: "",
                 async loadFixtures() {
-                    if (this.hasLoadedFixtures) return;
-                    this.hasLoadedFixtures = true;
+                    let url = `https://live.vebo.xyz/api/match/live`;
+                    if (this.selectedDate) {
+                        const selectedDate = moment(this.selectedDate, "DD/MM/YYYY");
+                        url = `https://api.vebo.xyz/api/match/fixture/${selectedDate.format("YYYYMMDD")}`
+                    } else if (this.isCheckFeatured) {
+                        url = `https://api.vebo.xyz/api/match/featured`;
+                    }
 
-                    var url = `https://api.vebo.xyz/api/match/featured`;
-                    // url = "https://api.vebo.xyz/api/match/fixture/20241103"
-                    //url = "https://live.vebo.xyz/api/match/live"
+                    if (this.hasLoadedFixtures && this.url == url) return;
+                    this.hasLoadedFixtures = true;
+                    this.url = url;
+
                     try {
                         this.loading = true;
                         const response = await fetch(url);
@@ -284,10 +311,11 @@
                                     timeFormatted: startTime.format('HH:mm'),
                                     isLive: match.is_live,
                                     commentator: match.commentators ? match.commentators.map(c => c.name) : ["N/A"],
-                                    startTime: startTime.toISOString(),
+                                    startTime: startTime.format(),
                                     homeRedCards: match.home_red_cards || 0,
                                     awayRedCards: match.away_red_cards || 0,
-                                    match_status: match.match_status
+                                    match_status: match.match_status,
+                                    status: this.statusHandle(match)
                                 };
                             });
 
@@ -353,9 +381,14 @@
                         this.loading = false;
                     }
                 },
-                init() {
+                initFixtures() {
                     this.loadFixtures();
                     this.updateIndicator();
+                    flatpickr("#date", {
+                        locale: "vn",
+                        dateFormat: "d/m/Y",
+                        wrap: true,
+                    });
                 },
                 filterMatches() {
                     this.matches = this.selectedTournaments.length > 0
@@ -374,13 +407,13 @@
                     // Set the document title based on the selected tab
                     if (selectedTab === 'fixtures') {
                         document.title = 'Fixtures'; // Set title for fixtures tab
-                        this.loadFixtures();
+                        // this.loadFixtures();
                     }
                     else if (selectedTab === 'highlights') {
                         document.title = 'Highlights';
                         this.loadHighlights(); // Load highlights if the selected tab is 'highlights'
                     } else {
-                        document.title = 'Fixtures'; // Set title for fixtures tab
+                        document.title = 'Standings'; // Set title for fixtures tab
                     }
                 },
                 selectTournament(tournamentId) {
@@ -402,6 +435,39 @@
                 },
                 fallbackLogo(name) {
                     return `https://ui-avatars.com/api/?format=svg&rounded=true&name=${encodeURIComponent(name)}`;
+                },
+                statusHandle(match) {
+                    let status = { class: null, text: null };
+
+                    if (match.is_live && match.match_status === 'live') {
+                        status.class = "text-white bg-red-600";
+                        status.text = 'Trực tiếp';
+                    }
+                    else if (Object.keys(this.matchStatusLabels).includes(match.match_status)) {
+                        status.text = this.matchStatusLabels[match.match_status]
+                        if (match.match_status === 'finished') {
+                            status.class = "text-white bg-green-500";
+                        }
+                        else if (match.match_status === 'delay') {
+                            status.class = "text-black bg-yellow-300";
+                        }
+                        else if (match.match_status === 'canceled') {
+                            status.class = "text-white bg-red-500";
+                        }
+                    }
+                    else {
+                        const timestampMoment = moment(match.timestamp);
+                        if (timestampMoment.isValid()) {
+                            if (moment().isSameOrAfter(moment(match.timestamp))) {
+                                status.class = "text-white bg-green-500";
+                                status.text = this.matchStatusLabels['finished']
+                            } else {
+                                status.class = "text-black bg-yellow-300";
+                                status.text = `${moment.duration(moment(match.timestamp).diff(moment())).humanize(true)}`;
+                            }
+                        }
+                    }
+                    return status;
                 }
             };
         }
@@ -420,7 +486,7 @@
                         .then(response => response.json())
                         .then(data => {
                             this.loading = false;
-                            if (data.success && data.data && data.data.ranks.length > 0) {
+                            if (data.success && data.data && data.data.ranks?.length > 0) {
                                 this.ranks = data.data.ranks; // Lưu trữ dữ liệu nhóm
                             } else {
                                 console.error('No ranking data available');
@@ -444,7 +510,7 @@
             return {
                 selectedLeagueId: '',
                 leagues: [],
-                init() {
+                initLeague() {
                     this.fetchLeagues();
                 },
                 fetchLeagues() {
@@ -455,7 +521,7 @@
                             if (data.success && data.data) {
                                 // Filter leagues where sport_type is 1
                                 this.leagues = data.data
-                                    .filter(league => league.sport_type === 1) // Filtering logic
+                                    .filter(league => league.sport_type === 1 && league.app_display) // Filtering logic
                                     // Sort leagues by league_type, then by order_number
                                     .sort((a, b) => {
                                         return a.order_number - b.order_number;
@@ -472,7 +538,8 @@
                                         templateResult: this.formatState,
                                         templateSelection: this.formatState,
                                         data: this.leagues,
-                                        width: '100%'
+                                        width: '100%',
+                                        language: 'vi'
                                     }).on('change', (e) => {
                                         this.selectedLeagueId = $(e.target).val(); // Update the model
                                         this.fetchRankingsForLeague(); // Call the method to fetch rankings
