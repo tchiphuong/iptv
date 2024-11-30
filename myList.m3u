@@ -1,19 +1,21 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG_LITE,http://lichphatsong.xyz/schedule/epg.xml,https://www.bevy.be/bevyfiles/singaporepremium.xml,https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,https://akkradet.github.io/IPTV-THAI/guide.xml,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
 
 #EXTINF:-1 group-title="VTV" group-logo="https://tchiphuong.github.io/iptv/images/background/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-1.png",VTV1
-https://thvip.site/360/2/index.m3u8
+https://thvip.site/vtv1/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-2.png",VTV2
-https://thvip.site/360/3/index.m3u8
+https://thvip.site/vtv2/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv3hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-3.png",VTV3
-https://thvip.site/360/4/index.m3u8
+https://thvip.site/vtv3/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-4.png",VTV4
-https://thvip.site/360/108/index.m3u8
+https://thvip.site/vtv4/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5.png",VTV5
-https://thvip.site/360/110/index.m3u8
+https://thvip.site/vtv5/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hdtnb" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5-tnb.png",VTV5 Tây Nam Bộ
-https://thvip.site/360/157/index.m3u8
+https://thvip.site/vtv5tnb/index.m3u8
+#EXTINF:-1 group-title="VTV" tvg-id="vtv5hdtnb" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5-tnb.png",VTV5 Tây Nam Bộ
+https://live.fptplay53.net/fnxhd1/vtv5tnb_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hdtn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-5-tn.png",VTV5 Tây Nguyên
-https://thvip.site/360/207/index.m3u8
+https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv6hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-6-can-tho.png",VTV Cần Thơ
 https://thvip.site/vtv6/index.m3u8
 #EXTINF:-1 group-title="VTV" tvg-id="vtv7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv-7.png",VTV7
@@ -82,13 +84,19 @@ https://liveh34.vtvcab.vn/hls/ONSPORT10/index.m3u8
 
 #EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://thvip.site/360/25/index.m3u8
+https://thvip.site/vl1/index.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-2.png",TH Vĩnh Long 1
+https://live.fptplay53.net/epzch2/vinhlong1_vhls.smil/chunklist_b1000000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-2.png",TH Vĩnh Long 2
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://thvip.site/360/26/index.m3u8
+https://thvip.site/vl2/index.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong3hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-3.png",TH Vĩnh Long 3
+https://thvip.site/vl3/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong3hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-3.png",TH Vĩnh Long 3
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://thvip.site/360/219/index.m3u8
+https://live.fptplay53.net/epzch2/vinhlong3_vhls.smil/chunklist_b1000000.m3u8
+#EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-4.png",TH Vĩnh Long 4
+https://thvip.site/vl4/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-4.png",TH Vĩnh Long 4
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://thvip.site/360/220/index.m3u8
@@ -235,7 +243,7 @@ https://wintv.fun/360/59/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="haiphong" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hai-phong-hd.png",TH Hải Phòng
 https://wintv.fun/360/60/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="haugiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hau-giang.png",TH Hậu Giang
-https://wintv.fun/360/61/index.m3u8
+https://live.fptplay53.net/epzsd1/haugiang_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="haugiang" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hau-giang.png",TH Hậu Giang
 https://60acee235f4d5.streamlock.net/HGTV/d1/chunklist_w1285809548.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="hoabinh" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-hoa-binh.png",TH Hòa Bình

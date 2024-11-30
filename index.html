@@ -12,8 +12,8 @@
     <meta property="og:image:type" content="image/jpeg" />
     <link rel="stylesheet" href="./css/inter.css" />
     <link rel="stylesheet" href="./css/select2.min.css" />
+    <link rel="stylesheet" href="./css/flatpickr.min.css">
     <link rel="stylesheet" href="./css/styles.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
 <body class="font-['Inter'] bg-gray-100 h-full" x-data="fixturesComponent()" x-init="initFixtures()">
     <!-- Loading overlay -->
@@ -77,7 +77,7 @@
                         <div class="overflow-x-auto py-1">
                             <div class="flex flex-nowrap gap-2">
                                 <template x-for="tournament in tournaments" :key="tournament.id">
-                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" title="" x-bind:title="tournament.name">
+                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" x-bind:title="tournament.name">
                                         <img :src="tournament.logo || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
                                         <div x-text="tournament.name" class="truncate min-w-min font-semibold"></div>
                                     </button>
@@ -169,44 +169,66 @@
                         <template x-for="(rank, index) in ranks" :key="index">
                             <div>
                                 <h2 class="text-lg font-semibold pt-2" x-text="rank.group_name"></h2>
-                                <table class="w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
-                                    <thead class="text-xs text-gray-700 uppercase bg-white border-b">
-                                        <tr>
-                                            <th scope="col" class="py-3 px-3 text-center">#</th>
-                                            <th scope="col" class="py-3 px-3 text-center">Team</th>
-                                            <th scope="col" class="py-3 px-3 text-center">
-                                                <span class="md:hidden">P</span>
-                                                <span class="hidden md:block whitespace-nowrap">Played</span>
-                                            </th>
-                                            <th scope="col" class="py-3 px-3 text-center">
-                                                <span class="md:hidden">GA</span>
-                                                <span class="hidden md:block whitespace-nowrap">Goals Against</span>
-                                            </th>
-                                            <th scope="col" class="py-3 px-3 text-center">
-                                                <span class="md:hidden">GD</span>
-                                                <span class="hidden md:block whitespace-nowrap">Goals Diference</span>
-                                            </th>
-                                            <th scope="col" class="py-3 px-3 text-center">
-                                                <span class="md:hidden">Pst</span>
-                                                <span class="hidden md:block whitespace-nowrap">Points</span>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <template x-for="team in rank.team_ranks" :key="team.team_id">
-                                            <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
-                                                <td x-text="team.team_rank" class="px-2 text-center"></td>
-                                                <td class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
-                                                    <img :src="team.team_logo_custom || team.team_logo || fallbackLogo(team.team_name)" :alt="team.team_name" class="h-8" loading="lazy" @error="team.team_logo_custom = fallbackLogo(team.team_name)">
-                                                    <span class="px-2 line-clamp-1 font-semibold" x-text="team.team_name"></span>
-                                                </td>
-                                                <td x-text="team.total_count" class="py-2 px-3 text-center"></td>
-                                                <td x-text="team.lose_score" class="py-2 px-3 text-center"></td>
-                                                <td x-text="team.goal_difference" class="py-2 px-3 text-center"></td>
-                                                <td x-text="team.integral" class="py-2 px-3 text-center"></td>
+                                <div class="overflow-x-auto">
+                                    <table class="w-full text-sm text-left text-gray-500 shadow rounded-lg border border-gray-300 overflow-hidden">
+                                        <thead class="text-xs text-gray-700 bg-white border-b">
+                                            <tr>
+                                                <th scope="col" class="py-3 px-3 text-center">#</th>
+                                                <th scope="col" class="py-3 px-3 text-center">Team</th>
+                                                <th scope="col" class="py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">Pl</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Played</span>
+                                                </th>
+                                                <th scope="col" class="py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">W</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Won</span>
+                                                </th>
+                                                <th scope="col" class="py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">D</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Drawn</span>
+                                                </th>
+                                                <th scope="col" class="py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">L</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Lost</span>
+                                                </th>
+                                                <th scope="col" class="hidden md:table-cell py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">GF</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Goals For</span>
+                                                </th>
+                                                <th scope="col" class="hidden md:table-cell py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">GA</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Goals Against</span>
+                                                </th>
+                                                <th scope="col" class="py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">GD</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Goals Diference</span>
+                                                </th>
+                                                <th scope="col" class="py-3 px-3 text-center w-[10%]">
+                                                    <span class="md:hidden">Pts</span>
+                                                    <span class="hidden md:block whitespace-nowrap">Points</span>
+                                                </th>
                                             </tr>
-                                        </template>
-                                    </tbody>
+                                        </thead>
+                                        <tbody>
+                                            <template x-for="team in rank.team_ranks" :key="team.team_id">
+                                                <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
+                                                    <td x-text="team.team_rank" class="px-2 text-center"></td>
+                                                    <td class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
+                                                        <img :src="team.team_logo_custom || team.team_logo || fallbackLogo(team.team_name)" :alt="team.team_name" class="h-8" loading="lazy" @error="team.team_logo_custom = fallbackLogo(team.team_name)">
+                                                        <span class="px-2 line-clamp-1 font-semibold" x-text="team.team_name"></span>
+                                                    </td>
+                                                    <td x-text="team.total_count" class="py-2 px-3 text-center"></td>
+                                                    <td x-text="team.win_count" class="py-2 px-3 text-center"></td>
+                                                    <td x-text="team.draw_count" class="py-2 px-3 text-center"></td>
+                                                    <td x-text="team.lose_count" class="py-2 px-3 text-center"></td>
+                                                    <td x-text="team.get_score" class="hidden md:table-cell py-2 px-3 text-center"></td>
+                                                    <td x-text="team.lose_score" class="hidden md:table-cell py-2 px-3 text-center"></td>
+                                                    <td x-text="team.goal_difference" class="py-2 px-3 text-center"></td>
+                                                    <td x-text="team.integral" class="py-2 px-3 text-center"></td>
+                                                </tr>
+                                            </template>
+                                        </tbody>
+                                </div>
                                 </table>
                             </div>
                         </template>
@@ -225,14 +247,15 @@
 
     <script src="./js/jquery-1.12.4.js"></script>
     <script src="./js/moment.min.js"></script>
-    <script src="./js/vi.min.js"></script>
+    <script src="./js/moment.vi.min.js"></script>
     <script src="./js/moment-timezone-with-data.min.js"></script>
     <script src="./js/alpinejs.min.js" defer></script>
     <script src="./js/select2.min.js"></script>
     <script src="./js/select2.vi.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.5.1/flatpickr.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/vn.min.js"></script>
+    <script src="./js/flatpickr.min.js"></script>
+    <script src="./js/flatpickr.vn.min.js"></script>
     <script>
+        var resp;
         moment.locale('vi');
         moment.tz.setDefault("Asia/Ho_Chi_Minh");
         function fixturesComponent() {
@@ -265,9 +288,9 @@
                         url = `https://api.vebo.xyz/api/match/featured`;
                     }
 
-                    if (this.hasLoadedFixtures && this.url == url) return;
-                    this.hasLoadedFixtures = true;
-                    this.url = url;
+                    // if (this.hasLoadedFixtures && this.url == url) return;
+                    // this.hasLoadedFixtures = true;
+                    // this.url = url;
 
                     try {
                         this.loading = true;
@@ -350,8 +373,12 @@
                             return (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0); // Sort featured tournaments first
                         });
 
+                        this.selectedTournament = null;
+                        this.selectedTournaments = [];
+
                         console.log(this.matches);
                         console.log(this.tournaments);
+                        console.log(this.selectedTournament)
                     } catch (error) {
                         console.error("Error loading fixtures:", error);
                     } finally {
@@ -418,6 +445,7 @@
                 },
                 selectTournament(tournamentId) {
                     this.selectedTournament = this.selectedTournament === tournamentId ? null : tournamentId; // Toggle selection
+                    console.log(this.selectedTournament)
                 },
                 updateMatchVisibility() {
                     const matchElements = document.querySelectorAll('[data-type="match"]');
@@ -478,6 +506,7 @@
                 selectedLeagueId: '',
                 loading: false,
                 ranks: [],
+                previousData: null,
                 fetchRankingsForLeague() {
                     if (!this.selectedLeagueId) return; // Đảm bảo đã chọn một giải đấu
                     const url = `https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/ranking?league_id=${this.selectedLeagueId}`;
@@ -487,18 +516,98 @@
                         .then(data => {
                             this.loading = false;
                             if (data.success && data.data && data.data.ranks?.length > 0) {
-                                this.ranks = data.data.ranks; // Lưu trữ dữ liệu nhóm
+                                this.ranks = data.data.ranks;
+
+                                var dataToSave = data.data.ranks.map(group => ({
+                                    league_id: group.team_ranks[0].league_id,
+                                    league_current_season: group.team_ranks[0].league_current_season,  // Mùa giải của đội bóng
+                                    group_name: group.group_name, // Tên nhóm (nếu có)
+                                    teams: group.team_ranks.map(team => ({
+                                        team_id: team.team_id,  // Mã đội bóng
+                                        team_rank: team.team_rank,  // Thứ hạng đội bóng
+                                        league_current_round: team.league_current_round,  // Vòng đấu hiện tại của đội bóng
+                                    }))
+                                }));
+                                console.log(dataToSave)
+
+                                const currentRound = data.data.ranks[0].team_ranks[0]?.league_current_round;
+                                debugger
+                                // Chỉ tính toán khi vòng đấu thay đổi
+                                if (currentRound !== this.previousRound) {
+                                    if (this.previousRanks) {
+                                        this.ranks = this.calculateRankChanges(data.data.ranks, this.previousRanks);
+                                    } else {
+                                        this.ranks = data.data.ranks;
+                                    }
+
+                                    // Lưu dữ liệu mới vào localStorage
+                                    this.previousRanks = JSON.parse(JSON.stringify(data.data.ranks));
+                                    this.previousRound = currentRound;
+
+
+                                } else {
+                                    console.log("Round hasn't changed, no rank calculation performed.");
+                                    this.ranks = data.data.ranks; // Vẫn cập nhật ranks hiện tại nhưng không tính thay đổi
+                                }
+                                console.log(this.ranks)
+
                             } else {
                                 console.error('No ranking data available');
                                 this.ranks = [];
                             }
                             console.log(this.ranks);
+
+                            this.savePreviousDataToStorage(dataToSave);
+                            this.previousData = this.getPreviousDataFromStorage();
+                            console.log(this.previousData)
                         })
                         .catch(error => {
                             this.loading = false;
                             console.error('Error fetching rankings:', error);
                             alert('Error fetching rankings. Please try again later.');
                         });
+                },
+                calculateRankChanges(currentRanks, previousRanks) {
+                    // Tạo map từ previousRanks để tra cứu nhanh
+                    const previousRankMap = previousRanks.reduce((map, rankGroup) => {
+                        rankGroup.team_ranks.forEach(team => {
+                            const key = `${team.league_id}_${team.team_id}`;
+                            map[key] = team.team_rank;
+                        });
+                        return map;
+                    }, {});
+
+                    // Thêm thuộc tính `change` vào currentRanks
+                    currentRanks.forEach(rankGroup => {
+                        rankGroup.team_ranks.forEach(team => {
+                            const key = `${team.league_id}_${team.team_id}`;
+                            const previousRank = previousRankMap[key]; // Tra cứu bằng `league_id` và `team_id`
+
+                            if (previousRank === undefined) {
+                                team.change = "new"; // Đội mới
+                            } else if (previousRank > team.team_rank) {
+                                team.change = "up"; // Tăng hạng
+                            } else if (previousRank < team.team_rank) {
+                                team.change = "down"; // Giảm hạng
+                            } else {
+                                team.change = "no-change"; // Không đổi
+                            }
+                        });
+                    });
+
+                    return currentRanks;
+                },
+                savePreviousDataToStorage(previousData) {
+                    localStorage.setItem('previousData', JSON.stringify(previousData));
+                },
+                getPreviousDataFromStorage() {
+                    const data = localStorage.getItem('previousData');
+                    try {
+                        return data ? JSON.parse(data) : null;
+                    } catch (e) {
+                        console.error("Error parsing data from localStorage", e);
+                        return null;
+                    }
                 },
                 fallbackLogo(name) {
                     return `https://ui-avatars.com/api/?format=svg&rounded=true&name=${encodeURIComponent(name)}`;
