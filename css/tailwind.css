@@ -17,7 +17,7 @@ input:not([type="checkbox"]) {
 
 .select2-container .select2-selection--single .select2-selection__rendered {
     /* DIV inside Selection box with text, clear button and arrow down*/
-    @apply block truncate pl-1 pr-6;
+    @apply -order-1 block flex-grow truncate pl-1 pr-6;
 }
 .select2-container .select2-selection--single .select2-selection__clear {
     /* The DIV where the X is housing to clear the chosen option */
@@ -138,7 +138,7 @@ input:not([type="checkbox"]) {
 
 .select2-container--default .select2-selection--single {
     /* Selection bar - Self */
-    @apply flex h-10 items-center border border-solid border-transparent bg-white px-2 dark:border-gray-700 dark:bg-gray-700;
+    @apply flex h-10 items-center border border-solid border-transparent bg-white pl-2 pr-8 dark:border-gray-700 dark:bg-gray-700;
 }
 .select2-container--default
     .select2-selection--single

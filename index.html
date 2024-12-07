@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/flatpickr.min.css">
     <link rel="stylesheet" href="./css/styles.min.css">
 </head>
-<body class="font-['Inter'] bg-gray-100 h-full" x-data="fixturesComponent()" x-init="initFixtures()">
+<body class="font-['Inter'] bg-gray-100 h-full overflow-y-scroll" x-data="fixturesComponent()" x-init="initFixtures()">
     <!-- Loading overlay -->
     <div id="loadingOverlay" x-show="loading" class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50 flex items-center justify-center">
         <div class="bg-white p-5 rounded-lg shadow-lg flex items-center">
@@ -48,9 +48,14 @@
             <div class="relative h-full">
                 <div x-show="tab === 'fixtures'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
                     <div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                        <div class="w-full" x-data="leagueSelectComponent($refs.rankings)">
+                        <div>
+                            <select id="cbb-league" x-model="selectedLeagueId">
+                                <option value="">Select a league</option>
+                            </select>
+                        </div>
+                        <div class="w-full" x-data="{ selectedLeagueId: '' }" x-init="leagueSelectComponent($refs.rankings)">
                             <p id="date" class="relative flatpickr flex flex-1" data-id="strap">
-                                <input id="date-input" type="text" placeholder="Chọn ngày..." data-input="" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg block flex-1 p-2.5 ring-0" readonly="readonly" x-model="selectedDate" />
+                                <input id="date-input" type="text" placeholder="Chọn ngày..." data-input="" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm text-center rounded-lg block flex-1 p-2.5 ring-0" readonly="readonly" x-model="selectedDate" :disabled="selectedLeagueId !== ''" />
                                 <a class="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer font-medium text-sm flex items-center justify-center p-3 hover:text-red-500" title="clear" data-clear="">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
                                         <path d="M 490.5389 73.58084 Q 512 47.520958 490.5389 21.461079 Q 464.47903 0 438.41916 21.461079 L 256 203.88023 L 256 203.88023 L 73.58084 21.461079 L 73.58084 21.461079 Q 47.520958 0 21.461079 21.461079 Q 0 47.520958 21.461079 73.58084 L 203.88023 256 L 203.88023 256 L 21.461079 438.41916 L 21.461079 438.41916 Q 0 464.47903 21.461079 490.5389 Q 47.520958 512 73.58084 490.5389 L 256 308.11975 L 256 308.11975 L 438.41916 490.5389 L 438.41916 490.5389 Q 464.47903 512 490.5389 490.5389 Q 512 464.47903 490.5389 438.41916 L 308.11975 256 L 308.11975 256 L 490.5389 73.58084 L 490.5389 73.58084 Z" />
@@ -61,24 +66,24 @@
                         <div class="flex gap-2">
                             <div class="flex items-center gap-2">
                                 <div class="flex items-center">
-                                    <input x-model="isCheckFeatured" id="checked-featured" type="checkbox" :disabled="selectedDate !== ''" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring focus:ring-blue-500 focus:ring-opacity-50" />
+                                    <input x-model="isCheckFeatured" id="checked-featured" type="checkbox" :disabled="selectedDate !== '' || selectedLeagueId !== ''" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring focus:ring-blue-500 focus:ring-opacity-50" />
                                     <label for="checked-featured" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Trận cầu tâm điểm</label>
                                 </div>
                             </div>
-                            <div class="flex items-center gap-2 flex-grow">
-                                <button @click="loadFixtures()" class="text-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700 transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center justify-center">
+                            <div class="flex items-center gap-2 flex-grow" x-data="{selectedLeagueId: ''}">
+                                <button @click="loadFixtures()" class="text-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700 transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center justify-center disabled:bg-gray-400 disabled:cursor-not-allowed" :disabled="selectedLeagueId !== ''">
                                     Tìm kiếm
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-2 py-4">
+                    <div class=" flex flex-col gap-2 py-4">
                         <!-- New section for displaying unique tournaments within fixtures -->
-                        <div class="overflow-x-auto py-1">
+                        <div class="overflow-x-auto py-1" x-show="tournaments && tournaments.length > 1">
                             <div class="flex flex-nowrap gap-2">
                                 <template x-for="tournament in tournaments" :key="tournament.id">
                                     <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" x-bind:title="tournament.name">
-                                        <img :src="tournament.logo || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
+                                        <img :src="customLogoHandle(tournament.id, tournament.logo) || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
                                         <div x-text="tournament.name" class="truncate min-w-min font-semibold"></div>
                                     </button>
                                 </template>
@@ -89,7 +94,7 @@
                                 <a :href="`https://tchiphuong.github.io/iptv/get-key.html?id=${match.id}&title=${match.title}&isLive=1`" target="_blank" data-type="match" :data-tournament="match.tournament.id" :match="match.id" :match-live="match.isLive" x-show="selectedTournament === null || match.tournament.id === selectedTournament" class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-300 bg-white shadow-md hover:scale-105 hover:shadow-lg">
                                     <div class="flex w-full flex-col p-4">
                                         <div class="flex items-center gap-3 mb-2">
-                                            <img class="object-contain w-12 h-12" :src="match.tournament.logo || fallbackLogo(match.tournament.name)" loading="lazy" @error="match.tournament.logo = fallbackLogo(match.tournament.name)">
+                                            <img class="object-contain w-12 h-12" :src="customLogoHandle(match.tournament.id, match.tournament.logo) || fallbackLogo(match.tournament.name)" loading="lazy" @error="match.tournament.logo = fallbackLogo(match.tournament.name)">
                                             <div class="flex items-center justify-between mt-2 flex-grow">
                                                 <span class="font-bold text-lg line-clamp-1 flex-grow" x-text="match.tournament.name" :title="match.tournament.name"></span>
                                                 <div class="flex items-center gap-3 ml-3">
@@ -292,9 +297,14 @@
                 selectedDate: '',
                 isCheckFeatured: true,
                 url: "",
-                async loadFixtures() {
+                leagues: [],
+                selectedLeagueId: '',
+                leagueLogos: {},
+                async loadFixtures(selectedLeagueId) {
                     let url = `https://live.vebo.xyz/api/match/live`;
-                    if (this.selectedDate) {
+                    if (selectedLeagueId) {
+                        url = `https://api.vebo.xyz/api/tournament/fixture/${selectedLeagueId}`;
+                    } else if (this.selectedDate) {
                         const selectedDate = moment(this.selectedDate, "DD/MM/YYYY");
                         url = `https://api.vebo.xyz/api/match/fixture/${selectedDate.format("YYYYMMDD")}`
                     } else if (this.isCheckFeatured) {
@@ -421,7 +431,9 @@
                         this.loading = false;
                     }
                 },
-                initFixtures() {
+                async initFixtures() {
+                    const response = await fetch('data/custom-logo.json');
+                    this.leagueLogos = await response.json();
                     this.loadFixtures();
                     this.updateIndicator();
                     flatpickr("#date", {
@@ -429,6 +441,7 @@
                         dateFormat: "d/m/Y",
                         wrap: true,
                     });
+                    this.fetchLeagues()
                 },
                 filterMatches() {
                     this.matches = this.selectedTournaments.length > 0
@@ -501,6 +514,74 @@
                         }
                     }
                     return status;
+                },
+                fetchLeagues() {
+                    const url = 'https://api.vebo.xyz/api/tournament/menu';
+                    fetch(url)
+                        .then(response => response.json())
+                        .then(data => {
+                            this.isLoading = false;
+                            if (data.data) {
+                                // Filter leagues where sport_type is 1
+                                this.leagues = data.data
+                                    //.filter(league => league.sport_type === 1 && league.app_display) // Filtering logic
+                                    // Sort leagues by league_type, then by order_number
+                                    // .sort((a, b) => {
+                                    //     return a.order_number - b.order_number;
+                                    // })
+                                    .map(league => ({
+                                        id: league.unique_ids.default,
+                                        name: league.name,
+                                        logo: league.logo // Assuming logo is available
+                                    }));
+
+                                // Initialize Select2 after leagues are loaded
+                                this.$nextTick(() => {
+                                    $('#cbb-league').select2({
+                                        templateResult: (league) => this.formatState(league, this.isLoading),
+                                        templateSelection: (league) => this.formatState(league, this.isLoading),
+                                        data: this.leagues,
+                                        width: '100%',
+                                        language: 'vi',
+                                        allowClear: true, // Kích hoạt nút clear
+                                        placeholder: 'Chọn giải đấu...', // Placeholder để hiển thị khi không có lựa chọn
+                                    }).on('change', (e) => {
+                                        this.selectedLeagueId = $(e.target).val(); // Update the model
+                                        this.loadFixtures(this.selectedLeagueId); // Call the method to fetch rankings
+                                    });
+                                });
+                            } else {
+                                console.error('No league data available');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error loading the leagues:', error);
+                        });
+                },
+                formatState(league, isLoading = false) {
+                    if (isLoading) {
+                        return $(`<div class="flex items-center gap-2">
+                                    <div class="h-6 w-6 bg-gray-300 animate-pulse rounded-full"></div>
+                                    <div class="h-4 w-24 bg-gray-300 animate-pulse rounded"></div>
+                                </div>`);
+                    }
+
+                    if (!league.id) {
+                        return league.text; // Return the default text if no ID
+                    }
+
+                    return $(`<div class="flex items-center gap-2">
+                                <img class="h-6 w-6 object-contain" src="${this.customLogoHandle(league.id, league.logo)}" />
+                                <span>${league.name}</span>
+                            </div>`);
+                },
+                customLogoHandle(id, defaultLogo) {
+                    try {
+                        return this.leagueLogos[id] || defaultLogo;
+                    } catch (error) {
+                        console.error('Error loading league logos:', error);
+                        return defaultLogo;
+                    }
                 }
             };
         }
@@ -523,37 +604,37 @@
                             if (data.success && data.data && data.data.ranks?.length > 0) {
                                 this.ranks = data.data.ranks;
 
-                                var dataToSave = data.data.ranks.map(group => ({
-                                    league_id: group.team_ranks[0].league_id,
-                                    league_current_season: group.team_ranks[0].league_current_season,  // Mùa giải của đội bóng
-                                    group_name: group.group_name, // Tên nhóm (nếu có)
-                                    teams: group.team_ranks.map(team => ({
-                                        team_id: team.team_id,  // Mã đội bóng
-                                        team_rank: team.team_rank,  // Thứ hạng đội bóng
-                                        league_current_round: team.league_current_round,  // Vòng đấu hiện tại của đội bóng
-                                    }))
-                                }));
-                                console.log(dataToSave)
+                                // var dataToSave = data.data.ranks.map(group => ({
+                                //     league_id: group.team_ranks[0].league_id,
+                                //     league_current_season: group.team_ranks[0].league_current_season,  // Mùa giải của đội bóng
+                                //     group_name: group.group_name, // Tên nhóm (nếu có)
+                                //     teams: group.team_ranks.map(team => ({
+                                //         team_id: team.team_id,  // Mã đội bóng
+                                //         team_rank: team.team_rank,  // Thứ hạng đội bóng
+                                //         league_current_round: team.league_current_round,  // Vòng đấu hiện tại của đội bóng
+                                //     }))
+                                // }));
+                                // console.log(dataToSave)
 
-                                const currentRound = data.data.ranks[0].team_ranks[0]?.league_current_round;
-                                // Chỉ tính toán khi vòng đấu thay đổi
-                                if (currentRound !== this.previousRound) {
-                                    if (this.previousRanks) {
-                                        this.ranks = this.calculateRankChanges(data.data.ranks, this.previousRanks);
-                                    } else {
-                                        this.ranks = data.data.ranks;
-                                    }
+                                // const currentRound = data.data.ranks[0].team_ranks[0]?.league_current_round;
+                                // // Chỉ tính toán khi vòng đấu thay đổi
+                                // if (currentRound !== this.previousRound) {
+                                //     if (this.previousRanks) {
+                                //         this.ranks = this.calculateRankChanges(data.data.ranks, this.previousRanks);
+                                //     } else {
+                                //         this.ranks = data.data.ranks;
+                                //     }
 
-                                    // Lưu dữ liệu mới vào localStorage
-                                    this.previousRanks = JSON.parse(JSON.stringify(data.data.ranks));
-                                    this.previousRound = currentRound;
+                                //     // Lưu dữ liệu mới vào localStorage
+                                //     this.previousRanks = JSON.parse(JSON.stringify(data.data.ranks));
+                                //     this.previousRound = currentRound;
 
 
-                                } else {
-                                    console.log("Round hasn't changed, no rank calculation performed.");
-                                    this.ranks = data.data.ranks; // Vẫn cập nhật ranks hiện tại nhưng không tính thay đổi
-                                }
-                                console.log(this.ranks)
+                                // } else {
+                                //     console.log("Round hasn't changed, no rank calculation performed.");
+                                //     this.ranks = data.data.ranks; // Vẫn cập nhật ranks hiện tại nhưng không tính thay đổi
+                                // }
+                                // console.log(this.ranks)
 
                             } else {
                                 console.error('No ranking data available');
@@ -561,9 +642,9 @@
                             }
                             console.log(this.ranks);
 
-                            this.savePreviousDataToStorage(dataToSave);
-                            this.previousData = this.getPreviousDataFromStorage();
-                            console.log(this.previousData)
+                            // this.savePreviousDataToStorage(dataToSave);
+                            // this.previousData = this.getPreviousDataFromStorage();
+                            // console.log(this.previousData)
                         })
                         .catch(error => {
                             this.loading = false;
@@ -623,14 +704,16 @@
             return {
                 selectedLeagueId: '',
                 leagues: [],
+                isLoading: true,
                 initLeague() {
                     this.fetchLeagues();
                 },
                 fetchLeagues() {
-                    const url = 'https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues/';
+                    const url = 'https://soccer-api.api.vinasports.com.vn/api/v1/publish/leagues';
                     fetch(url)
                         .then(response => response.json())
                         .then(data => {
+                            this.isLoading = false;
                             if (data.success && data.data) {
                                 // Filter leagues where sport_type is 1
                                 this.leagues = data.data
@@ -648,11 +731,13 @@
                                 // Initialize Select2 after leagues are loaded
                                 this.$nextTick(() => {
                                     $('#cbb-standings').select2({
-                                        templateResult: this.formatState,
-                                        templateSelection: this.formatState,
+                                        templateResult: (league) => this.formatState(league, this.isLoading),
+                                        templateSelection: (league) => this.formatState(league, this.isLoading),
                                         data: this.leagues,
                                         width: '100%',
-                                        language: 'vi'
+                                        language: 'vi',
+                                        allowClear: true, // Kích hoạt nút clear
+                                        placeholder: 'Chọn giải đấu...', // Placeholder để hiển thị khi không có lựa chọn
                                     }).on('change', (e) => {
                                         this.selectedLeagueId = $(e.target).val(); // Update the model
                                         this.fetchRankingsForLeague(); // Call the method to fetch rankings
@@ -666,14 +751,22 @@
                             console.error('Error loading the leagues:', error);
                         });
                 },
-                formatState(league) {
+                formatState(league, isLoading = false) {
+                    if (isLoading) {
+                        return $(`<div class="flex items-center gap-2">
+                                    <div class="h-6 w-6 bg-gray-300 animate-pulse rounded-full"></div>
+                                    <div class="h-4 w-24 bg-gray-300 animate-pulse rounded"></div>
+                                </div>`);
+                    }
+
                     if (!league.id) {
                         return league.text; // Return the default text if no ID
                     }
+
                     return $(`<div class="flex items-center gap-2">
-                        <img class="h-6 w-6 object-contain rounded-full" src="${league.logo}" />
-                        <span>${league.name}</span>
-                    </div>`);
+                                <img class="h-6 w-6 object-contain rounded-full" src="${league.logo}" />
+                                <span>${league.name}</span>
+                            </div>`);
                 }
             };
         }
