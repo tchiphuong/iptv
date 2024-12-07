@@ -214,7 +214,7 @@
                                                 <tr class="bg-white border-b hover:text-gray-600 hover:bg-gray-50">
                                                     <td x-text="team.team_rank" class="px-2 text-center"></td>
                                                     <td class="py-2 px-3 flex items-center font-medium text-gray-900 whitespace-nowrap">
-                                                        <img :src="team.team_logo_custom || team.team_logo || fallbackLogo(team.team_name)" :alt="team.team_name" class="h-8" loading="lazy" @error="team.team_logo_custom = fallbackLogo(team.team_name)">
+                                                        <img :src="team.team_logo_custom || team.team_logo || fallbackLogo(team.team_name)" :alt="team.team_name" class="h-8 w-8 object-contain" loading="lazy" @error="team.team_logo_custom = fallbackLogo(team.team_name)">
                                                         <span class="px-2 line-clamp-1 font-semibold" x-text="team.team_name"></span>
                                                     </td>
                                                     <td x-text="team.total_count" class="py-2 px-3 text-center"></td>
@@ -270,9 +270,22 @@
                 hasLoadedHighlights: false,
                 hasLoadedFixtures: false,
                 matchStatusLabels: {
-                    finished: "Hết giờ",
-                    delay: "Hoãn lại",
-                    canceled: "Huỷ",
+                    "finished": {
+                        "class": "bg-green-500 text-white",
+                        "text": "Kết thúc"
+                    },
+                    "delay": {
+                        "class": "bg-yellow-500 text-black",
+                        "text": "Bị hoãn"
+                    },
+                    // "pending": {
+                    //     "class": "bg-gray-500 text-white",
+                    //     "text": "Chờ xử lý"
+                    // },
+                    "canceled": {
+                        "class": "bg-red-500 text-white",
+                        "text": "Hủy bỏ"
+                    }
                 },
                 selectedTournament: null,
                 loading: true,
@@ -472,23 +485,15 @@
                         status.text = 'Trực tiếp';
                     }
                     else if (Object.keys(this.matchStatusLabels).includes(match.match_status)) {
-                        status.text = this.matchStatusLabels[match.match_status]
-                        if (match.match_status === 'finished') {
-                            status.class = "text-white bg-green-500";
-                        }
-                        else if (match.match_status === 'delay') {
-                            status.class = "text-black bg-yellow-300";
-                        }
-                        else if (match.match_status === 'canceled') {
-                            status.class = "text-white bg-red-500";
-                        }
+                        status.text = this.matchStatusLabels[match.match_status].text;
+                        status.class = this.matchStatusLabels[match.match_status].class;
                     }
                     else {
                         const timestampMoment = moment(match.timestamp);
                         if (timestampMoment.isValid()) {
                             if (moment().isSameOrAfter(moment(match.timestamp))) {
-                                status.class = "text-white bg-green-500";
-                                status.text = this.matchStatusLabels['finished']
+                                status.class = this.matchStatusLabels['finished'].class;
+                                status.text = this.matchStatusLabels['finished'].text
                             } else {
                                 status.class = "text-black bg-yellow-300";
                                 status.text = `${moment.duration(moment(match.timestamp).diff(moment())).humanize(true)}`;
@@ -531,7 +536,6 @@
                                 console.log(dataToSave)
 
                                 const currentRound = data.data.ranks[0].team_ranks[0]?.league_current_round;
-                                debugger
                                 // Chỉ tính toán khi vòng đấu thay đổi
                                 if (currentRound !== this.previousRound) {
                                     if (this.previousRanks) {
@@ -611,7 +615,7 @@
                 },
                 fallbackLogo(name) {
                     return `https://ui-avatars.com/api/?format=svg&rounded=true&name=${encodeURIComponent(name)}`;
-                }
+                },
             };
         }
 
