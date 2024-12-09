@@ -526,6 +526,47 @@ https://live.ll.ww.aiv-cdn.net/OTTB/iad-nitro/live/clients/dash/enc/8ci7l7dt0d/o
 #KODIPROP:inputstream.adaptive.license_key=4d808f2b9a74536cadbd95be141888ed:9dd89f67b8885dc65721a8b1fbeae700
 https://live-aws-scalstrm-cdn.rikstv.no/live/rikstv/644bb6e91dbc891fd422efc9/manifest.mpd
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/fQSmk0y/go3sport1.png" group-title="Thể thao", GO3 Sport 1 馃嚤馃嚬
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=610ad79e26a84fc782c987455e21a86b:d2d4acc6e79447b55f3f5c0267af06f5
+https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport_HD_HVC.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/vZ3pSq8/go3sport2.png" group-title="Thể thao", GO3 Sport 2 馃嚤馃嚬
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3fc5ce88ae24460bafa447b53ab5f548:476a55ef72c5e27e310668b1667da615
+https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport2_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport2_HD_HVC.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/McNdZnx/go3sport3.png" group-title="Thể thao", GO3 Sport 3 馃嚤馃嚬
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a2a75672057f462089c2849b8184fcb0:94899cace4911c617c27d8f878de2b43
+https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport3_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport3_HD_HVC.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/JQXQfyq/go3sportopen.png" group-title="Thể thao", GO3 Sport OPEN 馃嚤馃嚬
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e4515ae969cb46ae89997c8308b70e4d:bdc640533aac8955a6293158210e0a7d
+https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport4_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport4_HD_HVC.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/fQSmk0y/go3sport1.png" group-title="Thể thao", GO3 Sport 1 馃嚤馃嚬
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f48a8131e05f4d6e84de19f086c781a6:fd28f2f966a906f4d4dcfd72ae90094e
+https://tr.live.cdn.cgates.lt/live/dash/560502/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/vZ3pSq8/go3sport2.png" group-title="Thể thao", GO3 Sport 2 馃嚤馃嚬
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8315b1996d92477b965cb29100a3dc07:0081c0674e9047e219caa27a07da9d4b
+https://tr.live.cdn.cgates.lt/live/dash/560505/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/JQXQfyq/go3sportopen.png" group-title="Thể thao", GO3 Sport OPEN 馃嚤馃嚬
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0
+https://tr.live.cdn.cgates.lt/live/dash/561402/index.mpd
+
 #EXTINF:-1 group-title="Thể thao" group-logo="https://tchiphuong.github.io/iptv/images/background/sports.png" tvg-logo="https://i.imgur.com/zSeqPD2.jpeg",🇦🇪 Abu Dhabi Sport 1
 https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/DASH/master.mpd
 #EXTINF:-1 group-title="Thể thao" tvg-logo="https://i.imgur.com/6rOLXGk.jpeg",🇦🇪 Abu Dhabi Sport 2
@@ -1344,6 +1385,13 @@ https://lj9mu2e1cgt.a.trbcdn.net/m2_laliga/index.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="match-football3" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2rmhk079s3jpna0.png",🇷🇺 Match Football 3
 https://lj9mu2e1cgt.a.trbcdn.net/m3_laliga/index.m3u8
 
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-football1" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2bmhk079s3jpn70.png",🇷🇺 Match Football 1
+https://zyc31x2inqj.a.trbcdn.net/m1_laliga/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-football2" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2jmhk079s3jpn8g.png",🇷🇺 Match Football 2
+https://zyc31x2inqj.a.trbcdn.net/m2_laliga/index.m3u8
+#EXTINF:-1 group-title="Thể thao" tvg-id="match-football3" tvg-logo="https://images.iptv.rt.ru/images/ch4dk2rmhk079s3jpna0.png",🇷🇺 Match Football 3
+https://zyc31x2inqj.a.trbcdn.net/m3_laliga/index.m3u8
+
 #EXTINF:-1 group-title="Thể thao" tvg-id="setanta-kz" tvg-logo="https://epgx.site/p/setanta-kz.png",🇰🇿 SETANTA SPORTS
 https://bkm.beetv.kz/btv/live/hls/000004619.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="setanta1-kz" tvg-logo="https://epgx.site/p/setanta1-kz.png",🇰🇿 SETANTA SPORTS 1
@@ -1354,9 +1402,6 @@ https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 #EXTINF:-1 group-title="Thể thao" tvg-id="setanta-sports-plus" tvg-logo="https://epgx.site/p/setanta-sports-plus.png",🇷🇺 SETANTA SPORTS 2
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
-
-#EXTINF:-1 group-title="Thể thao" tvg-id="setanta1-kz" tvg-logo="https://epgx.site/p/setanta1-kz.png",🇰🇿 SETANTA SPORTS 1
-https://25axin5tbn8.a.trbcdn.net/Setanta1_La_Liga/index.m3u8
 
 #EXTINF:-1 group-title="LVTT SPORT DRM TiviMate" tvg-id="lvtt4" tvg-logo="https://yt3.googleusercontent.com/I0csx-UprXbr_3VormnNGiBq0NW1692f-Jo9moJeCIqRyb8hf5hH4CgfI-enXEYfbHVxDXqbeA=s900-c-k-c0x00ffffff-no-rj",LVTT SPORT 4 (DRM)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
