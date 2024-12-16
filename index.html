@@ -346,12 +346,12 @@
                                 return {
                                     id: match.id,
                                     title: match.name,
-                                    tournament: match.tournament.unique_tournament,
-                                    homeLogo: match.home.logo || this.fallbackLogo(match.home.name),
-                                    homeTeam: match.home.name,
+                                    tournament: match?.tournament?.unique_tournament,
+                                    homeLogo: match?.home?.logo || this.fallbackLogo(match?.home?.name),
+                                    homeTeam: match.home?.name,
                                     homeScore: match.scores.home,
-                                    awayLogo: match.away.logo || this.fallbackLogo(match.away.name),
-                                    awayTeam: match.away.name,
+                                    awayLogo: match?.away?.logo || this.fallbackLogo(match?.away?.name),
+                                    awayTeam: match.away?.name,
                                     awayScore: match.scores.away,
                                     dateFormatted: moment(match.date).format('dd, DD/MM/YY'),
                                     timeFormatted: startTime.format('HH:mm'),
@@ -492,14 +492,13 @@
                 },
                 statusHandle(match) {
                     let status = { class: null, text: null };
-
-                    if (match.is_live && match.match_status === 'live') {
-                        status.class = "text-white bg-red-600";
-                        status.text = 'Trực tiếp';
-                    }
-                    else if (Object.keys(this.matchStatusLabels).includes(match.match_status)) {
+                    if (Object.keys(this.matchStatusLabels).includes(match.match_status)) {
                         status.text = this.matchStatusLabels[match.match_status].text;
                         status.class = this.matchStatusLabels[match.match_status].class;
+                    }
+                    else if (match.is_live && match.match_status === 'live') {
+                        status.class = "text-white bg-red-600";
+                        status.text = 'Trực tiếp';
                     }
                     else {
                         const timestampMoment = moment(match.timestamp);
@@ -508,8 +507,14 @@
                                 status.class = this.matchStatusLabels['finished'].class;
                                 status.text = this.matchStatusLabels['finished'].text
                             } else {
-                                status.class = "text-black bg-yellow-300";
-                                status.text = `${moment.duration(moment(match.timestamp).diff(moment())).humanize(true)}`;
+                                const timeDiff = moment(match.timestamp).diff(moment(), 'days');
+                                if (timeDiff < 1) {
+                                    status.class = "text-black bg-yellow-300";
+                                    status.text = `${moment.duration(moment(match.timestamp).diff(moment())).humanize(true)}`;
+                                } else {
+                                    status.class = "hidden"; // Hoặc giá trị mặc định khác nếu không hiển thị
+                                    status.text = null; // Hoặc giá trị mặc định khác nếu không hiển thị
+                                }
                             }
                         }
                     }
