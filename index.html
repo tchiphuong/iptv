@@ -44,10 +44,10 @@
             </div>
         </div>
 
-        <main class="container mx-auto px-2 flex-grow">
+        <main class="container mx-auto px-3 flex-grow">
             <div class="relative h-full">
-                <div x-show="tab === 'fixtures'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                    <div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div x-show="tab === 'fixtures'" class="absolute inset-0 mt-3" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                    <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <div>
                             <select id="cbb-league" x-model="selectedLeagueId">
                                 <option value="">Select a league</option>
@@ -77,29 +77,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" flex flex-col gap-2 py-4">
+                    <div class=" flex flex-col gap-2 py-3">
                         <!-- New section for displaying unique tournaments within fixtures -->
                         <div class="overflow-x-auto py-1" x-show="tournaments && tournaments.length > 1">
-                            <div class="flex flex-nowrap gap-2">
+                            <div class="flex flex-nowrap gap-3">
                                 <template x-for="tournament in tournaments" :key="tournament.id">
-                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm transition duration-200 text-gray-800 text-sm min-w-min overflow-hidden px-5 bg-white hover:shadow-lg" x-bind:title="tournament.name">
+                                    <button @click="selectTournament(tournament.id)" :class="{'border-blue-600': selectedTournament === tournament.id, 'border-white': selectedTournament !== tournament.id}" class="flex items-center justify-center p-2 border-2 rounded-md shadow-sm transition duration-200 text-gray-800 text-sm min-w-min px-5 bg-white hover:scale-[102%] hover:shadow-lg" x-bind:title="tournament.name">
                                         <img :src="customLogoHandle(tournament.id, tournament.logo) || fallbackLogo(tournament.name)" alt="" class="w-8 h-8 mr-2 object-contain" @error="tournament.logo = fallbackLogo(tournament.name)">
                                         <div x-text="tournament.name" class="truncate min-w-min font-semibold"></div>
                                     </button>
                                 </template>
                             </div>
                         </div>
-                        <div class="grid grid-cols-1 gap-2 py-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+                        <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
                             <template x-for="match in matches" :key="match.id">
-                                <a :href="`https://tchiphuong.github.io/iptv/get-key.html?id=${match.id}&title=${match.title}&isLive=1`" target="_blank" data-type="match" :data-tournament="match.tournament.id" :match="match.id" :match-live="match.isLive" x-show="selectedTournament === null || match.tournament.id === selectedTournament" class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-300 bg-white shadow-md hover:scale-105 hover:shadow-lg">
+                                <a :href="`https://tchiphuong.github.io/iptv/get-key.html?id=${match.id}&title=${match.title}&isLive=1`" target="_blank" data-type="match" :data-tournament="match.tournament.id" :match="match.id" :match-live="match.isLive" x-show="selectedTournament === null || match.tournament.id === selectedTournament" class="group relative flex flex-col rounded-lg border border-gray-200 bg-white hover:scale-[102%] hover:shadow-lg">
+                                    <div class="flex items-center gap-3 ml-3 absolute top-2 -right-2">
+                                        <span x-text="match.status.text" :class="match.status.class" class="inline-flex items-center justify-center px-4 py-0.5 text-xs rounded-full rounded-br-none shadow-md w-max bg-gradient-to-r before:content-[''] before:absolute before:right-0 before:-bottom-2 before:w-0 before:h-0 before:border-r-8 before:border-t-8 before:border-r-transparent"></span>
+                                    </div>
                                     <div class="flex w-full flex-col p-4">
                                         <div class="flex items-center gap-3 mb-2">
                                             <img class="object-contain w-12 h-12" :src="customLogoHandle(match.tournament.id, match.tournament.logo) || fallbackLogo(match.tournament.name)" loading="lazy" @error="match.tournament.logo = fallbackLogo(match.tournament.name)">
                                             <div class="flex items-center justify-between mt-2 flex-grow">
                                                 <span class="font-bold text-lg line-clamp-1 flex-grow" x-text="match.tournament.name" :title="match.tournament.name"></span>
-                                                <div class="flex items-center gap-3 ml-3">
-                                                    <span x-text="match.status.text" :class="match.status.class" class="inline-flex items-center justify-center px-3 py-1 text-xs rounded-full shadow-md w-max"></span>
-                                                </div>
                                             </div>
                                         </div>
                                         <div class="flex w-full gap-4">
@@ -276,11 +276,11 @@
                 hasLoadedFixtures: false,
                 matchStatusLabels: {
                     "finished": {
-                        "class": "bg-green-500 text-white",
+                        "class": "from-green-500 to-green-300 before:border-t-green-500 text-white",
                         "text": "Kết thúc"
                     },
                     "delay": {
-                        "class": "bg-yellow-500 text-black",
+                        "class": "from-yellow-500 to-yellow-300 before:border-t-yellow-500 text-black",
                         "text": "Bị hoãn"
                     },
                     // "pending": {
@@ -288,7 +288,7 @@
                     //     "text": "Chờ xử lý"
                     // },
                     "canceled": {
-                        "class": "bg-red-500 text-white",
+                        "class": "from-gray-600 to-gray-400 before:border-t-gray-300 text-white",
                         "text": "Hủy bỏ"
                     }
                 },
@@ -497,7 +497,7 @@
                         status.class = this.matchStatusLabels[match.match_status].class;
                     }
                     else if (match.is_live && match.match_status === 'live') {
-                        status.class = "text-white bg-red-600";
+                        status.class = "text-white from-red-600 to-red-400 before:border-t-red-600";
                         status.text = 'Trực tiếp';
                     }
                     else {
@@ -509,7 +509,7 @@
                             } else {
                                 const timeDiff = moment(match.timestamp).diff(moment(), 'days');
                                 if (timeDiff < 1) {
-                                    status.class = "text-black bg-yellow-300";
+                                    status.class = "text-white from-blue-600 to-blue-400 before:border-t-blue-300";
                                     status.text = `${moment.duration(moment(match.timestamp).diff(moment())).humanize(true)}`;
                                 } else {
                                     status.class = "hidden"; // Hoặc giá trị mặc định khác nếu không hiển thị
