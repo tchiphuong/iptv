@@ -1,30 +1,305 @@
 [
     {
-        "name": "Soi Sáng Cho Em (Thuyết Minh)",
-        "name:en": "A Date With The Future",
-        "category": {
-            "name": "Phim nước ngoài (Thuyểt Minh)",
-            "icon": "https://hqth.me/VzqI"
-        },
+        "id": "a1234567-b89c-4d01-a2f3-567890123456",
+        "name": "12 Con Khỉ",
+        "name:en": "12 Monkeys",
+        "category": "Phim Khoa Học Viễn Tưởng",
         "info": {
-            "cast": ["Trần Vỹ Đình", "Chương Nhược Nam"],
-            "country": ["Trung Quốc"],
-            "year": 2023,
-            "trailer": "HGH34ghgAU",
-            "added": "1686587382",
-            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-            "plot": "Trong một trận hỏa hoạn 10 năm trước, cô bé Từ Lai thoát chết nhờ một anh lính cứu hỏa. Lớn lên, trở thành phóng viên kiêm huấn luyện viên chó tài năng, Từ Lai vẫn không ngừng tìm kiếm ân nhân năm xưa. Khi phát hiện người đó chính là anh hùng cứu hỏa Cận Thời Xuyên, Từ Lai bèn lên kế hoạch để tiếp cận anh.",
-            "genre": ["Phim-Trung-Quốc", "phim-thuyet-minh", "Lãng-mạn", "Tâm-lý"]
+            "cast": ["Aaron Stanford", "Amanda Schull", "Kirk Acevedo"],
+            "country": ["Mỹ"],
+            "year": 2015,
+            "trailer": "https://www.youtube.com/watch?v=YkzV8e3pAZI",
+            "added": "1677123456",
+            "poster": "https://static.wikia.nocookie.net/12-monkeys-tv/images/7/7b/Season_1_Poster.png",
+            "backdrop": "https://example.com/backdrop.jpg",
+            "plot": "Dựa trên bộ phim cùng tên, series kể về James Cole, người từ tương lai trở về quá khứ để ngăn chặn một tổ chức gọi là 'Army of the Twelve Monkeys', vốn là nguyên nhân gây ra đại dịch thế giới.",
+            "genre": ["Khoa Học Viễn Tưởng", "Hành Động", "Kinh Dị"]
         },
         "seasons": [
             {
                 "season": 1,
                 "info": {
-                    "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                    "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
+                    "poster": "https://static.wikia.nocookie.net/12-monkeys-tv/images/7/7b/Season_1_Poster.png",
+                    "backdrop": "https://example.com/season1-backdrop.jpg",
+                    "plot": "James Cole trở lại quá khứ để ngăn chặn sự kiện gây ra thảm họa dịch bệnh. Anh hợp tác với Cassandra Railly, một bác sĩ, để giải quyết những bí ẩn đằng sau tổ chức 'Army of the Twelve Monkeys'.",
+                    "genre": ["Khoa Học Viễn Tưởng", "Hành Động", "Kinh Dị"],
+                    "cast": ["Aaron Stanford", "Amanda Schull", "Kirk Acevedo"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Splinter",
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Mentally Divergent",
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "Cassandra Complex",
+                        "video": "https://example.com/video/episode3.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "Atari",
+                        "video": "https://example.com/video/episode4.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "The Night Room",
+                        "video": "https://example.com/video/episode5.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "The Red Forest",
+                        "video": "https://example.com/video/episode6.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "The Keys",
+                        "video": "https://example.com/video/episode7.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "Yesterday",
+                        "video": "https://example.com/video/episode8.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "Tomorrow",
+                        "video": "https://example.com/video/episode9.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "Divine Move",
+                        "video": "https://example.com/video/episode10.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "name": "Shonin",
+                        "video": "https://example.com/video/episode11.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "name": "Paradox",
+                        "video": "https://example.com/video/episode12.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "name": "Arms of Mine",
+                        "video": "https://example.com/video/episode13.m3u8"
+                    }
+                ]
+            },
+            {
+                "season": 2,
+                "info": {
+                    "poster": "https://static.wikia.nocookie.net/12-monkeys-tv/images/4/4e/12-monkeys-season-2-poster.jpg",
+                    "backdrop": "https://example.com/season2-backdrop.jpg",
+                    "plot": "Trong mùa này, Cole tiếp tục cuộc hành trình để ngăn chặn sự lây lan của virus và đối đầu với các tổ chức nguy hiểm khác. Anh phải đối mặt với những kẻ thù tồi tệ hơn và những bí ẩn sâu sắc hơn.",
+                    "genre": ["Khoa Học Viễn Tưởng", "Hành Động", "Kinh Dị"],
+                    "cast": ["Aaron Stanford", "Amanda Schull", "Kirk Acevedo"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Year of the Monkey",
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Primary",
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "One Hundred Years",
+                        "video": "https://example.com/video/episode3.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "Emergence",
+                        "video": "https://example.com/video/episode4.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "Bodies of Water",
+                        "video": "https://example.com/video/episode5.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "Immortal",
+                        "video": "https://example.com/video/episode6.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "Meltdown",
+                        "video": "https://example.com/video/episode7.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "Lullaby",
+                        "video": "https://example.com/video/episode8.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "One Minute More",
+                        "video": "https://example.com/video/episode9.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "Fatherland",
+                        "video": "https://example.com/video/episode10.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "name": "Resurrection",
+                        "video": "https://example.com/video/episode11.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "name": "Blood Washed Away",
+                        "video": "https://example.com/video/episode12.m3u8"
+                    },
+                    {
+                        "episode": 13,
+                        "name": "Memory of Tomorrow",
+                        "video": "https://example.com/video/episode13.m3u8"
+                    }
+                ]
+            },
+            {
+                "season": 3,
+                "info": {
+                    "poster": "https://static.wikia.nocookie.net/12-monkeys-tv/images/9/97/12MS3.jpeg",
+                    "backdrop": "https://example.com/season3-backdrop.jpg",
+                    "plot": "Mùa thứ ba tiếp tục khi Cole và Railly phải đối mặt với những sự kiện trong quá khứ, hiện tại và tương lai. Những quyết định của họ sẽ thay đổi dòng thời gian.",
+                    "genre": ["Khoa Học Viễn Tưởng", "Hành Động", "Kinh Dị"],
+                    "cast": ["Aaron Stanford", "Amanda Schull", "Kirk Acevedo"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Mother",
+                        "video": "https://example.com/video/episode1.m3u8"
+                    }
+                ]
+            },
+            {
+                "season": 4,
+                "info": {
+                    "poster": "https://static.wikia.nocookie.net/12-monkeys-tv/images/9/9b/12M4.jpg",
+                    "backdrop": "https://example.com/season4-backdrop.jpg",
+                    "plot": "Mùa cuối cùng, Cole và Railly phải đối mặt với những thử thách lớn nhất trong cuộc hành trình của họ. Tương lai của thế giới phụ thuộc vào việc họ ngừng tổ chức Army of the Twelve Monkeys.",
+                    "genre": ["Khoa Học Viễn Tưởng", "Hành Động", "Kinh Dị"],
+                    "cast": ["Aaron Stanford", "Amanda Schull", "Kirk Acevedo"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "The End",
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Ouroboros",
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "45 RPM",
+                        "video": "https://example.com/video/episode3.m3u8"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "Legacy",
+                        "video": "https://example.com/video/episode4.m3u8"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "Endings",
+                        "video": "https://example.com/video/episode5.m3u8"
+                    },
+                    {
+                        "episode": 6,
+                        "name": "Metanoia",
+                        "video": "https://example.com/video/episode6.m3u8"
+                    },
+                    {
+                        "episode": 7,
+                        "name": "Diana Jones",
+                        "video": "https://example.com/video/episode7.m3u8"
+                    },
+                    {
+                        "episode": 8,
+                        "name": "The Red Forest",
+                        "video": "https://example.com/video/episode8.m3u8"
+                    },
+                    {
+                        "episode": 9,
+                        "name": "One Minute More",
+                        "video": "https://example.com/video/episode9.m3u8"
+                    },
+                    {
+                        "episode": 10,
+                        "name": "The Beginning",
+                        "video": "https://example.com/video/episode10.m3u8"
+                    },
+                    {
+                        "episode": 11,
+                        "name": "The Beginning",
+                        "video": "https://example.com/video/episode11.m3u8"
+                    },
+                    {
+                        "episode": 12,
+                        "name": "The Beginning",
+                        "video": "https://example.com/video/episode12.m3u8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ec806ff1-777e-48fd-a5e3-05994d1b9d6f",
+        "name": "Soi Sáng Cho Em (Thuyết Minh)",
+        "name:en": "A Date With The Future",
+        "category": "Phim nước ngoài (Thuyểt Minh)",
+        "info": {
+            "cast": [
+                "Trần Vỹ Đình",
+                "Chương Nhược Nam",
+                "La Thư Vận",
+                "Nhậm Hào"
+            ],
+            "country": ["Trung Quốc"],
+            "year": 2023,
+            "trailer": "HGH34ghgAU",
+            "added": "1686587382",
+            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+            "plot": "Trong một trận hỏa hoạn 10 năm trước, cô bé Từ Lai thoát chết nhờ một anh lính cứu hỏa. Lớn lên, trở thành phóng viên kiêm huấn luyện viên chó tài năng, Từ Lai vẫn không ngừng tìm kiếm ân nhân năm xưa. Khi phát hiện người đó chính là anh hùng cứu hỏa Cận Thời Xuyên, Từ Lai bèn lên kế hoạch để tiếp cận anh.",
+            "genre": [
+                "Phim-Trung-Quốc",
+                "phim-thuyet-minh",
+                "Lãng-mạn",
+                "Tâm-lý"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
                     "plot": "Trong một trận hỏa hoạn 10 năm trước, cô bé Từ Lai thoát chết nhờ một anh lính cứu hỏa. Lớn lên, trở thành phóng viên kiêm huấn luyện viên chó tài năng, Từ Lai vẫn không ngừng tìm kiếm ân nhân năm xưa. Khi phát hiện người đó chính là anh hùng cứu hỏa Cận Thời Xuyên, Từ Lai bèn lên kế hoạch để tiếp cận anh.",
-                    "genre": ["Phim-Trung-Quốc", "phim-thuyet-minh", "Lãng-mạn", "Tâm-lý"],
+                    "genre": [
+                        "Phim-Trung-Quốc",
+                        "phim-thuyet-minh",
+                        "Lãng-mạn",
+                        "Tâm-lý"
+                    ],
                     "cast": ["Trần Vỹ Đình", "Chương Nhược Nam"]
                 },
                 "episodes": [
@@ -32,8 +307,8 @@
                         "episode": 1,
                         "name": "Tập 1",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod07-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230606/adatewiththefuture-2023-cn-001-tm-1686031906/82cc20da58b08bbe33e63acab3c418cf.smil/chunklist_b4392000.m3u8"
                     },
@@ -41,8 +316,8 @@
                         "episode": 2,
                         "name": "Tập 2",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod06-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230606/adatewiththefuture-2023-cn-002-tm-1686031906/2016ef7b2d5c7641f550221492b85afd.smil/chunklist_b4392000.m3u8"
                     },
@@ -50,8 +325,8 @@
                         "episode": 3,
                         "name": "Tập 3",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod02-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-003-tm-1686126648/aeceecc1963e2fa2cbef949e5fea8cc2.smil/chunklist_b4392000.m3u8"
                     },
@@ -59,8 +334,8 @@
                         "episode": 4,
                         "name": "Tập 4",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod02-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-004-tm-1686126648/31fe926e7afeade7ac39549c0bb52d71.smil/chunklist_b4392000.m3u8"
                     },
@@ -68,8 +343,8 @@
                         "episode": 5,
                         "name": "Tập 5",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod03-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-005-tm-1686126648/40ac8c00d5d9b3d8e6e184d2f9ccbf42.smil/chunklist_b4392000.m3u8"
                     },
@@ -77,8 +352,8 @@
                         "episode": 6,
                         "name": "Tập 6",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod05-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-006-tm-1686126648/a977387c15563e4b1cfe3a7727c490d8.smil/chunklist_b4392000.m3u8"
                     },
@@ -86,8 +361,8 @@
                         "episode": 7,
                         "name": "Tập 7",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod04-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-007-tm-1686131420/58b6e7913ccb5932dcb48fe28848ea78.smil/chunklist_b4392000.m3u8"
                     },
@@ -95,8 +370,8 @@
                         "episode": 8,
                         "name": "Tập 8",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod02-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-008-tm-1686131420/6742ca7cf7657926ff9267e1dc54111c.smil/chunklist_b4392000.m3u8"
                     },
@@ -104,8 +379,8 @@
                         "episode": 9,
                         "name": "Tập 9",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod07-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-009-tm-1686131420/ac1da910233fb26cb576f8496094525a.smil/chunklist_b4392000.m3u8"
                     },
@@ -113,8 +388,8 @@
                         "episode": 10,
                         "name": "Tập 10",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod01-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230608/adatewiththefuture-2023-cn-010-tm-1686236248/d0ee580160d2de0e1f60bad13e8e2082.smil/chunklist_b4392000.m3u8"
                     },
@@ -122,8 +397,8 @@
                         "episode": 11,
                         "name": "Tập 11",
                         "info": {
-                            "poster": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg",
-                            "backdrop": "https://subnhanhtv.pro/wp-content/uploads/2023/06/Soi-Sang-Cho-Em-A-Date-With-the-Future-2023-poster.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/fab63984115e0adf4af9aeba8ed55572.jpg"
                         },
                         "video": "https://vod05-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230608/adatewiththefuture-2023-cn-011-tm-1686236248/0c1126c1f436ac831aa0dd76545aeda6.smil/chunklist_b4392000.m3u8"
                     }
@@ -132,27 +407,44 @@
         ]
     },
     {
+        "id": "2",
         "name": "Nghe Nói Em Thích Tôi (Thuyết Minh)",
         "name:en": "Love Heals",
-        "category": {
-            "name": "Phim nước ngoài (Thuyểt Minh)",
-            "icon": "https://hqth.me/VzqI"
-        },
+        "category": "Phim nước ngoài (Thuyểt Minh)",
         "info": {
             "added": "1686587382",
-            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
+            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
             "plot": "Sau bảy năm xa nhà, Nguyễn Lưu Tranh quay về quê và trở thành bác sĩ thực tập khoa Thần kinh của bệnh viện Bắc Nhã. Ở đây, cô gặp lại chồng cũ Ninh Chí Khiêm, một trong những bác sĩ giỏi nhất của bệnh viện. Anh chủ động làm cố vấn cho cô, xem như là bù đắp cho hôn nhân thất bại mà anh gây ra. Sau nhiều năm, hai người giờ đây đã trưởng thành hơn cùng với quá trình làm việc chung đã giúp những hiểu lầm, khúc mắc năm xưa được gỡ bỏ và cho nhau cơ hội bắt đầu một mối quan hệ mới.",
-            "genre": ["Phim-Trung-Quốc", "phim-thuyet-minh", "Tình-cảm", "Lãng-mạn"]
+            "genre": [
+                "Phim-Trung-Quốc",
+                "phim-thuyet-minh",
+                "Tình-cảm",
+                "Lãng-mạn"
+            ],
+            "cast": [
+                "Bành Quán Anh",
+                "Vương Sở Nhiên",
+                "Xuyết Ny",
+                "Lưu Nhuế Lân",
+                "Mao Lâm Lâm",
+                "Lý Tử Phong",
+                "Chu Tuấn Lân"
+            ]
         },
         "seasons": [
             {
                 "season": 1,
                 "info": {
-                    "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                    "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
+                    "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
                     "plot": "Sau bảy năm xa nhà, Nguyễn Lưu Tranh quay về quê và trở thành bác sĩ thực tập khoa Thần kinh của bệnh viện Bắc Nhã. Ở đây, cô gặp lại chồng cũ Ninh Chí Khiêm, một trong những bác sĩ giỏi nhất của bệnh viện. Anh chủ động làm cố vấn cho cô, xem như là bù đắp cho hôn nhân thất bại mà anh gây ra. Sau nhiều năm, hai người giờ đây đã trưởng thành hơn cùng với quá trình làm việc chung đã giúp những hiểu lầm, khúc mắc năm xưa được gỡ bỏ và cho nhau cơ hội bắt đầu một mối quan hệ mới.",
-                    "genre": ["Phim-Trung-Quốc", "phim-thuyet-minh", "Tình-cảm", "Lãng-mạn"],
+                    "genre": [
+                        "Phim-Trung-Quốc",
+                        "phim-thuyet-minh",
+                        "Tình-cảm",
+                        "Lãng-mạn"
+                    ],
                     "cast": ["Bành Quán Anh", "Vương Sở Nhiên", "Lưu Nhuế Lân"]
                 },
                 "episodes": [
@@ -160,8 +452,8 @@
                         "episode": 1,
                         "name": "Tập 1",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod02-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230211/tm-loveheals-2023-cn-001-logo/6c5f12a2fe00e298b1e288b6c768400f.smil/chunklist_b4392000.m3u8"
                     },
@@ -169,8 +461,8 @@
                         "episode": 2,
                         "name": "Tập 2",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod06-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230211/tm-loveheals-2023-cn-002-logo/f997679aeb4980f48dc0f4b718793478.smil/chunklist_b4392000.m3u8"
                     },
@@ -178,8 +470,8 @@
                         "episode": 3,
                         "name": "Tập 3",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod06-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230211/tm-loveheals-2023-cn-003-logo/3d90a601e64d94cc9efbe6ea41231b14.smil/chunklist_b4392000.m3u8"
                     },
@@ -187,8 +479,8 @@
                         "episode": 4,
                         "name": "Tập 4",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod04-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230211/tm-loveheals-2023-cn-004-logo/eac61e08e68a812b645e4bac6b626237.smil/chunklist_b4392000.m3u8"
                     },
@@ -196,8 +488,8 @@
                         "episode": 5,
                         "name": "Tập 5",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod07-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230214/tm-loveheals-2023-cn-005-logo/aa4e74e59fc34df1f6fc82e9c4742573.smil/chunklist_b4392000.m3u8"
                     },
@@ -205,8 +497,8 @@
                         "episode": 6,
                         "name": "Tập 6",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod05-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-006-tm-1686126648/a977387c15563e4b1cfe3a7727c490d8.smil/chunklist_b4392000.m3u8"
                     },
@@ -214,8 +506,8 @@
                         "episode": 7,
                         "name": "Tập 7",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod04-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-007-tm-1686131420/58b6e7913ccb5932dcb48fe28848ea78.smil/chunklist_b4392000.m3u8"
                     },
@@ -223,8 +515,8 @@
                         "episode": 8,
                         "name": "Tập 8",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod02-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-008-tm-1686131420/6742ca7cf7657926ff9267e1dc54111c.smil/chunklist_b4392000.m3u8"
                     },
@@ -232,8 +524,8 @@
                         "episode": 9,
                         "name": "Tập 9",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod07-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230607/adatewiththefuture-2023-cn-009-tm-1686131420/ac1da910233fb26cb576f8496094525a.smil/chunklist_b4392000.m3u8"
                     },
@@ -241,8 +533,8 @@
                         "episode": 10,
                         "name": "Tập 10",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod01-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230608/adatewiththefuture-2023-cn-010-tm-1686236248/d0ee580160d2de0e1f60bad13e8e2082.smil/chunklist_b4392000.m3u8"
                     },
@@ -250,8 +542,8 @@
                         "episode": 11,
                         "name": "Tập 11",
                         "info": {
-                            "poster": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg",
-                            "backdrop": "https://i.ex-cdn.com/giadinhmoi.vn/files/content/2023/02/10/nghe-noi-em-thich-toi-01-1133.jpg"
+                            "poster": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/61483cb6b438b5293b216f465c8bfc72.jpg"
                         },
                         "video": "https://vod05-cdn.fptplay.net/ovod/_definst_/smil:mp4/encoded/20230608/adatewiththefuture-2023-cn-011-tm-1686236248/0c1126c1f436ac831aa0dd76545aeda6.smil/chunklist_b4392000.m3u8"
                     }
@@ -260,17 +552,616 @@
         ]
     },
     {
-        "name": "Bằng Chứng Thép",
-        "category": {
-            "icon": "https://hqth.me/VzqI",
-            "name": "Phim nước ngoài (Lồng Tiếng)"
-        },
+        "id": "a1234567-b89c-4d01-a2f3-567890123456",
+        "name": "Cõng Anh Mà Chạy",
+        "name:en": "Lovely Runner",
+        "category": "Phim Hàn Quốc (Thuyết Minh)",
         "info": {
+            "cast": ["Kim Hye Yoon", "Byeon Woo Seok"],
+            "country": ["Hàn Quốc"],
+            "year": 2024,
+            "trailer": "msAz-6kIl9g",
+            "added": "1677123456",
+            "poster": "https://static.nutscdn.com/vimg/300-0/5f34b6197b49ec81bf39e643683a9531.jpg",
+            "backdrop": "https://example.com/backdrop.jpg",
+            "plot": "Im Sol, một người hâm mộ cuồng nhiệt của nhóm nhạc Eclipse, bị sốc khi biết thần tượng Ryu Sun Jae qua đời. Sau một tai nạn, cô du hành về quá khứ 15 năm trước và gặp lại Sun Jae khi anh còn là học sinh trung học. Im Sol quyết tâm thay đổi tương lai để cứu anh khỏi cái chết bi thảm.",
+            "genre": [
+                "Phim-Hàn-Quốc",
+                "phim-thuyet-minh",
+                "Giả-thưởng",
+                "Lãng-mạn"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://example.com/season1-poster.jpg",
+                    "backdrop": "https://example.com/season1-backdrop.jpg",
+                    "plot": "Im Sol, một người hâm mộ cuồng nhiệt của nhóm nhạc Eclipse, bị sốc khi biết thần tượng Ryu Sun Jae qua đời. Sau một tai nạn, cô du hành về quá khứ 15 năm trước và gặp lại Sun Jae khi anh còn là học sinh trung học. Im Sol quyết tâm thay đổi tương lai để cứu anh khỏi cái chết bi thảm.",
+                    "genre": [
+                        "Phim-Hàn-Quốc",
+                        "phim-thuyet-minh",
+                        "Giả-thưởng",
+                        "Lãng-mạn"
+                    ],
+                    "cast": ["Kim Hye Yoon", "Byeon Woo Seok"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1",
+                        "info": {
+                            "poster": "https://example.com/episode1-poster.jpg",
+                            "backdrop": "https://example.com/episode1-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Tập 2",
+                        "info": {
+                            "poster": "https://example.com/episode2-poster.jpg",
+                            "backdrop": "https://example.com/episode2-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "Tập 3",
+                        "info": {
+                            "poster": "https://example.com/episode3-poster.jpg",
+                            "backdrop": "https://example.com/episode3-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode3.m3u8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b2345678-c90d-4e01-b2f4-678901234567",
+        "name": "Con Trai Bạn Mẹ",
+        "name:en": "Love Next Door",
+        "category": "Phim Hàn Quốc (Thuyết Minh)",
+        "info": {
+            "cast": ["Jung Hae In", "Jung So Min"],
+            "country": ["Hàn Quốc"],
+            "year": 2024,
+            "trailer": "dFgH6Kjl-80",
+            "added": "1678123456",
+            "poster": "https://static.nutscdn.com/vimg/300-0/0872534eff2235c676274fa649df7f4f.jpg",
+            "backdrop": "https://example.com/backdrop.jpg",
+            "plot": "Bae Seok Ryu (Jung So Min) đang thành công tại Mỹ, đột ngột trở về Hàn Quốc sau khi nghỉ việc và hủy hôn. Tại quê nhà, cô gặp lại Choi Seung Hyo (Jung Hae In), người bạn thanh mai trúc mã, và từ đó, những tình huống hài hước, lãng mạn bắt đầu diễn ra giữa hai người.",
+            "genre": [
+                "Phim-Hàn-Quốc",
+                "phim-thuyet-minh",
+                "Hài-hước",
+                "Lãng-mạn"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://example.com/season1-poster.jpg",
+                    "backdrop": "https://example.com/season1-backdrop.jpg",
+                    "plot": "Bae Seok Ryu trở về Hàn Quốc sau nhiều năm xa cách và gặp lại người bạn thời thơ ấu Choi Seung Hyo. Cả hai bắt đầu khám phá lại mối quan hệ của mình, đối mặt với những thử thách và cảm xúc mới.",
+                    "genre": [
+                        "Phim-Hàn-Quốc",
+                        "phim-thuyet-minh",
+                        "Hài-hước",
+                        "Lãng-mạn"
+                    ],
+                    "cast": ["Jung Hae In", "Jung So Min"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1",
+                        "info": {
+                            "poster": "https://example.com/episode1-poster.jpg",
+                            "backdrop": "https://example.com/episode1-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Tập 2",
+                        "info": {
+                            "poster": "https://example.com/episode2-poster.jpg",
+                            "backdrop": "https://example.com/episode2-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "Tập 3",
+                        "info": {
+                            "poster": "https://example.com/episode3-poster.jpg",
+                            "backdrop": "https://example.com/episode3-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode3.m3u8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c3456789-d01a-4f56-a2d5-789012345678",
+        "name": "Khi Điện Thoại Đổ Chuông",
+        "name:en": "When the Phone Rings",
+        "category": "Phim Hàn Quốc (Thuyết Minh)",
+        "info": {
+            "cast": ["Chae Soo Bin", "Yoo Yeon Seok"],
+            "country": ["Hàn Quốc"],
+            "year": 2024,
+            "trailer": "aIXjdJ9sE50",
+            "added": "1679123456",
+            "poster": "https://static.nutscdn.com/vimg/300-0/001d9638f1bba7a8d2f6990b75523d64.jpg",
+            "backdrop": "https://example.com/backdrop.jpg",
+            "plot": "Bộ phim xoay quanh Hong Hee Joo (Chae Soo Bin), con gái của chủ tờ nhật báo nổi tiếng, bị gia đình ép kết hôn với Baek Sa Eon (Yoo Yeon Seok). Cuộc hôn nhân lạnh nhạt suốt ba năm của họ thay đổi sau khi Baek Sa Eon nhận được cuộc gọi đe dọa từ kẻ bắt cóc Hee Joo.",
+            "genre": [
+                "Phim-Hàn-Quốc",
+                "phim-thuyet-minh",
+                "Kinh-Dị",
+                "Lãng-mạn"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://example.com/season1-poster.jpg",
+                    "backdrop": "https://example.com/season1-backdrop.jpg",
+                    "plot": "Bộ phim kể về cuộc sống của Hong Hee Joo, người bị kẹt trong cuộc hôn nhân không tình yêu, và mối liên kết kỳ lạ với Baek Sa Eon sau khi nhận được một cuộc gọi đe dọa. Cuộc sống của họ thay đổi khi họ bị cuốn vào một cuộc điều tra nguy hiểm.",
+                    "genre": [
+                        "Phim-Hàn-Quốc",
+                        "phim-thuyet-minh",
+                        "Kinh-Dị",
+                        "Lãng-mạn"
+                    ],
+                    "cast": ["Chae Soo Bin", "Yoo Yeon Seok"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1",
+                        "info": {
+                            "poster": "https://example.com/episode1-poster.jpg",
+                            "backdrop": "https://example.com/episode1-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Tập 2",
+                        "info": {
+                            "poster": "https://example.com/episode2-poster.jpg",
+                            "backdrop": "https://example.com/episode2-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "Tập 3",
+                        "info": {
+                            "poster": "https://example.com/episode3-poster.jpg",
+                            "backdrop": "https://example.com/episode3-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode3.m3u8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b1234567-e89b-4b56-a2d5-789012345678",
+        "name": "Phải Chăng Là Định Mệnh",
+        "name:vi": "Phải Chăng Là Định Mệnh",
+        "name:en": "Serendipity's Embrace",
+        "category": "Phim Hàn Quốc (Thuyết Minh)",
+        "info": {
+            "cast": [
+                "Kim So-hyun",
+                "Chae Jong-hyeop",
+                "Yun Ji-on",
+                "Kim Da-som"
+            ],
+            "country": ["Hàn Quốc"],
+            "year": 2024,
+            "trailer": "turn0search1",
+            "added": "1679123456",
+            "poster": "https://static.nutscdn.com/vimg/300-0/7f870482472a62f2af1651fae9c318d5.jpg",
+            "backdrop": "https://example.com/backdrop.jpg",
+            "plot": "Lee Hong-ju là một biên tập viên truyền hình với 10 năm kinh nghiệm, sống độc lập và hài lòng với công việc hiện tại. Một ngày, cô tình cờ gặp lại Kang Hu-yeong, mối tình đầu của bạn thân, và nhận ra anh chính là người bạn từng quen biết. Cuộc gặp gỡ này khơi dậy những cảm xúc xưa cũ và đưa họ vào một hành trình mới đầy cảm xúc.",
+            "genre": [
+                "Phim-Hàn-Quốc",
+                "phim-thuyet-minh",
+                "Lãng-mạn",
+                "Thanh-xuân"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://example.com/season1-poster.jpg",
+                    "backdrop": "https://example.com/season1-backdrop.jpg",
+                    "plot": "Bộ phim kể về Lee Hong-ju, một biên tập viên truyền hình, và Kang Hu-yeong, mối tình đầu của cô, gặp lại nhau sau 10 năm. Cuộc gặp gỡ này khơi dậy những ký ức xưa và đưa họ vào một hành trình tình cảm đầy bất ngờ.",
+                    "genre": [
+                        "Phim-Hàn-Quốc",
+                        "phim-thuyet-minh",
+                        "Lãng-mạn",
+                        "Thanh-xuân"
+                    ],
+                    "cast": ["Kim So-hyun", "Chae Jong-hyeop"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1",
+                        "info": {
+                            "poster": "https://example.com/episode1-poster.jpg",
+                            "backdrop": "https://example.com/episode1-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode1.m3u8"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Tập 2",
+                        "info": {
+                            "poster": "https://example.com/episode2-poster.jpg",
+                            "backdrop": "https://example.com/episode2-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode2.m3u8"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "Tập 3",
+                        "info": {
+                            "poster": "https://example.com/episode3-poster.jpg",
+                            "backdrop": "https://example.com/episode3-backdrop.jpg"
+                        },
+                        "video": "https://example.com/video/episode3.m3u8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b1234567-e89b-4b56-a2d5-789012345675",
+        "name": "Trò Chơi Con Mực",
+        "name:vi": "Trò Chơi Con Mực",
+        "name:en": "Squid Game",
+        "category": "Phim Hàn Quốc (Thuyết Minh)",
+        "info": {
+            "cast": [
+                "Lee Jung-jae",
+                "Park Hae-soo",
+                "Wi Ha-joon",
+                "Jung Ho-yeon",
+                "O Yeong-su",
+                "Heo Sung-tae",
+                "Anupam Tripathi",
+                "Kim Joo-ryoung"
+            ],
+            "country": ["Hàn Quốc"],
+            "year": 2021,
+            "trailer": "https://www.youtube.com/watch?v=oqhOCy9yQm4",
+            "added": "1631822000",
+            "poster": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+            "backdrop": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+            "plot": "Phim kể về một nhóm 456 người tham gia vào một loạt trò chơi sinh tồn với phần thưởng lên đến 45,6 tỷ Won. Tuy nhiên, họ sớm nhận ra rằng thất bại trong các trò chơi đồng nghĩa với cái chết. Câu chuyện xoay quanh cuộc đấu tranh sinh tồn và những bí ẩn đằng sau tổ chức các trò chơi này.",
+            "genre": [
+                "Phim-Hàn-Quốc",
+                "phim-thuyet-minh",
+                "Hành-động",
+                "Tâm-lý"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+                    "plot": "Bộ phim kể về một nhóm 456 người tham gia vào một loạt trò chơi sinh tồn với phần thưởng lên đến 45,6 tỷ Won. Họ phải đối mặt với những trò chơi sinh tử, nơi thất bại đồng nghĩa với cái chết.",
+                    "genre": [
+                        "Phim-Hàn-Quốc",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tâm-lý"
+                    ],
+                    "cast": [
+                        "Lee Jung-jae",
+                        "Park Hae-soo",
+                        "Wi Ha-joon",
+                        "Jung Ho-yeon"
+                    ]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Một Lựa Chọn Khó Khăn",
+                        "info": {
+                            "poster": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_1.jpg",
+                            "backdrop": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_1.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=oqhOCy9yQm4"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Tập 2: Đấu Trí",
+                        "info": {
+                            "poster": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_2.jpg",
+                            "backdrop": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_2.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=2hFGYrYHHJw"
+                    },
+                    {
+                        "episode": 3,
+                        "name": "Tập 3: Trò Chơi Sinh Tồn",
+                        "info": {
+                            "poster": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_3.jpg",
+                            "backdrop": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_3.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=3hFGYrYHHJw"
+                    },
+                    {
+                        "episode": 4,
+                        "name": "Tập 4: Sự Chọn Lọc",
+                        "info": {
+                            "poster": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_4.jpg",
+                            "backdrop": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_4.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=4hFGYrYHHJw"
+                    },
+                    {
+                        "episode": 5,
+                        "name": "Tập 5: Con Đường Sống Còn",
+                        "info": {
+                            "poster": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_5.jpg",
+                            "backdrop": "https://upload.wikimedia.org/wikipedia/commons/0/04/Squid_Game_Season_1_Poster_5.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=5hFGYrYHHJw"
+                    }
+                ]
+            },
+            {
+                "season": 2,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+                    "plot": "Phần 2 tiếp tục câu chuyện, mở rộng vũ trụ của Squid Game với những trò chơi mới và những nhân vật mới. Các câu chuyện vẫn xoay quanh cuộc đấu tranh sinh tồn và những bí ẩn đằng sau các trò chơi.",
+                    "genre": [
+                        "Phim-Hàn-Quốc",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tâm-lý"
+                    ],
+                    "cast": [
+                        "Lee Jung-jae",
+                        "Park Hae-soo",
+                        "Wi Ha-joon",
+                        "Jung Ho-yeon"
+                    ]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Trở Lại",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/300-0/64c01776ad526d9b0f596e39ff0889c5.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=example2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b3cd92e0-3e6d-4d3b-a1fd-d47bb2b358f3",
+        "name": "Phi Vụ Triệu Đô",
+        "name:vi": "Phi Vụ Triệu Đô",
+        "name:en": "Money Heist",
+        "category": "Phim Tây Ban Nha (Thuyết Minh)",
+        "info": {
+            "cast": [
+                "Álvaro Morte",
+                "Úrsula Corberó",
+                "Itziar Ituño",
+                "Pedro Alonso",
+                "Miguel Herrán",
+                "Jaime Lorente",
+                "Esther Acebo",
+                "Darko Peric"
+            ],
+            "country": ["Tây Ban Nha"],
+            "year": 2017,
+            "trailer": "https://www.youtube.com/watch?v=oqhOCy9yQm4",
+            "added": "1609459200",
+            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg",
+            "plot": "Bộ phim kể về một nhóm tội phạm được lãnh đạo bởi Giáo Sư, thực hiện hai vụ cướp lớn: cướp Xưởng in tiền Hoàng gia Tây Ban Nha và cướp Ngân hàng Tây Ban Nha. Phim thu hút người xem nhờ vào sự thông minh trong kế hoạch cướp và các tình tiết bất ngờ.",
+            "genre": [
+                "Phim-Tây-Ban-Nha",
+                "phim-thuyet-minh",
+                "Hành-động",
+                "Tội-phạm",
+                "Kịch-tính"
+            ]
+        },
+        "seasons": [
+            {
+                "season": 1,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg",
+                    "plot": "Nhóm tội phạm do Giáo Sư dẫn đầu thực hiện kế hoạch cướp tại Xưởng in tiền Hoàng gia Tây Ban Nha, nơi họ bắt giữ các con tin để thực hiện vụ cướp lớn nhất trong lịch sử.",
+                    "genre": [
+                        "Phim-Tây-Ban-Nha",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tội-phạm"
+                    ],
+                    "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Kế Hoạch Hoàn Hảo",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=oqhOCy9yQm4"
+                    },
+                    {
+                        "episode": 2,
+                        "name": "Tập 2: Những Bí Mật Của Giáo Sư",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=5W6Xg5XJt5o"
+                    }
+                ]
+            },
+            {
+                "season": 2,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg",
+                    "plot": "Phần 2 tiếp tục câu chuyện về nhóm tội phạm và kế hoạch của họ nhằm cướp ngân hàng, đối mặt với sự can thiệp của cảnh sát và những bí mật trong nội bộ nhóm.",
+                    "genre": [
+                        "Phim-Tây-Ban-Nha",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tội-phạm"
+                    ],
+                    "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Kế Hoạch Lại Bắt Đầu",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=dLtf8zA8Zg8"
+                    }
+                ]
+            },
+            {
+                "season": 3,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg",
+                    "plot": "Trong phần 3, nhóm tội phạm tiếp tục đối mặt với những thử thách mới khi họ chuẩn bị cho một vụ cướp ngân hàng lớn khác. Căng thẳng gia tăng khi một thành viên bị bắt giữ.",
+                    "genre": [
+                        "Phim-Tây-Ban-Nha",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tội-phạm"
+                    ],
+                    "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Vụ Cướp Ngân Hàng Mới",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=dLtf8zA8Zg8"
+                    }
+                ]
+            },
+            {
+                "season": 4,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg",
+                    "plot": "Phần 4 mở rộng câu chuyện khi các thành viên của nhóm phải đối mặt với nhiều thử thách lớn hơn. Những mâu thuẫn nội bộ và sự phản bội xuất hiện khiến tình hình càng trở nên căng thẳng.",
+                    "genre": [
+                        "Phim-Tây-Ban-Nha",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tội-phạm"
+                    ],
+                    "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Chuyến Phiêu Lưu Mới",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=dLtf8zA8Zg8"
+                    }
+                ]
+            },
+            {
+                "season": 5,
+                "info": {
+                    "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                    "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg",
+                    "plot": "Phần 5 đánh dấu một kết thúc đầy kịch tính khi nhóm tội phạm thực hiện những kế hoạch cuối cùng để thoát khỏi sự truy đuổi của cảnh sát và đạt được mục tiêu của mình.",
+                    "genre": [
+                        "Phim-Tây-Ban-Nha",
+                        "phim-thuyet-minh",
+                        "Hành-động",
+                        "Tội-phạm"
+                    ],
+                    "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño"]
+                },
+                "episodes": [
+                    {
+                        "episode": 1,
+                        "name": "Tập 1: Cuộc Đua Cuối Cùng",
+                        "info": {
+                            "poster": "https://static.nutscdn.com/vimg/300-0/0aa0903f4eab18eb9c491b1e734effbf.jpg",
+                            "backdrop": "https://static.nutscdn.com/vimg/1920-0/a16e2fd06795d60a9efe6ead2a5ec77a.jpg"
+                        },
+                        "video": "https://www.youtube.com/watch?v=dLtf8zA8Zg8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Bằng Chứng Thép",
+        "category": "Phim nước ngoài (Lồng Tiếng)",
+        "info": {
+            "cast": [
+                "Huỳnh Tông Trạch",
+                "Viên Vỹ Hào",
+                "Thái Tư Bối",
+                "Hồng Vĩnh Thành",
+                "Thái Khiết",
+                "Vương Mẫn Dịch",
+                "Đinh Tử Lãng",
+                "Trịnh Tuấn Hoằng",
+                "Tạ Đông Mẫn",
+                "Trương Quốc Cường"
+            ],
             "added": "1686587382",
             "country": ["Hồng Kông"],
-            "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+            "genre": [
+                "Phim-Hồng-Kông",
+                "phim-lồng-tiếng",
+                "hình-sự",
+                "truyền-hình"
+            ],
             "plot": "Bằng chứng thép (tựa gốc: Pháp Chứng Tiên Phong, tên tiếng Trung: 法證先鋒, tên tiếng Anh: Forensic Heroes) là một bộ phim truyền hình được phát sóng năm 2006 và là phần đầu tiên trong loạt phim Bằng chứng thép. Phần tiếp theo của bộ phim là Bằng chứng thép II được sản xuất và chiếu năm 2008 với dàn diễn viên cũ, thêm 2 diễn viên mới là Xa Thi Mạn và Trịnh Gia Dĩnh.",
-            "poster": "https://phimyeuthich.com/uploads/movie/Forensic%20Heroes%20s05%2020221008.jpg",
+            "poster": "https://static2.vieon.vn/vieplay-image/poster_v4/2023/10/19/k32yn5u4_660x946-bangchungthepv.png",
             "trailer": "HGH34ghgAU",
             "year": 2006
         },
@@ -278,8 +1169,24 @@
             {
                 "season": 1,
                 "info": {
-                    "cast": ["Huỳnh Tông Trạch", "Viên Vỹ Hào", "Thái Tư Bối", "Hồng Vĩnh Thành", "Thái Khiết", "Vương Mẫn Dịch", "Đinh Tử Lãng", "Trịnh Tuấn Hoằng", "Tạ Đông Mẫn", "Trương Quốc Cường"],
-                    "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+                    "cast": [
+                        "Huỳnh Tông Trạch",
+                        "Viên Vỹ Hào",
+                        "Thái Tư Bối",
+                        "Hồng Vĩnh Thành",
+                        "Thái Khiết",
+                        "Vương Mẫn Dịch",
+                        "Đinh Tử Lãng",
+                        "Trịnh Tuấn Hoằng",
+                        "Tạ Đông Mẫn",
+                        "Trương Quốc Cường"
+                    ],
+                    "genre": [
+                        "Phim-Hồng-Kông",
+                        "phim-lồng-tiếng",
+                        "hình-sự",
+                        "truyền-hình"
+                    ],
                     "plot": "Bằng Chứng Thép 1 - Forensic Heroes 1 kể về Cao Ngạn Bác là một nhân viên pháp chứng có tài quan sát hơn người và một đầu óc sáng suốt. Anh phụ trách khâu hóa nghiệm ở Bộ Sự vụ Pháp chứng. Công việc của anh là đến hiện trường vụ án, thu thập bằng chứng, hóa nghiệm vật chứng, hỗ trợ cảnh sát phá án. Thế nhưng anh không ngờ Trạch Thâm (bác sĩ pháp y và cũng là em vợ) và Tiểu Nhu (thanh tra cao cấp) lại nghi ngờ anh hạ độc hại chết vợ mình, bằng kinh nghiệm và trí uyên bác anh đã tự chứng minh rằng mình vô tội. Bác, Thâm, Nhu lại bắt tay hợp tác như xưa, những vụ án giết người lần lượt được phá. Đồng thời những điều bí ẩn lại xuất hiện nhưng tất cả đều nhắm vào Bác, giống như muốn đón anh vào đường chết...",
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-1.jpg"
                 },
@@ -464,8 +1371,24 @@
             {
                 "season": 2,
                 "info": {
-                    "cast": ["Huỳnh Tông Trạch", "Viên Vỹ Hào", "Thái Tư Bối", "Hồng Vĩnh Thành", "Thái Khiết", "Vương Mẫn Dịch", "Đinh Tử Lãng", "Trịnh Tuấn Hoằng", "Tạ Đông Mẫn", "Trương Quốc Cường"],
-                    "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+                    "cast": [
+                        "Huỳnh Tông Trạch",
+                        "Viên Vỹ Hào",
+                        "Thái Tư Bối",
+                        "Hồng Vĩnh Thành",
+                        "Thái Khiết",
+                        "Vương Mẫn Dịch",
+                        "Đinh Tử Lãng",
+                        "Trịnh Tuấn Hoằng",
+                        "Tạ Đông Mẫn",
+                        "Trương Quốc Cường"
+                    ],
+                    "genre": [
+                        "Phim-Hồng-Kông",
+                        "phim-lồng-tiếng",
+                        "hình-sự",
+                        "truyền-hình"
+                    ],
                     "plot": "Ngay khi khởi động, Bằng chứng thép 5 gây chú ý khi đánh dấu sự trở lại của Huỳnh Tông Trạch sau 4 năm vắng bóng trên màn ảnh TVB. Anh vào vai chuyên gia pháp chứng Từ Tinh Bách. Trang Sohu đánh giá tài tử có phần mở màn ấn tượng nhờ ngoại hình cuốn hút tuổi 41. Anh khiến khán giả thót tim trong khoảnh khắc bị một con bạch tuộc quấn lấy người ở phân cảnh lặn xuống biển để tìm chứng cứ phá án.",
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-2.jpg"
                 },
@@ -685,8 +1608,24 @@
             {
                 "season": 3,
                 "info": {
-                    "cast": ["Huỳnh Tông Trạch", "Viên Vỹ Hào", "Thái Tư Bối", "Hồng Vĩnh Thành", "Thái Khiết", "Vương Mẫn Dịch", "Đinh Tử Lãng", "Trịnh Tuấn Hoằng", "Tạ Đông Mẫn", "Trương Quốc Cường"],
-                    "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+                    "cast": [
+                        "Huỳnh Tông Trạch",
+                        "Viên Vỹ Hào",
+                        "Thái Tư Bối",
+                        "Hồng Vĩnh Thành",
+                        "Thái Khiết",
+                        "Vương Mẫn Dịch",
+                        "Đinh Tử Lãng",
+                        "Trịnh Tuấn Hoằng",
+                        "Tạ Đông Mẫn",
+                        "Trương Quốc Cường"
+                    ],
+                    "genre": [
+                        "Phim-Hồng-Kông",
+                        "phim-lồng-tiếng",
+                        "hình-sự",
+                        "truyền-hình"
+                    ],
                     "plot": "Ngay khi khởi động, Bằng chứng thép 5 gây chú ý khi đánh dấu sự trở lại của Huỳnh Tông Trạch sau 4 năm vắng bóng trên màn ảnh TVB. Anh vào vai chuyên gia pháp chứng Từ Tinh Bách. Trang Sohu đánh giá tài tử có phần mở màn ấn tượng nhờ ngoại hình cuốn hút tuổi 41. Anh khiến khán giả thót tim trong khoảnh khắc bị một con bạch tuộc quấn lấy người ở phân cảnh lặn xuống biển để tìm chứng cứ phá án.",
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-3.jpg"
                 },
@@ -906,8 +1845,24 @@
             {
                 "season": 4,
                 "info": {
-                    "cast": ["Huỳnh Tông Trạch", "Viên Vỹ Hào", "Thái Tư Bối", "Hồng Vĩnh Thành", "Thái Khiết", "Vương Mẫn Dịch", "Đinh Tử Lãng", "Trịnh Tuấn Hoằng", "Tạ Đông Mẫn", "Trương Quốc Cường"],
-                    "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+                    "cast": [
+                        "Huỳnh Tông Trạch",
+                        "Viên Vỹ Hào",
+                        "Thái Tư Bối",
+                        "Hồng Vĩnh Thành",
+                        "Thái Khiết",
+                        "Vương Mẫn Dịch",
+                        "Đinh Tử Lãng",
+                        "Trịnh Tuấn Hoằng",
+                        "Tạ Đông Mẫn",
+                        "Trương Quốc Cường"
+                    ],
+                    "genre": [
+                        "Phim-Hồng-Kông",
+                        "phim-lồng-tiếng",
+                        "hình-sự",
+                        "truyền-hình"
+                    ],
                     "plot": "Ngay khi khởi động, Bằng chứng thép 5 gây chú ý khi đánh dấu sự trở lại của Huỳnh Tông Trạch sau 4 năm vắng bóng trên màn ảnh TVB. Anh vào vai chuyên gia pháp chứng Từ Tinh Bách. Trang Sohu đánh giá tài tử có phần mở màn ấn tượng nhờ ngoại hình cuốn hút tuổi 41. Anh khiến khán giả thót tim trong khoảnh khắc bị một con bạch tuộc quấn lấy người ở phân cảnh lặn xuống biển để tìm chứng cứ phá án.",
                     "poster": "https://tchiphuong.github.io/iptv/images/poster/forensic-heroes-4.jpg"
                 },
@@ -1128,8 +2083,24 @@
                 "season": 5,
                 "info": {
                     "backdrop": "https://phimyeuthich.com/uploads/movie/Forensic%20Heroes%20s05%2020221008.jpg",
-                    "cast": ["Huỳnh Tông Trạch", "Viên Vỹ Hào", "Thái Tư Bối", "Hồng Vĩnh Thành", "Thái Khiết", "Vương Mẫn Dịch", "Đinh Tử Lãng", "Trịnh Tuấn Hoằng", "Tạ Đông Mẫn", "Trương Quốc Cường"],
-                    "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+                    "cast": [
+                        "Huỳnh Tông Trạch",
+                        "Viên Vỹ Hào",
+                        "Thái Tư Bối",
+                        "Hồng Vĩnh Thành",
+                        "Thái Khiết",
+                        "Vương Mẫn Dịch",
+                        "Đinh Tử Lãng",
+                        "Trịnh Tuấn Hoằng",
+                        "Tạ Đông Mẫn",
+                        "Trương Quốc Cường"
+                    ],
+                    "genre": [
+                        "Phim-Hồng-Kông",
+                        "phim-lồng-tiếng",
+                        "hình-sự",
+                        "truyền-hình"
+                    ],
                     "plot": "Ngay khi khởi động, Bằng chứng thép 5 gây chú ý khi đánh dấu sự trở lại của Huỳnh Tông Trạch sau 4 năm vắng bóng trên màn ảnh TVB. Anh vào vai chuyên gia pháp chứng Từ Tinh Bách. Trang Sohu đánh giá tài tử có phần mở màn ấn tượng nhờ ngoại hình cuốn hút tuổi 41. Anh khiến khán giả thót tim trong khoảnh khắc bị một con bạch tuộc quấn lấy người ở phân cảnh lặn xuống biển để tìm chứng cứ phá án.",
                     "poster": "https://phimyeuthich.com/uploads/movie/Forensic%20Heroes%20s05%2020221008.jpg"
                 },

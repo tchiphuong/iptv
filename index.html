@@ -290,6 +290,11 @@
                     "canceled": {
                         "class": "from-gray-600 to-gray-400 before:border-t-gray-300 text-white",
                         "text": "Hủy bỏ"
+                    },
+                    "live":
+                    {
+                        "class": "text-white from-red-600 to-red-400 before:border-t-red-600",
+                        "text": "Trực tiếp"
                     }
                 },
                 selectedTournament: null,
@@ -496,7 +501,7 @@
                         status.text = this.matchStatusLabels[match.match_status].text;
                         status.class = this.matchStatusLabels[match.match_status].class;
                     }
-                    else if (match.is_live && match.match_status === 'live') {
+                    else if (match.is_live || match.match_status === 'live') {
                         status.class = "text-white from-red-600 to-red-400 before:border-t-red-600";
                         status.text = 'Trực tiếp';
                     }

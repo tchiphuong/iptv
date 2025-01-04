@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi" ng-app="hlsApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lấy HLS M3U</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body ng-controller="HLSController" class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
+    <h1 class="text-5xl font-bold mb-4 text-blue-700 text-center">Danh sách Kênh VOD</h1>
+    <div id="currentChannel" class="text-xl font-semibold text-gray-900 mb-2"></div>
+    <div class="flex flex-col md:flex-row w-full h-[calc(100vh-200px)] mx-auto space-y-4 md:space-y-0 md:space-x-4">
+        <div id="channelList" class="overflow-y-auto flex-1 border border-gray-300 rounded-lg p-4 bg-white shadow-lg">
+            <div ng-repeat="channel in channels" class="flex items-center bg-gray-200 rounded-lg p-4 mb-2 cursor-pointer transition-transform transform hover:scale-105 hover:bg-gray-300" ng-click="loadVideo(channel.url)">
+                <img ng-src="{{channel.logo}}" alt="{{channel.name}}" class="w-16 h-16 mr-4 rounded-full object-contain border-2 border-blue-600" ng-error="https://ui-avatars.com/api/?format=svg&rounded=true&name={{channel.name}}">
+                <div class="flex-1">
+                    <h2 class="text-lg font-semibold text-gray-900">{{channel.name}}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1">
+            <video id="videoPlayer" class="w-full h-[calc(100vh-200px)] rounded-lg shadow-lg border border-gray-300" controls></video>
+        </div>
+    </div>
+    <button id="showOutput" class="mt-4 bg-blue-700 text-white rounded-lg p-3 hover:bg-blue-800 transition" ng-click="showOutput()">Hiện danh sách HLS</button>
+
+    <!-- Popup cho textarea -->
+    <div id="outputPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" ng-show="popupVisible">
+        <div class="bg-white rounded-lg p-6 w-11/12 max-w-2xl shadow-lg">
+            <h2 class="text-xl font-bold mb-2">Danh sách HLS</h2>
+            <textarea id="hlsOutput" rows="20" cols="100" readonly class="border border-gray-300 rounded-lg p-2 w-full">{{hlsOutput}}</textarea>
+            <button id="copyButton" class="mt-2 bg-green-500 text-white rounded-lg p-2 hover:bg-green-600 transition" ng-click="copyToClipboard()">Sao chép</button>
+            <button id="closePopup" class="mt-2 bg-red-500 text-white rounded-lg p-2 hover:bg-red-600 transition" ng-click="closePopup()">Đóng</button>
+        </div>
+    </div>
+
+    <script>
+        angular.module('hlsApp', [])
+            .controller('HLSController', ['$scope', '$http', function ($scope, $http) {
+                $scope.channels = [];
+                $scope.hlsOutput = '';
+                $scope.popupVisible = false;
+
+                $scope.fetchHLS = function () {
+                    $http.get('https://api.npoint.io/39fe20f4c3372eb4a5b6').then(function (response) {
+                        const data = response.data;
+                        const m3uContent = [];
+
+                        data.forEach(group => {
+                            group.chanel.forEach(channel => {
+                                const urls = channel.url.split(',');
+                                urls.forEach(url => {
+                                    m3uContent.push(`#EXTINF:-1 group-title="${group.groupName}" tvg-id="${channel.id}" tvg-logo="${channel.logo}",${channel.name}`);
+                                    m3uContent.push(url);
+                                    $scope.channels.push({ name: channel.name, logo: channel.logo || 'default-logo.png', url: url });
+                                });
+                            });
+                        });
+
+                        $scope.hlsOutput = m3uContent.join('\n');
+
+                        // Tự động phát video đầu tiên
+                        if ($scope.channels.length > 0) {
+                            $scope.loadVideo($scope.channels[0].url);
+                        }
+                    });
+                };
+
+                $scope.loadVideo = function (url) {
+                    const video = document.getElementById('videoPlayer');
+                    const currentChannelDiv = document.getElementById('currentChannel');
+
+                    if (Hls.isSupported()) {
+                        const hls = new Hls();
+                        hls.loadSource(url);
+                        hls.attachMedia(video);
+                        hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                            video.play();
+                        });
+                    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                        video.src = url;
+                        video.addEventListener('loadedmetadata', function () {
+                            video.play();
+                        });
+                    }
+
+                    const currentChannel = $scope.channels.find(channel => channel.url === url);
+                    if (currentChannel) {
+                        currentChannelDiv.innerText = `Đang phát: ${currentChannel.name}`;
+                    }
+                };
+
+                $scope.showOutput = function () {
+                    $scope.popupVisible = true;
+                };
+
+                $scope.closePopup = function () {
+                    $scope.popupVisible = false;
+                };
+
+                $scope.copyToClipboard = function () {
+                    const textarea = document.getElementById('hlsOutput');
+                    textarea.select();
+                    document.execCommand('copy');
+                    alert('Nội dung đã được sao chép!');
+                };
+
+                // Gọi hàm fetchHLS khi khởi động
+                $scope.fetchHLS();
+            }]);
+    </script>
+</body>
+</html>

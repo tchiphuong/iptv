@@ -1,0 +1,2147 @@
+[
+    {
+        "chanel": [
+            {
+                "id": "vtv1hd",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtv1/index.m3u8",
+                "logo": "https://i.imgur.com/vZYlGIW.png",
+                "name": "VTV1"
+            },
+            {
+                "id": "vtv2hd",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv2_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtv2/index.m3u8",
+                "logo": "https://i.imgur.com/qWWpYRR.png",
+                "name": "VTV2"
+            },
+            {
+                "id": "vtv3hd",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv3hd_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtv3/index.m3u8",
+                "logo": "https://i.imgur.com/4lJG1fu.png",
+                "name": "VTV3"
+            },
+            {
+                "id": "vtv4hd",
+                "url": "https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist_b4200000.m3u8,https://thvip.site/vtv4/index.m3u8",
+                "logo": "https://i.imgur.com/WsLLmR2.png",
+                "name": "VTV4"
+            },
+            {
+                "id": "vtv5hd",
+                "url": "https://thvip.site/vtv5/index.m3u8,http://thvip.site/360/110/index.m3u8",
+                "logo": "https://i.imgur.com/Vnnna1C.png",
+                "name": "VTV5"
+            },
+            {
+                "id": "vtv5hdtn",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/taynguyen/index.m3u8",
+                "logo": "https://i.imgur.com/R8c2swd.png",
+                "name": "VTV5 Tây Nguyên"
+            },
+            {
+                "id": "vtv5hdtnb",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv5tnb_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/taynambo/index.m3u8",
+                "logo": "https://i.ibb.co/Hnc1LPG/VTV5-TNB-BEARTV.png",
+                "name": "VTV5 Tây Nam Bộ"
+            },
+            {
+                "id": "vtv6hd",
+                "url": "https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtv6/index.m3u8",
+                "logo": "https://i.imgur.com/Mqmbsj4.png",
+                "name": "VTV6"
+            },
+            {
+                "id": "vtv7hd",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv7hd_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtv7/index.m3u8",
+                "logo": "https://i.imgur.com/ZwoP823.png",
+                "name": "VTV7"
+            },
+            {
+                "id": "vtv8hd",
+                "url": "https://thvip.site/vtv8/index.m3u8,,http://thvip.site/360/115/index.m3u8",
+                "logo": "https://i.ibb.co/FYvN38c/VTV8-BEARTV.png",
+                "name": "VTV8"
+            },
+            {
+                "id": "vtv9hd",
+                "url": "https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtv9/index.m3u8",
+                "logo": "https://i.imgur.com/QiY55sy.png",
+                "name": "VTV9"
+            }
+        ],
+        "groupName": "Kênh VTV"
+    },
+    {
+        "chanel": [
+            {
+                "id": "vtc1hd",
+                "url": "https://liveh12.vtvcab.vn/hls/ONVTC1_CL/01.m3u8",
+                "logo": "https://i.imgur.com/g6rH1cs.png",
+                "name": "VTC1"
+            },
+            {
+                "id": "vtc2",
+                "url": "https://thvip.site/vtc2/index.m3u8,http://thvip.site/360/196/index.m3u8",
+                "logo": "https://i.imgur.com/PA12mGb.png",
+                "name": "VTC2"
+            },
+            {
+                "id": "vtc3hd",
+                "url": "https://live.fptplay53.net/fnxhd2/vtc3hd_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtc3/index.m3u8,http://thvip.site/360/197/index.m3u8",
+                "logo": "https://i.imgur.com/hS4bgHe.png",
+                "name": "VTC3"
+            },
+            {
+                "id": "vtc4hd",
+                "url": "https://thvip.site/vtc4/index.m3u8,http://thvip.site/360/198/index.m3u8",
+                "logo": "https://i.imgur.com/S4DYcF4.png",
+                "name": "VTC4"
+            },
+            {
+                "id": "vtc5hd",
+                "url": "https://thvip.site/vtc5/index.m3u8,http://thvip.site/360/199/index.m3u8",
+                "logo": "https://i.imgur.com/VvfiwPJ.png",
+                "name": "VTC5"
+            },
+            {
+                "id": "vtc6hd",
+                "url": "https://thvip.site/vtc6/index.m3u8,http://thvip.site/360/200/index.m3u8",
+                "logo": "https://i.imgur.com/KCzAWTU.png",
+                "name": "VTC6"
+            },
+            {
+                "id": "vtc7hd",
+                "url": "https://thvip.site/today/index.m3u8,http://thvip.site/360/201/index.m3u8,https://oipf0znpmnliv.vcdn.cloud/hls/todaytv/index.m3u8",
+                "logo": "https://i.imgur.com/EeGAtuK.png",
+                "name": "VTC7"
+            },
+            {
+                "id": "vtc8",
+                "url": "https://thvip.site/vtc8/index.m3u8,http://thvip.site/360/202/index.m3u8",
+                "logo": "https://i.imgur.com/4k57giG.png",
+                "name": "VTC8"
+            },
+            {
+                "id": "vtc9hd",
+                "url": "https://thvip.site/vtc9/index.m3u8,http://thvip.site/360/203/index.m3u8",
+                "logo": "https://i.imgur.com/cnAht7i.png",
+                "name": "VTC9"
+            },
+            {
+                "id": "vtc10",
+                "url": "https://live.fptplay53.net/fnxhd2/vtc10hd_vhls.smil/chunklist_b5000000.m3u8,https://thvip.site/vtc10/index.m3u8,http://thvip.site/360/204/index.m3u8",
+                "logo": "https://i.imgur.com/MJrqbZc.png",
+                "name": "VTC10"
+            },
+            {
+                "id": "vtc11",
+                "url": "https://thvip.site/kids/index.m3u8,http://wintv.fun/360/205/index.m3u8",
+                "logo": "https://i.imgur.com/X83l9Sw.png",
+                "name": "VTC11"
+            },
+            {
+                "id": "vtc12",
+                "url": "https://thvip.site/vtc12/index.m3u8,http://thvip.site/360/206/index.m3u8",
+                "logo": "https://i.imgur.com/YawrTlw.png",
+                "name": "VTC12"
+            },
+            {
+                "id": "vtc13hd",
+                "url": "https://thvip.site/vtc13/index.m3u8,http://thvip.site/360/207/index.m3u8",
+                "logo": "https://i.imgur.com/xc2G48h.png",
+                "name": "VTC13"
+            },
+            {
+                "id": "vtc14hd",
+                "url": "https://thvip.site/vtc14/index.m3u8,http://thvip.site/360/17/index.m3u8",
+                "logo": "https://i.imgur.com/phXvB0t.png",
+                "name": "VTC14"
+            },
+            {
+                "id": "vtc16",
+                "url": "https://thvip.site/vtc16/index.m3u8,http://thvip.site/360/18/index.m3u8",
+                "logo": "https://i.imgur.com/rltq2Dy.png",
+                "name": "VTC16"
+            }
+        ],
+        "groupName": "Kênh VTC"
+    },
+    {
+        "chanel": [
+            {
+                "id": "vtvcab1hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=180,https://tv.TruyenHinh.Click/CoBan/vtvcab1hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/180/index.m3u8",
+                "logo": "https://i.imgur.com/7GSKm46.png",
+                "name": "ON GIAITRI"
+            },
+            {
+                "id": "vtvcab19hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=177,https://tv.TruyenHinh.Click/CoBan/vtvcab19hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/177/index.m3u8",
+                "logo": "https://i.imgur.com/n7QICK7.png",
+                "name": "ON DRAMA"
+            },
+            {
+                "id": "vtvcab2hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=175,https://tv.TruyenHinh.Click/CoBan/vtvcab2hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/175/index.m3u8",
+                "logo": "https://i.ibb.co/zn7tNfS/phim-Viet-BEARTV.png",
+                "name": "ON PHIMVIET"
+            },
+            {
+                "id": "vtvcab4hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=181,https://tv.TruyenHinh.Click/CoBan/vtvcab4hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/181/index.m3u8",
+                "logo": "https://i.ibb.co/tzTXSLs/ONMovies-BEARTV.png",
+                "name": "ON MOVIES"
+            },
+            {
+                "id": "vtvcab5hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=182,https://tv.TruyenHinh.Click/CoBan/vtvcab5hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/182/index.m3u8",
+                "logo": "https://i.ibb.co/tmCTzWk/ecn1-BEARTV.png",
+                "name": "ON E-CHANEL"
+            },
+            {
+                "id": "vtvcab7hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=175,https://tv.TruyenHinh.Click/CoBan/vtvcab7hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/175/index.m3u8",
+                "logo": "https://i.ibb.co/ZT7w970/ONO2-BEARTV.png",
+                "name": "ON ONO2"
+            },
+            {
+                "id": "vtvcab9hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=189,https://tv.TruyenHinh.Click/CoBan/vtvcab9hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/189/index.m3u8",
+                "logo": "https://i.ibb.co/1X6NMjT/info-BEARTV.png",
+                "name": "ON INFO-TV"
+            },
+            {
+                "id": "vtvcab10hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=176,https://tv.TruyenHinh.Click/CoBan/vtvcab10hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/176/index.m3u8",
+                "logo": "https://i.ibb.co/v4X3VqN/cab10-filmtv-BEARTV.png",
+                "name": "ON CINE"
+            },
+            {
+                "id": "vtvcab12hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=184,https://tv.TruyenHinh.Click/CoBan/vtvcab12hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/184/index.m3u8",
+                "logo": "https://i.ibb.co/Qjckpv4/styletv-BEARTV.png",
+                "name": "ON STYLE"
+            },
+            {
+                "id": "vtvcab17hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=186,http://tv.TruyenHinh.Click/CoBan/vtvcab17hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/186/index.m3u8",
+                "logo": "https://i.ibb.co/Nx646LH/ontreding-BEARTV.png",
+                "name": "ON TRENDING"
+            },
+            {
+                "id": "vtvcab15hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=185,https://tv.TruyenHinh.Click/CoBan/vtvcab15hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/185/index.m3u8",
+                "logo": "https://i.ibb.co/L8RBHbv/ONMusic-BEARTV.png",
+                "name": "ON MUSIC"
+            },
+            {
+                "id": "vtvcab20hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=187,https://tv.TruyenHinh.Click/CoBan/vtvcab20hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/187/index.m3u8",
+                "logo": "https://i.ibb.co/r5ywFHj/vfamily-BEARTV.png",
+                "name": "ON VFAMILY"
+            },
+            {
+                "id": "vtvcab22hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=188,https://tv.TruyenHinh.Click/CoBan/vtvcab22hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/188/index.m3u8",
+                "logo": "https://i.ibb.co/zPvBb4q/ONLife-BEARTV.png",
+                "name": "ON LIFE-TV"
+            },
+            {
+                "id": "vtvcab23hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=169,http://tv.TruyenHinh.Click/CoBan/vtvcab23hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/169/index.m3u8",
+                "logo": "https://i.ibb.co/KbXxc9h/ONGOLF-BEARTV.png",
+                "name": "ON GOLF"
+            },
+            {
+                "id": "vtvcab3hd",
+                "url": "https://tv.TruyenHinh.Click/LinkTongHopCuaMoiNguoi/vtvcab3hd/KenhTruyenHinhCoBan,http://m3u.at/ONSPORT",
+                "logo": "https://i.ibb.co/tsBYvZ4/onsports-BEARTV.png",
+                "name": "ON SPORT"
+            },
+            {
+                "id": "vtvcab16hd",
+                "url": "https://tv.TruyenHinh.Click/LinkTongHopCuaMoiNguoi/vtvcab16hd/KenhTruyenHinhCoBan,https://liveh12.vtvcab.vn/hls/ONFOOTBALL123/04.m3u8",
+                "logo": "https://i.ibb.co/vd1LBK7/onfootbal-BEARTV.png",
+                "name": "ON FOOTBALL HD"
+            },
+            {
+                "id": "vtvcab6hd",
+                "url": "https://509942876.r.vtvcdn.com/HAY_TV/v2_index.m3u8,https://tv.TruyenHinh.Click/LinkTongHopCuaMoiNguoi/vtvcab6hd/KenhTruyenHinhCoBan,http://m3u.at/Onsport-plus",
+                "logo": "https://i.ibb.co/Bc8cL7w/onsportplus3-BEARTV.png",
+                "name": "ON SPORT PLUS"
+            },
+            {
+                "id": "vtvcab18hd",
+                "url": "https://tv.TruyenHinh.Click/LinkTongHopCuaMoiNguoi/vtvcab18hd/KenhTruyenHinhCoBan,http://m3u.at/ONSPORT-NEWS",
+                "logo": "https://i.ibb.co/PGG1dkn/ONSPORTSNEWS-BEARTV.png",
+                "name": "ON SPORT NEWS"
+            }
+        ],
+        "groupName": "Kênh VTVCAB"
+    },
+    {
+        "chanel": [
+            {
+                "id": "htvthethaohd",
+                "url": "https://thvip.site/htvtt/index.m3u8",
+                "logo": "https://i.imgur.com/z7NOxJ3.png",
+                "name": "HTVTHETHAO"
+            },
+            {
+                "id": "htv1",
+                "url": "https://vc.101vn.com/htv/htvcmb.php?id=2631",
+                "logo": "https://i.imgur.com/oLm4dbV.png",
+                "name": "HTV1"
+            },
+            {
+                "id": "htv2hd",
+                "url": "https://vc.101vn.com/htv/htvcmb.php?id=2669",
+                "logo": "https://i.imgur.com/KRShW5y.png",
+                "name": "HTV2"
+            },
+            {
+                "id": "htv3",
+                "url": "https://vc.101vn.com/htv/htvcmb.php?id=2535",
+                "logo": "https://i.imgur.com/2iE01Ca.png",
+                "name": "HTV3"
+            },
+            {
+                "id": "htv7hd",
+                "url": "https://vc.101vn.com/htv/htvcmb.php?id=256",
+                "logo": "https://i.imgur.com/RSlvzAs.png",
+                "name": "HTV7"
+            },
+            {
+                "id": "htv9hd",
+                "url": "https://vc.101vn.com/htv/htvcmb.php?id=2667",
+                "logo": "https://i.imgur.com/wdS7Cr9.png",
+                "name": "HTV9"
+            },
+            {
+                "id": "htvkey",
+                "url": "https://vc.101vn.com/htv/htvcmb.php?id=31973",
+                "logo": "https://i.imgur.com/qlCNl4V.png",
+                "name": "HTV4"
+            }
+        ],
+        "groupName": "Kênh HTV"
+    },
+    {
+        "chanel": [
+            {
+                "id": "htvcphimhd",
+                "url": "https://thvip.site/htvcphim/index.m3u8,http://thvip.site/360/15/index.m3u8",
+                "logo": "https://i.imgur.com/SXV3ya9.png",
+                "name": "HTVC PHIM"
+            },
+            {
+                "id": "htvcgiadinhhd",
+                "url": "https://thvip.site/giadinh/index.m3u8,http://thvip.site/360/11/index.m3u8",
+                "logo": "https://i.imgur.com/8r89Qvf.png",
+                "name": "HTVC GIADINH"
+            },
+            {
+                "id": "htvcthuanviethd",
+                "url": "https://thvip.site/thuanviet/index.m3u8,http://thvip.site/360/13/index.m3u8",
+                "logo": "https://i.imgur.com/jHeoqG8.png",
+                "name": "HTVC THUANVIET"
+            },
+            {
+                "id": "htvcdulichhd",
+                "url": "https://thvip.site/dulich/index.m3u8,http://thvip.site/360/133/index.m3u8",
+                "logo": "https://i.imgur.com/XxIO0E0.png",
+                "name": "HTVC DULICH"
+            },
+            {
+                "id": "htvccanhachd",
+                "url": "https://thvip.site/canhac/index.m3u8,http://thvip.site/360/14/index.m3u8",
+                "logo": "https://i.ibb.co/Qc2PXFp/HCTVCANHAC-BEARTV.png",
+                "name": "HTVC CANHAC"
+            },
+            {
+                "id": "htvcphunuhd",
+                "url": "https://thvip.site/phunu/index.m3u8,http://thvip.site/360/12/index.m3u8",
+                "logo": "https://i.imgur.com/HRNmZdU.png",
+                "name": "HTVC PHUNU"
+            },
+            {
+                "id": "htvcplushd",
+                "url": "https://thvip.site/htvcplus/index.m3u8,http://thvip.site/360/132/index.m3u8",
+                "logo": "https://i.ibb.co/K2tfJM6/HTVCPLUS-BEARTV.png",
+                "name": "HTVC PLUS"
+            }
+        ],
+        "groupName": "Kênh HTVC"
+    },
+    {
+        "chanel": [
+            {
+                "id": "sctv14hd",
+                "url": "https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV14.smil/playlist.m3u8",
+                "logo": "https://i.ibb.co/n8YQ0hB/sctv14-hd-BEARTV.png",
+                "name": "SCTV 14"
+            },
+            {
+                "id": "sctv17hd",
+                "url": "https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e7.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/live/smil:SCTV17.smil/chunklist.m3u8",
+                "logo": "https://i.ibb.co/R48wrKp/sctv17-hd-BEARTV.png",
+                "name": "SCTV 17"
+            },
+            {
+                "id": "sctv6hd",
+                "url": "https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist_b5000000.m3u8,https://cdn1.tvmienphi.xyz:8444/sctv/s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/hls/sctv6/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/tBfNQVR/SCTV6-BEARTV.png",
+                "name": "SCTV 6"
+            },
+            {
+                "id": "sctv1hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/hls/sctv1/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/DYVGW60/sctv1-hd-BEARTV.png",
+                "name": "SCTV 1"
+            },
+            {
+                "id": "sctv2hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/hls/sctv2/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/cctcsNH/sctv2-hd-BEARTV.png",
+                "name": "SCTV 2"
+            },
+            {
+                "id": "sctv3hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s7.edge.cdn.sctvonline.vn/hls/sctv3/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/bW9fKGv/sctv3-hd-BEARTV.png",
+                "name": "SCTV 3"
+            },
+            {
+                "id": "sctv4hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/hls/sctv4/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/2N5hVDx/sctv4-hd-BEARTV.png",
+                "name": "SCTV 4"
+            },
+            {
+                "id": "sctv5hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s7.edge.cdn.sctvonline.vn/hls/sctv5/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/dM17yWZ/sctv5-BEARTV.png",
+                "name": "SCTV 5"
+            },
+            {
+                "id": "sctv7hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/sctv7/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/X8fCcpx/sctv7-hd-BEARTV.png",
+                "name": "SCTV 7"
+            },
+            {
+                "id": "sctv8hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/sctv8/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/0tVLK8b/sctv8-BEARTV.png",
+                "name": "SCTV 8"
+            },
+            {
+                "id": "sctv9hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/hls/sctv9/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/VLJrprr/sctv9-hd-BEARTV.png",
+                "name": "SCTV 9"
+            },
+            {
+                "id": "sctv11hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/channel/sctv11/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/Jy3cThG/sctv11-hd-BEARTV.png",
+                "name": "SCTV 11"
+            },
+            {
+                "id": "sctv12hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s7.edge.cdn.sctvonline.vn/hls/sctv12/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/nDbnG8h/sctv12-hd-BEARTV.png",
+                "name": "SCTV 12"
+            },
+            {
+                "id": "sctv13hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/sctv13/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/YXt8w8v/sctv13-hd-BEARTV.png",
+                "name": "SCTV 13"
+            },
+            {
+                "id": "sctv15hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/sctv15/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/q1PkQkp/sctv15-hd-BEARTV.png",
+                "name": "SCTV 15"
+            },
+            {
+                "id": "sctv16hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s7.edge.cdn.sctvonline.vn/hls/sctv16/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/CMr9xN0/sctv16-hd-BEARTV.png",
+                "name": "SCTV 16"
+            },
+            {
+                "id": "sctv18hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/hls/sctv18/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/72PK5Nr/sctv18-hd-BEARTV.png",
+                "name": "SCTV 18"
+            },
+            {
+                "id": "sctv19hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/hls/sctv19/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/gMJ1GRG/sctv19-hd-BEARTV.png",
+                "name": "SCTV 19"
+            },
+            {
+                "id": "sctv20hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/channel/sctv20/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/f9swgvg/sctv20-hd-BEARTV.png",
+                "name": "SCTV 20"
+            },
+            {
+                "id": "sctv21hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/hls/sctv21/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/njnhPPB/sctv21-hd-BEARTV.png",
+                "name": "SCTV 21"
+            },
+            {
+                "id": "sctv22hd",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/hls/sctv22/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/FVFwKRc/sctv22-hd-BEARTV.png",
+                "name": "SCTV 22"
+            },
+            {
+                "id": "sctvhdpth",
+                "url": "https://cdn1.tvmienphi.xyz:8444/sctv/s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8?token=fr-OZLZQKGOqxkGQaYzQvw\u0026e=1732379231",
+                "logo": "https://i.ibb.co/G561126/SCTVTH-BEARTV.png",
+                "name": "SCTV PHIM"
+            }
+        ],
+        "groupName": "Kênh SCTV"
+    },
+    {
+        "chanel": [
+            {
+                "id": "vinhlong1hd",
+                "url": "https://thvip.site/vl1/index.m3u8,https://oipf0znpmnliv.vcdn.cloud/hls/thvl1/index.m3u8",
+                "logo": "https://i.imgur.com/gvPtTR2.png",
+                "name": "Vĩnh Long 1"
+            },
+            {
+                "id": "vinhlong2hd",
+                "url": "https://thvip.site/vl2/index.m3u8,https://oipf0znpmnliv.vcdn.cloud/hls/thvl2/index.m3u8",
+                "logo": "https://i.imgur.com/wYadDFn.png",
+                "name": "Vĩnh Long 2"
+            },
+            {
+                "id": "vinhlong3hd",
+                "url": "https://thvip.site/vl3/index.m3u8",
+                "logo": "https://i.imgur.com/B8S0dyG.png",
+                "name": "Vĩnh Long 3"
+            },
+            {
+                "id": "vinhlong4hd",
+                "url": "https://thvip.site/vl4/index.m3u8",
+                "logo": "https://i.imgur.com/xYalJzh.png",
+                "name": "Vĩnh Long 4"
+            },
+            {
+                "id": "angiang",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/thangiang/index.m3u8",
+                "logo": "https://i.imgur.com/2On2R0G.png",
+                "name": "An Giang"
+            },
+            {
+                "id": "vungtau",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/brvt/index.m3u8",
+                "logo": "https://i.imgur.com/KX2RMXR.png",
+                "name": "Vũng Tàu"
+            },
+            {
+                "id": "baclieu",
+                "url": "https://tv.thbl.vn/live/tv/tv.m3u8",
+                "logo": "https://i.imgur.com/FoAzh3R.png",
+                "name": "Bạc Liêu"
+            },
+            {
+                "id": "bentre",
+                "url": "https://1011154949.vnns.net/CDN-FPT02/BENTRE-SD-ABR/playlist.m3u8",
+                "logo": "https://i.imgur.com/9UZtJvv.png",
+                "name": "Bến Tre"
+            },
+            {
+                "id": "binhdinh",
+                "url": "http://truyenhinhbinhdinhonline.dynns.com:8086/live.m3u8",
+                "logo": "https://i.imgur.com/APCkufv.png",
+                "name": "Bình Định"
+            },
+            {
+                "id": "binhphuoc1",
+                "url": "http://vncdn.mediatech.vn/bptvlive/tv1live.m3u8",
+                "logo": "https://i.imgur.com/DHWoGfP.png",
+                "name": "Bình Phước 1"
+            },
+            {
+                "id": "binhphuoc2",
+                "url": "https://cdn.baobinhphuoc.com.vn/live/28550d6213460634105b0bae21016f68bce/playlist.m3u8",
+                "logo": "https://i.imgur.com/CyhvaPs.png",
+                "name": "Bình Phước 2"
+            },
+            {
+                "id": "binhthuan",
+                "url": "https://64d0d74b76158.streamlock.net/BTVTV/binhthuantv/chunklist.m3u8",
+                "logo": "https://i.imgur.com/Bu1xsiJ.png",
+                "name": "Bình Thuận"
+            },
+            {
+                "id": "bacgiang",
+                "url": "https://thvip.site/bacgiang/index.m3u8",
+                "logo": "https://i.imgur.com/05t6W7v.png",
+                "name": "Bắc Giang"
+            },
+            {
+                "id": "bacninh",
+                "url": "https://stream.thingnet.vn/live/smil:BTV.smil/playlist.m3u8",
+                "logo": "https://i.imgur.com/zUFSFCV.png",
+                "name": "Bắc Ninh"
+            },
+            {
+                "id": "camau",
+                "url": "http://tv.ctvcamau.vn/live/tv/tv.m3u8",
+                "logo": "https://i.imgur.com/cYqXh3i.png",
+                "name": "Cà Mau"
+            },
+            {
+                "id": "caobang",
+                "url": "http://118.107.85.4:1935/live/smil:CRTV.smil/chunklist_w1913809165_b1384000.m3u8",
+                "logo": "https://i.imgur.com/YCrYT2p.png",
+                "name": "Cao Bằng"
+            },
+            {
+                "id": "cantho",
+                "url": "https://live.canthotv.vn/live/tv_web/chunklist_w876738067.m3u8",
+                "logo": "https://i.imgur.com/NyrxzES.png",
+                "name": "Cần Thơ"
+            },
+            {
+                "id": "danang1",
+                "url": "https://thvip.site/danang1/index.m3u8",
+                "logo": "https://i.imgur.com/6OWQ8lU.png",
+                "name": "Đà Nẵng 1"
+            },
+            {
+                "id": "danang2",
+                "url": "https://thvip.site/danang2/index.m3u8",
+                "logo": "https://i.imgur.com/hkzIqEV.png",
+                "name": "Đà Nẵng 2"
+            },
+            {
+                "id": "dongnai1",
+                "url": "http://118.107.85.4:1935/live/smil:DNTV1.smil/playlist.m3u8",
+                "logo": "https://i.imgur.com/blOZQPI.png",
+                "name": "Đồng Nai 1"
+            },
+            {
+                "id": "dongnai2",
+                "url": "http://118.107.85.4:1935/live/smil:DNTV2.smil/playlist.m3u8",
+                "logo": "https://i.imgur.com/tIvmaaX.png",
+                "name": "Đồng Nai 1"
+            },
+            {
+                "id": "daklak",
+                "url": "https://cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/playlist.m3u8",
+                "logo": "https://i.imgur.com/H2LOZ2A.png",
+                "name": "Đắk Lắk"
+            },
+            {
+                "id": "daknong",
+                "url": "https://thvip.site/daknong/index.m3u8",
+                "logo": "https://i.imgur.com/L2tMltg.png",
+                "name": "Đắk Nông"
+            },
+            {
+                "id": "gialai",
+                "url": "https://tv.gialaitv.vn:8134/hls/gialaitv/gialaitv.m3u8",
+                "logo": "https://i.imgur.com/csqFzvA.png",
+                "name": "Gia Lai"
+            },
+            {
+                "id": "hanam",
+                "url": "https://cdn.hanamtv.vn/live/285361fcafcd0ec47bba2fa3f5870f8dc72/playlist.m3u8",
+                "logo": "https://i.imgur.com/DCSPntI.png",
+                "name": "Hà Nam"
+            },
+            {
+                "id": "hanoi1",
+                "url": "https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist_b3128000_slen.m3u8",
+                "logo": "https://i.imgur.com/mwCTDMj.png",
+                "name": "Hà Nội 1"
+            },
+            {
+                "id": "hanoi2",
+                "url": "https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/chunklist_b3128000_slen.m3u8",
+                "logo": "https://i.imgur.com/HyiwlZV.png",
+                "name": "Hà Nội 2"
+            },
+            {
+                "id": "hatinh",
+                "url": "https://wse.hatinhtv.net/live/httv1/playlist.m3u8",
+                "logo": "https://i.imgur.com/R4uthe7.png",
+                "name": "Hà Tĩnh"
+            },
+            {
+                "id": "haiphong",
+                "url": "https://live.mediatech.vn/live/28548ca35823d41426d8b3da7ed82bdab13/playlist.m3u8",
+                "logo": "https://i.imgur.com/StFk4PA.png",
+                "name": "Hải Phòng"
+            },
+            {
+                "id": "haugiang",
+                "url": "https://60acee235f4d5.streamlock.net/HGTV/d1/chunklist_w1285809548.m3u8",
+                "logo": "https://i.imgur.com/a3joZFM.png",
+                "name": "Hậu Giang"
+            },
+            {
+                "id": "hoabinh",
+                "url": "http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8",
+                "logo": "https://i.imgur.com/cgKnwnX.png",
+                "name": "Hòa Bình"
+            },
+            {
+                "id": "hungyen",
+                "url": "https://cdn.hungyentv.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8",
+                "logo": "https://i.imgur.com/deNnP9h.png",
+                "name": "Hưng Yên"
+            },
+            {
+                "id": "khanhhoa",
+                "url": "http://210.245.20.94/hls/ktv1.m3u8",
+                "logo": "https://i.imgur.com/kPu3rSN.png",
+                "name": "Khánh Hòa"
+            },
+            {
+                "id": "kiengiang",
+                "url": "https://tv.kgtv.vn/live/kgtv/kgtv.m3u8",
+                "logo": "https://i.imgur.com/jCTogPb.png",
+                "name": "Kiên Giang"
+            },
+            {
+                "id": "kiengiang1",
+                "url": "http://tv.kgtv.vn/live/kgtv1/kgtv1.m3u8",
+                "logo": "https://i.imgur.com/jCTogPb.png",
+                "name": "Kiên Giang 1"
+            },
+            {
+                "id": "kontum",
+                "url": "https://tv.kontumtv.vn/live/kontumtv/kontumtv.m3u8",
+                "logo": "https://i.imgur.com/C4yYbbi.png",
+                "name": "Kom Tum"
+            },
+            {
+                "id": "laocai",
+                "url": "https://cdn.3ssoft.vn/livetv/laocaitv/laocaitv/index.m3u8",
+                "logo": "https://i.imgur.com/QAVSUBu.png",
+                "name": "Lào Cai"
+            },
+            {
+                "id": "langson",
+                "url": "https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/chunklist.m3u8",
+                "logo": "https://i.imgur.com/6FCXyrr.png",
+                "name": "Lạng Sơn"
+            },
+            {
+                "id": "lamdong",
+                "url": "http://118.107.85.5:1935/live/smil:LTV.smil/chunklist_b1384000.m3u8",
+                "logo": "https://i.imgur.com/Tv0fNk3.png",
+                "name": "Lâm Đồng"
+            },
+            {
+                "id": "longan",
+                "url": "https://cdn.la34.com.vn/live/2851dc2c9af68834814a89e61db0faee561/playlist.m3u8",
+                "logo": "https://i.imgur.com/jBWD3It.png",
+                "name": "Long An"
+            },
+            {
+                "id": "dongthap1",
+                "url": "http://118.69.169.41:1935/THDT/thdttv/chunklist.m3u8",
+                "logo": "https://i.imgur.com/UfOw13y.png",
+                "name": "Đồng Tháp 1"
+            },
+            {
+                "id": "dongthap2",
+                "url": "https://64d0d74b76158.streamlock.net/THDT2/thdttv2/playlist.m3u8",
+                "logo": "https://i.imgur.com/WXebESa.png",
+                "name": "Đồng Tháp 2"
+            },
+            {
+                "id": "namdinh",
+                "url": "https://code.vthanhtivi.pw/getlink/tv360/MhlkTVBXyOUta_yUglmgqg/1699902405/73/playlist.m3u8",
+                "logo": "https://i.imgur.com/qW62XEm.png",
+                "name": "Nam Định"
+            },
+            {
+                "id": "nghean",
+                "url": "https://live.truyenhinhnghean.vn/hls/na1/index.m3u8",
+                "logo": "https://i.imgur.com/5HEfwZz.png",
+                "name": "Nghệ An"
+            },
+            {
+                "id": "ninhbinh",
+                "url": "https://live.mediatech.vn/live/28597f8fd7ea5064d0f84ab00b3699dfd86/chunklist.m3u8",
+                "logo": "https://i.imgur.com/XuYnZWe.png",
+                "name": "Ninh Bình"
+            },
+            {
+                "id": "ninhthuan",
+                "url": "https://60acee235f4d5.streamlock.net/live/mystream/chunklist_w1911661624.m3u8",
+                "logo": "https://i.imgur.com/cx5AaTV.png",
+                "name": "Ninh Thuận"
+            },
+            {
+                "id": "phuyen",
+                "url": "http://113.161.4.48:8080/phuyen/tv/index.m3u8",
+                "logo": "https://i.imgur.com/r2xMHkT.png",
+                "name": "Phú Yên"
+            },
+            {
+                "id": "quangbinh",
+                "url": "https://thvip.site/360/79/index.m3u8?quangbinh",
+                "logo": "https://i.imgur.com/8yOdFDx.png",
+                "name": "Quảng Bình"
+            },
+            {
+                "id": "quangtri",
+                "url": "https://thvip.site/360/83/index.m3u8?quangtri",
+                "logo": "https://i.imgur.com/yIHs2sI.png",
+                "name": "Quảng Trị"
+            },
+            {
+                "id": "quangnam",
+                "url": "https://beta.qrt.vn/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8",
+                "logo": "https://i.imgur.com/uWHWxZB.png",
+                "name": "Quảng Nam"
+            },
+            {
+                "id": "quangngai",
+                "url": "http://118.107.85.5:1935/live/smil:PTQ.smil/playlist.m3u8",
+                "logo": "https://i.imgur.com/McmKwa8.png",
+                "name": "Quảng Ngãi"
+            },
+            {
+                "id": "quangninh1",
+                "url": "https://live.baoquangninh.vn/qtvlive/tv1live.m3u8",
+                "logo": "https://i.imgur.com/sGcRJVP.png",
+                "name": "Quảng Ninh 1"
+            },
+            {
+                "id": "quangninh3",
+                "url": "https://live.baoquangninh.vn/qtvlive/tv3live.m3u8",
+                "logo": "https://i.imgur.com/4hadYbw.png",
+                "name": "Quảng Ninh 3"
+            },
+            {
+                "id": "soctrang",
+                "url": "https://pa.thst.vn/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8",
+                "logo": "https://i.imgur.com/5KQJoBg.png",
+                "name": "Sóc Trăng"
+            },
+            {
+                "id": "soctrang",
+                "url": "https://pa.thst.vn/hls-live/livepkgr/_definst_/liveevent/livestreamstv2.m3u8",
+                "logo": "https://i.imgur.com/5KQJoBg.png",
+                "name": "Sóc Trăng"
+            },
+            {
+                "id": "sonla",
+                "url": "https://live.mediatech.vn/live/28595222e707a364251b8724717894baa46/playlist.m3u8",
+                "logo": "https://i.imgur.com/QZT6GIh.png",
+                "name": "Sơn La"
+            },
+            {
+                "id": "tayninh",
+                "url": "http://202.43.109.142:1935/ttv11/tntv/chunklist.m3u8",
+                "logo": "https://i.imgur.com/0DU4cyg.png",
+                "name": "Tây Ninh"
+            },
+            {
+                "id": "thaibinh",
+                "url": "https://live.mediatech.vn/live/285fe61ba73072f428d8a626d764222e744/playlist.m3u8",
+                "logo": "https://i.imgur.com/fP7B6A4.png",
+                "name": "Thái Bình"
+            },
+            {
+                "id": "thainguyen",
+                "url": "https://streaming.thainguyentv.vn/hls/livestream.m3u8",
+                "logo": "https://i.imgur.com/UBcqMiY.png",
+                "name": "Thái Nguyên"
+            },
+            {
+                "id": "thanhhoa",
+                "url": "https://truyenhinh.vnptvas.vn/live.m3u8?c=vstv525\u0026q=sd\u0026pkg=pkg12.hni",
+                "logo": "https://i.imgur.com/NlOwltd.png",
+                "name": "Thanh Hóa"
+            },
+            {
+                "id": "hue",
+                "url": "https://live.trt.com.vn/TRT-Online/chunklist.m3u8",
+                "logo": "https://i.imgur.com/29px2Qy.png",
+                "name": "Huế"
+            },
+            {
+                "id": "tiengiang",
+                "url": "http://123.25.238.45:1935/live/thtg/chunklist.m3u8",
+                "logo": "https://i.imgur.com/NkHFZ0D.png",
+                "name": "Tiền Giang"
+            },
+            {
+                "id": "travinh",
+                "url": "https://60acee235f4d5.streamlock.net:443/THTV/travinhtv/chunklist.m3u8",
+                "logo": "https://i.imgur.com/dHOm6Ll.png",
+                "name": "Trà Vinh 1"
+            },
+            {
+                "id": "travinh",
+                "url": "https://618b88f69e53b.streamlock.net/THTV2/travinhtv2/chunklist.m3u8",
+                "logo": "https://i.imgur.com/dHOm6Ll.png",
+                "name": "Trà Vinh 2"
+            },
+            {
+                "id": "tuyenquang",
+                "url": "https://live.tuyenquangtv.vn/hls/ttv.m3u8",
+                "logo": "https://i.imgur.com/6RPgRE7.png",
+                "name": "Tuyên Quang"
+            },
+            {
+                "id": "vinhphuc",
+                "url": "http://vinhphuctv.vn:8090/vinhphuclive/web.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/rrxDn5n.png",
+                "name": "Vĩnh Phúc"
+            },
+            {
+                "id": "yenbai",
+                "url": "https://live.yenbaitv.org.vn/hls/livestream.m3u8",
+                "logo": "https://i.imgur.com/AELRXuX.png",
+                "name": "Yên Bái"
+            }
+        ],
+        "groupName": "Kênh địa phương"
+    },
+    {
+        "chanel": [
+            {
+                "id": "antvhd",
+                "url": "https://liveh34.vtvcab.vn/hls/ONANTV_CL/index.m3u8",
+                "logo": "https://i.imgur.com/eGkFbAh.png",
+                "name": "An Ninh TV"
+            },
+            {
+                "id": "qpvnhd",
+                "url": "https://liveh34.vtvcab.vn/hls/ONQUOCPHONG_CL/index.m3u8",
+                "logo": "https://i.imgur.com/UIGZw0y.png",
+                "name": "Quốc Phòng VN"
+            },
+            {
+                "id": "ttxvnhd",
+                "url": "https://liveh34.vtvcab.vn/hls/TTXVN_VNEWS/index.m3u8",
+                "logo": "https://i.imgur.com/AAWIPHz.png",
+                "name": "Thông Tấn Xã VN"
+            },
+            {
+                "id": "quochoi",
+                "url": "https://liveh12.vtvcab.vn/hls/ONQUOCHOI_CL/index.m3u8",
+                "logo": "https://i.imgur.com/YtZGuSy.png",
+                "name": "Quốc Hội"
+            },
+            {
+                "id": "nhandan",
+                "url": "https://liveh34.vtvcab.vn/hls/ONNHANDAN_CL/index.m3u8",
+                "logo": "https://i.imgur.com/Ud78FHF.png",
+                "name": "Nhân Dân"
+            },
+            {
+                "id": "vovtvhd",
+                "url": "https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8",
+                "logo": "https://i.imgur.com/QjJ0Ic4.png",
+                "name": "VOVTV HD"
+            }
+        ],
+        "groupName": "Kênh nhà nước"
+    },
+    {
+        "chanel": [
+            {
+                "id": "boomerang",
+                "url": "https://fl3.moveonjoy.com/BOOMERANG/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png",
+                "name": "Boomerang"
+            },
+            {
+                "id": "happykids",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/happykid/index.m3u8",
+                "logo": "https://i.imgur.com/Cz2Kju8.png",
+                "name": "Happy Kids"
+            },
+            {
+                "id": "vtvcab8hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=178,http://tv.TruyenHinh.Click/CoBan/vtvcab8hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/178/index.m3u8",
+                "logo": "https://i.ibb.co/t4PV17Q/ONBibi-BEARTV.png",
+                "name": "ON BIBI"
+            },
+            {
+                "id": "vtvcab21hd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=179,http://tv.TruyenHinh.Click/CoBan/vtvcab21hd/TuyetDoiKhongKinhDoanh,http://thvip.site/360/179/index.m3u8",
+                "logo": "https://i.ibb.co/7VS4Jcw/ON-Kids-BEARTV.png",
+                "name": "ON KIDS"
+            },
+            {
+                "id": "cartoonhd",
+                "url": "https://cdn09jtedge.indihometv.com/joss/194/cartoonnetwork/index.m3u8",
+                "logo": "https://i.imgur.com/6oXQdBZ.png",
+                "name": "Cartoon Network"
+            },
+            {
+                "id": "cartoonito",
+                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=33",
+                "logo": "https://i.imgur.com/C8nDHeY.png",
+                "name": "Cartoonito HD"
+            },
+            {
+                "id": "dreamworks",
+                "url": "https://fl2.moveonjoy.com/DISNEY_JR/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74796_dark_360w_270h.png",
+                "name": "DISNEY JR"
+            },
+            {
+                "id": "dreamworks",
+                "url": "http://fl2.moveonjoy.com/DISNEY_CHANNEL/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png",
+                "name": "DISNEY CHANNEL"
+            },
+            {
+                "id": "dreamworks",
+                "url": "http://fl2.moveonjoy.com/DISNEY_XD/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png",
+                "name": "DISNEY XD"
+            },
+            {
+                "id": "dreamworks",
+                "url": "https://c.mjh.nz/abc-kids.m3u8",
+                "logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg",
+                "name": "ABC Kids"
+            },
+            {
+                "id": "dreamworks",
+                "url": "https://c.mjh.nz/abc-me.m3u8",
+                "logo": "https://i.imgur.com/6NyFLAm.png",
+                "name": "ABC Me"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus\u0026deviceMake=samsung\u0026deviceModel=samsung\u0026deviceVersion=unknown\u0026appVersion=unknown\u0026deviceLat=0\u0026deviceLon=0\u0026deviceDNT={TARGETOPT}\u0026deviceId={PSID}\u0026advertisingId={PSID}\u0026us_privacy=1YNY\u0026samsung_app_domain={APP_DOMAIN}\u0026samsung_app_name={APP_NAME}\u0026profileLimit=\u0026profileFloor=\u0026embedPartner=samsung-tvplus",
+                "logo": "https://i.imgur.com/XsvbAWR.png",
+                "name": "One Piece"
+            },
+            {
+                "id": "davinci",
+                "url": "https://bkm.beetv.kz/btv/live/hls/000000333.m3u8,https://wintv.fun/360/214/index.m3u8",
+                "logo": "https://i.imgur.com/iBx7K1M.png",
+                "name": "Da Vinci"
+            },
+            {
+                "id": "dreamworks",
+                "url": "https://tth.vn/dreamworks,http://m3u.at/DreamWorks?khichtv/index.m3u8",
+                "logo": "https://i.imgur.com/N69Cori.png",
+                "name": "Dreamworks"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://zoomoo-samsungau.amagi.tv/playlist1080p.m3u8",
+                "logo": "https://i.imgur.com/Oqq4uDn.png",
+                "name": "ZooMoo"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/CARTOON_NETWORK/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15959.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/512px-Adult_Swim_2003_logo.svg.png",
+                "name": "Adult Swim"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://moonbug-rokuus.amagi.tv/playlist.m3u8",
+                "logo": "https://i.imgur.com/vZHtxQb.png",
+                "name": "Moonbug"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8",
+                "logo": "https://i.imgur.com/SbBKr8L.png",
+                "name": "Baby Shark"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv/8bdab347-30fe-4eea-a9bd-4b89b8ea462e/2.m3u8 ",
+                "logo": "https://upload.wikimedia.org/wikipedia/id/7/7f/Kids_TV_%282020%29.png",
+                "name": "Kids TV"
+            }
+        ],
+        "groupName": "Kênh thiếu nhi"
+    },
+    {
+        "chanel": [
+            {
+                "id": "boxmovie1",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/boxmovie1/index.m3u8",
+                "logo": "https://i.imgur.com/leWw1zz.png",
+                "name": "Box Movie 1"
+            },
+            {
+                "id": "hollywoodclassics",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=160,http://thvip.site/360/160/index.m3u8",
+                "logo": "https://i.imgur.com/2EDOvcL.png",
+                "name": "Hollywood Classics"
+            },
+            {
+                "id": "inthebox",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=235,http://thvip.site/360/235/index.m3u8",
+                "logo": "https://img-zlr1.tv360.vn/image1/2021/08/03/17/1627985890695/59bf29fc7eeb_480_270.png",
+                "name": "In The Box"
+            },
+            {
+                "id": "boxhits",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=239,http://thvip.site/360/239/index.m3u8",
+                "logo": "https://i.imgur.com/kL9ubfw.png",
+                "name": "Box Hits"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/HALLMARK_CHANNEL/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11221_dark_360w_270h.png",
+                "name": "Hallmark Channel HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/HALLMARK_DRAMA/tracks-v1a1/mono.m3u8",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/hallmark-family-us.png",
+                "name": "Hallmark Family HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/tracks-v1a1/mono.m3u8",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/hallmark-mystery-us.png",
+                "name": "Hallmark Mystery HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/PARAMOUNT_NETWORK/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/paramount-network-us.png?raw=true",
+                "name": "Paramount Network HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl3.moveonjoy.com/CINEMAX_MOREMAX/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true",
+                "name": "CINEMAX MOREMAX"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://125hvt.ddns.net:21585/hbo/index.m3u8,http://fl2.moveonjoy.com/HBO/tracks-v1a1/mono.m3u8",
+                "logo": "https://i.imgur.com/7nIUtCU.png",
+                "name": "HBO HD"
+            },
+            {
+                "id": "hbohd",
+                "url": "https://fl2.moveonjoy.com/HBO/tracks-v1a1/mono.m3u8,http://125hvt.ddns.net:21585/hbo/index.m3u8",
+                "logo": "https://i.imgur.com/7nIUtCU.png",
+                "name": "HBO HD"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/HBO_COMEDY/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18429_dark_360w_270h.png",
+                "name": "HBO COMEDY"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/HBO_FAMILY/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16585_dark_360w_270h.png",
+                "name": "HBO FAMILY"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/HBO_ZONE/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png",
+                "name": "HBO ZONE"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/HBO_2/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png",
+                "name": "HBO 2"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/LIFETIME/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_dark_360w_270h.png",
+                "name": "Lifetime"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/LIFETIME_MOVIE_NETWORK/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18480_dark_360w_270h.png",
+                "name": "Lifetime Movie Network"
+            },
+            {
+                "id": "hbohd",
+                "url": "https://fl2.moveonjoy.com/SHOWTIME/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true",
+                "name": "Showtime"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/SHOWTIME_2/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true",
+                "name": "Showtime 2"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/SHOWTIME_EXTREME/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true",
+                "name": "Showtime Extreme"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/SHOWTIME_NEXT/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true",
+                "name": "Showtime Next"
+            },
+            {
+                "id": "hbohd",
+                "url": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18480_dark_360w_270h.png",
+                "name": "Showtime Women"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/STARZ/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true",
+                "name": "STARZ"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/STARZ_COMEDY/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true",
+                "name": "STARZ COMEDY"
+            },
+            {
+                "id": "hbohd",
+                "url": "http://fl2.moveonjoy.com/STARZ_EDGE/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true",
+                "name": "STARZ EDGE"
+            },
+            {
+                "id": "cinemaworldhd",
+                "url": "http://37.27.111.214:8080/live/30/hls.m3u8",
+                "logo": "https://i.ibb.co/9V7M86m/CMW-BEARTV.png",
+                "name": "CinemaWorld"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/FX_MOVIE/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fxm-movie-channel-us.png?raw=true",
+                "name": "FOX Movies HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl5.moveonjoy.com/AMC_NETWORK/tracks-v1a1/mono.m3u8",
+                "logo": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png",
+                "name": "AMC"
+            }
+        ],
+        "groupName": "Kênh giải trí"
+    },
+    {
+        "chanel": [
+            {
+                "id": "spotv1",
+                "url": "https://cdn09jtedge.indihometv.com/joss/133/beib1/index.m3u8",
+                "logo": "https://i.imgur.com/hXYkO7B.png",
+                "name": "SPOTV1 HD "
+            },
+            {
+                "id": "spotv2",
+                "url": "https://cdn09jtedge.indihometv.com/joss/133/beib2/index.m3u8",
+                "logo": "https://i.imgur.com/EBKmDBi.png",
+                "name": "SPOTV2 HD "
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15944.m3u8",
+                "logo": "https://i.imgur.com/A8CnA8g.png",
+                "name": "CBS Sports Network"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/MLB_NETWORK/tracks-v1a1/mono.m3u8",
+                "logo": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png",
+                "name": "MLB Network"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/NFL_NETWORK/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15945.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/512px-NFL_Network_logo.svg.png",
+                "name": "NFL Network"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://fl2.moveonjoy.com/BEIN_SPORTS/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bein-sports-us.png?raw=true",
+                "name": "Bein Sports"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+                "logo": "https://archive.org/download/RedBullTVLogo/Red-Bull-TV-Logo.png",
+                "name": "Red Bull TV"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://sp1564435593.mytvchain.info/live/sp1564435593_720/index.m3u8",
+                "logo": "https://i.imgur.com/1IXQoWq.png",
+                "name": "Sport en France"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/NBA_TV/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15946.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png",
+                "name": "NBA TV"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8,https://tennischannel-intl-samsung-uk.amagi.tv/playlist.m3u8",
+                "logo": "https://i.imgur.com/NWXA4oW.png",
+                "name": "TENNIS"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8,https://tennischannel-intl-samsung-uk.amagi.tv/playlist.m3u8",
+                "logo": "https://i.imgur.com/NWXA4oW.png",
+                "name": "Golf"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47643.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/UFC_Logo.svg",
+                "name": "UFC"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/23316.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/512px-FOX_Deportes_logo.png",
+                "name": "Fox Deportes"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/FOX_Sports_1/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15948.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/22526.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true",
+                "name": "Fox Sports 1"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/15947.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/22525.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-2-us.png?raw=true",
+                "name": "Fox Sports 2"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://145.239.5.177:8080/529/index.m3u8,http://185.189.225.157/EuroSport1/index.m3u8",
+                "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4004.png",
+                "name": "EuroSports 1"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://185.189.225.157/EuroSport2/index.m3u8",
+                "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4009.png",
+                "name": "EuroSports 2"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/ESPN_NEWS/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15952.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/512px-ESPNews.svg.png",
+                "name": "ESPN News"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/ESPN_U/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15951.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png",
+                "name": "ESPN"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/ESPN_2/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15950.m3u8",
+                "logo": "https://i.imgur.com/00tsvjE.png",
+                "name": "ESPN 2"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/48496.m3u8",
+                "logo": "https://i.imgur.com/YWic36u.png",
+                "name": "SPORT TV 1"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/48497.m3u8",
+                "logo": "https://i.imgur.com/0jSR6yG.png",
+                "name": "SPORT TV 2"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/48498.m3u8",
+                "logo": "https://i.imgur.com/6Dw3GUx.png",
+                "name": "SPORT TV 3"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/48499.m3u8",
+                "logo": "https://i.imgur.com/mJlbVfW.png",
+                "name": "SPORT TV 4"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47628.m3u8",
+                "logo": "https://i.imgur.com/iy5uxqP.png",
+                "name": "SUPERSPORTS VARIETY 01"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47629.m3u8",
+                "logo": "https://i.imgur.com/XOpIxRO.png",
+                "name": "SUPERSPORTS VARIETY 02"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47630.m3u8",
+                "logo": "https://i.imgur.com/kcKzGGv.png",
+                "name": "SUPERSPORTS VARIETY 03"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47631.m3u8",
+                "logo": "https://i.imgur.com/hZ62m4v.png",
+                "name": "SUPERSPORTS VARIETY 04"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47632.m3u8",
+                "logo": "https://i.imgur.com/0zDOeky.png",
+                "name": "SUPERSPORTS Blitz"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47633.m3u8",
+                "logo": "https://i.imgur.com/xZFMYj4.png",
+                "name": "SUPERSPORTS Premier League"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47634.m3u8",
+                "logo": "https://i.imgur.com/0c5Ox0o.png",
+                "name": "SUPERSPORTS Cricket"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47635.m3u8",
+                "logo": "https://i.imgur.com/wwBY5Gh.png",
+                "name": "SUPERSPORTS Rugby"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47636.m3u8",
+                "logo": "https://i.imgur.com/HNUwofZ.png",
+                "name": "SUPERSPORTS Football"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47637.m3u8",
+                "logo": "https://i.imgur.com/6SnLfX4.png",
+                "name": "SUPERSPORTS Action"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47638.m3u8",
+                "logo": "https://i.imgur.com/qW4Ql2K.png",
+                "name": "SUPERSPORTS La Lagia"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47639.m3u8",
+                "logo": "https://i.imgur.com/RQfhJMi.png",
+                "name": "SUPERSPORTS PSL"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://kstv.us:8080/live/2qt65aetuZ/0527822179/47640.m3u8",
+                "logo": "https://i.imgur.com/Zr8DeUk.png",
+                "name": "SUPERSPORTS Maximo 1"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8",
+                "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1003.png",
+                "name": "MUTV"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-realmadrid-cineverse/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/vi/thumb/c/c7/Logo_Real_Madrid.svg/640px-Logo_Real_Madrid.svg.png",
+                "name": "Real Madrid TV"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://145.239.5.177:8080/537/index.m3u8",
+                "logo": "https://i.imgur.com/EOXnU15.png",
+                "name": "CANAL+ SPORTS 1"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://145.239.5.177:8080/538/index.m3u8",
+                "logo": "https://i.imgur.com/Aq2hnUj.png",
+                "name": "CANAL+ SPORTS 2"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://145.239.5.177:8080/342/index.m3u8",
+                "logo": "https://i.imgur.com/QZwPFa8.png",
+                "name": "CANAL+ SPORTS 3"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://194.143.148.28/MatchFutbol1/index.m3u8",
+                "logo": "https://i.imgur.com/XS2BB02.png",
+                "name": "МАТЧ Футбол 1 HD"
+            }
+        ],
+        "groupName": "Kênh thể thao"
+    },
+    {
+        "chanel": [
+            {
+                "id": "musicbox",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/boxmusic/index.m3u8",
+                "logo": "https://i.ibb.co/MpYKLcC/Music-Box-BEARTV.png",
+                "name": "Music Box"
+            },
+            {
+                "id": "pop",
+                "url": "https://fl2.moveonjoy.com/MTV_LIVE/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-live-us.png?raw=true",
+                "name": "MTV Live"
+            },
+            {
+                "id": "pop",
+                "url": "https://fl2.moveonjoy.com/MTV/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png",
+                "name": "MTV"
+            },
+            {
+                "id": "pop",
+                "url": "https://fl2.moveonjoy.com/MTV_CLASSIC/tracks-v1a1/mono.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-classic-us.png?raw=true",
+                "name": "MTV Classic"
+            },
+            {
+                "id": "pop",
+                "url": "https://d281w17vgfepv6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-00dgfxdry0m4p/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vevo_logo.svg/2560px-Vevo_logo.svg.png",
+                "name": "Vevo"
+            },
+            {
+                "id": "pop",
+                "url": "https://d28edobz3hqdpi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-shs19slqofvwj-ssai-prd/playlist.m3u8",
+                "logo": "https://i.imgur.com/dZHktKR.png",
+                "name": "Vevo Pop"
+            },
+            {
+                "id": "pop",
+                "url": "https://d2yhuqxy1ky6ij.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bel4aqksrgol2-ssai-prd/playlist.m3u8",
+                "logo": "https://i.imgur.com/H1Aap4E.png",
+                "name": "Vevo Rock"
+            },
+            {
+                "id": "pop",
+                "url": "https://raw.githubusercontent.com/AqFad2811/randomlivefromyt/main/TheKPOP2.m3u8,https://raw.githubusercontent.com/AqFad2811/randomlivefromyt/main/TheKPOP1.m3u8",
+                "logo": "https://i.imgur.com/IAMkya8.png",
+                "name": "KPOP"
+            },
+            {
+                "id": "pop",
+                "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=630",
+                "logo": "https://i.imgur.com/B7ILXMc.png",
+                "name": "New KPOP"
+            }
+        ],
+        "groupName": "Kênh âm nhạc"
+    },
+    {
+        "chanel": [
+            {
+                "id": "animalhd",
+                "url": "https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15957.m3u8,https://tth.vn/animalplanet",
+                "logo": "https://i.imgur.com/TBgGuJy.png",
+                "name": "Animal HD"
+            },
+            {
+                "id": "planetearthhd",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=135,https://oipf0znpmnliv.vcdn.cloud/hls/planetearth/index.m3u8",
+                "logo": "https://i.imgur.com/L0EQrhp.png",
+                "name": "Planetearth"
+            },
+            {
+                "id": "tlc",
+                "url": "https://varun-iptv.netlify.app/m3u/TLC.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15969.m3u8",
+                "logo": "https://i.imgur.com/3zrkpno.png",
+                "name": "TLC"
+            },
+            {
+                "id": "discoveryasiahd",
+                "url": "https://fl3.moveonjoy.com/Discovery_Science/tracks-v1a1/mono.m3u8,http://kstv.us:8080/live/2qt65aetuZ/0527822179/15961.m3u8",
+                "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/discovery-science-us.png?raw=true",
+                "name": "SCI"
+            },
+            {
+                "id": "discoveryhd",
+                "url": "https://fl3.moveonjoy.com/Curiosity_Stream/tracks-v1a1/mono.m3u8",
+                "logo": "https://i.imgur.com/vRO4e5W.png",
+                "name": "Curiosity"
+            },
+            {
+                "id": "discoveryhd",
+                "url": "https://denver1769.pages.dev/Discovery/discovery_hd_english.m3u8",
+                "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4003.png",
+                "name": "Discovery"
+            },
+            {
+                "id": "discoveryasiahd",
+                "url": "https://cdn1.skygo.mn/live/disk1/Discovery_Asia/HLS-FTA/Discovery_Asia.m3u8",
+                "logo": "https://i.imgur.com/foLICwL.png",
+                "name": "Discovery Asia"
+            },
+            {
+                "id": "discoveryasiahd",
+                "url": "https://raw.githubusercontent.com/mimipipi22/lalajo/main/Streaming/knowledge/investigationdiscovery.m3u8,http://fl2.moveonjoy.com/INVESTIGATION_DISCOVERY/tracks-v1a1/mono.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/512px-InvestigationDiscoveryLogo2020.svg.png",
+                "name": "Investigation Discovery"
+            },
+            {
+                "id": "akc",
+                "url": "https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8",
+                "logo": "https://i.imgur.com/XRTfoSp.png",
+                "name": "AKC TV"
+            },
+            {
+                "id": "lovenature",
+                "url": "https://fl1.moveonjoy.com/LOVE_NATURE/tracks-v1a1/mono.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png",
+                "name": "Love Nature"
+            },
+            {
+                "id": "discoveryasiahd",
+                "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60dd6b1da79e4d0007309455/master.m3u8?deviceType=samsung-tvplus\u0026deviceMake=samsung\u0026deviceModel=samsung\u0026deviceVersion=unknown\u0026appVersion=unknown\u0026deviceLat=0\u0026deviceLon=0\u0026deviceDNT=%7BTARGETOPT%7D\u0026deviceId=%7BPSID%7D\u0026advertisingId=%7BPSID%7D\u0026us_privacy=1YNY\u0026samsung_app_domain=%7BAPP_DOMAIN%7D\u0026samsung_app_name=%7BAPP_NAME%7D\u0026profileLimit=\u0026profileFloor=\u0026embedPartner=samsung-tvplus",
+                "logo": "https://i.imgur.com/72JmyjM.png",
+                "name": "Nature Time"
+            },
+            {
+                "url": "https://tv.TruyenHinh.Click/CoBan/HistoryHD/TuyetDoiKhongKinhDoanh,https://da8eq3kpws4wh.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qwqfh4ecsmf30/7f1c6847-381e-477d-9bda-b62f74400ee0/3.m3u8,http://thvip.site/360/9856/index.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/512px-History_Logo.svg.png",
+                "name": "History"
+            },
+            {
+                "id": "outdoorhd",
+                "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8,http://fl2.moveonjoy.com/OUTDOOR_CHANNEL/tracks-v1a1/mono.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14776_dark_360w_270h.png",
+                "name": "Outdoor Channel HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/National_Geographic/tracks-v1a1/mono.m3u8,http://45.159.74.13/NationalGeographic/index.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png",
+                "name": "National Geographic HD"
+            },
+            {
+                "id": "vtv1",
+                "url": "http://fl2.moveonjoy.com/Nat_Geo_Wild/tracks-v1a1/mono.m3u8,http://124.29.225.205:8000/play/a044/index.m3u8",
+                "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66804_dark_360w_270h.png",
+                "name": "Nat Geo Wild HD"
+            },
+            {
+                "id": "bbcearth",
+                "url": "http://fl2.moveonjoy.com/WORLD_FISHING_NETWORK/tracks-v1a1/mono.m3u8",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/world-fishing-network-us.png",
+                "name": "World Fishing Network"
+            }
+        ],
+        "groupName": "Kênh khám phá"
+    },
+    {
+        "chanel": [
+            {
+                "id": "drfithd",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/drfit/index.m3u8",
+                "logo": "https://i.imgur.com/NDxtNe9.png",
+                "name": "Drfit"
+            },
+            {
+                "id": "woman",
+                "url": "https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8",
+                "logo": "https://i.ibb.co/92YZhy8/Woman-BEARTV.png",
+                "name": "Woman"
+            },
+            {
+                "id": "man",
+                "url": "http://hoatv001.ddns.net:8002/ott/tv360.php?id=237",
+                "logo": "https://img-zlr1.tv360.vn/image1/2021/08/02/18/1627902182400/125faee2618c_480_270.png",
+                "name": "Man"
+            },
+            {
+                "id": "dmax",
+                "url": "https://raw.githubusercontent.com/mimipipi22/lalajo/main/Streaming/knowledge/dmax.m3u8,http://viettel.nekocdn.xyz/dmax/tracks-v1a1/mono.m3u8",
+                "logo": "https://i.imgur.com/En2sLlW.png",
+                "name": "DMAX"
+            },
+            {
+                "id": "afnhd",
+                "url": "https://denver1769.pages.dev/Discovery/food_network_hd_english.m3u8,http://wintv.fun/360/215/index.m3u8",
+                "logo": "https://i.imgur.com/pux6WN8.png",
+                "name": "Asian Food Network"
+            },
+            {
+                "id": "hgtv",
+                "url": "https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8,http://wintv.fun/360/99/index.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png",
+                "name": "HGTV"
+            },
+            {
+                "id": "bbcfood",
+                "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?appName=web\u0026appVersion=unknown\u0026clientTime=0\u0026deviceDNT=0\u0026deviceId=6c26f5a0-30d3-11ef-9cf5-e9ddff8ff496\u0026deviceMake=Chrome\u0026deviceModel=web\u0026deviceType=web\u0026deviceVersion=unknown\u0026includeExtendedEvents=false\u0026sid=c628f2e9-ff30-4bd0-9ff6-99fb1649f628\u0026serverSideAds=false",
+                "logo": "https://i.imgur.com/kcmHcSx.png",
+                "name": "BBC Food"
+            }
+        ],
+        "groupName": "Kênh đời sống"
+    },
+    {
+        "chanel": [
+            {
+                "id": "axnhd",
+                "url": "https://tth.vn/axn",
+                "logo": "https://i.ibb.co/ck0mm20/AXN-BEARTV.png",
+                "name": "AXN HD"
+            },
+            {
+                "id": "kbsworld",
+                "url": "https://cdn1.skygo.mn/live/disk1/KBS_World_24/HLS-FTA/KBS_World_24.m3u8",
+                "logo": "https://i.imgur.com/Dy1xwEd.png",
+                "name": "KBS Korea"
+            },
+            {
+                "id": "kbsworld",
+                "url": "https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/2560px-KBS_World_%282009%29.svg.png",
+                "name": "KBS World"
+            },
+            {
+                "id": "nhkworld",
+                "url": "https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8",
+                "logo": "https://i.imgur.com/4ESi2La.png",
+                "name": "NHK World Premium"
+            },
+            {
+                "id": "bloomberg",
+                "url": "https://jmp2.uk/SamsungTVPlus/KRBB500044GP.m3u8",
+                "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1074.png",
+                "name": "Bloomberg TV"
+            },
+            {
+                "id": "abc",
+                "url": "https://c.mjh.nz/abc-nsw.m3u8",
+                "logo": "https://i.imgur.com/BrW7gk8.png",
+                "name": "ABC News"
+            },
+            {
+                "id": "cnn",
+                "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8",
+                "logo": "https://i.ibb.co/1nWr7K8/CNN-BEARTV.png",
+                "name": "CNN HD"
+            },
+            {
+                "id": "cnn",
+                "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8?appName=web\u0026appVersion=unknown\u0026clientTime=0\u0026deviceDNT=0\u0026deviceId=2c7b3f02-35fc-11ef-a031-2b5d494037a2\u0026deviceMake=Chrome\u0026deviceModel=web\u0026deviceType=web\u0026deviceVersion=unknown\u0026includeExtendedEvents=false\u0026sid=7c3402af-f54f-4488-b74f-62b1998013e4\u0026serverSideAds=false",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Sky_News_Australia_logo_-_2019.svg/512px-Sky_News_Australia_logo_-_2019.svg.png",
+                "name": "Sky News"
+            },
+            {
+                "id": "vtv1",
+                "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
+                "logo": "https://i.imgur.com/RIQE8kA.png",
+                "name": "Channel News Asia"
+            },
+            {
+                "id": "dw",
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8",
+                "logo": "https://i.imgur.com/Ppi36a4.png",
+                "name": "Deutsche Welle"
+            },
+            {
+                "id": "fashionhd",
+                "url": "https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8",
+                "logo": "https://i.ibb.co/y4WhpNb/FASHION-TV-BEARTV.png",
+                "name": "Fashion TV"
+            }
+        ],
+        "groupName": "Kênh nước ngoài"
+    },
+    {
+        "chanel": [
+            {
+                "url": "http://mytv.dothome.co.kr/ch/public/1.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png",
+                "name": "KBS1"
+            },
+            {
+                "url": "http://mytv.dothome.co.kr/ch/public/3.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/640px-KBS_2_logo.svg.png",
+                "name": "KBS2"
+            },
+            {
+                "url": "http://mytv.dothome.co.kr/ch/catv/2.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/2560px-KBS_DRAMA.svg.png",
+                "name": "KBS Drama"
+            },
+            {
+                "url": "http://mytv.dothome.co.kr/ch/catv/3.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/2560px-KBS_JOY.svg.png",
+                "name": "KBS Joy"
+            },
+            {
+                "url": "http://mytv.dothome.co.kr/ch/catv/4.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/1024px-KBS_Story.svg.png",
+                "name": "KBS Story"
+            },
+            {
+                "url": "http://mytv.dothome.co.kr/ch/catv/5.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/2560px-KBS_Life.svg.png",
+                "name": "KBS Life"
+            },
+            {
+                "url": "http://mytv.dothome.co.kr/ch/catv/6.php",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/2560px-KBS_kids.svg.png",
+                "name": "KBS Kids"
+            },
+            {
+                "url": "http://1.222.207.80:1935/live/cjbtv/playlist.m3u8",
+                "logo": "https://i.imgur.com/zVunmpQ.png",
+                "name": "CJB SBS"
+            },
+            {
+                "url": "http://1.245.74.5:1935/live/tv/playlist.m3u8",
+                "logo": "https://i.imgur.com/grr8BlV.png",
+                "name": "TJB SBS"
+            },
+            {
+                "url": "http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8",
+                "logo": "https://seeklogo.com/images/K/kbc-gwangju-broadcasting-logo-AB816EA5AB-seeklogo.com.png",
+                "name": "KBC SBS"
+            },
+            {
+                "url": "http://59.23.231.102:1935/live/UBCstream/playlist.m3u8",
+                "logo": "https://seeklogo.com/images/U/ulsan-broadcasting-corporation-logo-74802A0933-seeklogo.com.png",
+                "name": "UBC SBS"
+            },
+            {
+                "url": "http://211.220.195.200:1935/live/mp4:KnnTV.sdp/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/1200px-KNN_logo.svg.png",
+                "name": "KNN SBS"
+            },
+            {
+                "url": "http://61.85.197.53:1935/jtv_live/myStream/chunklist_w1542137203.m3u8",
+                "logo": "https://i.imgur.com/byss0Ld.png",
+                "name": "JTV SBS"
+            },
+            {
+                "url": "http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/G1_broadcasting_logo.svg/220px-G1_broadcasting_logo.svg.png",
+                "name": "G1 SBS"
+            },
+            {
+                "url": "http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8,http://andong.webcasting.co.kr/live/mbc/playlist.m3u8,https://stream.bsmbc.com/livetv/BusanMBC_TV_onairstream/playlist.m3u8,https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8,http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8,https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8,https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8,https://5ddfd163bd00d.streamlock.net/nHDTV/nHDTV/playlist.m3u8,https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8",
+                "logo": "https://i.imgur.com/JM4rxGU.png",
+                "name": "MBC"
+            },
+            {
+                "url": "https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/512px-EBS_1TV_Logo.svg.png",
+                "name": "EBS1"
+            },
+            {
+                "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/512px-EBS_2TV_Logo.svg.png",
+                "name": "EBS2"
+            },
+            {
+                "url": "https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/EBS_English_logo.svg/2560px-EBS_English_logo.svg.png",
+                "name": "EBS E"
+            },
+            {
+                "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/EBS_KIDS.svg/2560px-EBS_KIDS.svg.png",
+                "name": "EBS Kids"
+            },
+            {
+                "url": "https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8",
+                "logo": "https://i.imgur.com/aCeuhon.png",
+                "name": "EBS+1"
+            },
+            {
+                "url": "https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8",
+                "logo": "https://i.imgur.com/pllIMGi.png",
+                "name": "EBS+2"
+            },
+            {
+                "url": "http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8",
+                "logo": "https://i.imgur.com/Ev5JoBJ.png",
+                "name": "TV Chosun 2"
+            }
+        ],
+        "groupName": "Hàn Quốc"
+    },
+    {
+        "chanel": [
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS291\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",
+                "name": "NHK G "
+            },
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS292\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD%E3%82%B42020-.png",
+                "name": "NHK E "
+            },
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS294\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/2560px-Nippon_TV_logo_2014.svg.png",
+                "name": "NTV "
+            },
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS296\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2560px-Tokyo_Broadcasting_System_logo_2020.svg.png",
+                "name": "TBS "
+            },
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS298\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06",
+                "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Fuji_TV_Logo.svg/1049px-Fuji_TV_Logo.svg.png",
+                "name": "Fuji TV  "
+            },
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS295\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/2560px-TV_Asahi_Logo.svg.png",
+                "name": "TV Asahi  "
+            },
+            {
+                "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS297\u0026r=FHD\u0026ccode=JP\u0026m=d0:20:20:04:35:cc\u0026t=0d6938cb3dcf4b79848bc1753a59daf1,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/TV_Tokyo_logo_20110629.svg/2560px-TV_Tokyo_logo_20110629.svg.png",
+                "name": "TV Tokyo "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08",
+                "logo": "https://i.imgur.com/igia8OX.png",
+                "name": "TOKYO MX1"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/BS11_logo.svg/2560px-BS11_logo.svg.pngion_logo_%28rainbow%29.svg.png",
+                "name": "BS11"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2560px-AT-X_logo.svg.png",
+                "name": "AT-X"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18\u0026isp=10\u0026bind=0\u0026uin=159413\u0026playseek=0",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
+                "name": "MTV  "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18",
+                "logo": "https://i.imgur.com/vEpjLnj.png",
+                "name": "J SPORT 1"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19",
+                "logo": "https://i.imgur.com/g1GLVH2.png",
+                "name": "J SPORT 2"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21",
+                "logo": "https://i.imgur.com/xdI361E.png",
+                "name": "J SPORT 3"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22",
+                "logo": "https://i.imgur.com/fBcyZNL.png",
+                "name": "J SPORT 4"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png",
+                "name": "Disney Chanel"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png",
+                "name": "Disney Junio "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08",
+                "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4003.png",
+                "name": "Discovery "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08",
+                "logo": "https://i.imgur.com/PSVgw99.png",
+                "name": "Star Channel 1 "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27",
+                "logo": "https://i.imgur.com/QOriZy5.png",
+                "name": "Star Channel 2 "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28",
+                "logo": "https://i.imgur.com/Z1x8ecY.png",
+                "name": "Star Channel 3 "
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20",
+                "logo": "https://i.imgur.com/vACq7w8.png",
+                "name": "WOWOW Live"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07",
+                "logo": "https://i.imgur.com/Wx9fkCW.png",
+                "name": "WOWOW Cinema"
+            },
+            {
+                "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12",
+                "logo": "https://i.imgur.com/vACq7w8.png",
+                "name": "WOWOW Prime"
+            }
+        ],
+        "groupName": "Nhật Bản"
+    },
+    {
+        "chanel": [
+            {
+                "url": "https://edge2a.v2h-cdn.com/hd_3/hd3.stream/playlist.m3u8,https://edge6a.v2h-cdn.com/3hd/3hd.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/YRiulCU.png",
+                "name": "CH3 HD"
+            },
+            {
+                "url": "https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8",
+                "logo": "https://i.imgur.com/wOIaqg7.png",
+                "name": "CH5 HD"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/hd_7/hd7.stream/playlist.m3u8,https://edge6a.v2h-cdn.com/7hd/7hd.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0018.png",
+                "name": "CH7 HD"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/ch8/ch8.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0006.png",
+                "name": "CH8 HD"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/hd_amarin/hdamarin.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/AmarinTV_NEW512.png",
+                "name": "AMARIN TV HD"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/hd_workpoint/hd_workpoint.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0015_R.png",
+                "name": "Workpoint"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/uARba6N.png",
+                "name": "GMM25"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/hd_thairath/hd_thairath.stream/playlist.m3u8",
+                "logo": "https://static.thairath.co.th/media/dFQROr7oWzulq5FZYjjA515688fYpq5TMLJD17vUyLlN8HXXTvARWsmL1j8q7THf3rE.jpg",
+                "name": "THAIRATH TV HD"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/nation_1/nation_1.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/h3TY38F.png",
+                "name": "Nation TV"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/IJh6SHb.png",
+                "name": "NBT"
+            },
+            {
+                "url": "https://streaming.monomax.me/Mono29LiveStream/ngrp:myStream_all/chunklist_b6628000.m3u8",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png",
+                "name": "MONO29"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/tpbs/tpbs.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0014.png",
+                "name": "Thai PBS"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/hd_one/hd_one.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE///channelicon//3BBAsian_new.png",
+                "name": "OneHD"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/O6Xre1O.png",
+                "name": "True4U"
+            },
+            {
+                "url": "https://live-org-01-cdn.mcot.net/mcothd1080p_edge/smil:mcothd1080p.smil/playlist.m3u8",
+                "logo": "https://i.imgur.com/ejPxGmU.png",
+                "name": "MCOT9"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/T-SPorts_7_Final.png",
+                "name": "T Sports 7"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/tnn2/tnn2.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/kVaUPUt.png",
+                "name": "TNN2"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/tnn24/tnn24.stream/playlist.m3u8",
+                "logo": "https://media-mvtv-app.imgix.net/uploads/channel/121_y_vOC9d8VmjNiQJBHf4DEkryalx7XG13PR.png",
+                "name": "TNN16"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/tnn24/tnn24.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/kVaUPUt.png",
+                "name": "TNN24"
+            },
+            {
+                "url": "https://edge6a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8",
+                "logo": "https://i.imgur.com/m4nPR2L.png",
+                "name": "JKN18"
+            },
+            {
+                "url": "https://edge2a.v2h-cdn.com/hd_pptv/hd_pptv.stream/playlist.m3u8",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/R_0022.png",
+                "name": "PPTV HD"
+            },
+            {
+                "url": "https://tv-live.tpchannel.org/live/tv_1080p.m3u8",
+                "logo": "https://media-mvtv-app.imgix.net/uploads/channel/120_y_qTpbeRJvL4Nfist0A2IoES7KrD8HXgP5.png",
+                "name": "TPTV HD"
+            }
+        ],
+        "groupName": "Thái Lan"
+    }
+]

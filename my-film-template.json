@@ -7,7 +7,12 @@
     "info": {
         "added": "1686587382",
         "country": ["Hồng Kông"],
-        "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+        "genre": [
+            "Phim-Hồng-Kông",
+            "phim-lồng-tiếng",
+            "hình-sự",
+            "truyền-hình"
+        ],
         "plot": "Ngay khi khởi động, Bằng chứng thép 5 gây chú ý khi đánh dấu sự trở lại của Huỳnh Tông Trạch sau 4 năm vắng bóng trên màn ảnh TVB. Anh vào vai chuyên gia pháp chứng Từ Tinh Bách. Trang Sohu đánh giá tài tử có phần mở màn ấn tượng nhờ ngoại hình cuốn hút tuổi 41. Anh khiến khán giả thót tim trong khoảnh khắc bị một con bạch tuộc quấn lấy người ở phân cảnh lặn xuống biển để tìm chứng cứ phá án.",
         "poster": "https://photo2.tinhte.vn/data/attachment-files/2022/10/6187426_image.jpg",
         "trailer": "HGH34ghgAU",
@@ -17,8 +22,24 @@
         {
             "season": 5,
             "info": {
-                "cast": ["Huỳnh Tông Trạch", "Viên Vỹ Hào", "Thái Tư Bối", "Hồng Vĩnh Thành", "Thái Khiết", "Vương Mẫn Dịch", "Đinh Tử Lãng", "Trịnh Tuấn Hoằng", "Tạ Đông Mẫn", "Trương Quốc Cường"],
-                "genre": ["Phim-Hồng-Kông", "phim-lồng-tiếng", "hình-sự", "truyền-hình"],
+                "cast": [
+                    "Huỳnh Tông Trạch",
+                    "Viên Vỹ Hào",
+                    "Thái Tư Bối",
+                    "Hồng Vĩnh Thành",
+                    "Thái Khiết",
+                    "Vương Mẫn Dịch",
+                    "Đinh Tử Lãng",
+                    "Trịnh Tuấn Hoằng",
+                    "Tạ Đông Mẫn",
+                    "Trương Quốc Cường"
+                ],
+                "genre": [
+                    "Phim-Hồng-Kông",
+                    "phim-lồng-tiếng",
+                    "hình-sự",
+                    "truyền-hình"
+                ],
                 "plot": "Ngay khi khởi động, Bằng chứng thép 5 gây chú ý khi đánh dấu sự trở lại của Huỳnh Tông Trạch sau 4 năm vắng bóng trên màn ảnh TVB. Anh vào vai chuyên gia pháp chứng Từ Tinh Bách. Trang Sohu đánh giá tài tử có phần mở màn ấn tượng nhờ ngoại hình cuốn hút tuổi 41. Anh khiến khán giả thót tim trong khoảnh khắc bị một con bạch tuộc quấn lấy người ở phân cảnh lặn xuống biển để tìm chứng cứ phá án.",
                 "poster": "https://photo2.tinhte.vn/data/attachment-files/2022/10/6187426_image.jpg"
             },
@@ -35,6 +56,3 @@
         }
     ]
 }
-
-//https://hqth.me/jsfsharepb
-//https://hqth.me/jsfsharep;
