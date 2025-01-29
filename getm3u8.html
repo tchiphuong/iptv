@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" ng-app="hlsApp">
+<html lang="vi" ng-app="hlsApp" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +7,58 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
 </head>
-<body ng-controller="HLSController" class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
-    <h1 class="text-5xl font-bold mb-4 text-blue-700 text-center">Danh sách Kênh VOD</h1>
-    <div id="currentChannel" class="text-xl font-semibold text-gray-900 mb-2"></div>
-    <div class="flex flex-col md:flex-row w-full h-[calc(100vh-200px)] mx-auto space-y-4 md:space-y-0 md:space-x-4">
-        <div id="channelList" class="overflow-y-auto flex-1 border border-gray-300 rounded-lg p-4 bg-white shadow-lg">
-            <div ng-repeat="channel in channels" class="flex items-center bg-gray-200 rounded-lg p-4 mb-2 cursor-pointer transition-transform transform hover:scale-105 hover:bg-gray-300" ng-click="loadVideo(channel.url)">
-                <img ng-src="{{channel.logo}}" alt="{{channel.name}}" class="w-16 h-16 mr-4 rounded-full object-contain border-2 border-blue-600" ng-error="https://ui-avatars.com/api/?format=svg&rounded=true&name={{channel.name}}">
-                <div class="flex-1">
-                    <h2 class="text-lg font-semibold text-gray-900">{{channel.name}}</h2>
+<body ng-controller="HLSController" class="h-full w-full bg-gray-100 flex flex-col items-center justify-cente p-4">
+    <div class="flex flex-col flex-grow h-0 w-full container gap-1">
+        <div class="bg-black w-full flex flex-col lg:flex-row justify-center">
+            <div class="w-full lg:w-8/12 aspect-video">
+                <video class="h-full" preload="none" id="videoPlayer" autoplay controls crossorigin></video>
+            </div>
+            <div class="bg-white lg:flex-grow flex flex-col" style="min-height: 100px;">
+                <div class="font-bold text-lg p-2">Lịch phát sóng</div>
+                <ul class="overflow-auto flex-grow h-0 space-y-2 p-2">
+                    <li id="schedule-{{schedule.start}}-{{schedule.stop}}" ng-repeat="schedule in schedules" class="flex p-4 bg-white rounded-lg shadow transition" ng-class="{'bg-yellow-200': currentPlayingSchedule === schedule}">
+                        <span class="flex-shrink-0">
+                            <span class="font-semibold text-gray-700">{{ formatTime(schedule.start) }} ~ {{ formatTime(schedule.stop) }}</span>
+                        </span>
+                        <div class="flex-grow ml-4">
+                            <div class="font-bold text-lg text-gray-900">
+                                {{schedule.title}}
+                            </div>
+                            <div class="italic text-gray-600">
+                                {{schedule.description}}
+                            </div>
+                        </div>
+                    </li>
+                    <li ng-if="!schedules">Không có lịch phát sóng</li>
+                </ul>
+            </div>
+        </div>
+        <div id="currentChannel" class="text-xl font-semibold text-gray-900 mb-2"></div>
+        <div class="overflow-auto h-full flex-grow px-4 -mx-4">
+            <div ng-repeat="group in groups" class="mb-6">
+                <h3 ng-if="group.channels.length > 0" class="text-xl font-bold text-gray-800 mb-2">{{ group.name }}</h3>
+                <div ng-if="group.channels.length > 0" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div ng-repeat="channel in group.channels" class="flex items-center bg-white rounded-lg p-4 shadow-md cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg" ng-click="loadVideo(channel.url)">
+                        <img ng-src="{{channel.logo}}" alt="{{channel.name}}" class="w-32 h-16 mr-4 object-contain rounded-lg" ng-init="channel.imgError = false" ng-if="!channel.imgError" onerror="angular.element(this).scope().handleImgError(this, angular.element(this).scope().channel)">
+                        <div class="flex-1">
+                            <h2 class="text-lg font-semibold text-gray-900">{{channel.name}}</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="flex-1">
-            <video id="videoPlayer" class="w-full h-[calc(100vh-200px)] rounded-lg shadow-lg border border-gray-300" controls></video>
-        </div>
+        <button id="showOutput" class="mt-4 bg-blue-700 text-white rounded-lg p-3 hover:bg-blue-800 transition" ng-click="showOutput()">Hiện danh sách HLS</button>
     </div>
-    <button id="showOutput" class="mt-4 bg-blue-700 text-white rounded-lg p-3 hover:bg-blue-800 transition" ng-click="showOutput()">Hiện danh sách HLS</button>
 
     <!-- Popup cho textarea -->
     <div id="outputPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" ng-show="popupVisible">
-        <div class="bg-white rounded-lg p-6 w-11/12 max-w-2xl shadow-lg">
+        <div class="bg-white rounded-lg p-6 w-8/12 shadow-lg">
             <h2 class="text-xl font-bold mb-2">Danh sách HLS</h2>
-            <textarea id="hlsOutput" rows="20" cols="100" readonly class="border border-gray-300 rounded-lg p-2 w-full">{{hlsOutput}}</textarea>
+            <textarea id="hlsOutput" rows="20" cols="100" readonly class="outline-none p-2 w-full">{{hlsOutput}}</textarea>
             <button id="copyButton" class="mt-2 bg-green-500 text-white rounded-lg p-2 hover:bg-green-600 transition" ng-click="copyToClipboard()">Sao chép</button>
             <button id="closePopup" class="mt-2 bg-red-500 text-white rounded-lg p-2 hover:bg-red-600 transition" ng-click="closePopup()">Đóng</button>
         </div>
@@ -39,58 +67,108 @@
     <script>
         angular.module('hlsApp', [])
             .controller('HLSController', ['$scope', '$http', function ($scope, $http) {
-                $scope.channels = [];
+                $scope.groups = [];
                 $scope.hlsOutput = '';
                 $scope.popupVisible = false;
+                $scope.schedules = [];
+                $scope.currentPlayingSchedule = null;
 
                 $scope.fetchHLS = function () {
                     $http.get('https://api.npoint.io/39fe20f4c3372eb4a5b6').then(function (response) {
                         const data = response.data;
                         const m3uContent = [];
+                        m3uContent.push(`#${new Date()}`);
+                        m3uContent.push(`#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"`);
 
                         data.forEach(group => {
+                            const groupChannels = [];
+                            m3uContent.push(``);
+                            m3uContent.push(`#==========================================================================================================`);
+                            m3uContent.push(``);
+
                             group.chanel.forEach(channel => {
                                 const urls = channel.url.split(',');
                                 urls.forEach(url => {
                                     m3uContent.push(`#EXTINF:-1 group-title="${group.groupName}" tvg-id="${channel.id}" tvg-logo="${channel.logo}",${channel.name}`);
+                                    m3uContent.push(`#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36`);
                                     m3uContent.push(url);
-                                    $scope.channels.push({ name: channel.name, logo: channel.logo || 'default-logo.png', url: url });
+                                    if (url) { // Kiểm tra nếu URL không rỗng
+                                        groupChannels.push(
+                                            {
+                                                id: channel.id,
+                                                name: channel.name,
+                                                logo: channel.logo,
+                                                url: url
+                                            }
+                                        );
+                                    }
                                 });
                             });
+
+                            $scope.groups.push({ name: group.groupName, channels: groupChannels });
                         });
 
                         $scope.hlsOutput = m3uContent.join('\n');
 
-                        // Tự động phát video đầu tiên
-                        if ($scope.channels.length > 0) {
-                            $scope.loadVideo($scope.channels[0].url);
-                        }
+                        const firstValidChannel = $scope.groups?.flatMap(g => g.channels).find(c => c.url?.trim());
+                        $scope.loadVideo(firstValidChannel.url);
                     });
                 };
 
                 $scope.loadVideo = function (url) {
-                    const video = document.getElementById('videoPlayer');
-                    const currentChannelDiv = document.getElementById('currentChannel');
+                    const currentChannelDiv = $('#currentChannel');
+                    const title = $('title');
+                    var video = document.querySelector('#videoPlayer');
 
                     if (Hls.isSupported()) {
-                        const hls = new Hls();
+                        var hls = new Hls();
                         hls.loadSource(url);
                         hls.attachMedia(video);
                         hls.on(Hls.Events.MANIFEST_PARSED, function () {
                             video.play();
                         });
-                    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                        video.src = url;
-                        video.addEventListener('loadedmetadata', function () {
-                            video.play();
-                        });
                     }
 
-                    const currentChannel = $scope.channels.find(channel => channel.url === url);
+
+                    // Tìm kênh trong tất cả các nhóm mà không sử dụng vòng lặp for
+                    const currentChannel = $scope.groups.flatMap(group => group.channels).find(channel => channel.url === url);
+                    // Kiểm tra nếu currentChannel không phải là undefined
                     if (currentChannel) {
-                        currentChannelDiv.innerText = `Đang phát: ${currentChannel.name}`;
+                        $scope.fetchSchedule(currentChannel.id);
+                        currentChannelDiv.text(`Đang phát: ${currentChannel.name}`);
+                        title.text(`🔴 Đang phát: ${currentChannel.name}`);
                     }
                 };
+
+                $scope.fetchSchedule = function (id) {
+                    $http.get(`https://lichphatsong.xyz/schedule/detail?id=${id}`).then(function (response) {
+                        if (response.data.data) {
+                            $scope.schedules = response.data.data
+
+                            // Xác định chương trình đang phát sóng
+                            const currentTime = moment().unix(); // Lấy thời gian hiện tại
+                            const currentSchedule = $scope.schedules.find(schedule =>
+                                currentTime >= schedule.start && currentTime <= schedule.stop
+                            );
+                            if (currentSchedule) {
+                                $scope.currentPlayingSchedule = currentSchedule;
+                                const scheduleId = `schedule-${currentSchedule.start}-${currentSchedule.stop}`;
+
+                                let attempts = 0;
+                                const checkElement = setInterval(() => {
+                                    const currentScheduleElement = document.getElementById(scheduleId);
+                                    if (currentScheduleElement) {
+                                        currentScheduleElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                        clearInterval(checkElement); // Dừng kiểm tra khi tìm thấy
+                                    } else {
+                                        attempts++;
+                                        if (attempts > 10) clearInterval(checkElement); // Dừng sau 10 lần thử
+                                    }
+                                }, 300); // Kiểm tra mỗi 300ms
+                            }
+                        }
+                    })
+                }
 
                 $scope.showOutput = function () {
                     $scope.popupVisible = true;
@@ -109,6 +187,16 @@
 
                 // Gọi hàm fetchHLS khi khởi động
                 $scope.fetchHLS();
+
+                $scope.handleImgError = (img, channel) => {
+                    channel.imgError = true; // Đánh dấu ảnh lỗi để Angular xử lý lại
+                    img.src = `https://ui-avatars.com/api/?background=random&format=svg&rounded=true&name=${channel.name}`;
+                };
+
+                $scope.formatTime = function (time) {
+                    return moment.unix(time).format('HH:mm'); // Định dạng giờ theo định dạng 24h
+                };
+
             }]);
     </script>
 </body>

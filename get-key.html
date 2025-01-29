@@ -102,7 +102,7 @@
                 <div class="h-full">
                     <div id="tab1Content" class="tab-content h-full">
                         <div class="h-full" style="height: calc(100% + 20px);">
-                            <iframe id="videoFrame" src="https://www6.cbox.ws/box/?boxid=827198&boxtag=wskql9" width="100%" height="100%" allowfullscreen="true" autoplay="1" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                            <iframe id="videoFrame" src="https://www6.cbox.ws/box/?boxid=827198&boxtag=wskql9" width="100%" height="100%" allowfullscreen="true" autoplay="1" sandbox="">
                             </iframe>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
         </div>
     </div>
 
-    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer flex flex-col gap-2" id="spin" style="display: none">
+    <div class="fixed inset-0 z-30 flex items-center justify-center h-screen bg-white cursor-pointer flex-col gap-2" id="spin" style="display: none">
         <div class="loader"></div>
     </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -213,13 +213,12 @@
                                 height="100%"
                                 allowfullscreen="true" 
                                 autoplay="1" 
-                                sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                                sandbox="allow-scripts">
                                 </iframe>`;
                             // Using jQuery to empty the container and append the new iframe
                             $("#chat-wrap").removeClass("hidden");
                             $("#chatButton").removeClass("hidden");
                             $("#chat").empty().append(iframe);
-
 
                             $("#pageTitle").text(response.data.name);
                             // $("#title").text(`${response.data.name}`);
@@ -265,7 +264,7 @@
                 height="100%"
                 allowfullscreen="true" 
                 autoplay="1" 
-                sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+                sandbox="allow-scripts">
                 </iframe>`;
                 // Using jQuery to empty the container and append the new iframe
                 $("#videoContainer").empty().append(iframe);
