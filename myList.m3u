@@ -1,7 +1,12 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG_LITE,http://lichphatsong.xyz/schedule/epg.xml,https://www.bevy.be/bevyfiles/singaporepremium.xml,https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,https://akkradet.github.io/IPTV-THAI/guide.xml,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+#EXTM3U url-tvg="
+https://iptvx.one/EPG_LITE,http://lichphatsong.xyz/schedule/epg.xml,
+https://www.bevy.be/bevyfiles/singaporepremium.xml,
+https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,
+https://akkradet.github.io/IPTV-THAI/guide.xml,
+https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,
+https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
+"
 
-#EXTINF:-1 group-title="VTV" group-logo="https://tchiphuong.github.io/iptv/images/background/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv1hd.png",VTV1
-https://vtvgolive-ssai.vtvdigital.vn/2ZtaBa5Ivc-BypDA3BfKxQ/1738097602/manifest/vtv1/master.m3u8
 #EXTINF:-1 group-title="VTV" group-logo="https://tchiphuong.github.io/iptv/images/background/vtv.png" tvg-id="vtv1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv1hd.png",VTV1
 http://iptv.nhadai.org/stream/vtv1-hd
 #EXTINF:-1 group-title="VTV" tvg-id="vtv2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv2hd.png",VTV2
@@ -17,7 +22,8 @@ http://iptv.nhadai.org/stream/vtv5-tay-nam-bo
 #EXTINF:-1 group-title="VTV" tvg-id="vtv5hdtn" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv5hdtn.png",VTV5 Tây Nguyên
 http://iptv.nhadai.org/stream/vtv5-tay-nguyen
 #EXTINF:-1 group-title="VTV" tvg-id="vtv6hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv6hd.png",VTV Cần Thơ
-http://iptv.nhadai.org/stream/vtv-can-tho
+https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist_b5000000.m3u8
+// http://iptv.nhadai.org/stream/vtv-can-tho
 #EXTINF:-1 group-title="VTV" tvg-id="vtv7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv7hd.png",VTV7
 http://iptv.nhadai.org/stream/vtv7-hd
 #EXTINF:-1 group-title="VTV" tvg-id="vtv8hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv8hd.png",VTV8
@@ -39,9 +45,9 @@ http://e4.endpoint.cdn.sctvonline.vn/hls/KPlusKid/01.m3u8
 http://125hvt.ddns.net:21585/axn/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="hbohd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/hbohd.png",HBO
 http://125hvt.ddns.net:21585/hbo/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://i.imgur.com/B9AVT2i.png",WBTV
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="warnertvhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/warnertvhd.png",WBTV
 http://125hvt.ddns.net:21585/wbtv/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="hollywoodclassics" tvg-logo="https://img.lichphatsong.xyz/logo/hollywoodclassics.jpg",Hollywood Classics
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="hollywoodclassics" tvg-logo="https://tchiphuong.github.io/iptv/images/background/hollywoodclassics.png",Hollywood Classics
 https://z215ymcm4tliv.vcdn.cloud/s4/hls/hollywood/index.m3u8
 
 #EXTINF:-1 tvg-id="tv360.sk1" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189720461/dc4ee8910c25_480_270.png",TV360+ 1
@@ -62,19 +68,6 @@ https://tv.TruyenHinh.Click/CoBan/tv360.sk7/TuyetDoiKhongKinhDoanh
 https://tv.TruyenHinh.Click/CoBan/tv360.sk8/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="tv360.sk9" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/30/22/1727709197325/1be646ba55c5_480_270.png",TV360+ 9
 https://tv.TruyenHinh.Click/CoBan/tv360.sk9/TuyetDoiKhongKinhDoanh
-
-#EXTINF:-1 tvg-id="tv360.live1" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live1/KenhCoBan",TV360 Live 1
-https://tv.TruyenHinh.Click/CoBan/tv360.live1/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="tv360.live2" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live2/KenhCoBan",TV360 Live 2
-https://tv.TruyenHinh.Click/CoBan/tv360.live2/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="tv360.live3" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live3/KenhCoBan",TV360 Live 3
-https://tv.TruyenHinh.Click/CoBan/tv360.live3/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="tv360.live4" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live4/KenhCoBan",TV360 Live 4
-https://tv.TruyenHinh.Click/CoBan/tv360.live4/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="tv360.live5" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live5/KenhCoBan",TV360 Live 5
-https://tv.TruyenHinh.Click/CoBan/tv360.live5/TuyetDoiKhongKinhDoanh
-#EXTINF:-1 tvg-id="tv360.live6" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live6/KenhCoBan",TV360 Live 6
-https://tv.TruyenHinh.Click/CoBan/tv360.live6/TuyetDoiKhongKinhDoanh
 
 #EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab1hd.png",ON GIAITRI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -761,281 +754,322 @@ https://edge1.laotv.la/live/THD7/index.m3u8
 // #KODIPROP:inputstream.adaptive.license_key=c6455c5a1ad1484fa4029ba498659838:4329fb08c3444a8ae9b3c477efe11002
 // https://tvvvideolive3.solocoo.tv/blueskytvvlive7dash/blueelevenproleague3nl/Manifest.mpd
 
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14ln25pmjdv031ejxsmg8dczsu_image-header_pEs_1723117975000&quality=70&width=500",🇪🇸 DAZN F1
-// #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-016/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="daznbar1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=12dpnhddhmpm71228raanhyxs2_image-header_pDach_1723627450000&quality=70&width=500",🇩🇪 DAZN 1 Deutsch
-// #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-017/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="daznbar2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ni1lpwjtnxmr1xklfoptrt2mz_image-header_pDach_1723628653000&quality=70&width=500",🇩🇪 DAZN 2 Deutsch
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-018/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="sportdigital-fussball" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=824817733470_image-header_pDach_1674763073000&quality=70&width=500",Sportdigital TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-022/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ujyy4lydbu8a1bp9f1wl8rt58_image-header_pDach_1661948998000&quality=70&width=500",NFL Network
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-023/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=pterrit4f2xu1pa2r6x87y5e9_image-header_pIt_1724315365000&quality=70&width=500",🇮🇹 DAZN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-024/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909305413206_image-header_pIt_1684155244000&quality=70&width=500",🇮🇹 Milan TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-025/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=oujgtbpdbgg41eb1ynteb1fg5_image-header_pDach_1661949080000&quality=70&width=500",MLB Network
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-026/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eurosport1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085207_image-header_pEs_1661946013000&quality=70&width=500",🇩🇪 Eurosport 1 HD Deutsch
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-027/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eurosport2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1088590917281_image-header_pDach_1661949223000&quality=70&width=500",🇩🇪 Eurosport 2 HD Deutsch
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-028/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eurosport1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085207_image-header_pEs_1661946013000&quality=70&width=500",🇮🇹 Eurosport 1 HD
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-029/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eurosport2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085209_image-header_pEs_1661946014000&quality=70&width=500",🇮🇹 Eurosport 2 HD
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-030/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eurosport1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085207_image-header_pEs_1661946013000&quality=70&width=500",🇪🇸 Eurosport 1 HD
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-031/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eurosport2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085209_image-header_pEs_1661946014000&quality=70&width=500",🇪🇸 Eurosport 2 HD
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-032/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909319749346_image-header_pIt_1684149842000&quality=70&width=500",🇮🇹 Inter TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-033/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=130867269823_image-header_pLa_1644416358000&quality=70&width=500",BR Red Bull TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-036/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.1.es" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=hn9vkic8rbfi1ndrym8sw2qh7_image-header_pEs_1723035920000&quality=70&width=500",🇪🇸 DAZN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-037/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.2.es" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=2ouwtae8ad7l1fxviow9bowpk_image-header_pEs_1723118632000&quality=70&width=500",🇪🇸 DAZN 2
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-038/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=ppuwyuz2lz6n1von8gr751z7r_image-header_pRow_1716380140000&quality=70&width=500",🇬🇧 Rally TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-039/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1f3zmlzr4pamc1jnkm6bjh64of_image-header_pEs_1704473541000&quality=70&width=500",🇪🇸 LaLiga TV Hypermotion
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-040/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=72e1fea9-fe6b-43e5-a8f1-53fd33ac45b3&quality=70&width=500",la chaine L'Équipe
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-041/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.fm-world.it/wp-content/uploads/2023/08/serieaaa.png",Radio TV Serie A con RDS
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-042/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1weziux6zy5mb16pev002ax1yu_image-header_pEs_1723118324000&quality=70&width=500",🇪🇸 DAZN La Liga
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-043/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=188786245666_image-header_pRow_1689765238000&quality=70&width=500",UNBEATEN
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-044/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=163818053595_image-header_pRow_1679996050000&quality=70&width=500",🇬🇧 DAZN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-045/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=tqu63sitiw3t1ulrwm1ivsfie_image-header_pLa_1719845203000&quality=70&width=500",Nosso Futebol
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-046/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1npdu60bqcf5g1bn4gln4arlk4_image-header_pRow_1719816842000&quality=70&width=500",🇳🇱 DAZN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-047/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1npdu60bqcf5g1bn4gln4arlk4_image-header_pRow_1719816842000&quality=70&width=500",🇧🇪 DAZN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-048/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175986245699_image-header_pRow_1687943056000&quality=70&width=500",DAZN ELEVEN PRO LEAGUE 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-049/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175986245699_image-header_pRow_1687943056000&quality=70&width=500",DAZN ELEVEN PRO LEAGUE 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-050/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175989829625_image-header_pRow_1688019823000&quality=70&width=500",DPLAY SPORTS 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-051/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175989829627_image-header_pRow_1688020141000&quality=70&width=500",DPLAY SPORTS 2
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-052/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175995461629_image-header_pRow_1688020143000&quality=70&width=500",DPLAY SPORTS 3
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-053/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport1-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1o4eamzb4env61ddc8wv4ra06l_image-header_pRow_1720521601000&quality=70&width=500",🇵🇹 DAZN ELEVEN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-054/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport2-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=6vqvum5g288n1lgqwvq6vlim1_image-header_pRow_1720521637000&quality=70&width=500",🇵🇹 DAZN ELEVEN 2
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-055/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport3-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=wgwme1660qe91xe0ctpwigxm0_image-header_pRow_1720521671000&quality=70&width=500",🇵🇹 DAZN ELEVEN 3
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-056/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport4-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=kqii5eosmqit1fvtde2eolrjp_image-header_pRow_1720521702000&quality=70&width=500",🇵🇹 DAZN ELEVEN 4
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-057/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport5-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1s05qqmsbs2rr113rlpmwh8llz_image-header_pRow_1720521735000&quality=70&width=500",🇵🇹 DAZN ELEVEN 5
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-058/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport6-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=u44wia687fzk1gor2lhdr8vbo_image-header_pRow_1720521801000&quality=70&width=500",🇵🇹 DAZN ELEVEN 6
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-059/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport6-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=u44wia687fzk1gor2lhdr8vbo_image-header_pRow_1720521801000&quality=70&width=500",🇵🇹 DAZN 1
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-060/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport6-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=u44wia687fzk1gor2lhdr8vbo_image-header_pRow_1720521801000&quality=70&width=500",🇵🇹 DAZN 2
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-// https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-062/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14ln25pmjdv031ejxsmg8dczsu_image-header_pEs_1723117975000&quality=70&width=500",🇪🇸 DAZN F1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-016/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="daznbar1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=12dpnhddhmpm71228raanhyxs2_image-header_pDach_1723627450000&quality=70&width=500",🇩🇪 DAZN 1 Deutsch
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-017/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="daznbar2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ni1lpwjtnxmr1xklfoptrt2mz_image-header_pDach_1723628653000&quality=70&width=500",🇩🇪 DAZN 2 Deutsch
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-018/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="sportdigital-fussball" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=824817733470_image-header_pDach_1674763073000&quality=70&width=500",Sportdigital TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-022/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ujyy4lydbu8a1bp9f1wl8rt58_image-header_pDach_1661948998000&quality=70&width=500",NFL Network
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-023/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=pterrit4f2xu1pa2r6x87y5e9_image-header_pIt_1724315365000&quality=70&width=500",🇮🇹 DAZN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-024/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909305413206_image-header_pIt_1684155244000&quality=70&width=500",🇮🇹 Milan TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-025/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=oujgtbpdbgg41eb1ynteb1fg5_image-header_pDach_1661949080000&quality=70&width=500",MLB Network
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-026/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eurosport1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085207_image-header_pEs_1661946013000&quality=70&width=500",🇩🇪 Eurosport 1 HD Deutsch
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-027/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eurosport2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1088590917281_image-header_pDach_1661949223000&quality=70&width=500",🇩🇪 Eurosport 2 HD Deutsch
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-028/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eurosport1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085207_image-header_pEs_1661946013000&quality=70&width=500",🇮🇹 Eurosport 1 HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-029/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eurosport2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085209_image-header_pEs_1661946014000&quality=70&width=500",🇮🇹 Eurosport 2 HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-030/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eurosport1" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085207_image-header_pEs_1661946013000&quality=70&width=500",🇪🇸 Eurosport 1 HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-031/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eurosport2" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909334085209_image-header_pEs_1661946014000&quality=70&width=500",🇪🇸 Eurosport 2 HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-032/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=909319749346_image-header_pIt_1684149842000&quality=70&width=500",🇮🇹 Inter TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-033/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=130867269823_image-header_pLa_1644416358000&quality=70&width=500",BR Red Bull TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-036/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.1.es" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=hn9vkic8rbfi1ndrym8sw2qh7_image-header_pEs_1723035920000&quality=70&width=500",🇪🇸 DAZN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-037/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.2.es" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=2ouwtae8ad7l1fxviow9bowpk_image-header_pEs_1723118632000&quality=70&width=500",🇪🇸 DAZN 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-038/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=ppuwyuz2lz6n1von8gr751z7r_image-header_pRow_1716380140000&quality=70&width=500",🇬🇧 Rally TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-039/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1f3zmlzr4pamc1jnkm6bjh64of_image-header_pEs_1704473541000&quality=70&width=500",🇪🇸 LaLiga TV Hypermotion
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-040/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=72e1fea9-fe6b-43e5-a8f1-53fd33ac45b3&quality=70&width=500",la chaine L'Équipe
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-041/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://www.fm-world.it/wp-content/uploads/2023/08/serieaaa.png",Radio TV Serie A con RDS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-042/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1weziux6zy5mb16pev002ax1yu_image-header_pEs_1723118324000&quality=70&width=500",🇪🇸 DAZN La Liga
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-043/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=188786245666_image-header_pRow_1689765238000&quality=70&width=500",UNBEATEN
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-044/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=163818053595_image-header_pRow_1679996050000&quality=70&width=500",🇬🇧 DAZN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-045/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=tqu63sitiw3t1ulrwm1ivsfie_image-header_pLa_1719845203000&quality=70&width=500",Nosso Futebol
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-046/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1npdu60bqcf5g1bn4gln4arlk4_image-header_pRow_1719816842000&quality=70&width=500",🇳🇱 DAZN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-047/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1npdu60bqcf5g1bn4gln4arlk4_image-header_pRow_1719816842000&quality=70&width=500",🇧🇪 DAZN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-048/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175986245699_image-header_pRow_1687943056000&quality=70&width=500",DAZN ELEVEN PRO LEAGUE 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-049/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175986245699_image-header_pRow_1687943056000&quality=70&width=500",DAZN ELEVEN PRO LEAGUE 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-050/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175989829625_image-header_pRow_1688019823000&quality=70&width=500",DPLAY SPORTS 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-051/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175989829627_image-header_pRow_1688020141000&quality=70&width=500",DPLAY SPORTS 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-052/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=175995461629_image-header_pRow_1688020143000&quality=70&width=500",DPLAY SPORTS 3
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-053/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.1.pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1o4eamzb4env61ddc8wv4ra06l_image-header_pRow_1720521601000&quality=70&width=500",🇵🇹 DAZN ELEVEN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-054/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport2-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=6vqvum5g288n1lgqwvq6vlim1_image-header_pRow_1720521637000&quality=70&width=500",🇵🇹 DAZN ELEVEN 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-055/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport3-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=wgwme1660qe91xe0ctpwigxm0_image-header_pRow_1720521671000&quality=70&width=500",🇵🇹 DAZN ELEVEN 3
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-056/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport4-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=kqii5eosmqit1fvtde2eolrjp_image-header_pRow_1720521702000&quality=70&width=500",🇵🇹 DAZN ELEVEN 4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-057/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport5-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1s05qqmsbs2rr113rlpmwh8llz_image-header_pRow_1720521735000&quality=70&width=500",🇵🇹 DAZN ELEVEN 5
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-058/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport6-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=u44wia687fzk1gor2lhdr8vbo_image-header_pRow_1720521801000&quality=70&width=500",🇵🇹 DAZN ELEVEN 6
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-059/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport6-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=u44wia687fzk1gor2lhdr8vbo_image-header_pRow_1720521801000&quality=70&width=500",🇵🇹 DAZN 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-060/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="eleven-sport6-pt" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=u44wia687fzk1gor2lhdr8vbo_image-header_pRow_1720521801000&quality=70&width=500",🇵🇹 DAZN 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Sky, EM150UK, ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.9.1500.3524 Mobile Safari/537.36
+https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-062/stream.mpd
 
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=dxaycmnfa2rc14y5ww482fi2l_image-header_pDach_1723628749000&quality=70&width=500",DAZN RISE
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-501/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1e8qv74kj9ru71k69jmgy26gow_image-header_pRow_1712318674000&quality=70&width=500",DAZN COMBAT
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-502/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ueto01erioff1elwsrhfernnk_image-header_pRow_1723621706000&quality=70&width=500",DAZN WOMEN'S FOOTBALL
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-503/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1723628836000&quality=70&width=500",DAZN FAST+
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=dxaycmnfa2rc14y5ww482fi2l_image-header_pDach_1723628749000&quality=70&width=500",DAZN RISE
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-501/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1e8qv74kj9ru71k69jmgy26gow_image-header_pRow_1712318674000&quality=70&width=500",DAZN COMBAT
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-502/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ueto01erioff1elwsrhfernnk_image-header_pRow_1723621706000&quality=70&width=500",DAZN WOMEN'S FOOTBALL
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-503/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1723628836000&quality=70&width=500",DAZN FAST+
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd
 
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",DAZN 505
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-505/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",DAZN 507
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-507/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",CBS Sport
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-508/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",Boxing TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-509/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14akp5m62ri6h1ffv2c6exfmol_image-header_pRow_1720025177000&quality=70&width=500",PLL Network
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-510/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=vrel7rmw9vte1rnw6un6vq9dl_image-header_pUs_1715792122000&quality=70&width=500",Billiard TV
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-511/stream.mpd
-// #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1pfdqsqrno1b1umj28ysed2sa_image-header_pRow_1715780646000&quality=70&width=500",Padel Time
-// #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-// #KODIPROP:inputstream.adaptive.manifest_type=mpd
-// #KODIPROP:inputstream.adaptive.license_type=clearkey
-// #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
-// https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-513/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",DAZN 505
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-505/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",DAZN 507
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-507/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",CBS Sport
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-508/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",Boxing TV
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-509/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14akp5m62ri6h1ffv2c6exfmol_image-header_pRow_1720025177000&quality=70&width=500",PLL Network
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-510/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=vrel7rmw9vte1rnw6un6vq9dl_image-header_pUs_1715792122000&quality=70&width=500",Billiard TV
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-511/stream.mpd
+#EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1pfdqsqrno1b1umj28ysed2sa_image-header_pRow_1715780646000&quality=70&width=500",Padel Time
+#KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"z7XitzvvTzyHjyWrhqdFHw","k":"DWcSvyqE7cyT0AGpYT9v7A"}]}
+https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-513/stream.mpd
 
 // #EXTINF:-1 group-title="Thể thao" tvg-id="" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000&quality=70&width=500",DAZN 520
 // #KODIPROP:inputstream.adaptive.stream_headers=referer=&user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
@@ -1738,78 +1772,78 @@ http://mytv.dothome.co.kr/ch/catv/92.php
 #EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://www.abu.org.my/wp-content/uploads/2019/10/MBC-daejeon.jpg",🇰🇷 MBC
 http://mytv.dothome.co.kr/ch/public/5.php
 
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv1" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-1.png",🇨🇳 CCTV-1
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-1.png",🇨🇳 CCTV-1
 https://api.olelive.com/dis/live/CCTV1HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv2" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-2.png",🇨🇳 CCTV-2
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-2.png",🇨🇳 CCTV-2
 https://api.olelive.com/dis/live/CCTV2HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv3" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-3.png",🇨🇳 CCTV-3
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv3" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-3.png",🇨🇳 CCTV-3
 https://api.olelive.com/dis/live/CCTV3HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv4" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-4.png",🇨🇳 CCTV-4
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv4" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-4.png",🇨🇳 CCTV-4
 https://api.olelive.com/dis/live/CCTV4HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-5.png",🇨🇳 CCTV-5
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-5.png",🇨🇳 CCTV-5
 https://api.olelive.com/dis/live/CCTV5HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5plus" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-5-plus.png",🇨🇳 CCTV-5+
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5plus" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-5-plus.png",🇨🇳 CCTV-5+
 https://api.olelive.com/dis/live/CCTV5PHD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv6" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-6.png",🇨🇳 CCTV-6
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv6" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-6.png",🇨🇳 CCTV-6
 https://api.olelive.com/dis/live/CCTV6HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv7" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-7.png",🇨🇳 CCTV-7
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv7" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-7.png",🇨🇳 CCTV-7
 https://api.olelive.com/dis/live/CCTV7HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv8" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-8.png",🇨🇳 CCTV-8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv8" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-8.png",🇨🇳 CCTV-8
 https://api.olelive.com/dis/live/CCTV8HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvjilu" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-9.png",🇨🇳 CCTV-9
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvjilu" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-9.png",🇨🇳 CCTV-9
 https://api.olelive.com/dis/live/CCTV9HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv10" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-10.png",🇨🇳 CCTV-10
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv10" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-10.png",🇨🇳 CCTV-10
 https://api.olelive.com/dis/live/CCTV10HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv11" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-11.png",🇨🇳 CCTV-11
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv11" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-11.png",🇨🇳 CCTV-11
 https://api.olelive.com/dis/live/CCTV11HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv12" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-12.png",🇨🇳 CCTV-12
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv12" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-12.png",🇨🇳 CCTV-12
 https://api.olelive.com/dis/live/CCTV12HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv13" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-13.png",🇨🇳 CCTV-13
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv13" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-13.png",🇨🇳 CCTV-13
 https://api.olelive.com/dis/live/CCTV13HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvchild" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-14.png",🇨🇳 CCTV-14
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvchild" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-14.png",🇨🇳 CCTV-14
 https://api.olelive.com/dis/live/CCTV14HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv15" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-15.png",🇨🇳 CCTV-15
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv15" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-15.png",🇨🇳 CCTV-15
 https://api.olelive.com/dis/live/CCTV15HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv16" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-16.png",🇨🇳 CCTV-16
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv16" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-16.png",🇨🇳 CCTV-16
 https://api.olelive.com/dis/live/CCTV16HD/hls.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv17" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-17.png",🇨🇳 CCTV-17
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv17" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-17.png",🇨🇳 CCTV-17
 https://api.olelive.com/dis/live/CCTV17HD/hls.m3u8
 
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv1" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-1.png",🇨🇳 CCTV-1
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv1" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-1.png",🇨🇳 CCTV-1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv2" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-2.png",🇨🇳 CCTV-2
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv2" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-2.png",🇨🇳 CCTV-2
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv3" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-3.png",🇨🇳 CCTV-3
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv3" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-3.png",🇨🇳 CCTV-3
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv4" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-4.png",🇨🇳 CCTV-4
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv4" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-4.png",🇨🇳 CCTV-4
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-5.png",🇨🇳 CCTV-5
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-5.png",🇨🇳 CCTV-5
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5plus" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-5-plus.png",🇨🇳 CCTV-5+
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv5plus" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-5-plus.png",🇨🇳 CCTV-5+
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv6" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-6.png",🇨🇳 CCTV-6
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv6" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-6.png",🇨🇳 CCTV-6
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv7" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-7.png",🇨🇳 CCTV-7
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv7" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-7.png",🇨🇳 CCTV-7
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv8" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-8.png",🇨🇳 CCTV-8
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv8" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-8.png",🇨🇳 CCTV-8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvjilu" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-9.png",🇨🇳 CCTV-9
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvjilu" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-9.png",🇨🇳 CCTV-9
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv10" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-10.png",🇨🇳 CCTV-10
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv10" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-10.png",🇨🇳 CCTV-10
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv11" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-11.png",🇨🇳 CCTV-11
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv11" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-11.png",🇨🇳 CCTV-11
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv12" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-12.png",🇨🇳 CCTV-12
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv12" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-12.png",🇨🇳 CCTV-12
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv13" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-13.png",🇨🇳 CCTV-13
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv13" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-13.png",🇨🇳 CCTV-13
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvchild" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-14.png",🇨🇳 CCTV-14
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctvchild" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-14.png",🇨🇳 CCTV-14
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv15" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-15.png",🇨🇳 CCTV-15
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv15" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-15.png",🇨🇳 CCTV-15
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv16" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-16.png",🇨🇳 CCTV-16
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv16" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-16.png",🇨🇳 CCTV-16
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv17" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-cctv-17.png",🇨🇳 CCTV-17
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="cctv17" tvg-logo="https://tchiphuong.github.io/iptv/images/background/zh-cctv-17.png",🇨🇳 CCTV-17
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="anhui" tvg-logo="https://tchiphuong.github.io/iptv/images/zh-anhui.png",🇨🇳 An Huy 安徽卫视
