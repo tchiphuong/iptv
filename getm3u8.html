@@ -89,7 +89,11 @@
                             group.chanel.forEach(channel => {
                                 const urls = channel.url.split(',');
                                 urls.forEach(url => {
-                                    m3uContent.push(`#EXTINF:-1 group-title="${group.groupName}" tvg-id="${channel.id}" tvg-logo="${channel.logo}",${channel.name}`);
+                                    let logo = channel.logo
+                                    if (channel.id) {
+                                        logo = `https://tchiphuong.github.io/iptv/images/background/${channel.id}.png`;
+                                    }
+                                    m3uContent.push(`#EXTINF:-1 group-title="${group.groupName}" tvg-id="${channel.id}" tvg-logo="${logo}",${channel.name}`);
                                     m3uContent.push(`#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36`);
                                     m3uContent.push(url);
                                     if (url) { // Kiểm tra nếu URL không rỗng
@@ -97,7 +101,7 @@
                                             {
                                                 id: channel.id,
                                                 name: channel.name,
-                                                logo: channel.logo,
+                                                logo: logo,
                                                 url: url
                                             }
                                         );

@@ -25,19 +25,19 @@ http://iptv.nhadai.org/stream/vtv8-hd
 #EXTINF:-1 group-title="VTV" tvg-id="vtv9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtv9hd.png",VTV9
 http://iptv.nhadai.org/stream/vtv9-hd
 
-#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_k1_172771644656.jpg",K+ CINE
+#EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/kcinehd.png",K+ CINE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://509942876.r.vtvcdn.com/onplus/K_CINE_7777/m20_index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="kaction" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_kns_172771621265.jpg",K+ LIFE
+#EXTINF:-1 group-title="K+" tvg-id="kaction" tvg-logo="https://tchiphuong.github.io/iptv/images/background/kaction.png",K+ LIFE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://509942876.r.vtvcdn.com/onplus/K_LIFE_7777/m20_index.m3u8
-#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://images.fptplay53.net/media/channels/OTT/2024/10/01/icon_channel_k-kids-hd_172771651866.jpg", K+ KIDS
+#EXTINF:-1 group-title="K+" tvg-id="kkidshd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/kkidshd.png", K+ KIDS
 http://e4.endpoint.cdn.sctvonline.vn/hls/KPlusKid/01.m3u8
 
 
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="axnhd" tvg-logo="https://img.lichphatsong.xyz/logo/axn.png",AXN
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="axnhd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/axnhd.png",AXN
 http://125hvt.ddns.net:21585/axn/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="hbohd" tvg-logo="https://img.lichphatsong.xyz/logo/hbohd.png",HBO
+#EXTINF:-1 group-title="Nước ngoài" tvg-id="hbohd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/hbohd.png",HBO
 http://125hvt.ddns.net:21585/hbo/index.m3u8
 #EXTINF:-1 group-title="Nước ngoài" tvg-id="" tvg-logo="https://i.imgur.com/B9AVT2i.png",WBTV
 http://125hvt.ddns.net:21585/wbtv/index.m3u8
@@ -75,6 +75,172 @@ https://tv.TruyenHinh.Click/CoBan/tv360.live4/TuyetDoiKhongKinhDoanh
 https://tv.TruyenHinh.Click/CoBan/tv360.live5/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="tv360.live6" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://tv.truyenhinh.click/Logo/tv360.live6/KenhCoBan",TV360 Live 6
 https://tv.TruyenHinh.Click/CoBan/tv360.live6/TuyetDoiKhongKinhDoanh
+
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab1hd.png",ON GIAITRI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/GIAITRI_TV_HD/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab1hd.png",ON GIAITRI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab1hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab1hd.png",ON GIAITRI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/180/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab19hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab19hd.png",ON DRAMA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/D_DRAMAS_HD/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab19hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab19hd.png",ON DRAMA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab19hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab19hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab19hd.png",ON DRAMA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/177/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab8hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab8hd.png",ON BIBI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/BIBI/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab8hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab8hd.png",ON BIBI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://tv.TruyenHinh.Click/CoBan/vtvcab8hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab8hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab8hd.png",ON BIBI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/178/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab21hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab21hd.png",ON KIDS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/BIBI_PLUS_clear/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab21hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab21hd.png",ON KIDS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://tv.TruyenHinh.Click/CoBan/vtvcab21hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab21hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab21hd.png",ON KIDS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/179/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab4hd.png",ON MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/VAN_HOA/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab4hd.png",ON MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab4hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab4hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab4hd.png",ON MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/181/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab2hd.png",ON PHIMVIET
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/PHIM_VIET/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab2hd.png",ON PHIMVIET
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab2hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab2hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab2hd.png",ON PHIMVIET
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/175/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab5hd.png",ON E-CHANEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/E_CHANNEL/m30_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab5hd.png",ON E-CHANEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab5hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab5hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab5hd.png",ON E-CHANEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/182/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab7hd.png",ON ONO2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/O2_TV/m30_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab7hd.png",ON ONO2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab7hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab7hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab7hd.png",ON ONO2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/175/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab9hd.png",ON INFO-TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/INFO_TV/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab9hd.png",ON INFO-TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab9hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab9hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab9hd.png",ON INFO-TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/189/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab10hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab10hd.png",ON CINE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/FILM_TV/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab10hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab10hd.png",ON CINE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab10hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab10hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab10hd.png",ON CINE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/176/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab12hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab12hd.png",ON STYLE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/STYLE_TV_HD/m30_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab12hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab12hd.png",ON STYLE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab12hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab12hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab12hd.png",ON STYLE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/184/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab17hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab17hd.png",ON TRENDING
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/YEAH1_TV/m30_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab17hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab17hd.png",ON TRENDING
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://tv.TruyenHinh.Click/CoBan/vtvcab17hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab17hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab17hd.png",ON TRENDING
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/186/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab15hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab15hd.png",ON MUSIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/M_CHANNEL/m10_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab15hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab15hd.png",ON MUSIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab15hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab15hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab15hd.png",ON MUSIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/185/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab20hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab20hd.png",ON VFAMILY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/VFAMILY/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab20hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab20hd.png",ON VFAMILY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab20hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab20hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab20hd.png",ON VFAMILY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/187/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab22hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab22hd.png",ON LIFE TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/LIFE_TV/m20_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab22hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab22hd.png",ON LIFE TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tv.TruyenHinh.Click/CoBan/vtvcab22hd/TuyetDoiKhongKinhDoanh
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="vtvcab22hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab22hd.png",ON LIFE TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://thvip.site/360/188/index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onfootball" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onfootball.png",ON FOOTBALL HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://s7770.cdn.mytvnet.vn/pkg20/__cl/vstv265/sc-gaFEAA/m002_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onfootball" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onfootball.png",ON FOOTBALL HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/BONGDA_HD/m3012_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onsports" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onsports.png",ON SPORT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/THETHAO_HD/m3012_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onsports" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onsports.png",ON SPORT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://s7770.cdn.mytvnet.vn/pkg20/__cl/vstv264/sc-gaFEAA/m00123_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onsportsplus" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onsportsplus.png",ON SPORT PLUS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/HAY_TV/m3012_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onsportsplus" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onsportsplus.png",ON SPORT PLUS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://s7770.cdn.mytvnet.vn/pkg20/__cl/vstv311/sc-gaFEAA/m002_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onsportsnews" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onsportsnews.png",ON SPORT NEWS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/THETHAO_TINTUC_HD/m3012_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="onsportsnews" tvg-logo="https://tchiphuong.github.io/iptv/images/background/onsportsnews.png",ON SPORT NEWS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://s7770.cdn.mytvnet.vn/pkg20/__cl/vstv496/sc-gaFEAA/m002_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="ongolf" tvg-logo="https://tchiphuong.github.io/iptv/images/background/ongolf.png",ON GOLF
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://509942876.r.vtvcdn.com/onplus/THETHAO_GOLF_HD/m3012_index.m3u8
+#EXTINF:-1 group-title="Kênh VTVCAB" tvg-id="ongolf" tvg-logo="https://tchiphuong.github.io/iptv/images/background/ongolf.png",ON GOLF
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://s7770.cdn.mytvnet.vn/pkg20/__cl/vstv485/sc-gaFEAA/m002_index.m3u8
 
 #EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://tchiphuong.github.io/iptv/images/background/th-vinh-long-1.png",TH Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
