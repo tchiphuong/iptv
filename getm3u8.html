@@ -10,19 +10,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
+    <script src="./js/clappr.min.js"></script>
+    <script src="./js/level-selector.min.js"></script>
+    <script src="./js/clappr-pip.min.js"></script>
+    <script src="./js/dash-shaka-playback.js"></script>
 </head>
 <body ng-controller="HLSController" class="h-full w-full bg-gray-100 flex flex-col items-center justify-cente p-4">
     <div class="flex flex-col flex-grow h-0 w-full container gap-1">
         <div class="bg-black w-full flex flex-col lg:flex-row justify-center">
-            <div class="w-full lg:w-8/12 aspect-video">
-                <video class="h-full" preload="none" id="videoPlayer" autoplay controls crossorigin></video>
+            <div class="w-full lg:w-8/12 min-w-8/12" style="aspect-ratio: 16/9;min-width: 66.666667%;">
+                <div id="player" class="h-full"></div>
             </div>
-            <div class="bg-white lg:flex-grow flex flex-col" style="min-height: 100px;">
-                <div class="font-bold text-lg p-2">Lịch phát sóng</div>
-                <ul class="overflow-auto flex-grow h-0 space-y-2 p-2">
+            <div class="bg-white lg:flex-grow flex flex-col">
+                <div ng-click="schedule.collapsed = !schedule.collapsed" class="font-bold text-lg p-2 shadow z-10 cursor-pointer flex gap-1">
+                    Lịch phát sóng
+                    <span ng-if="schedule.collapsed">▼</span><span ng-if="!schedule.collapsed">▲</span>
+                </div>
+                <ul ng-if="!schedule.collapsed" class="overflow-auto flex-grow h-0 space-y-2 p-2" style="min-height: 24rem;">
                     <li id="schedule-{{schedule.start}}-{{schedule.stop}}" ng-repeat="schedule in schedules" class="flex p-4 bg-white rounded-lg shadow transition" ng-class="{'bg-yellow-200': currentPlayingSchedule === schedule}">
                         <span class="flex-shrink-0">
-                            <span class="font-semibold text-gray-700">{{ formatTime(schedule.start) }} ~ {{ formatTime(schedule.stop) }}</span>
+                            <span class="font-semibold text-gray-700">{{ formatTime(schedule.start) }}</span>
                         </span>
                         <div class="flex-grow ml-4">
                             <div class="font-bold text-lg text-gray-900">
@@ -38,12 +45,15 @@
             </div>
         </div>
         <div id="currentChannel" class="text-xl font-semibold text-gray-900 mb-2"></div>
-        <div class="overflow-auto h-full flex-grow px-4 -mx-4">
+        <div class="overflow-auto h-full flex-grow px-4 -mx-4" style="min-height: 24rem;">
             <div ng-repeat="group in groups" class="mb-6">
-                <h3 ng-if="group.channels.length > 0" class="text-xl font-bold text-gray-800 mb-2">{{ group.name }}</h3>
-                <div ng-if="group.channels.length > 0" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <div ng-repeat="channel in group.channels" class="flex items-center bg-white rounded-lg p-4 shadow-md cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg" ng-click="loadVideo(channel.url)">
-                        <img ng-src="{{channel.logo}}" alt="{{channel.name}}" class="w-32 h-16 mr-4 object-contain rounded-lg" ng-init="channel.imgError = false" ng-if="!channel.imgError" onerror="angular.element(this).scope().handleImgError(this, angular.element(this).scope().channel)">
+                <h3 ng-click="group.collapsed = !group.collapsed" ng-if="group.channels.length > 0" class="cursor-pointer text-xl font-bold text-gray-800 mb-2 flex gap-1">
+                    <span>{{ group.name }}</span>
+                    <span ng-if="group.collapsed">▼</span><span ng-if="!group.collapsed">▲</span>
+                </h3>
+                <div ng-if="group.channels.length > 0 && !group.collapsed" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div ng-if="channel.name" ng-repeat="channel in group.channels" class="flex items-center bg-white rounded-lg p-4 shadow-md cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg" ng-click="loadVideo(channel.urls, channel.license, channel.clearkeys, 0)">
+                        <img ng-src="{{channel.logo}}" alt="{{channel.name}}" class="w-32 h-16 mr-4 object-contain rounded-lg" onerror="angular.element(this).scope().handleImgError(this, angular.element(this).scope().channel)" style="filter: drop-shadow(0 0 0.25rem rgb(0, 0, 0, .1));">
                         <div class="flex-1">
                             <h2 class="text-lg font-semibold text-gray-900">{{channel.name}}</h2>
                         </div>
@@ -58,7 +68,9 @@
     <div id="outputPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" ng-show="popupVisible">
         <div class="bg-white rounded-lg p-6 w-8/12 shadow-lg">
             <h2 class="text-xl font-bold mb-2">Danh sách HLS</h2>
-            <textarea id="hlsOutput" rows="20" cols="100" readonly class="outline-none p-2 w-full">{{hlsOutput}}</textarea>
+            <pre class="outline-none p-2 w-full overflow-auto" style="max-height: 400px; background-color: #f8f8f8; border: 1px solid #ddd; border-radius: 4px;">
+                <code style="color: #333; font-family: monospace;">{{hlsOutput}}</code>
+            </pre>
             <button id="copyButton" class="mt-2 bg-green-500 text-white rounded-lg p-2 hover:bg-green-600 transition" ng-click="copyToClipboard()">Sao chép</button>
             <button id="closePopup" class="mt-2 bg-red-500 text-white rounded-lg p-2 hover:bg-red-600 transition" ng-click="closePopup()">Đóng</button>
         </div>
@@ -72,6 +84,7 @@
                 $scope.popupVisible = false;
                 $scope.schedules = [];
                 $scope.currentPlayingSchedule = null;
+                let currentUrlIndex = 0; // Biến để theo dõi chỉ số URL hiện tại
 
                 $scope.fetchHLS = function () {
                     $http.get('https://api.npoint.io/39fe20f4c3372eb4a5b6').then(function (response) {
@@ -88,6 +101,16 @@
 
                             group.chanel.forEach(channel => {
                                 const urls = channel.url.split(',');
+                                let existingChannel = $scope.groups.flatMap(g => g.channels).find(c => c.id === channel.id);
+                                if (!existingChannel) {
+                                    existingChannel = {
+                                        id: channel.id || channel.name,
+                                        name: channel.name,
+                                        logo: channel.logo,
+                                        urls: [] // Thay đổi để lưu trữ nhiều URL
+                                    };
+                                    groupChannels.push(existingChannel);
+                                }
                                 urls.forEach(url => {
                                     let logo = channel.logo
                                     if (channel.id) {
@@ -97,54 +120,84 @@
                                     m3uContent.push(`#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36`);
                                     m3uContent.push(url);
                                     if (url) { // Kiểm tra nếu URL không rỗng
-                                        groupChannels.push(
-                                            {
-                                                id: channel.id,
-                                                name: channel.name,
-                                                logo: logo,
-                                                url: url
-                                            }
-                                        );
+                                        existingChannel.urls.push(url); // Thêm URL vào danh sách của kênh
                                     }
                                 });
                             });
 
-                            $scope.groups.push({ name: group.groupName, channels: groupChannels });
+                            $scope.groups.push({ name: group.groupName.replace("Kênh", "").trim(), channels: groupChannels });
                         });
+
+                        // Gọi hàm fetchData để lấy dữ liệu
+                        fetchData();
 
                         $scope.hlsOutput = m3uContent.join('\n');
 
-                        const firstValidChannel = $scope.groups?.flatMap(g => g.channels).find(c => c.url?.trim());
-                        $scope.loadVideo(firstValidChannel.url);
+                        const firstValidChannel = $scope.groups?.flatMap(g => g.channels).find(c => c.id === 'vtv1hd'); // Tìm kênh có ID vtv1hd
+                        if (firstValidChannel) {
+                            $scope.loadVideo(firstValidChannel.urls, firstValidChannel.license, firstValidChannel.clearkeys);
+                        } else {
+                            console.error('Kênh vtv1hd không tồn tại'); // Thông báo nếu không tìm thấy kênh
+                        }
                     });
                 };
 
-                $scope.loadVideo = function (url) {
-                    const currentChannelDiv = $('#currentChannel');
-                    const title = $('title');
-                    var video = document.querySelector('#videoPlayer');
+                let player; // Khai báo biến player
 
-                    if (Hls.isSupported()) {
-                        var hls = new Hls();
-                        hls.loadSource(url);
-                        hls.attachMedia(video);
-                        hls.on(Hls.Events.MANIFEST_PARSED, function () {
-                            video.play();
-                        });
+                $scope.loadVideo = function (urls, license, clearkeys, index = null) {
+                    const currentChannelDiv = $('#currentChannel');
+                    const url = urls[index ?? currentUrlIndex]
+
+                    // Khởi tạo Clappr player
+                    if (player) {
+                        player.destroy(); // Hủy player cũ nếu đã tồn tại
                     }
 
+                    player = new Clappr.Player({
+                        source: url, // Sử dụng URL hiện tại
+                        parentId: '#player',
+                        preload: 'auto',
+                        autoPlay: true,
+                        width: '100%',
+                        height: '100%',
+                        fullscreenEnabled: true,
+                        hideMediaControl: false,
+                        plugins: [LevelSelector, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback],
+                        shakaConfiguration: {
+                            drm: {
+                                servers: {
+                                    'com.widevine.alpha': license
+                                },
+                                clearKeys: null //JSON.parse(clearkeys)
+                            },
+                        },
+                    });
+
+                    // Lắng nghe sự kiện lỗi
+                    player.on(Clappr.Events.PLAYER_ERROR, function (error) {
+                        console.error('Lỗi phát video:', error); // Ghi lại lỗi vào console
+                        currentUrlIndex++; // Tăng chỉ số URL
+
+                        if (currentUrlIndex < urls.length) {
+                            $scope.loadVideo(urls, license, clearkeys); // Gọi lại hàm để phát URL tiếp theo
+                        } else {
+                            alert('Kênh lỗi'); // Thông báo khi không còn URL
+                            currentUrlIndex = 0; // Đặt lại chỉ số nếu đã phát hết
+                            player.destroy();
+                        }
+                    });
 
                     // Tìm kênh trong tất cả các nhóm mà không sử dụng vòng lặp for
-                    const currentChannel = $scope.groups.flatMap(group => group.channels).find(channel => channel.url === url);
-                    // Kiểm tra nếu currentChannel không phải là undefined
+                    const currentChannel = $scope.groups.flatMap(group => group.channels).find(channel => channel.urls.includes(urls[currentUrlIndex]));
                     if (currentChannel) {
                         $scope.fetchSchedule(currentChannel.id);
                         currentChannelDiv.text(`Đang phát: ${currentChannel.name}`);
-                        title.text(`🔴 Đang phát: ${currentChannel.name}`);
+                        document.title = `🔴 Đang phát: ${currentChannel.name}`
                     }
                 };
 
                 $scope.fetchSchedule = function (id) {
+                    $scope.schedules = null;
                     $http.get(`https://lichphatsong.xyz/schedule/detail?id=${id}`).then(function (response) {
                         if (response.data.data) {
                             $scope.schedules = response.data.data
@@ -201,7 +254,104 @@
                     return moment.unix(time).format('HH:mm'); // Định dạng giờ theo định dạng 24h
                 };
 
+                // Hàm để phân tích cú pháp M3U8 và chuyển đổi thành JSON
+                function parseM3U8(m3u8Data) {
+                    const lines = m3u8Data.split('\n');
+                    const jsonOutput = [];
+                    let currentChannel = null;
+
+                    lines.forEach(line => {
+                        if (line.startsWith('#EXTINF:')) {
+                            // Lấy thông tin kênh
+                            const parts = line.split(',');
+                            const channelInfo = parts[parts.length - 1].trim();
+                            const channelAttributes = parts.slice(0, parts.length - 1).join(' '); // Ghép các phần từ 0 đến < parts.length - 1
+                            const channelId = channelAttributes.match(/tvg-id="([^"]+)"/); // Lấy ID từ các thuộc tính nếu có
+                            const channelLogo = channelAttributes.match(/tvg-logo="([^"]+)"/); // Lấy logo từ các thuộc tính nếu có
+                            const groupName = channelAttributes.match(/group-title="([^"]+)"/); // Lấy tên nhóm từ các thuộc tính nếu có
+                            const cleanGroupName = groupName ? groupName[1].trim() : 'Khác'; // Giữ nguyên tên nhóm, mặc định là 'Khác' nếu không có
+
+                            currentChannel = {
+                                id: channelId ? channelId[1] : channelInfo, // Lưu ID nếu có
+                                title: channelInfo,
+                                logo: channelLogo ?
+                                    channelLogo[1].replace("https://tv.truyenhinh.click/HoiQuanLogo/?logo=", "") :
+                                    'https://ui-avatars.com/api/?background=random&format=svg&rounded=true&name=' + channelInfo, // Sử dụng link trực tiếp
+                                url: null, // Sẽ được cập nhật sau
+                                group: cleanGroupName // Sử dụng tên nhóm đã lấy
+                            };
+                        }
+                        else if (currentChannel && line.trim() !== '' && !line.startsWith('#EXTVLCOPT')) {
+                            // Lấy URL của kênh, bỏ qua các dòng bắt đầu bằng #EXTVLCOPT
+                            currentChannel.url = line.trim();
+
+                            // Kiểm tra nhóm đã tồn tại trong jsonOutput
+                            let existingGroup = jsonOutput.find(g => currentChannel.group == g.name);
+                            if (!existingGroup) {
+                                existingGroup = { name: currentChannel.group, channels: [] };
+                                jsonOutput.push(existingGroup);
+                            }
+
+                            existingGroup.channels.push({
+                                id: currentChannel.id,
+                                name: currentChannel.title,
+                                logo: currentChannel.logo.replace("https://tv.truyenhinh.click/HoiQuanLogo/?logo=", ""),
+                                urls: [currentChannel.url] // Thêm URL vào danh sách
+                            });
+
+                            currentChannel = null; // Đặt lại currentChannel cho kênh tiếp theo
+                        }
+                    });
+                    console.log(jsonOutput);
+                    return jsonOutput;
+                }
+
+                // Hàm để lấy dữ liệu từ trang web
+                function fetchData() {
+                    fetch('https://raw.githubusercontent.com/luongtamlong/Dak-Lak-IPTV/main/daklakiptv.m3u')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.text(); // Chuyển đổi phản hồi thành văn bản
+                        })
+                        .then(m3u8Data => {
+                            // Phân tích cú pháp M3U8
+                            const jsonData = parseM3U8(m3u8Data);
+                            _jsonData = jsonData
+                            // Thêm dữ liệu vào jsonData
+                            jsonData.forEach(group => {
+                                group.channels.forEach(channel => {
+                                    let existingChannel = $scope.groups.flatMap(g => g.channels)?.find(c => c && c.id === channel.id);
+                                    if (existingChannel) {
+                                        existingChannel.urls = Array.from(new Set(existingChannel.urls.concat(channel.urls))); // Đảm bảo danh sách URLs là duy nhất
+                                    }
+                                    else {
+                                        let grName = group.name?.split("|")[1]?.trim() || group.name
+                                        let existingGroup = $scope.groups.find(g => g.name === grName);
+                                        if (existingGroup) {
+                                            existingGroup.channels.push(channel); // Thêm kênh vào nhóm đã tồn tại
+                                        } else {
+                                            var gr = {
+                                                name: grName,
+                                                channels: [channel]
+                                            }
+                                            $scope.groups.push(gr); // Tạo nhóm mới
+                                        }
+                                    }
+                                });
+                            });
+
+                            // Cập nhật giao diện
+                            $scope.$apply(); // Đảm bảo AngularJS biết về sự thay đổi
+                            console.log($scope.groups)
+                        })
+                        .catch(error => {
+                            console.error('Có lỗi xảy ra khi lấy dữ liệu:', error);
+                        });
+                }
             }]);
+        var _jsonData = null
     </script>
 </body>
 </html>
