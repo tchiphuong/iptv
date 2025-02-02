@@ -258,13 +258,17 @@
 
         function setPlayer(url) {
             if (url) {
-                var iframe = `<iframe id="videoFrame" 
+                var iframe = `<iframe 
                 src="https://t.fdcdn.xyz/v11/?link=${url}&t=tr&theme_id=tc&is_live=0" 
                 width="100%" 
-                height="100%"
-                allowfullscreen="true" 
-                autoplay="1" 
-                sandbox="allow-scripts">
+                height="100%" 
+                allowfullscreen="" 
+                allowtransparency="yes" 
+                allow="autoplay" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0" 
+                scrolling="auto" 
                 </iframe>`;
                 // Using jQuery to empty the container and append the new iframe
                 $("#videoContainer").empty().append(iframe);
