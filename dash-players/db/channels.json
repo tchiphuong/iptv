@@ -39,6 +39,22 @@
             }
         ]
     },
+    "sctv15hd": {
+        "name": "SCTV15",
+        "sources": [
+            {
+                "file": "http://live2onsport.vtvcab.vn/onplus/SCTV15HD/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "sctv17": {
+        "name": "SCTV17",
+        "sources": [
+            {
+                "file": "http://live2onsport.vtvcab.vn/onplus/SCTV17/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
     "onfootball": {
         "name": "ON Football",
         "sources": [
@@ -68,6 +84,86 @@
         "sources": [
             {
                 "file": "https://live2onsport.vtvcab.vn/onplus/THETHAO_HD/m30_index.m3u8"
+            }
+        ]
+    },
+    "on1": {
+        "name": "ON 1",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT1/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on2": {
+        "name": "ON 2",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT2/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on3": {
+        "name": "ON 3",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT3/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on4": {
+        "name": "ON 4",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT4/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on5": {
+        "name": "ON 5",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT5/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on6": {
+        "name": "ON 6",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT6/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on7": {
+        "name": "ON 7",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT7/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on8": {
+        "name": "ON 8",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT8/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on9": {
+        "name": "ON 9",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT9/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "on10": {
+        "name": "ON 10",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/ONSPORT10/sc-gaFEQQ/m20_index.m3u8"
             }
         ]
     },
