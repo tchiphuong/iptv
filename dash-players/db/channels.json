@@ -23,6 +23,54 @@
             }
         ]
     },
+    "kcinehd": {
+        "name": "K+ CINE",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/K_CINE_7777/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "kactionhd": {
+        "name": "K+ ACTION",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/K_LIFE_7777/sc-gaFEQQ/m20_index.m3u8"
+            }
+        ]
+    },
+    "onfootball": {
+        "name": "ON Football",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/BONGDA_HD/m30_index.m3u8"
+            }
+        ]
+    },
+    "onsportsnews": {
+        "name": "ON Sports News",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/THETHAO_TINTUC_HD/m30_index.m3u8"
+            }
+        ]
+    },
+    "onsportsplus": {
+        "name": "ON Sports +",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/HAY_TV/m30_index.m3u8"
+            }
+        ]
+    },
+    "onsports": {
+        "name": "ON Sports",
+        "sources": [
+            {
+                "file": "https://live2onsport.vtvcab.vn/onplus/THETHAO_HD/m30_index.m3u8"
+            }
+        ]
+    },
     "now621": {
         "title": "Now Sports Premier League 1",
         "name": "Now Sports Premier League 1",
@@ -168,7 +216,7 @@
         "name": "beIN SPORTS 1",
         "sources": [
             {
-                "file": "https://eventcdn02-nowe.akamaized.net/hls/CH639/index.m3u8",
+                "file": "https://eventcdn02-nowe.akamaized.net/hls/CH638/index.m3u8",
                 "label": "FHD"
             }
         ]
