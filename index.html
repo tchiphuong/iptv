@@ -346,6 +346,11 @@
                                 const priorityB = b.tournament.unique_tournament.priority || 0;
                                 return priorityB - priorityA;
                             })
+                            .sort((a, b) => {
+                                const nameA = a.home?.name || '';
+                                const nameB = b.home?.name || '';
+                                return nameA.localeCompare(nameB);
+                            })
                             .map(match => {
                                 const startTime = moment(match.timestamp);
                                 return {
