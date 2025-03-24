@@ -40,6 +40,7 @@ https://tv.TruyenHinh.Click/CoBan/tv360.sk7/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="tv360.sk8" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/22/172719012995/8df54b2f7576_480_270.png",TV360+ 8
 https://tv.TruyenHinh.Click/CoBan/tv360.sk8/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="tv360.sk9" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/30/22/1727709197325/1be646ba55c5_480_270.png",TV360+ 9
+https://tv.TruyenHinh.Click/CoBan/tv360.sk9/TuyetDoiKhongKinhDoanh
 
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KCINE%20HD.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQv24TcQahCdFYoDPpTvdAYng7FGRkeww2dA&s", K+ CINE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -57,20 +58,53 @@ https://truyenhinh.click/ksport2hd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/kkidshd
 
-#EXTINF:-1 group-title="On Sport" tvg-id="onsports" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20SPORTS%20HD.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://on-web-cdn.gviet.vn/public/img/logo/logox192.png",ON SPORTS
+#EXTINF:-1 group-title="On Sports" tvg-id="onsports" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20SPORTS%20HD.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://on-web-cdn.gviet.vn/public/img/logo/logox192.png",ON SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/vtvcab3
-#EXTINF:-1 group-title="On Sport" tvg-id="onsportsplus" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20SP0RTS%20HD.png",ON SPORTS PLUS
+#EXTINF:-1 group-title="On Sports" tvg-id="onsportsplus" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20SP0RTS%20HD.png",ON SPORTS PLUS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/vtvcab6
-#EXTINF:-1 group-title="On Sport" tvg-id="onfootball" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20FOOTBALL%20HD.png",ON FOOTBALL
+#EXTINF:-1 group-title="On Sports" tvg-id="onfootball" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20FOOTBALL%20HD.png",ON FOOTBALL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/vtvcab16
-#EXTINF:-1 group-title="On Sport" tvg-id="onsportsnews" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20SPORTS%20NEWS%20HD.png",ON SPORTS NEWS
+#EXTINF:-1 group-title="On Sports" tvg-id="onsportsnews" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20SPORTS%20NEWS%20HD.png",ON SPORTS NEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/vtvcab18
+#EXTINF:-1 group-title="On Sports" tvg-id="ongolf" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/ON%20GOLF%20HD.png",ON GOLF
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/vtvcab23
+#EXTINF:-1 group-title="On Sports" tvg-id="on1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-1.png",ON 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON1
+#EXTINF:-1 group-title="On Sports" tvg-id="on2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-2.png",ON 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON2
+#EXTINF:-1 group-title="On Sports" tvg-id="on3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-3.png",ON 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON3
+#EXTINF:-1 group-title="On Sports" tvg-id="on4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-4.png",ON 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON4
+#EXTINF:-1 group-title="On Sports" tvg-id="on5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-5.png",ON 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON5
+#EXTINF:-1 group-title="On Sports" tvg-id="on6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-6.png",ON 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON6
+#EXTINF:-1 group-title="On Sports" tvg-id="on7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-7.png",ON 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON7
+#EXTINF:-1 group-title="On Sports" tvg-id="on8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-8.png",ON 8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON8
+#EXTINF:-1 group-title="On Sports" tvg-id="on9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-9.png",ON 9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON9
+#EXTINF:-1 group-title="On Sports" tvg-id="on10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/on-10.png",ON 10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://truyenhinh.click/ON10
 
-#EXTINF:-1 tvg-id="sctv15hd" group-title="SCTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/sctv15.png", SCTV15
+#EXTINF:-1 tvg-id="sctv15hd" group-title="SCTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/sctv15.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://upload.wikimedia.org/wikipedia/commons/d/d3/SCTV_logo_%28Vietnam%29.svg", SCTV15
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/SCTV15HD
 #EXTINF:-1 tvg-id="sctv16hd" group-title="SCTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/sctv16.png", SCTV16
@@ -83,7 +117,7 @@ https://truyenhinh.click/SCTV17HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://truyenhinh.click/SCTV22HD
 
-#EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-2.png",TH Vĩnh Long 1
+#EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-1.png",TH Vĩnh Long 1
 https://tv.TruyenHinh.Click/CoBan/htvl1/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong2hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-2.png",TH Vĩnh Long 2
 https://tv.TruyenHinh.Click/CoBan/thvl2/TuyetDoiKhongKinhDoanh
@@ -92,7 +126,7 @@ https://tv.TruyenHinh.Click/CoBan/thvl3/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong4hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-4.png",TH Vĩnh Long 4
 https://tv.TruyenHinh.Click/CoBan/thvl4/TuyetDoiKhongKinhDoanh
 
-#EXTINF:-1 group-title="Địa phương" group-logo="https://e0.pxfuel.com/wallpapers/180/507/desktop-wallpaper-vietnam-map-vietnam-map-background-on-bat-south-vietnam.jpg" tvg-id="vinhlong1hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-1.png",TH Vĩnh Long 1
+#EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong1hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-1.png",TH Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://live.fptplay53.net/epzch2/vinhlong1_abr.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-id="vinhlong2hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/th-vinh-long-2.png",TH Vĩnh Long 2
@@ -120,12 +154,12 @@ http://p1.cvtv.xyz/SA4?token=live
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1061be12d303247426ec25e8369b2647:bd622b0e610295de3b0bccb850ccaaaa
 https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd
-#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.1.es" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/quvpab1681970553.png",🇪🇸 DAZN 1
+#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.1.es" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",🇪🇸 DAZN 1 Spain
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
 https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
-#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.2.es" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fsswed1657045424.png",🇪🇸 DAZN 2
+#EXTINF:-1 group-title="Thể thao" tvg-id="DAZN.2.es" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",🇪🇸 DAZN 2 Spain
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0eab5a3f3e3b4ba5d42d40ca30d17571:f3f061ded9b70e8160590d5802ecda6d
@@ -534,494 +568,820 @@ https://live03p-seg.msf.cdn.mediaset.net/live/ch-u5/u5-dash-widevine.isml/manife
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b834ba7888b9f960a4:852ebe5446caa8fad99c440b86ad128c
 https://live03p-seg.msf.cdn.mediaset.net/live/ch-u6/u6-dash-widevine.isml/manifest.mpd
 
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175220327_252196.jpg",🇰🇷 KBS 1
+#EXTINF:-1 group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-1.png",True Premier Football HD 1
+#EXTVLCOPT:http-referrer=https://fw4free.com/
+https://fw4free.inwstream.com/fw4free/ch1.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-2.png",True Premier Football HD 2
+#EXTVLCOPT:http-referrer=https://fw4free.com/
+https://fw4free.inwstream.com/fw4free/ch2.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-3.png",True Premier Football HD 3
+#EXTVLCOPT:http-referrer=https://fw4free.com/
+https://fw4free.inwstream.com/fw4free/ch3.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-4.png",True Premier Football HD 4
+#EXTVLCOPT:http-referrer=https://fw4free.com/
+https://fw4free.inwstream.com/fw4free/ch4.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-5.png",True Premier Football HD 5
+#EXTVLCOPT:http-referrer=https://fw4free.com/
+https://fw4free.inwstream.com/fw4free/ch5.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-id="truepremierfootball1.th" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-1.png",True Premier Football HD 1
+#EXTVLCOPT:http-referrer=https://www.doomovie-hd.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+https://github.com/bestcommt2/m3u8/raw/refs/heads/master/EPL1.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-id="truepremierfootball2.th" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-2.png",True Premier Football HD 2
+#EXTVLCOPT:http-referrer=https://www.doomovie-hd.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+https://github.com/bestcommt2/m3u8/raw/refs/heads/master/EPL2.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-id="truepremierfootball3.th" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-3.png",True Premier Football HD 3
+#EXTVLCOPT:http-referrer=https://www.doomovie-hd.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+https://github.com/bestcommt2/m3u8/raw/refs/heads/master/EPL3.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-id="truepremierfootball4.th" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-4.png",True Premier Football HD 4
+#EXTVLCOPT:http-referrer=https://www.doomovie-hd.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+https://github.com/bestcommt2/m3u8/raw/refs/heads/master/EPL4.m3u8
+#EXTINF:-1 group-title="Thể Thao" tvg-id="truepremierfootball5.th" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://rentapi.blackboxsys.net/images/png/epl-5.png",True Premier Football HD 5
+#EXTVLCOPT:http-referrer=https://www.doomovie-hd.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
+https://github.com/bestcommt2/m3u8/raw/refs/heads/master/EPL5.m3u8
+
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/04/kbs-1-live-vipotv-korea.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/south-korea-flag-icon.png",🇰🇷 KBS 1
 http://mytv.dothome.co.kr/ch/public/11.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175220435_252209.jpg",🇰🇷 KBS 2
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/04/kbs-2-live-vipotv-korea.png",🇰🇷 KBS 2
 http://mytv.dothome.co.kr/ch/public/3.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/11/5/1636096742321_283901.jpg",🇰🇷 KBS News
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2022/01/KBS-24-News-live-vipotv-korea.png",🇰🇷 KBS News
 http://mytv.dothome.co.kr/ch/catv/1.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175270170_252243.jpg",🇰🇷 KBS Drama
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/06/kbs-drame-live-vipotv-korea.png",🇰🇷 KBS Drama
 http://mytv.dothome.co.kr/ch/catv/2.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175270277_252254.jpg",🇰🇷 KBS Joy
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/06/kbs-joy-live-vipotv-korea.png",🇰🇷 KBS Joy
 http://mytv.dothome.co.kr/ch/catv/3.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175270410_252265.jpg",🇰🇷 KBS Story
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/06/kbs-story-live-vipotv-korea.png",🇰🇷 KBS Story
 http://mytv.dothome.co.kr/ch/catv/4.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175270507_252276.jpg",🇰🇷 KBS Life
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/06/kbs-life-live-vipotv-korea-south.png",🇰🇷 KBS Life
 http://mytv.dothome.co.kr/ch/catv/5.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175270598_252287.jpg",🇰🇷 KBS Kids
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/06/kbs-kids-live-vipotv-korea.png",🇰🇷 KBS Kids
 http://mytv.dothome.co.kr/ch/catv/6.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://padmin.static.kbs.co.kr/live/2021/5/28/1622175220505_252210.jpg",🇰🇷 KBS World
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2021/04/kbs-world-live-vipotv-korea.png",🇰🇷 KBS World
 http://mytv.dothome.co.kr/ch/catv/7.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://i.vimeocdn.com/video/861344845-2c29ed92a14c416c5288ad16abe68f6fe3fe2b20d9015c510949782d615886d8-d_750x421.875?q=60",🇰🇷 Channel A
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2023/05/Channel-A-live-vipotv-korea.png",🇰🇷 Channel A
 http://mytv.dothome.co.kr/ch/catv/52.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.mbn.co.kr/mobile/2021/mbn_og.jpg",🇰🇷 MBN 
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://images.seeklogo.com/logo-png/40/2/mbn-logo-png_seeklogo-408045.png",🇰🇷 MBN 
 http://mytv.dothome.co.kr/ch/catv/54.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2022/01/OBS-live-vipotv-korea.png",🇰🇷 OBS
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2022/01/OBS-live-vipotv-korea.png",🇰🇷 OBS
 http://mytv.dothome.co.kr/ch/catv/55.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.redbull.com/images/w_440/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",🇰🇷 Red Bull
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.redbull.com/images/w_440/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",🇰🇷 Red Bull
 http://mytv.dothome.co.kr/ch/catv/61.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://cdn.bizwatch.co.kr/news/photo/2022/02/09/cd74afd7902c726c950a563bf269c22e.jpg",🇰🇷 CJ ONSTYLE
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2022/01/CJ-Onstyle-live-vipotv-korea-1.png",🇰🇷 CJ ONSTYLE
 http://mytv.dothome.co.kr/ch/catv/91.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://cdn.bizwatch.co.kr/news/photo/2022/02/09/cd74afd7902c726c950a563bf269c22e.jpg",🇰🇷 CJ ONSTYLE +
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2022/01/CJ-Onstyle-live-vipotv-korea.png",🇰🇷 CJ ONSTYLE +
 http://mytv.dothome.co.kr/ch/catv/92.php
-#EXTINF:-1 group-title="Nước ngoài" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.abu.org.my/wp-content/uploads/2019/10/MBC-daejeon.jpg",🇰🇷 MBC
+#EXTINF:-1 group-title="NN Hàn Quốc" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://vipotv.com/wp-content/uploads/2022/01/MBC-CHEONGJU-TV-live-vipotv-korea.png",🇰🇷 MBC
 http://mytv.dothome.co.kr/ch/public/5.php
 
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="Trung Quốc",CCTV1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="NN Trung Quốc" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",CCTV1
 http://tv.nezha.su:35455/gaoma/cctv1.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="Trung Quốc",CCTV1
 http://tv.nezha.su:35455/itv/6000000001000029752.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="Trung Quốc",CCTV1
+#EXTINF:-1 tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="NN Trung Quốc",CCTV1
 http://tv.nezha.su:35455/itv/5000000004000002226.m3u8?cdn=bestzb
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="Trung Quốc",CCTV1
 http://tv.nezha.su:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="Trung Quốc",CCTV2
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="NN Trung Quốc",CCTV2
 http://tv.nezha.su:35455/gaoma/cctv2.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="Trung Quốc",CCTV2
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="NN Trung Quốc",CCTV2
 http://tv.nezha.su:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="Trung Quốc",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="NN Trung Quốc",CCTV2
 http://tv.nezha.su:35455/itv/6000000001000014161.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="Trung Quốc",CCTV2
+#EXTINF:-1 tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="NN Trung Quốc",CCTV2
 http://tv.nezha.su:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" group-title="Trung Quốc",CCTV3
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" group-title="NN Trung Quốc",CCTV3
 http://tv.nezha.su:35455/gaoma/cctv3.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" group-title="Trung Quốc",CCTV3
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" group-title="NN Trung Quốc",CCTV3
 http://tv.nezha.su:35455/itv/6000000001000022313.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" group-title="Trung Quốc",CCTV3
+#EXTINF:-1 tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png" group-title="NN Trung Quốc",CCTV3
 http://tv.nezha.su:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="Trung Quốc",CCTV4
+#EXTINF:-1 tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="NN Trung Quốc",CCTV4
 http://tv.nezha.su:35455/gaoma/cctv4.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="Trung Quốc",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="NN Trung Quốc",CCTV4
 http://tv.nezha.su:35455/itv/5000000011000031102.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="Trung Quốc",CCTV4
+#EXTINF:-1 tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png" group-title="NN Trung Quốc",CCTV4
 http://tv.nezha.su:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="Trung Quốc",CCTV5
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="NN Trung Quốc",CCTV5
 http://tv.nezha.su:35455/gaoma/cctv5.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="Trung Quốc",CCTV5
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="NN Trung Quốc",CCTV5
 http://tv.nezha.su:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="Trung Quốc",CCTV5
+#EXTINF:-1 tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png" group-title="NN Trung Quốc",CCTV5
 http://tv.nezha.su:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png" group-title="Trung Quốc",CCTV5+
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png" group-title="NN Trung Quốc",CCTV5+
 http://tv.nezha.su:35455/gaoma/cctv5p.m3u8
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png" group-title="Trung Quốc",CCTV5+
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png" group-title="NN Trung Quốc",CCTV5+
 http://tv.nezha.su:35455/itv/6000000001000015875.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png" group-title="Trung Quốc",CCTV5+
+#EXTINF:-1 tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png" group-title="NN Trung Quốc",CCTV5+
 http://tv.nezha.su:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" group-title="Trung Quốc",CCTV6
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" group-title="NN Trung Quốc",CCTV6
 http://tv.nezha.su:35455/itv/1000000001000001737.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" group-title="Trung Quốc",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" group-title="NN Trung Quốc",CCTV6
 http://tv.nezha.su:35455/itv/6000000001000004574.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" group-title="Trung Quốc",CCTV6
+#EXTINF:-1 tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png" group-title="NN Trung Quốc",CCTV6
 http://tv.nezha.su:35455/itv/1000000005000265006.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="Trung Quốc",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="NN Trung Quốc",CCTV7
 http://tv.nezha.su:35455/gaoma/cctv7.m3u8
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="Trung Quốc",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="NN Trung Quốc",CCTV7
 http://tv.nezha.su:35455/itv/1000000001000024341.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="Trung Quốc",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="NN Trung Quốc",CCTV7
 http://tv.nezha.su:35455/itv/6000000001000009055.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="Trung Quốc",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png" group-title="NN Trung Quốc",CCTV7
 http://tv.nezha.su:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" group-title="Trung Quốc",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" group-title="NN Trung Quốc",CCTV8
 http://tv.nezha.su:35455/gaoma/cctv8.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" group-title="Trung Quốc",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" group-title="NN Trung Quốc",CCTV8
 http://tv.nezha.su:35455/itv/6000000001000001070.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" group-title="Trung Quốc",CCTV8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png" group-title="NN Trung Quốc",CCTV8
 http://tv.nezha.su:35455/itv/1000000005000265008.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="Trung Quốc",CCTV9
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="NN Trung Quốc",CCTV9
 http://tv.nezha.su:35455/gaoma/cctv9.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="Trung Quốc",CCTV9
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="NN Trung Quốc",CCTV9
 http://tv.nezha.su:35455/itv/1000000001000014583.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="Trung Quốc",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="NN Trung Quốc",CCTV9
 http://tv.nezha.su:35455/itv/6000000001000032162.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="Trung Quốc",CCTV9
+#EXTINF:-1 tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png" group-title="NN Trung Quốc",CCTV9
 http://tv.nezha.su:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="Trung Quốc",CCTV10
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="NN Trung Quốc",CCTV10
 http://tv.nezha.su:35455/gaoma/cctv10.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="Trung Quốc",CCTV10
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="NN Trung Quốc",CCTV10
 http://tv.nezha.su:35455/itv/1000000001000023734.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="Trung Quốc",CCTV10
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="NN Trung Quốc",CCTV10
 http://tv.nezha.su:35455/itv/5000000004000012827.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="Trung Quốc",CCTV10
+#EXTINF:-1 tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png" group-title="NN Trung Quốc",CCTV10
 http://tv.nezha.su:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png" group-title="Trung Quốc",CCTV11
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png" group-title="NN Trung Quốc",CCTV11
 http://tv.nezha.su:35455/gaoma/cctv11.m3u8
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png" group-title="Trung Quốc",CCTV11
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png" group-title="NN Trung Quốc",CCTV11
 http://tv.nezha.su:35455/itv/5000000011000031106.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png" group-title="Trung Quốc",CCTV11
+#EXTINF:-1 tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png" group-title="NN Trung Quốc",CCTV11
 http://tv.nezha.su:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="Trung Quốc",CCTV12
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="NN Trung Quốc",CCTV12
 http://tv.nezha.su:35455/gaoma/cctv12.m3u8
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="Trung Quốc",CCTV12
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="NN Trung Quốc",CCTV12
 http://tv.nezha.su:35455/itv/1000000001000032494.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="Trung Quốc",CCTV12
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="NN Trung Quốc",CCTV12
 http://tv.nezha.su:35455/itv/6000000001000022586.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="Trung Quốc",CCTV12
+#EXTINF:-1 tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png" group-title="NN Trung Quốc",CCTV12
 http://tv.nezha.su:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png" group-title="Trung Quốc",CCTV13
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png" group-title="NN Trung Quốc",CCTV13
 http://tv.nezha.su:35455/gaoma/cctv13.m3u8
-#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png" group-title="Trung Quốc",CCTV13
+#EXTINF:-1 tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png" group-title="NN Trung Quốc",CCTV13
 http://tv.nezha.su:35455/itv/5000000011000031108.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="Trung Quốc",CCTV14
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="NN Trung Quốc",CCTV14
 http://tv.nezha.su:35455/gaoma/cctv14.m3u8
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="Trung Quốc",CCTV14
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="NN Trung Quốc",CCTV14
 http://tv.nezha.su:35455/itv/1000000001000008170.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="Trung Quốc",CCTV14
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="NN Trung Quốc",CCTV14
 http://tv.nezha.su:35455/itv/5000000004000006673.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="Trung Quốc",CCTV14
+#EXTINF:-1 tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png" group-title="NN Trung Quốc",CCTV14
 http://tv.nezha.su:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png" group-title="Trung Quốc",CCTV15
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png" group-title="NN Trung Quốc",CCTV15
 http://tv.nezha.su:35455/gaoma/cctv15.m3u8
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png" group-title="Trung Quốc",CCTV15
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png" group-title="NN Trung Quốc",CCTV15
 http://tv.nezha.su:35455/itv/5000000011000031109.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png" group-title="Trung Quốc",CCTV15
+#EXTINF:-1 tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png" group-title="NN Trung Quốc",CCTV15
 http://tv.nezha.su:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="Trung Quốc",CCTV16
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="NN Trung Quốc",CCTV16
 http://tv.nezha.su:35455/gaoma/cctv16.m3u8
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="Trung Quốc",CCTV16
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="NN Trung Quốc",CCTV16
 http://tv.nezha.su:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="Trung Quốc",CCTV16
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="NN Trung Quốc",CCTV16
 http://tv.nezha.su:35455/itv/5000000008000023254.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="Trung Quốc",CCTV16
+#EXTINF:-1 tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png" group-title="NN Trung Quốc",CCTV16
 http://tv.nezha.su:35455/gaoma/cctv4k16.m3u8
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png" group-title="Trung Quốc",CCTV17
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png" group-title="NN Trung Quốc",CCTV17
 http://tv.nezha.su:35455/gaoma/cctv17.m3u8
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png" group-title="Trung Quốc",CCTV17
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png" group-title="NN Trung Quốc",CCTV17
 http://tv.nezha.su:35455/itv/1000000006000268004.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png" group-title="Trung Quốc",CCTV17
+#EXTINF:-1 tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png" group-title="NN Trung Quốc",CCTV17
 http://tv.nezha.su:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/cgtn.png" group-title="Trung Quốc",CGTN
+#EXTINF:-1 tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/cgtn.png" group-title="NN Trung Quốc",CGTN
 http://tv.nezha.su:35455/itv/7745129417417101820.m3u8?cdn=hnbblive
-#EXTINF:-1 tvg-id="CGTN记录" tvg-name="CGTN记录" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTNjilu.png" group-title="Trung Quốc",CGTN-记录
+#EXTINF:-1 tvg-id="CGTN记录" tvg-name="CGTN记录" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTNjilu.png" group-title="NN Trung Quốc",CGTN-记录
 http://tv.nezha.su:35455/itv/7114647837765104058.m3u8?cdn=hnbblive
-#EXTINF:-1 tvg-id="CGTNALBY" tvg-name="CGTNALBY" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTNalby.png" group-title="Trung Quốc",cgtnar
+#EXTINF:-1 tvg-id="CGTNALBY" tvg-name="CGTNALBY" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTNalby.png" group-title="NN Trung Quốc",cgtnar
 http://tv.nezha.su:35455/gaoma/cgtnar.m3u8
-#EXTINF:-1 tvg-id="cgtndocumentary" tvg-name="cgtndocumentary" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTNjilu.png" group-title="Trung Quốc",cgtndoc
+#EXTINF:-1 tvg-id="cgtndocumentary" tvg-name="cgtndocumentary" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTNjilu.png" group-title="NN Trung Quốc",cgtndoc
 http://tv.nezha.su:35455/gaoma/cgtndoc.m3u8
-#EXTINF:-1 tvg-id="CGTNEN" tvg-name="CGTNEN" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTN.png" group-title="Trung Quốc",cgtnen
+#EXTINF:-1 tvg-id="CGTNEN" tvg-name="CGTNEN" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTN.png" group-title="NN Trung Quốc",cgtnen
 http://tv.nezha.su:35455/gaoma/cgtnen.m3u8
-#EXTINF:-1 tvg-id="cgtnfrench" tvg-name="cgtnfrench" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/cgtnfrench.png" group-title="Trung Quốc",cgtnfr
+#EXTINF:-1 tvg-id="cgtnfrench" tvg-name="cgtnfrench" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/cgtnfrench.png" group-title="NN Trung Quốc",cgtnfr
 http://tv.nezha.su:35455/gaoma/cgtnfr.m3u8
-#EXTINF:-1 tvg-id="cgtnru" tvg-name="cgtnru" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTN1.png" group-title="Trung Quốc",cgtnru
+#EXTINF:-1 tvg-id="cgtnru" tvg-name="cgtnru" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTN1.png" group-title="NN Trung Quốc",cgtnru
 http://tv.nezha.su:35455/gaoma/cgtnru.m3u8
-#EXTINF:-1 tvg-id="cgtnsp" tvg-name="cgtnsp" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTN1.png" group-title="Trung Quốc",cgtnsp
+#EXTINF:-1 tvg-id="cgtnsp" tvg-name="cgtnsp" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CGTN1.png" group-title="NN Trung Quốc",cgtnsp
 http://tv.nezha.su:35455/gaoma/cgtnsp.m3u8
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/重温经典.png" group-title="Trung Quốc",重温经典
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/重温经典.png" group-title="NN Trung Quốc",重温经典
 https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CHC家庭影院.png" group-title="Trung Quốc",CHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CHC家庭影院.png" group-title="NN Trung Quốc",CHC家庭影院
 https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CHC动作电影.png" group-title="Trung Quốc",CHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/CHC动作电影.png" group-title="NN Trung Quốc",CHC动作电影
 https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
-#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4k.png" group-title="Trung Quốc",CCTV4k
+#EXTINF:-1 tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4k.png" group-title="NN Trung Quốc",CCTV4k
 http://tv.nezha.su:35455/gaoma/cctv4k.m3u8
-#EXTINF:-1 tvg-id="北京纪实科教8K" tvg-name="北京纪实科教8K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/北京纪实科教8K.png" group-title="Trung Quốc",Bắc Kinh 纪实科教8K
+#EXTINF:-1 tvg-id="北京纪实科教8K" tvg-name="北京纪实科教8K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/北京纪实科教8K.png" group-title="NN Trung Quốc",Bắc Kinh 纪实科教8K
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
-#EXTINF:-1 tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8k.png" group-title="Trung Quốc",CCTV8k_36m
+#EXTINF:-1 tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8k.png" group-title="NN Trung Quốc",CCTV8k_36m
 http://tv.nezha.su:35455/gaoma/cctv8k_36m.m3u8
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/中国教育1台.png" group-title="Trung Quốc",中国教育电视台-1
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/中国教育1台.png" group-title="NN Trung Quốc",中国教育电视台-1
 http://tv.nezha.su:35455/itv/5000000002000002652.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/中国教育4台.png" group-title="Trung Quốc",中国教育电视台-4
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/中国教育4台.png" group-title="NN Trung Quốc",中国教育电视台-4
 http://tv.nezha.su:35455/itv/5000000011000031126.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing.png" group-title="Trung Quốc",Bắc Kinh 卫视
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing.png" group-title="NN Trung Quốc",Bắc Kinh 卫视
 http://tv.nezha.su:35455/itv/6000000001000020451.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing.png" group-title="Trung Quốc",Bắc Kinh 卫视
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing.png" group-title="NN Trung Quốc",Bắc Kinh 卫视
 http://tv.nezha.su:35455/itv/1000000005000265027.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="Trung Quốc",Bắc Kinh 纪实科教
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="NN Trung Quốc",Bắc Kinh 纪实科教
 http://tv.nezha.su:35455/itv/1000000001000001910.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="Trung Quốc",Bắc Kinh 纪实科教
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="NN Trung Quốc",Bắc Kinh 纪实科教
 http://tv.nezha.su:35455/itv/1000000005000265020.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing8.png" group-title="Trung Quốc",Bắc Kinh 卡酷少儿
+#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing8.png" group-title="NN Trung Quốc",Bắc Kinh 卡酷少儿
 http://tv.nezha.su:35455/itv/5000000011000265008.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="BTV-重温经典" tvg-name="BTV-重温经典" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/BTV-重温经典.png" group-title="Trung Quốc",BTV-重温经典
+#EXTINF:-1 tvg-id="BTV-重温经典" tvg-name="BTV-重温经典" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/BTV-重温经典.png" group-title="NN Trung Quốc",BTV-重温经典
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887494.m3u8
-#EXTINF:-1 tvg-id="萌宠TV" tvg-name="萌宠TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjmctv.png" group-title="Trung Quốc",萌宠TV
+#EXTINF:-1 tvg-id="萌宠TV" tvg-name="萌宠TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjmctv.png" group-title="NN Trung Quốc",萌宠TV
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887495.m3u8
-#EXTINF:-1 tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/淘BABY.png" group-title="Trung Quốc",淘BABY
+#EXTINF:-1 tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/淘BABY.png" group-title="NN Trung Quốc",淘BABY
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887496.m3u8
-#EXTINF:-1 tvg-id="淘剧场" tvg-name="淘剧场" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtjc.png" group-title="Trung Quốc",淘剧场
+#EXTINF:-1 tvg-id="淘剧场" tvg-name="淘剧场" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtjc.png" group-title="NN Trung Quốc",淘剧场
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887497.m3u8
-#EXTINF:-1 tvg-id="淘电影" tvg-name="淘电影" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtdy.png" group-title="Trung Quốc",淘电影
+#EXTINF:-1 tvg-id="淘电影" tvg-name="淘电影" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtdy.png" group-title="NN Trung Quốc",淘电影
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887498.m3u8
-#EXTINF:-1 tvg-id="淘娱乐" tvg-name="淘娱乐" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtyl.png" group-title="Trung Quốc",淘娱乐
+#EXTINF:-1 tvg-id="淘娱乐" tvg-name="淘娱乐" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bjtyl.png" group-title="NN Trung Quốc",淘娱乐
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887499.m3u8
-#EXTINF:-1 tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bj4kcq.png" group-title="Trung Quốc",Bắc Kinh IPTV4K
+#EXTINF:-1 tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/bj4kcq.png" group-title="NN Trung Quốc",Bắc Kinh IPTV4K
 http://tv.nezha.su:35455/bptv/10000100000000050000000003887500.m3u8
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing10.png" group-title="Trung Quốc",Bắc Kinh 4K测试频道
+#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing10.png" group-title="NN Trung Quốc",Bắc Kinh 4K测试频道
 http://tv.nezha.su:35455/bptv/10000100000000050000000004270525.m3u8
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing10.png" group-title="Trung Quốc",Bắc Kinh 体育休闲
+#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing10.png" group-title="NN Trung Quốc",Bắc Kinh 体育休闲
 http://tv.nezha.su:35455/bptv/10000100000000050000000003870779.m3u8
-#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/北京新闻.png" group-title="Trung Quốc",Bắc Kinh 新闻
+#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/北京新闻.png" group-title="NN Trung Quốc",Bắc Kinh 新闻
 http://tv.nezha.su:35455/bptv/10000100000000050000000003870780.m3u8
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/安徽卫视.png" group-title="Trung Quốc",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/安徽卫视.png" group-title="NN Trung Quốc",安徽卫视
 http://tv.nezha.su:35455/itv/1000000001000030159.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/安徽卫视.png" group-title="Trung Quốc",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/安徽卫视.png" group-title="NN Trung Quốc",安徽卫视
 http://tv.nezha.su:35455/itv/6000000001000009954.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/安徽卫视.png" group-title="Trung Quốc",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/安徽卫视.png" group-title="NN Trung Quốc",安徽卫视
 http://tv.nezha.su:35455/itv/1000000005000265025.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/东南卫视.png" group-title="Trung Quốc",东南卫视
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/东南卫视.png" group-title="NN Trung Quốc",东南卫视
 http://tv.nezha.su:35455/itv/5000000004000010584.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/东南卫视.png" group-title="Trung Quốc",东南卫视
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/东南卫视.png" group-title="NN Trung Quốc",东南卫视
 http://tv.nezha.su:35455/itv/1000000005000265033.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/甘肃卫视.png" group-title="Trung Quốc",甘肃卫视
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/甘肃卫视.png" group-title="NN Trung Quốc",甘肃卫视
 http://tv.nezha.su:35455/itv/5000000011000031121.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="Trung Quốc",Quảng Đông 卫视
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="NN Trung Quốc",Quảng Đông 卫视
 http://tv.nezha.su:35455/itv/1000000001000014176.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="Trung Quốc",Quảng Đông 卫视
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="NN Trung Quốc",Quảng Đông 卫视
 http://tv.nezha.su:35455/itv/6000000001000031076.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="Trung Quốc",Quảng Đông 卫视
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangdong.png" group-title="NN Trung Quốc",Quảng Đông 卫视
 http://tv.nezha.su:35455/itv/1000000005000265034.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangxi.png" group-title="Trung Quốc",Quảng Tây 卫视
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Guangxi.png" group-title="NN Trung Quốc",Quảng Tây 卫视
 http://tv.nezha.su:35455/itv/5000000011000031118.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/贵州卫视.png" group-title="Trung Quốc",贵州卫视
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/贵州卫视.png" group-title="NN Trung Quốc",贵州卫视
 http://tv.nezha.su:35455/itv/5000000004000025843.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan.png" group-title="Trung Quốc",海南卫视
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hainan.png" group-title="NN Trung Quốc",海南卫视
 http://tv.nezha.su:35455/itv/5000000004000006211.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hebei.png" group-title="Trung Quốc",河北卫视
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hebei.png" group-title="NN Trung Quốc",河北卫视
 http://tv.nezha.su:35455/itv/5000000006000040016.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan.png" group-title="Trung Quốc",河南卫视
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Henan.png" group-title="NN Trung Quốc",河南卫视
 http://tv.nezha.su:35455/itv/5000000011000031119.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="Trung Quốc",Hắc Long Giang 卫视
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="NN Trung Quốc",Hắc Long Giang 卫视
 http://tv.nezha.su:35455/itv/1000000001000001925.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="Trung Quốc",Hắc Long Giang 卫视
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="NN Trung Quốc",Hắc Long Giang 卫视
 http://tv.nezha.su:35455/itv/6000000001000016510.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="Trung Quốc",Hắc Long Giang 卫视
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Heilongjiang.png" group-title="NN Trung Quốc",Hắc Long Giang 卫视
 http://tv.nezha.su:35455/itv/1000000005000265029.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="Trung Quốc",湖北卫视
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="NN Trung Quốc",湖北卫视
 http://tv.nezha.su:35455/itv/1000000001000024621.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="Trung Quốc",湖北卫视
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="NN Trung Quốc",湖北卫视
 http://tv.nezha.su:35455/itv/6000000001000015436.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="Trung Quốc",湖北卫视
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hubei.png" group-title="NN Trung Quốc",湖北卫视
 http://tv.nezha.su:35455/itv/1000000005000265023.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="Trung Quốc",湖南卫视
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="NN Trung Quốc",湖南卫视
 http://tv.nezha.su:35455/itv/5000000004000006692.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="Trung Quốc",湖南卫视
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="NN Trung Quốc",湖南卫视
 http://tv.nezha.su:35455/itv/6000000001000018044.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="Trung Quốc",湖南卫视
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan.png" group-title="NN Trung Quốc",湖南卫视
 http://tv.nezha.su:35455/itv/1000000005000265024.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="湖南金鹰纪实" tvg-name="湖南金鹰纪实" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/湖南金鹰纪实.png" group-title="Trung Quốc",湖南金鹰纪实
+#EXTINF:-1 tvg-id="湖南金鹰纪实" tvg-name="湖南金鹰纪实" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/湖南金鹰纪实.png" group-title="NN Trung Quốc",湖南金鹰纪实
 http://tv.nezha.su:35455/itv/5000000011000031203.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="湖南" tvg-name="湖南" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/湖南.png" group-title="Trung Quốc",湖南快乐垂钓
+#EXTINF:-1 tvg-id="湖南" tvg-name="湖南" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/湖南.png" group-title="NN Trung Quốc",湖南快乐垂钓
 http://tv.nezha.su:35455/itv/5000000011000031206.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="湖南茶频道" tvg-name="湖南茶频道" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/湖南茶频道.png" group-title="Trung Quốc",湖南茶频道
+#EXTINF:-1 tvg-id="湖南茶频道" tvg-name="湖南茶频道" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/湖南茶频道.png" group-title="NN Trung Quốc",湖南茶频道
 http://tv.nezha.su:35455/itv/5000000011000031209.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/吉林卫视.png" group-title="Trung Quốc",Cát Lâm 卫视
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/吉林卫视.png" group-title="NN Trung Quốc",Cát Lâm 卫视
 http://tv.nezha.su:35455/itv/5000000011000031117.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="Trung Quốc",江苏卫视
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="NN Trung Quốc",江苏卫视
 http://tv.nezha.su:35455/itv/6000000001000014861.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="Trung Quốc",江苏卫视
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="NN Trung Quốc",江苏卫视
 http://tv.nezha.su:35455/itv/1000000001000001828.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="Trung Quốc",江苏卫视
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangsu.png" group-title="NN Trung Quốc",江苏卫视
 http://tv.nezha.su:35455/itv/1000000005000265030.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangxi.png" group-title="Trung Quốc",江西卫视
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangxi.png" group-title="NN Trung Quốc",江西卫视
 http://tv.nezha.su:35455/itv/1000000006000268001.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangxi.png" group-title="Trung Quốc",江西卫视
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Jiangxi.png" group-title="NN Trung Quốc",江西卫视
 http://tv.nezha.su:35455/itv/1000000005000265032.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Liaoning.png" group-title="Trung Quốc",辽宁卫视
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Liaoning.png" group-title="NN Trung Quốc",辽宁卫视
 http://tv.nezha.su:35455/itv/5000000004000011671.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Liaoning.png" group-title="Trung Quốc",辽宁卫视
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Liaoning.png" group-title="NN Trung Quốc",辽宁卫视
 http://tv.nezha.su:35455/itv/1000000005000265022.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Qinghai.png" group-title="Trung Quốc",Thanh Hải 卫视
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Qinghai.png" group-title="NN Trung Quốc",Thanh Hải 卫视
 http://tv.nezha.su:35455/itv/1000000002000013359.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="Trung Quốc",Sơn Đông 卫视
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="NN Trung Quốc",Sơn Đông 卫视
 http://tv.nezha.su:35455/itv/1000000001000016568.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="Trung Quốc",Sơn Đông 卫视
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="NN Trung Quốc",Sơn Đông 卫视
 http://tv.nezha.su:35455/itv/6000000001000004134.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="Trung Quốc",Sơn Đông 卫视
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong.png" group-title="NN Trung Quốc",Sơn Đông 卫视
 http://tv.nezha.su:35455/itv/1000000005000265019.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="Trung Quốc",Thượng  Hải 东方卫视
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="NN Trung Quốc",Thượng  Hải 东方卫视
 http://tv.nezha.su:35455/itv/6000000001000003639.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="Trung Quốc",Thượng  Hải 东方卫视
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="NN Trung Quốc",Thượng  Hải 东方卫视
 http://tv.nezha.su:35455/itv/5000000004000014098.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="Trung Quốc",Thượng  Hải 东方卫视
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Dongfang.png" group-title="NN Trung Quốc",Thượng  Hải 东方卫视
 http://tv.nezha.su:35455/itv/1000000005000265018.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai4.png" group-title="Trung Quốc",Thượng  Hải -ICS-外语
+#EXTINF:-1 tvg-id="上海ICS" tvg-name="上海ICS" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai4.png" group-title="NN Trung Quốc",Thượng  Hải -ICS-外语
 http://tv.nezha.su:35455/itv/5000000010000030951.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/上海第一财经.png" group-title="Trung Quốc",Thượng  Hải 第一财经
+#EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/上海第一财经.png" group-title="NN Trung Quốc",Thượng  Hải 第一财经
 http://tv.nezha.su:35455/itv/5000000010000027146.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/东方财经.png" group-title="Trung Quốc",Thượng  Hải 东方财经
+#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/东方财经.png" group-title="NN Trung Quốc",Thượng  Hải 东方财经
 http://tv.nezha.su:35455/itv/5000000007000010003.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="上海东方影视" tvg-name="上海东方影视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai3.png" group-title="Trung Quốc",Thượng  Hải 东方影视
+#EXTINF:-1 tvg-id="上海东方影视" tvg-name="上海东方影视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai3.png" group-title="NN Trung Quốc",Thượng  Hải 东方影视
 http://tv.nezha.su:35455/itv/5000000010000032212.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai2.png" group-title="Trung Quốc",Thượng  Hải 都市
+#EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shanghai2.png" group-title="NN Trung Quốc",Thượng  Hải 都市
 http://tv.nezha.su:35455/itv/5000000010000018926.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/法治天地.png" group-title="Trung Quốc",Thượng  Hải 法治天地
+#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/法治天地.png" group-title="NN Trung Quốc",Thượng  Hải 法治天地
 http://tv.nezha.su:35455/itv/2000000002000000014.m3u8?cdn=hnbblive
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/哈哈炫动.png" group-title="Trung Quốc",Thượng  Hải 哈哈炫动
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/哈哈炫动.png" group-title="NN Trung Quốc",Thượng  Hải 哈哈炫动
 http://tv.nezha.su:35455/itv/5000000011000031123.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/纪实人文.png" group-title="Trung Quốc",Thượng  Hải 纪实人文
+#EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/纪实人文.png" group-title="NN Trung Quốc",Thượng  Hải 纪实人文
 http://tv.nezha.su:35455/itv/5000000004000010282.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/纪实人文.png" group-title="Trung Quốc",Thượng  Hải 纪实人文
+#EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/纪实人文.png" group-title="NN Trung Quốc",Thượng  Hải 纪实人文
 http://tv.nezha.su:35455/itv/1000000005000265021.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/五星体育.png" group-title="Trung Quốc",Thượng  Hải 五星体育
+#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/五星体育.png" group-title="NN Trung Quốc",Thượng  Hải 五星体育
 http://tv.nezha.su:35455/itv/5000000010000017540.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/上海新闻综合.png" group-title="Trung Quốc",Thượng  Hải 新闻综合
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/上海新闻综合.png" group-title="NN Trung Quốc",Thượng  Hải 新闻综合
 http://tv.nezha.su:35455/itv/5000000011000031110.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/深圳卫视.png" group-title="Trung Quốc",深圳卫视
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/深圳卫视.png" group-title="NN Trung Quốc",深圳卫视
 http://tv.nezha.su:35455/itv/5000000004000007410.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/深圳卫视.png" group-title="Trung Quốc",深圳卫视
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/深圳卫视.png" group-title="NN Trung Quốc",深圳卫视
 http://tv.nezha.su:35455/itv/6000000001000002116.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/深圳卫视.png" group-title="Trung Quốc",深圳卫视
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/深圳卫视.png" group-title="NN Trung Quốc",深圳卫视
 http://tv.nezha.su:35455/itv/1000000005000265028.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/四川卫视.png" group-title="Trung Quốc",四川卫视
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/四川卫视.png" group-title="NN Trung Quốc",四川卫视
 http://tv.nezha.su:35455/itv/5000000004000006119.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/天津卫视.png" group-title="Trung Quốc",天津卫视
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/天津卫视.png" group-title="NN Trung Quốc",天津卫视
 http://tv.nezha.su:35455/itv/5000000004000006827.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/天津卫视.png" group-title="Trung Quốc",天津卫视
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/天津卫视.png" group-title="NN Trung Quốc",天津卫视
 http://tv.nezha.su:35455/itv/6000000001000009186.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/天津卫视.png" group-title="Trung Quốc",天津卫视
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/天津卫视.png" group-title="NN Trung Quốc",天津卫视
 http://tv.nezha.su:35455/itv/1000000005000265026.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/云南卫视.png" group-title="Trung Quốc",云南卫视
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/云南卫视.png" group-title="NN Trung Quốc",云南卫视
 http://tv.nezha.su:35455/itv/5000000011000031120.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/浙江卫视.png" group-title="Trung Quốc",浙江卫视
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/浙江卫视.png" group-title="NN Trung Quốc",浙江卫视
 http://tv.nezha.su:35455/itv/5000000004000007275.m3u8?cdn=bestzb
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/浙江卫视.png" group-title="Trung Quốc",浙江卫视
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/浙江卫视.png" group-title="NN Trung Quốc",浙江卫视
 http://tv.nezha.su:35455/itv/1000000001000014260.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/浙江卫视.png" group-title="Trung Quốc",浙江卫视
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/浙江卫视.png" group-title="NN Trung Quốc",浙江卫视
 http://tv.nezha.su:35455/itv/1000000005000265031.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/重庆卫视.png" group-title="Trung Quốc",重庆卫视
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/重庆卫视.png" group-title="NN Trung Quốc",重庆卫视
 http://tv.nezha.su:35455/itv/1000000001000001096.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/重庆卫视.png" group-title="Trung Quốc",重庆卫视
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/重庆卫视.png" group-title="NN Trung Quốc",重庆卫视
 http://tv.nezha.su:35455/itv/1000000005000265017.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/华数4K.png" group-title="Trung Quốc",华数
+#EXTINF:-1 tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/华数4K.png" group-title="NN Trung Quốc",华数
 http://tv.nezha.su:35455/itv/6000000003000004748.m3u8?cdn=wasusyt
-#EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/纯享4K.png" group-title="Trung Quốc",纯享
+#EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/纯享4K.png" group-title="NN Trung Quốc",纯享
 http://tv.nezha.su:35455/itv/1000000004000011651.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/咪咕4K.png" group-title="Trung Quốc",咪咕4K-1
+#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/咪咕4K.png" group-title="NN Trung Quốc",咪咕4K-1
 http://tv.nezha.su:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
-#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/咪咕4K.png" group-title="Trung Quốc",咪咕4K-2
+#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/咪咕4K.png" group-title="NN Trung Quốc",咪咕4K-2
 http://tv.nezha.su:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
-#EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LOVENATURE" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/LOVENATURE.png" group-title="Trung Quốc",Love Nature 4K
+#EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LOVENATURE" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/LOVENATURE.png" group-title="NN Trung Quốc",Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-id="LOUPE4K" tvg-name="LOUPE4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/LOUPE4K.png" group-title="Trung Quốc",Loupe 4K
+#EXTINF:-1 tvg-id="LOUPE4K" tvg-name="LOUPE4K" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/LOUPE4K.png" group-title="NN Trung Quốc",Loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
-#EXTINF:-1 tvg-id="FASHIONONE" tvg-name="FASHIONONE" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/FASHIONONE.png" group-title="Trung Quốc",Fashion 4K
+#EXTINF:-1 tvg-id="FASHIONONE" tvg-name="FASHIONONE" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/FASHIONONE.png" group-title="NN Trung Quốc",Fashion 4K
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="咪咕全民热练" tvg-name="咪咕全民热练" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/咪咕4k.png" group-title="Trung Quốc",咪咕全民热练
+#EXTINF:-1 tvg-id="咪咕全民热练" tvg-name="咪咕全民热练" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/咪咕4k.png" group-title="NN Trung Quốc",咪咕全民热练
 http://tv.nezha.su:35455/itv/3000000020000031315.m3u8?cdn=FifastbLive
 
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="ALTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://cms.dmpcdn.com/livetv/2020/07/14/72c22620-c5aa-11ea-a8d3-2b56c8ce453d_original.png",🇹🇭 ALTV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="ALTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://cms.dmpcdn.com/livetv/2020/07/14/72c22620-c5aa-11ea-a8d3-2b56c8ce453d_original.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",🇹🇭 ALTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ALTV3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="AmarinTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/05789d4a-9286-4bf3-9322-f11cd3b9e887.jpg",🇹🇭 Amarin34
-https://ctrl.laotv.la/live/AMARINTVHD/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="AmarinTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/05789d4a-9286-4bf3-9322-f11cd3b9e887.jpg",🇹🇭 Amarin34
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="AmarinTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/05789d4a-9286-4bf3-9322-f11cd3b9e887.jpg",🇹🇭 Amarin34
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chamarin3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/0305efec-42e2-44e6-9beb-a0d0f949478e.jpg",🇹🇭 CH3
-https://ctrl.laotv.la/live/3HD/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/0305efec-42e2-44e6-9beb-a0d0f949478e.jpg",🇹🇭 CH3
+http://appdootv2.dootvde.com:1935/live/50025_amarin_tv_hd.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH3" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/0305efec-42e2-44e6-9beb-a0d0f949478e.jpg",🇹🇭 CH3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/549f5f1a-3013-46f3-8c28-db79470ee53d.jpg",🇹🇭 CH5
+http://appdootv2.dootvde.com:1935/live/50001_ch3.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/549f5f1a-3013-46f3-8c28-db79470ee53d.jpg",🇹🇭 CH5
 https://ctrl.laotv.la/live/Thai5/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/549f5f1a-3013-46f3-8c28-db79470ee53d.jpg",🇹🇭 CH5
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH5" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/549f5f1a-3013-46f3-8c28-db79470ee53d.jpg",🇹🇭 CH5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch5hd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
 https://ctrl.laotv.la/live/Thai7/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch7hd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/813d8d64-c9e2-461a-bc17-8c9bb5ca8b95.jpg",🇹🇭 CH7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch7hd/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/9c8f6d50-fa5b-432d-a010-4cd17c975a86.jpg",🇹🇭 CH8
-https://ctrl.laotv.la/live/CH8/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="CH8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/9c8f6d50-fa5b-432d-a010-4cd17c975a86.jpg",🇹🇭 CH8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="CH8" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/9c8f6d50-fa5b-432d-a010-4cd17c975a86.jpg",🇹🇭 CH8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch83/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="GMM 25" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/eae5cda1-ddc4-4708-afee-d42c0002ba2b.jpg",🇹🇭 GMM25
+http://appdootv2.dootvde.com:1935/live/50028_ch8.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="GMM 25" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/eae5cda1-ddc4-4708-afee-d42c0002ba2b.jpg",🇹🇭 GMM25
 https://ctrl.laotv.la/live/GMM25/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="GMM 25" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/eae5cda1-ddc4-4708-afee-d42c0002ba2b.jpg",🇹🇭 GMM25
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="GMM 25" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/eae5cda1-ddc4-4708-afee-d42c0002ba2b.jpg",🇹🇭 GMM25
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chgmm3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="JKN 18" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240314/video/b75cb2fb-8823-40a9-a24a-be60bf1211c1.jpg",🇹🇭 JKN18
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="JKN 18" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240314/video/b75cb2fb-8823-40a9-a24a-be60bf1211c1.jpg",🇹🇭 JKN18
 https://ctrl.laotv.la/live/JKN18/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="JKN 18" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240314/video/b75cb2fb-8823-40a9-a24a-be60bf1211c1.jpg",🇹🇭 JKN18
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="JKN 18" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240314/video/b75cb2fb-8823-40a9-a24a-be60bf1211c1.jpg",🇹🇭 JKN18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="MCOT HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b6da8973-f3cb-4a3c-b2dd-130bea66eec4.jpg",🇹🇭 MCOT
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="MCOT HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b6da8973-f3cb-4a3c-b2dd-130bea66eec4.jpg",🇹🇭 MCOT
 https://ctrl.laotv.la/live/Mcot/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="MCOT HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b6da8973-f3cb-4a3c-b2dd-130bea66eec4.jpg",🇹🇭 MCOT
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="MCOT HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b6da8973-f3cb-4a3c-b2dd-130bea66eec4.jpg",🇹🇭 MCOT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmcothd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Mono29 Plus" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b8e35936-78b0-4041-8ea1-4aad186c5ec0.jpg",🇹🇭 MONO29
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="Mono29 Plus" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b8e35936-78b0-4041-8ea1-4aad186c5ec0.jpg",🇹🇭 MONO29
 https://ctrl.laotv.la/live/Mono29/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Mono29 Plus" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b8e35936-78b0-4041-8ea1-4aad186c5ec0.jpg",🇹🇭 MONO29
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="Mono29 Plus" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b8e35936-78b0-4041-8ea1-4aad186c5ec0.jpg",🇹🇭 MONO29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmono293/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Nation TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/e2093b48-4808-49ae-a01f-54419186d82b.jpg",🇹🇭 Nation TV
-https://ctrl.laotv.la/live/NationTV/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Nation TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/e2093b48-4808-49ae-a01f-54419186d82b.jpg",🇹🇭 Nation TV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="Nation TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/e2093b48-4808-49ae-a01f-54419186d82b.jpg",🇹🇭 Nation TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="NBT" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/3338d4bb-148b-4e33-a12a-1d979724b622.jpg",🇹🇭 NBT2
-https://ctrl.laotv.la/live/NBT/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="NBT" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/3338d4bb-148b-4e33-a12a-1d979724b622.jpg",🇹🇭 NBT2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnbt3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="ONE31 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/2305dacf-be72-40f4-a8b0-4b5bec6e8805.jpg",🇹🇭 ONE31
+http://appdootv2.dootvde.com:1935/live/50015_nation.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="NBT" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/3338d4bb-148b-4e33-a12a-1d979724b622.jpg",🇹🇭 NBT2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+http://appdootv2.dootvde.com:1935/live/50005_nbt.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="ONE31 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/2305dacf-be72-40f4-a8b0-4b5bec6e8805.jpg",🇹🇭 ONE31
 https://ctrl.laotv.la/live/OneHD/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="ONE31 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/2305dacf-be72-40f4-a8b0-4b5bec6e8805.jpg",🇹🇭 ONE31
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="ONE31 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/2305dacf-be72-40f4-a8b0-4b5bec6e8805.jpg",🇹🇭 ONE31
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chonehd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="PPTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/46ef287b-7137-43af-9807-7ad5d26f8fab.jpg",🇹🇭 PPTV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="PPTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/46ef287b-7137-43af-9807-7ad5d26f8fab.jpg",🇹🇭 PPTV
 https://ctrl.laotv.la/live/PPTVHD/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="PPTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/46ef287b-7137-43af-9807-7ad5d26f8fab.jpg",🇹🇭 PPTV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="PPTV HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/46ef287b-7137-43af-9807-7ad5d26f8fab.jpg",🇹🇭 PPTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chpptvhd3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="ThaiPBS" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/552020ee-0b07-4b36-946a-c4d6f7b58d46.jpg",🇹🇭 Thai PBS
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="ThaiPBS" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/552020ee-0b07-4b36-946a-c4d6f7b58d46.jpg",🇹🇭 Thai PBS
 https://ctrl.laotv.la/live/ThaiPBS/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="ThaiPBS" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/552020ee-0b07-4b36-946a-c4d6f7b58d46.jpg",🇹🇭 Thai PBS
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="ThaiPBS" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/552020ee-0b07-4b36-946a-c4d6f7b58d46.jpg",🇹🇭 Thai PBS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthaipbs3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Thairath TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b74b4f45-2a89-42bd-9e37-188147b78ed9.jpg",🇹🇭 Thairath TV
-https://ctrl.laotv.la/live/THAIRATHTVHD/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Thairath TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b74b4f45-2a89-42bd-9e37-188147b78ed9.jpg",🇹🇭 Thairath TV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="Thairath TV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/b74b4f45-2a89-42bd-9e37-188147b78ed9.jpg",🇹🇭 Thairath TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/f44edddb-d3a1-42ef-9730-fb4f279067bd.jpg",🇹🇭 TNN16
+http://appdootv2.dootvde.com:1935/live/50023_thairath_hd.stream.smil/playlist.m3u8
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="TNN16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/f44edddb-d3a1-42ef-9730-fb4f279067bd.jpg",🇹🇭 TNN16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtnn3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/f44edddb-d3a1-42ef-9730-fb4f279067bd.jpg",🇹🇭 TNN16
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="TNN16" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/f44edddb-d3a1-42ef-9730-fb4f279067bd.jpg",🇹🇭 TNN16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtnn/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/5b97d770-5616-4d8a-bfac-8e385892aaab.jpg",🇹🇭 TNN2
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="TNN2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/5b97d770-5616-4d8a-bfac-8e385892aaab.jpg",🇹🇭 TNN2
 https://ctrl.laotv.la/live/TNN2/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="TNN24" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/53ef9038-76bd-4ad0-8ef0-30d28db340b1.jpg",🇹🇭 TNN24
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="TNN24" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/53ef9038-76bd-4ad0-8ef0-30d28db340b1.jpg",🇹🇭 TNN24
 https://ctrl.laotv.la/live/TNN24/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="TPTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/55a6449e-48c8-4808-8752-246eab2a1a86.jpg",🇹🇭 TPTV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="TPTV" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/55a6449e-48c8-4808-8752-246eab2a1a86.jpg",🇹🇭 TPTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/TPTV/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="True4U" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/00afd2f1-c0cc-4f7a-9b7d-81a0c1a5e564.jpg",🇹🇭 True 4U
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="True4U" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/00afd2f1-c0cc-4f7a-9b7d-81a0c1a5e564.jpg",🇹🇭 True 4U
 https://ctrl.laotv.la/live/True4U/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="True4U" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/00afd2f1-c0cc-4f7a-9b7d-81a0c1a5e564.jpg",🇹🇭 True 4U
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="True4U" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/00afd2f1-c0cc-4f7a-9b7d-81a0c1a5e564.jpg",🇹🇭 True 4U
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtrue4u3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="T Sports 7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/286d95f4-e5ff-4934-baf3-dce21d4f47bb.jpg",🇹🇭 T Sport7
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="T Sports 7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/286d95f4-e5ff-4934-baf3-dce21d4f47bb.jpg",🇹🇭 T Sport7
 https://ctrl.laotv.la/live/TSports7/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="T Sports 7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/286d95f4-e5ff-4934-baf3-dce21d4f47bb.jpg",🇹🇭 T Sport7
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="T Sports 7" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/286d95f4-e5ff-4934-baf3-dce21d4f47bb.jpg",🇹🇭 T Sport7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport3/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Workpoint" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/483d2bb2-92d5-4319-b267-5d60caf0c013.jpg",🇹🇭 Workpoint TV
-https://ctrl.laotv.la/live/WorkPoint/index.m3u8
-#EXTINF:-1 group-title="Nước ngoài" tvg-id="Workpoint" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/483d2bb2-92d5-4319-b267-5d60caf0c013.jpg",🇹🇭 Workpoint TV
+#EXTINF:-1 group-title="NN Thái Lan" tvg-id="Workpoint" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.laotv.la/xmediatv/public/upload/100036087499/20240402/video/483d2bb2-92d5-4319-b267-5d60caf0c013.jpg",🇹🇭 Workpoint TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint3/index.m3u8
+http://appdootv2.dootvde.com:1935/live/50016_workpoint_tv.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-chno="201" ch-number="201" tvg-id="DLTV1" tvg-name="DLTV1" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/136_y_tPkVabFhc7iUGQdmlEDC5IxvJZj4326M.png",DLTV1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv01.m3u8
+#EXTINF:-1 tvg-chno="202" ch-number="202" tvg-id="DLTV2" tvg-name="DLTV2" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/137_y_yQOMjhFVupi8I1oal5TScnbkfAYtJC2v.png",DLTV2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv02.m3u8
+#EXTINF:-1 tvg-chno="203" ch-number="203" tvg-id="DLTV3" tvg-name="DLTV3" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/138_y_NrPWRcyIBzbd5kJ3n8MqHDOmoVpA19fS.png",DLTV3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv03.m3u8
+#EXTINF:-1 tvg-chno="204" ch-number="204" tvg-id="DLTV4" tvg-name="DLTV4" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/139_y_gx6RdEWuPqjBnAwoCI2mrltX5vJU4bDO.png",DLTV4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv04.m3u8
+#EXTINF:-1 tvg-chno="205" ch-number="205" tvg-id="DLTV5" tvg-name="DLTV5" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/140_y_0NYqGlHdDfQeZFoSUcMWsx1rtOyTXb78.png",DLTV5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv05.m3u8
+#EXTINF:-1 tvg-chno="206" ch-number="206" tvg-id="DLTV6" tvg-name="DLTV6" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/141_y_gIp8YiEP6MQsdeb9hjKcBFmUHVw1kNxy.png",DLTV6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv06.m3u8
+#EXTINF:-1 tvg-chno="207" ch-number="207" tvg-id="DLTV7" tvg-name="DLTV7" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/142_y_U53zK2mOiFQ9xsCMS7AJrvTtoEf6dpIc.png",DLTV7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv07.m3u8
+#EXTINF:-1 tvg-chno="208" ch-number="208" tvg-id="DLTV8" tvg-name="DLTV8" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/143_y_k4YNqBSgRW1OndxQuU6Pac0CMJVKIf57.png",DLTV8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv08.m3u8
+#EXTINF:-1 tvg-chno="209" ch-number="209" tvg-id="DLTV9" tvg-name="DLTV9" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/144_y_9yo8mDwnI5OLgCHKvfsZ42BMXTzEbrSe.png",DLTV9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv09.m3u8
+#EXTINF:-1 tvg-chno="210" ch-number="210" tvg-id="DLTV10" tvg-name="DLTV10" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/145_y_9Fkli2DoLIP0EX56AHW74MhquQKfng1a.png",DLTV10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv10.m3u8
+#EXTINF:-1 tvg-chno="211" ch-number="211" tvg-id="DLTV11" tvg-name="DLTV11" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/146_y_5LVm0hDdr2N19IOlU3MAtqscKSk6xgZe.png",DLTV11
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv11.m3u8
+#EXTINF:-1 tvg-chno="212" ch-number="212" tvg-id="DLTV12" tvg-name="DLTV12" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/147_y_Uel5LZmKGoutv2PJiFIx60jayQbpnzqT.png",DLTV12
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv12.m3u8
+#EXTINF:-1 tvg-chno="213" ch-number="213" tvg-id="DLTV13" tvg-name="DLTV13" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/148_y_23K7iaWFMTnyxjfH5NIhUpCgZc8SB4s9.png",DLTV13
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv13.m3u8
+#EXTINF:-1 tvg-chno="214" ch-number="214" tvg-id="DLTV14" tvg-name="DLTV14" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/149_y_EzhGev4MFkQUOR08CdZisfP5Lnw9Jx6A.png",DLTV14
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv14.m3u8
+#EXTINF:-1 tvg-chno="215" ch-number="215" tvg-id="DLTV15" tvg-name="DLTV15" group-title="NN Thái Lan" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://media-mvtv-app.imgix.net/channel/150_y_eUWs21cyV38ARS0OZmtgILodzKiJqfaD.png",DLTV15
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+https://cdn-live.dltv.ac.th/dltv15.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.nowtv.now.com/media/logo/670-dbg-e.png" group-title="Thể thao" tvg-id="SPOTV.id", SPOTV
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.nowtv.now.com/media/logo/671-dbg-e.png" group-title="Thể thao" tvg-id="SPOTV2.id", SPOTV2
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e6ed3fdf6e9f491d9ead109fc0b00cfc:3bc6c45722eb5fa7b343de9bffc4f7c7
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTV2HD/mpd/SPOTV2HD.mpd
 
+#EXTINF:-1 tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/nn-animal-planet.png" group-title="Knowledge & Documentary" tvg-id="AnimalPlanet.id" tvg-name="Animal Planet", Animal Planet
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fe0d35dd7f2045e58bfdfeea879a8ae9:6a61e84d6c9147aa68c06d68f1d7b218
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://warningfm.github.io/v3/img/PzxVHQZ.png?v=1.0.0.1" group-title="Knowledge" tvg-id="AnimalPlanet.id" tvg-name="Animal Planet", Animal Planet
 https://atemecdnbalancer-voe.sysln.id/live/eds/AnimalPlanetHD/mpd/AnimalPlanetHD.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/nn-discovery.png" group-title="Knowledge & Documentary",Discovery Channel
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00cff33589a6468eb98e4db7aad46ca0:53bb2de4f3a4ed84661e4fc527a1fc09
+https://atemecdnbalancer-voe.sysln.id/live/eds/DiscoveryHD/mpd/DiscoveryHD.mpd
+
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ France" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/rswyxx1436720242.png",Canal+ France
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium121/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ Sport France" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/utquqs1472570910.png",Canal+ Sport France
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium122/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ Foot France" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/nbc82o1613130667.png",Canal+ Foot France
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium463/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal 11 Portugal" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/Canal_11_Portugal.png",Canal 11 Portugal
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium540/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ Sport Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/tvvppy1472817016.png",Canal+ Sport Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium48/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ Sport 2 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/at0cjj1649340562.png",Canal+ Sport 2 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium73/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="CANAL+ SPORT 5 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/12a8o11649340599.png",CANAL+ SPORT 5 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium75/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ Premium Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/qdk0mf1649340977.png",Canal+ Premium Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium566/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Canal+ Family Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/gp3mn61649341067.png",Canal+ Family Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium567/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="CANAL9 Denmark" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/Canal_9.png",CANAL9 Denmark
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium805/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Combate Brasil" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wqqpuy1437611123.png",Combate Brasil
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium89/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="C More Football Sweden" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/jv2s5s1641502135.png",C More Football Sweden
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium622/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 1 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/a544c21630100843.png",Cosmote Sport 1 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium623/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 2 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/47sjz11630100858.png",Cosmote Sport 2 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium623/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 3 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/6l792t1630100876.png",Cosmote Sport 3 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium624/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 4 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fyiqh51630100896.png",Cosmote Sport 4 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium625/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 5 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/adxi531630100916.png",Cosmote Sport 5 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium626/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 6 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/6wa4l41630100940.png",Cosmote Sport 6 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium627/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 7 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/b6b9zy1630100961.png",Cosmote Sport 7 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium628/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 8 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/ku2qk01630100986.png",Cosmote Sport 8 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium629/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Cosmote Sport 9 HD" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fh0azv1630101013.png",Cosmote Sport 9 HD
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium630/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN 1 Bar DE" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",DAZN 1 Bar DE
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium426/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN 2 Bar DE" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",DAZN 2 Bar DE
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium427/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",🇪🇸 DAZN 1 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium445/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",🇪🇸 DAZN 2 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium446/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN 3 Spain" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/mkx6rd1740903163.png",🇪🇸 DAZN 3 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium447/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN 4 Spain" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/g4s4yy1740903460.png",🇪🇸 DAZN 4 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium448/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN F1 ES" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/gl9uoz1660314819.png",🇪🇸 DAZN F1 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium537/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN LaLiga" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/4qm3dw1692437861.png",🇪🇸 DAZN LaLiga
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium538/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DAZN LaLiga 2" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/evu0at1692970765.png",🇪🇸 DAZN LaLiga 2
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium43/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DR1 Denmark" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/t2lsw91623432359.png",DR1 Denmark
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium801/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="DR2 Denmark" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/ywusvs1462899121.png",DR2 Denmark
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/dokko1/premium802/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Digi Sport 1 Romania" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/svrprs1436105433.png",Digi Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/top2/premium400/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Digi Sport 2 Romania" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/vqqrrq1436105445.png",Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/top2/premium401/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Digi Sport 3 Romania" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/utuqys1454953276.png",Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/top2/premium402/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Digi Sport 4 Romania" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/tvfanon6528/images/d/d6/Digi_Sport_4_%282018-.n.v.%29.png/revision/latest/thumbnail/width/360/height/360?cb=20240205125126",Digi Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/top2/premium403/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Diema Sport Bulgaria" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/0xxcqo1627492559.png",Diema Sport Bulgaria
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium465/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Diema Sport 2 Bulgaria" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/efa11r1627492687.png",Diema Sport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium466/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Diema Sport 3 Bulgaria" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wlk12t1627492656.png",Diema Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium467/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="ESPN USA" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/rexw5v1660760670.png",ESPN USA
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddh2/premium44/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="ESPN2 USA" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/e0jjaa1660762501.png",ESPN2 USA
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium45/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="ESPNU USA" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/qwxxut1433431075.png",ESPNU USA
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium316/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="ESPN 1 NL" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wc8dnt1660760493.png",ESPN 1 NL
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium379/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="ESPN 2 NL" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/keezdj1660760512.png",ESPN 2 NL
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium386/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 1 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/kih3iw1701160131.png",Eleven Sports 1 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium71/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 2 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/y37tax1701160140.png",Eleven Sports 2 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium72/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 3 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/7gnrhg1701160157.png",Eleven Sports 3 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium428/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 1 Portugal" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",Eleven Sports 1 Portugal
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium455/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 2 Portugal" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",Eleven Sports 2 Portugal
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium456/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 3 Portugal" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/mkx6rd1740903163.png",Eleven Sports 3 Portugal
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium457/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 4 Portugal" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/g4s4yy1740903460.png",Eleven Sports 4 Portugal
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium458/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eleven Sports 5 Portugal" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/igdgpo1740903600.png",Eleven Sports 5 Portugal
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium459/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 1 UK" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 UK
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium41/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 2 UK" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 UK
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium42/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 1 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium57/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 2 Poland" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 Poland
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium58/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 1 Spain" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/zeko/premium524/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 2 Spain" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 Spain
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/ddy6/premium525/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 1 Italy" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 Italy
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium878/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="EuroSport 2 Italy" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 Italy
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium879/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eurosport 1 Bulgaria" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",Eurosport 1 Bulgaria
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium469/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="Eurosport 2 Bulgaria" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",Eurosport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium470/mono.m3u8
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-name="ESPN Premium Argentina" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",ESPN Premium Argentina
+#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://webhdrunns.iosplayer.ru/wind/premium387/mono.m3u8
