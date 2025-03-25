@@ -41,6 +41,11 @@
                                   'bg-white text-gray-700 hover:bg-blue-100 transition duration-300 ease-in-out rounded-full': tab !== 'highlights'}" class="px-3 py-1 font-semibold">
                     Highlights
                 </button>
+                <button @click="tab = 'replay'; selectTab(tab)" :class="{'bg-blue-600 text-white rounded-full shadow-lg transform scale-105 transition-all duration-300 ease-in-out': tab === 'replay', 
+                                  'bg-white text-gray-700 hover:bg-blue-100 transition duration-300 ease-in-out rounded-full': tab !== 'replay'}" class="px-3 py-1 font-semibold">
+                    Replay
+                </button>
+
             </div>
         </div>
 
@@ -253,11 +258,16 @@
                 <div x-show="tab === 'highlights'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
                     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <template x-for="highlight in highlights" :key="highlight.id">
-                            <a :href="`${host}get-key.html?id=${highlight.id}&title=${highlight.name}`" target="_blank" class="group block bg-white rounded-lg shadow hover:shadow-lg transition">
-                                <img :src="highlight.feature_image" alt="" class="w-full aspect-video object-cover rounded-t-lg">
-                                <div class="p-4">
-                                    <h3 class="text-lg font-semibold line-clamp-2" x-text="highlight.name"></h3>
-                                    <p class="text-sm text-gray-500 mt-2 line-clamp-3" x-text="highlight.description"></p>
+                            <a :href="`${host}get-key.html?id=${highlight.id}`" target="_blank" class="relative group block bg-white rounded-lg shadow hover:shadow-lg transition">
+                                <img :src="highlight.feature_image" alt="" loading="lazy" class="w-full aspect-video object-cover rounded-t-lg">
+                                <div class="flex items-center gap-3 ml-3 absolute top-[0.5rem] -right-2">
+                                    <span class="inline-flex items-center justify-center px-4 py-0.5 text-xs rounded-full rounded-br-none shadow-md w-max bg-gradient-to-r before:content-[''] before:absolute before:right-0 before:-bottom-2 before:w-0 before:h-0 before:border-r-8 before:border-t-8 before:border-r-transparent text-white from-blue-600 to-blue-400 before:border-t-blue-300" x-text="highlight.description.split('|')[1].replace('BLV ','')"></span>
+                                </div>
+                                <div class="flex items-center gap-3 ml-3 absolute top-[2.25rem] -right-2">
+                                    <span class="inline-flex items-center justify-center px-4 py-0.5 text-xs rounded-full rounded-br-none shadow-md w-max bg-gradient-to-r before:content-[''] before:absolute before:right-0 before:-bottom-2 before:w-0 before:h-0 before:border-r-8 before:border-t-8 before:border-r-transparent text-white from-red-600 to-red-400 before:border-t-red-600" x-text="moment(highlight.description.split('|')[2], 'DD.MM.YY').format('DD/MM/YYYY')"></span>
+                                </div>
+                                <div class="px-4 py-2">
+                                    <h3 class="text-lg font-semibold line-clamp-2" x-text="highlight.description.split('|')[0]"></h3>
                                 </div>
                             </a>
                         </template>
@@ -266,6 +276,31 @@
                         <button @click="loadMoreHighlights()" class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition" :disabled="loadingHighlights">
                             <span x-show="!loadingHighlights">Load More</span>
                             <span x-show="loadingHighlights">Loading...</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div x-show="tab === 'replay'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                        <template x-for="replay in replays" :key="replay.id">
+                            <a :href="`${host}get-key.html?id=${replay.id}`" target="_blank" class="relative group block bg-white rounded-lg shadow hover:shadow-lg transition">
+                                <img :src="replay.feature_image" alt="" loading="lazy" class="w-full aspect-video object-cover rounded-t-lg">
+                                <div class="flex items-center gap-3 ml-3 absolute top-[0.5rem] -right-2">
+                                    <span class="inline-flex items-center justify-center px-4 py-0.5 text-xs rounded-full rounded-br-none shadow-md w-max bg-gradient-to-r before:content-[''] before:absolute before:right-0 before:-bottom-2 before:w-0 before:h-0 before:border-r-8 before:border-t-8 before:border-r-transparent text-white from-blue-600 to-blue-400 before:border-t-blue-300" x-text="replay.description.split('|')[1].replace('BLV ','')"></span>
+                                </div>
+                                <div class="flex items-center gap-3 ml-3 absolute top-[2.25rem] -right-2">
+                                    <span class="inline-flex items-center justify-center px-4 py-0.5 text-xs rounded-full rounded-br-none shadow-md w-max bg-gradient-to-r before:content-[''] before:absolute before:right-0 before:-bottom-2 before:w-0 before:h-0 before:border-r-8 before:border-t-8 before:border-r-transparent text-white from-red-600 to-red-400 before:border-t-red-600" x-text="moment(replay.description.split('|')[2], 'DD.MM.YY').format('DD/MM/YYYY')"></span>
+                                </div>
+                                <div class="px-4 py-2">
+                                    <h3 class="text-lg font-semibold line-clamp-2" x-text="replay.description.split('|')[0]"></h3>
+                                </div>
+                            </a>
+                        </template>
+                    </div>
+                    <div class="flex justify-center py-4">
+                        <button @click="loadMoreReplays()" class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition" :disabled="loadingReplays">
+                            <span x-show="!loadingReplays">Load More</span>
+                            <span x-show="loadingReplays">Loading...</span>
                         </button>
                     </div>
                 </div>
@@ -296,6 +331,7 @@
                 selectedTournaments: [],
                 tournaments: [],
                 highlights: [],
+                replays: [],
                 hasLoadedHighlights: false,
                 hasLoadedFixtures: false,
                 matchStatusLabels: {
@@ -333,6 +369,8 @@
                 showScrollToTop: false,
                 currentPage: 1,
                 loadingHighlights: false,
+                replayPage: 1,
+                loadingReplays: false,
                 host: "https://tchiphuong.github.io/iptv/",
                 async loadFixtures(selectedLeagueId) {
                     let url = `https://live.vebo.xyz/api/match/live`;
@@ -470,6 +508,27 @@
                 loadMoreHighlights() {
                     this.loadHighlights();
                 },
+                async loadReplays() {
+                    try {
+                        this.loadingReplays = true;
+                        const response = await fetch(`https://api.vebo.xyz/api/news/vebotv/list/xemlai/${this.replayPage}`);
+                        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                        const data = await response.json();
+                        if (data.status === 1) {
+                            this.replays.push(...data.data.list);
+                            this.replayPage++;
+                        } else {
+                            console.error("Error fetching replays:", data);
+                        }
+                    } catch (error) {
+                        console.error("Error loading replays:", error);
+                    } finally {
+                        this.loadingReplays = false;
+                    }
+                },
+                loadMoreReplays() {
+                    this.loadReplays();
+                },
                 async initFixtures() {
                     const response = await fetch('data/custom-logo.json');
                     this.leagueLogos = await response.json();
@@ -519,6 +578,9 @@
                     else if (selectedTab === 'highlights') {
                         document.title = 'Highlights';
                         this.loadHighlights(); // Load highlights if the selected tab is 'highlights'
+                    } else if (selectedTab === 'replay') {
+                        document.title = 'Replay';
+                        this.loadReplays(); // Load replays if the selected tab is 'replay'
                     } else {
                         document.title = 'Standings'; // Set title for fixtures tab
                     }
