@@ -76,7 +76,6 @@
         <span> vs </span>
         <img id="away" class="w-8 h-8 object-cover hidden">
         <span> | </span>
-        <!-- <div id="title" class="font-bold"></div> -->
         <div id="commentators" class="flex -space-x-4 rtl:space-x-reverse"></div>
         <ul id="playUrl" class="flex gap-2 flex-wrap items-center flex-grow"></ul>
         <button id="chatButton" class="px-3 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hidden" title="Bật/tắt chat">
@@ -220,7 +219,8 @@
                             $("#chatButton").removeClass("hidden");
                             $("#chat").empty().append(iframe);
 
-                            $("#pageTitle").text(response.data.name);
+                            const name = "Trực tiếp " + response.data.name + " (" + response.data.commentators.map(x => x.name).join(", ") + ")";
+                            document.title = name;
                             // $("#title").text(`${response.data.name}`);
                             $("#home").attr("src", response.data.home.logo).attr("alt", response.data.home.name).attr("title", response.data.home.name).removeClass("hidden");
                             $("#away").attr("src", response.data.away.logo).attr("alt", response.data.away.name).attr("title", response.data.away.name).removeClass("hidden");
@@ -241,6 +241,8 @@
                             const playUrl = response?.data?.video_url
                             setPlayer(playUrl)
                             $('[property="og:image"]').attr("content", response.data.feature_image)
+                            const name = response.data.name
+                            document.title = name;
                         })
                         .fail(function () {
                             CloseLoading();
@@ -249,10 +251,6 @@
                             CloseLoading();
                         });
                 }
-            }
-            if (urlParser.searchParams.get("title")) {
-                $("#pageTitle").text(urlParser.searchParams.get("title"));
-                $("#title").text(urlParser.searchParams.get("title"));
             }
         });
 

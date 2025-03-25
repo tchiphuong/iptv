@@ -45,6 +45,10 @@
         </div>
 
         <main class="container mx-auto px-3 flex-grow">
+            <!-- Scroll to Top Button -->
+            <button x-show="showScrollToTop" @click="scrollToTop()" class="fixed bottom-5 right-3 lg:bottom-10 lg:right-16 z-10 bg-blue-600 text-white p-3 w-10 h-10 flex items-center justify-center rounded-full shadow-lg hover:bg-blue-700 transition duration-200 ease-in-out">
+                ↑
+            </button>
             <div class="relative h-full">
                 <div x-show="tab === 'fixtures'" class="absolute inset-0 mt-3" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
                     <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -62,6 +66,9 @@
                                     </svg>
                                 </a>
                             </p>
+                        </div>
+                        <div>
+                            <input type="text" id="search" placeholder="Tìm kiếm trận đấu..." class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 ring-0" x-model="search" @input="filterMatchesBySearch()" />
                         </div>
                         <div class="flex gap-2">
                             <div class="flex items-center gap-2">
@@ -244,7 +251,23 @@
                 </div>
 
                 <div x-show="tab === 'highlights'" class="absolute inset-0 mt-5" x-transition:enter="transition-opacity ease-out duration-500 sm:duration-700" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-out duration-500 sm:duration-700" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                    <p>Highlights content goes here.</p>
+                    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                        <template x-for="highlight in highlights" :key="highlight.id">
+                            <a :href="`${host}get-key.html?id=${highlight.id}&title=${highlight.name}`" target="_blank" class="group block bg-white rounded-lg shadow hover:shadow-lg transition">
+                                <img :src="highlight.feature_image" alt="" class="w-full aspect-video object-cover rounded-t-lg">
+                                <div class="p-4">
+                                    <h3 class="text-lg font-semibold line-clamp-2" x-text="highlight.name"></h3>
+                                    <p class="text-sm text-gray-500 mt-2 line-clamp-3" x-text="highlight.description"></p>
+                                </div>
+                            </a>
+                        </template>
+                    </div>
+                    <div class="flex justify-center mt-4">
+                        <button @click="loadMoreHighlights()" class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition" :disabled="loadingHighlights">
+                            <span x-show="!loadingHighlights">Load More</span>
+                            <span x-show="loadingHighlights">Loading...</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
@@ -269,6 +292,7 @@
                 indicatorWidth: 0,
                 indicatorLeft: 0,
                 matches: [],
+                originalMatches: [], // Store the original matches
                 selectedTournaments: [],
                 tournaments: [],
                 highlights: [],
@@ -305,6 +329,11 @@
                 leagues: [],
                 selectedLeagueId: '',
                 leagueLogos: {},
+                search: '',
+                showScrollToTop: false,
+                currentPage: 1,
+                loadingHighlights: false,
+                host: "https://tchiphuong.github.io/iptv/",
                 async loadFixtures(selectedLeagueId) {
                     let url = `https://live.vebo.xyz/api/match/live`;
                     if (selectedLeagueId) {
@@ -329,6 +358,11 @@
                         this.matches = Object.values(data.data)
                             .filter(match => match.sport_type)
                             .sort((a, b) => {
+                                const nameA = a.home?.name || '';
+                                const nameB = b.home?.name || '';
+                                return nameA.localeCompare(nameB);
+                            })
+                            .sort((a, b) => {
                                 if (a.match_status === 'live' && b.match_status !== 'live') {
                                     return -1;
                                 }
@@ -345,11 +379,6 @@
                                 const priorityA = a.tournament.unique_tournament.priority || 0;
                                 const priorityB = b.tournament.unique_tournament.priority || 0;
                                 return priorityB - priorityA;
-                            })
-                            .sort((a, b) => {
-                                const nameA = a.home?.name || '';
-                                const nameB = b.home?.name || '';
-                                return nameA.localeCompare(nameB);
                             })
                             .map(match => {
                                 const startTime = moment(match.timestamp);
@@ -374,6 +403,8 @@
                                     status: this.statusHandle(match)
                                 };
                             });
+
+                        this.originalMatches = [...this.matches]; // Save a copy of the original matches
 
                         const tournamentMap = new Map();
                         const tournamentIds = new Set(); // Set to track unique tournament IDs
@@ -419,27 +450,25 @@
                     }
                 },
                 async loadHighlights() {
-                    if (this.hasLoadedHighlights) return;
-                    this.hasLoadedHighlights = true;
-
-                    const url = 'https://api.vebo.xyz/api/news/xoilac/list/highlight/1';
-
                     try {
-                        this.loading = true;
-                        const response = await fetch(url);
+                        this.loadingHighlights = true;
+                        const response = await fetch(`https://api.vebo.xyz/api/news/xoilac/list/highlight/${this.currentPage}`);
                         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                         const data = await response.json();
                         if (data.status === 1) {
-                            this.highlights = data.data.list;
+                            this.highlights.push(...data.data.list);
+                            this.currentPage++;
                         } else {
                             console.error("Error fetching highlights:", data);
                         }
                     } catch (error) {
                         console.error("Error loading highlights:", error);
+                    } finally {
+                        this.loadingHighlights = false;
                     }
-                    finally {
-                        this.loading = false;
-                    }
+                },
+                loadMoreHighlights() {
+                    this.loadHighlights();
                 },
                 async initFixtures() {
                     const response = await fetch('data/custom-logo.json');
@@ -451,12 +480,27 @@
                         dateFormat: "d/m/Y",
                         wrap: true,
                     });
-                    this.fetchLeagues()
+                    this.fetchLeagues();
+                    window.addEventListener('scroll', () => this.handleScroll());
+                },
+                handleScroll() {
+                    this.showScrollToTop = window.scrollY > 200;
                 },
                 filterMatches() {
                     this.matches = this.selectedTournaments.length > 0
                         ? this.matches.filter(match => this.selectedTournaments.includes(match.tournamentId))
                         : this.loadFixtures();
+                },
+                filterMatchesBySearch() {
+                    const searchTerm = this.search.toLowerCase();
+                    if (!searchTerm) {
+                        this.matches = [...this.originalMatches]; // Restore original matches
+                        return;
+                    }
+                    this.matches = this.originalMatches.filter(match =>
+                        match.homeTeam.toLowerCase().includes(searchTerm) ||
+                        match.awayTeam.toLowerCase().includes(searchTerm)
+                    );
                 },
                 updateIndicator() {
                     const activeTab = document.querySelector('.flex button.text-blue-600');
@@ -597,6 +641,9 @@
                         console.error('Error loading league logos:', error);
                         return defaultLogo;
                     }
+                },
+                scrollToTop() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
             };
         }
