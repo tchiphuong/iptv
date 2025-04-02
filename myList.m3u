@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG_LITE,http://lichphatsong.xyz/schedule/epg.xml,https://www.bevy.be/bevyfiles/singaporepremium.xml,https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,https://akkradet.github.io/IPTV-THAI/guide.xml,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://raw.githubusercontent.com/azimabid00/epg/main/astro_epg.xml"
+#EXTM3U url-tvg="https://iptvx.one/EPG7,http://lichphatsong.xyz/schedule/epg.xml,https://www.bevy.be/bevyfiles/singaporepremium.xml,https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,https://akkradet.github.io/IPTV-THAI/guide.xml,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://raw.githubusercontent.com/azimabid00/epg/main/astro_epg.xml"
 
 #EXTINF:-1 group-title="VTV" tvg-id="vtv1hd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://tchiphuong.github.io/iptv/images/vtv1.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vietnam_Television_logo_from_2013.svg/1200px-Vietnam_Television_logo_from_2013.svg.png",VTV1
 http://iptv.nhadai.org/stream/vtv1-hd
@@ -24,23 +24,23 @@ http://iptv.nhadai.org/stream/vtv8-hd
 http://iptv.nhadai.org/stream/vtv9-hd
 
 #EXTINF:-1 tvg-id="tv360.sk1" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189720461/dc4ee8910c25_480_270.png",TV360+ 1
-https://tv.TruyenHinh.Click/CoBan/tv360.sk1/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk1/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk2" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189794311/c4d18ecff9f7_480_270.png",TV360+ 2
-https://tv.TruyenHinh.Click/CoBan/tv360.sk2/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk2/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk3" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189872609/e569653d09d3_480_270.png",TV360+ 3
-https://tv.TruyenHinh.Click/CoBan/tv360.sk3/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk3/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk4" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189917617/5db9e5a7d0fd_480_270.png",TV360+ 4
-https://tv.TruyenHinh.Click/CoBan/tv360.sk4/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk4/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk5" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189978632/51f31c767a91_480_270.png",TV360+ 5
-https://tv.TruyenHinh.Click/CoBan/tv360.sk5/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk5/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk6" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/22/1727190010448/7463a4b5c14d_480_270.png",TV360+ 6
-https://tv.TruyenHinh.Click/CoBan/tv360.sk6/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk6/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk7" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/22/1727190077791/4922144877f1_480_270.png",TV360+ 7
-https://tv.TruyenHinh.Click/CoBan/tv360.sk7/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk7/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk8" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/24/22/172719012995/8df54b2f7576_480_270.png",TV360+ 8
-https://tv.TruyenHinh.Click/CoBan/tv360.sk8/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk8/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="tv360.sk9" group-title="Sự kiện trực tiếp" group-logo="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img-zlr1.tv360.vn/image1/2024/09/30/22/1727709197325/1be646ba55c5_480_270.png",TV360+ 9
-https://tv.TruyenHinh.Click/CoBan/tv360.sk9/TuyetDoiKhongKinhDoanh
+https://tv.TruyenHinh.Click/CoBan/tv360.sk9/TuyetDoiKhongKinhDoanh.m3u8
 
 #EXTINF:-1 group-title="K+" tvg-id="kcinehd" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KCINE%20HD.png" group-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQv24TcQahCdFYoDPpTvdAYng7FGRkeww2dA&s", K+ CINE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -556,6 +556,14 @@ https://ssc-extra2-ak.akamaized.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/inde
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=98cfd6fd4812497fb24dc75f7545f2ee:d3006ee69e77b25939728ebf30d3180a
 https://ssc-extra3-ak.akamaized.net/out/v1/8f1c6c3f05ef4284a64b342891bd85ae/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="ssc-news" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://shahid.mbc.net/mediaObject/6980409a-6157-4ee7-a105-00f48ecd4bc5?type=png",🇸🇦 SSC NEWS
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3d04975236a44f62857d181597705ee6:362133e9cb13189ad4fe095ced216f60
+https://ssc-news-live-enc.edgenextcdn.net/out/v1/ef466f43623c4bbaa3f905b566ec35ea/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="ssc-event-4k" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://shahid.mbc.net/mediaObject/6980409a-6157-4ee7-a105-00f48ecd4bc5?type=png",🇸🇦 SSC EVENT 4K
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=73efb1eb27294f8ea059765b368f411b:8af553e93bc5b20e828a14a7643e0c59
+https://4k-event2-new-25fps-enc.edgenextcdn.net/out/v1/c40564684d074b29a21efcf70725df3c/index.mpd
 
 #EXTINF:-1 group-title="Thể Thao" tvg-id="match-football1" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/cz682u1628519810.png",🇷🇺 Match Football 1
 https://lj9mu2e1cgt.a.trbcdn.net/m1_laliga/index.m3u8
@@ -1320,268 +1328,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=e6ed3fdf6e9f491d9ead109fc0b00cfc:3bc6c45722eb5fa7b343de9bffc4f7c7
 https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTV2HD/mpd/SPOTV2HD.mpd
 
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/rswyxx1436720242.png",Canal+ France
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium121/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/utquqs1472570910.png",Canal+ Sport France
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium122/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/nbc82o1613130667.png",Canal+ Foot France
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium463/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/Canal_11_Portugal.png",Canal 11 Portugal
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium540/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/tvvppy1472817016.png",Canal+ Sport Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium48/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/at0cjj1649340562.png",Canal+ Sport 2 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium73/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/at0cjj1649340562.png",Canal+ Sport 2 Poland 74
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium74/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/12a8o11649340599.png",CANAL+ SPORT 5 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium75/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/qdk0mf1649340977.png",Canal+ Premium Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium566/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/gp3mn61649341067.png",Canal+ Family Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium567/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/Canal_9.png",CANAL9 Denmark
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium805/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wqqpuy1437611123.png",Combate Brasil
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium89/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/jv2s5s1641502135.png",C More Football Sweden
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium622/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/a544c21630100843.png",Cosmote Sport 1 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium623/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/47sjz11630100858.png",Cosmote Sport 2 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium623/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/6l792t1630100876.png",Cosmote Sport 3 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium624/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fyiqh51630100896.png",Cosmote Sport 4 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium625/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/adxi531630100916.png",Cosmote Sport 5 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium626/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/6wa4l41630100940.png",Cosmote Sport 6 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium627/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/b6b9zy1630100961.png",Cosmote Sport 7 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium628/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/ku2qk01630100986.png",Cosmote Sport 8 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium629/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fh0azv1630101013.png",Cosmote Sport 9 HD
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium630/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",DAZN 1 Bar DE
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium426/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",DAZN 2 Bar DE
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium427/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",🇪🇸 DAZN 1 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium445/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",🇪🇸 DAZN 2 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium446/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/mkx6rd1740903163.png",🇪🇸 DAZN 3 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium447/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/g4s4yy1740903460.png",🇪🇸 DAZN 4 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium448/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/gl9uoz1660314819.png",🇪🇸 DAZN F1 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium537/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/4qm3dw1692437861.png",🇪🇸 DAZN LaLiga
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium538/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/evu0at1692970765.png",🇪🇸 DAZN LaLiga 2
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium43/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/t2lsw91623432359.png",DR1 Denmark
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium801/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/ywusvs1462899121.png",DR2 Denmark
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/dokko1/premium802/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/svrprs1436105433.png",Digi Sport 1 Romania
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/top2/premium400/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/vqqrrq1436105445.png",Digi Sport 2 Romania
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/top2/premium401/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/utuqys1454953276.png",Digi Sport 3 Romania
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/top2/premium402/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/tvfanon6528/images/d/d6/Digi_Sport_4_%282018-.n.v.%29.png/revision/latest/thumbnail/width/360/height/360?cb=20240205125126",Digi Sport 4 Romania
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/top2/premium403/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/0xxcqo1627492559.png",Diema Sport Bulgaria
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium465/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/efa11r1627492687.png",Diema Sport 2 Bulgaria
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium466/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wlk12t1627492656.png",Diema Sport 3 Bulgaria
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium467/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/rexw5v1660760670.png",ESPN USA
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddh2/premium44/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/e0jjaa1660762501.png",ESPN2 USA
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium45/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/qwxxut1433431075.png",ESPNU USA
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium316/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wc8dnt1660760493.png",ESPN 1 NL
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium379/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/keezdj1660760512.png",ESPN 2 NL
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium386/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/kih3iw1701160131.png",Eleven Sports 1 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium71/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/y37tax1701160140.png",Eleven Sports 2 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium72/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/7gnrhg1701160157.png",Eleven Sports 3 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium428/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/0cbss91740861809.png",Eleven Sports 1 Portugal
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium455/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/exh1731740861414.png",Eleven Sports 2 Portugal
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium456/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/mkx6rd1740903163.png",Eleven Sports 3 Portugal
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium457/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/g4s4yy1740903460.png",Eleven Sports 4 Portugal
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium458/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.thesportsdb.com/images/media/channel/logo/igdgpo1740903600.png",Eleven Sports 5 Portugal
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium459/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 UK
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium41/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 UK
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium42/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium57/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 Poland
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium58/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/zeko/premium524/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 Spain
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/ddy6/premium525/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",EuroSport 1 Italy
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium878/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",EuroSport 2 Italy
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium879/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yxsqpx1458425638.png",Eurosport 1 Bulgaria
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium469/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",Eurosport 2 Bulgaria
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium470/mono.m3u8
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",ESPN Premium Argentina
-#EXTVLCOPT:http-referrer=https://qqwebplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://webhdrunns.iosplayer.ru/wind/premium387/mono.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/xspptq1458425622.png",Sport 4
-#EXTVLCOPT:http-referrer=https://newembedplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-https://zekonew.iosplayer.ru/zeko/premium143/mono.m3u8
-
 #EXTINF:-1 group-title="Thể Thao" tvg-id="supersports-variety-01" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://images.supersport.com/media/kuqlfro4/variety-1-1.png",SuperSport Variety 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 http://kstv.us:8080/live/2qt65aetuZ/0527822179/47628.m3u8
@@ -1616,17 +1362,425 @@ http://kstv.us:8080/live/2qt65aetuZ/0527822179/47637.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 http://kstv.us:8080/live/2qt65aetuZ/0527822179/47638.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="PT: Sport Tv 1 FHD " tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/vy9kl11700902598.png" group-title="Thể Thao",PT: Sport TV 1
+#EXTINF:-1 tvg-id="sporttv1-pt" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/vy9kl11700902598.png" group-title="Thể Thao",PT: Sport TV 1
 http://kstv.us:8080/live/2qt65aetuZ/0527822179/48496.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PT: Sport Tv 2 FHD " tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/oiu2yn1700902611.png" group-title="Thể Thao",PT: Sport TV 2
+#EXTINF:-1 tvg-id="sporttv2-pt" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/oiu2yn1700902611.png" group-title="Thể Thao",PT: Sport TV 2
 http://kstv.us:8080/live/2qt65aetuZ/0527822179/48497.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PT: Sport Tv 3 FHD " tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fjy5d31700902671.png" group-title="Thể Thao",PT: Sport TV 3
+#EXTINF:-1 tvg-id="sporttv3-pt" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/fjy5d31700902671.png" group-title="Thể Thao",PT: Sport TV 3
 http://kstv.us:8080/live/2qt65aetuZ/0527822179/48498.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PT: Sport Tv 4 FHD " tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wzqgsk1700902680.png" group-title="Thể Thao",PT: Sport TV 4
+#EXTINF:-1 tvg-id="sporttv4-pt" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wzqgsk1700902680.png" group-title="Thể Thao",PT: Sport TV 4
 http://kstv.us:8080/live/2qt65aetuZ/0527822179/48499.m3u8
+#EXTINF:-1 tvg-id="sporttv5-pt" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/o6bjdm1700902502.png" group-title="Thể Thao",PT: Sport TV 5
+http://kstv.us:8080/live/2qt65aetuZ/0527822179/48500.m3u8
+#EXTINF:-1 tvg-id="sporttvplus-pt" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://images.seeklogo.com/logo-png/50/2/sport-tv-2023-logo-png_seeklogo-504108.png" group-title="Thể Thao",PT: Sport TV Plus
+http://kstv.us:8080/live/2qt65aetuZ/0527822179/48501.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/upsspx1433379567.png" group-title="Thể Thao",TSN 1 Canada
 https://tvpass.org/live/tsn1/hd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/sutruq1433379787.png" group-title="Thể Thao",TSN 2 Canada
 https://tvpass.org/live/tsn2/hd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/ssxtux1433380256.png" group-title="Thể Thao",TSN 3 Canada
 https://tvpass.org/live/tsn3/hd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/yrrvpq1433380019.png" group-title="Thể Thao",TSN 4 Canada
 https://tvpass.org/live/tsn4/hd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/sytpty1433380112.png" group-title="Thể Thao",TSN 5 Canada
 https://tvpass.org/live/tsn5/hd
+
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/CANALSport.png",Canal+ Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=1
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/CANALSport2.png",Canal+ Sport 2
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=2
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/CANALSport3.png",Canal+ Sport 3
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=3
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/CANALSport4.png",Canal+ Sport 4
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=4
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/Eleven1.png",Eleven Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=5
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/Eleven2.png",Eleven Sports 2
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=6
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/Eleven3.png",Eleven Sports 3
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=7
+#EXTINF:-1 tvg-id="" group-title="Thể Thao" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://pl.canalplus.com/resources/icons/Eleven4.png",Eleven Sports 4
+https://get.bassamnetflix2.workers.dev/TOD/WEB/ARENA/canalpl/api.php?id=8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static-content-glb.solocoo.tv/epg/live/myanmar/channelicons/CANAL%20Sports%201%20HD_m.png" group-title="Thể Thao",CANAL SPORTS 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b0955e6505d341159f22cdfce6bd0511:33f3772c6d7c5737e4925b42171300ac
+#EXTVLCOPT:http-referrer=https://mycanal.canalplus-myanmar.com
+https://ott2.canalplus-myanmar.com/bpk-tv/CANAL_SPORTS/output2/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static-content-glb.solocoo.tv/epg/live/myanmar/channelicons/CANAL%20Sports%202%20HD_m.png" group-title="Thể Thao",CANAL SPORTS 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4b08a329872444a79640d30bc8e5d88a:577fc30892aad29ef37139cf3210a267
+#EXTVLCOPT:http-referrer=https://mycanal.canalplus-myanmar.com
+https://ott2.canalplus-myanmar.com/bpk-tv/CANAL_HAHA/output2/index.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/5/5a/Sky_Sports_LaLiga_II.svg" group-title="Thể Thao",Sky Sports LaLiga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c88dc6c668cac3b468d4a4c7e176ff3d:1aeb739de2c14ed0ad658ca8043208d8
+https://aka-live1-ott.izzigo.tv/2/out/u/dash/SKY-SPORTS-16-HD/default.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/3/39/Sky_Sports_Bundesliga_Mexico.svg" group-title="Thể Thao",Sky Sports Bundesliga Mexico
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
+https://aka-live1-ott.izzigo.tv/5/out/u/dash/SKY-SPORTS-24-HD/default.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/3/39/Sky_Sports_Bundesliga_Mexico.svg" group-title="Thể Thao",Sky Sports Live 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a3636a51227fa338cdddf5892d8a621c:1444ee3c4d08bf39454b914f797968eb
+https://aka-live1-ott.izzigo.tv/1/out/u/dash/SKY-LIVE-EVENT-1-HD/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/3/39/Sky_Sports_Bundesliga_Mexico.svg" group-title="Thể Thao",Sky Sports Live 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7239a58fb7388b222a834d549bf18d8f:8b04a883e88dbdebc43673d998ea1cb2
+https://aka-live1-ott.izzigo.tv/5/out/u/dash/SKY-LIVE-EVENT-2-HD/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/3/39/Sky_Sports_Bundesliga_Mexico.svg" group-title="Thể Thao",Sky Sports Live 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=561a21ad50f806b77d328dedbe59f93e:edf3e70cc9de81a73e2a00fe9c0611a8
+https://aka-live1-ott.izzigo.tv/1/out/u/dash/SKY-LIVE-EVENT-3-HD/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/3/39/Sky_Sports_Bundesliga_Mexico.svg" group-title="Thể Thao",Sky Sports Live 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a931b2e953695ffb0cfd38573e97ba33:4ddd99cc4fb168d7f0e20be8a3287100
+https://aka-live1-ott.izzigo.tv/1/out/u/dash/SKY-LIVE-EVENT-4-HD/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://static.wikia.nocookie.net/logopedia/images/3/39/Sky_Sports_Bundesliga_Mexico.svg" group-title="Thể Thao",Sky Sports Live 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6c89e84c52eae0428b7d2c8e887a48ec:758a1484f920a0f1aa73e95d5f2be225
+https://aka-live1-ott.izzigo.tv/2/out/u/dash/SKY-LIVE-EVENT-5-HD/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.sport24.rest/assets/adsportspremium1.png" group-title="Thể Thao",Abu Dhabi Premium 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b253c726c24c7c94a3ddf9b1907e2c76:097963d6ad73c3d712a104981de0ed42
+https://sps1.starzplayarabia.com/out/v1/41ff8fde1cd84ed5b30ab8198755356b/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.sport24.rest/assets/adsportspremium2.png" group-title="Thể Thao",Abu Dhabi Premium 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ee861edcd99093153a763a94b14c2c5a:ab3991f6a7729ba1ea4bcdba0c1ae6c0
+https://sps2.starzplayarabia.com/out/v1/ff6cef29465f4c3a9b0e8ea5bbf8839f/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.sport24.rest/assets/adsports1.png" group-title="Thể Thao",Abu Dhabi 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2810c600349a0cd3a920c7d99bbe00b1:3911049bf0e342e70e0fba2cba6aa628
+https://uselector.cdn.intigral-ott.net/AD1/AD1.isml/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://www.sport24.rest/assets/adsports2.png" group-title="Thể Thao",Abu Dhabi 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7295fc09a7633fd460808f1ed854a8b6:5b4c9115617286036232fbb0d583a651
+https://uselector.cdn.intigral-ott.net/AD2/AD2.isml/manifest.mpd
+
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-1-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/hd6nx11643205736.png",Arena Sport 1 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"9002ec8c3dbc55c5bccdcd6871d80fd0": "7099325123bae7810db508727bb0bc7d", "c43c83acda60593d8e3607efd5010d7d": "526f4a760ef52ab85056fbc10ea27584", "712090aae2065c21951b170bc3002330": "a97774e4175b80205c3cf104e9574208"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena1_n/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-2-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/do4eok1643205747.png",Arena Sport 2 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c5e5ac1b3cc15fe790f1bc96535fe329": "3defe59c38079ccad25a436200ad3bd7", "b2f22f5d7ca35910a73fbabc524954de": "d87d08fbe6505ad7099b8c258f396d15", "d256b403efcc5c3db701fc696885e102": "d46e4215e279b224e9d2a772db9c74a1"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena2/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-3-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/nnqoda1643205755.png",Arena Sport 3 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3bedf4a896695958907e0984165090f0": "a58317ffddf318f1540f31f67d95b5fb", "25c3df3202005cc98c47700295be59ca": "073f5a39d84dd14a9debd1a72bb1f055", "ccebefcba0a3546ba34d3fc587651708": "18f2b2027ce26867c23dcd7f57faa245"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena3/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-4-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/6oo0y71643205763.png",Arena Sport 4 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"77ce6938c781526e999b688992f27764": "bf1178841770fdba74f8629f0f06d2c0", "68cd661dbc8352fda000c532840f6340": "0255fb620f4f707ea7ba090058718306", "89d1dc54692e5b4fb5995fc0953bf5bf": "31b8953ab60b90fefc93d9bd1b806fbc"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena4/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-5-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/2kuqly1643205772.png",Arena Sport 5 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"34a709bbeac052f293c778c0770829fd": "2b801fde1ad4839d4080d6ec6b0ec4ce", "e473ec5d96f45a9f9a22eb665b5b1ea9": "ace54ce15b69d249b00395c9e6b85b90", "18d3fba08f3152c38f14151219fa9792": "78b0c5b961351e482be81287466ecb08"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena5/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-6-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/3htl2t1643205783.png",Arena Sport 6 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"b3b60e79989a5b2799fa3a2394b8749f": "a25d21e333dad3d131f126b7b57730be", "bfd8ff04a3625fcea8335c9575401697": "769d61a2d6fd7030a5088df2e70c2654", "5a86e42c58cf5d008546861c0f0fb22a": "67b1172a05bcb38a91a304d7098ce7f5"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena6/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-7-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/jec0d31643205801.png",Arena Sport 7 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"5998265ef8fc5748822fef96229831aa": "9110b6be31b4bbdce67374bae3395269", "5d4b5005dbd355559b3c7fe4dae1fb05": "10e65a5b74158216190e654cdf05b584", "5244c72f4f5d5e1a8778fc93906c9cb3": "4c14a6a924ef7fb32534dd590d99d499"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena7/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-8-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/3ch2k51643205817.png",Arena Sport 8 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"c6fc5b27b74e5b8e82ca19da484eb174": "51f8fd5eef736dccaea9235b621731e7", "b9e9546bc9ba52d1a75fba9222efa7f5": "2cec65c6b79be6c2d4481c6e0ef79bfc", "ca202ac1353a5c6b9960bdbb82f88efc": "7ef86abd9a62042858370852836c50b4"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena8/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-9-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/zuhnap1643205837.png",Arena Sport 9 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"91a56f5aab4c56cb88fbf787187acafe": "0000816079a5ec4f093e3274bda26f2a", "a2ff372a21b35653a88592abfec3f9a7": "d5bc25088d1fda12849aad90716de750", "7ecfd12eb26258c381afadac16ac8fc9": "b4f351533d633abf76cda47fe75d579b"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena9/default/index.mpd
+#EXTINF:-1 group-title="Thể Thao" tvg-id="arena-sport-10-hr" tvg-logo="https://images.weserv.nl/?w=512&h=512&fit=contain&url=https://r2.thesportsdb.com/images/media/channel/logo/wntrz71643205857.png",Arena Sport 10 Croatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"ee6860a6bf7a5f6c89bcf1794d16e25f": "b573f718f1551d2cf2a335ca778f5604", "03ed75ef7e4c56cb8f81cc17952fc554": "2be3b8e9f4756601e5b263beb14c5908", "ea5736047df25edbb48bd055d48eb3dd": "8b40d3a415517224245a79e907cb8ef0"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena10/default/index.mpd
+
+#EXTINF:-1 tvg-id="" group-title="Viaplay" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Sport Premium A
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d8d0506523d95fc082d6caef60e84979:69992fd2d7b9211d41ecc2243803e87c
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/vssp/vssp.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 tvg-id="" group-title="Viaplay" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Sport
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1af2e3be44145944a0e78832852f5daa:d366e6e9554b9fbcc40d78fa16206ebe
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/vss/vss.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 tvg-id="" group-title="Viaplay" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Sport Football
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3f02ddb8f11b597c84a5393348e047bb:bc52ff5ddb471c7691ffb57ae74726cc
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/vsf/vsf.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 tvg-id="" group-title="Viaplay" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Laliga TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=769ffe6317c75aa48bd5eb9c76e08235:4da506ac3b11200b6d343d3df8fe43b6
+https://live-dash-cdn7-tve.cdn.viaplay.tv/vp/laligatv/laligatv.isml/index.mpd|X-Forwarded-For=13.106.174.0
+
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9df8ec5f86995102a6c9987d360b18c7:bb525f095535fa1ef2fd42f3068afd56
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra1/xtra1.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=66caccf1f6af575eaabd30f8a57c4630:db953ce4a7598c306ffaea9b6abd2d90
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra2/xtra2.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4c69d2c8393d5423b1ee1a610d8bbb89:0a7cdf8676115a2cd69d0b10e610d80d
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra3/xtra3.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b3c26e9626cf5574b4a52bf320b9d19c:ad521a843382c2066349e7e78047347c
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra4/xtra4.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8bda165496be50abb5bcc361a452085a:d982fdac32682f84ac1345a03f6a00d9
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra5/xtra5.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3d5eb1d7dc0f5c98b30d5a3fad22ba5e:3396da5899df4fec8cc3b64172e2e9ab
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra6/xtra6.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f0e8a461ecb258478d2d70f7effd4f3c:f223220e718764a76b1eaf9ac32c79d1
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra7/xtra7.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=442e6fc210d952b99c7a79c3a4f746d7:dfb52b483d5d7723e42cabb7f26e46c9
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra8/xtra8.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=23e573863ee15c428f7ef5710f72b4af:cf566f654fabf06aba93a1f951bbb898
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra9/xtra9.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 10
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e91d19964156580e91b946ff5c9fb1b5:ef7313f5de55624fce2a2d8dae77ed4c
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra10/xtra10.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 11
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3ff2fd7a4b6e5c12b129d7a7648306b6:1f7d14d8479afeeaaf7493e82241ec0b
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra11/xtra11.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 12
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed4086de5e445f9bac5c093362a0f549:599aa72e49e4736f58e947ea0c34f235
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra12/xtra12.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 13
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=16a2d39eb1ab526491cb75bbcdd36c11:d4ac894a6f201ae733bbd49bc205c523
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra13/xtra13.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 14
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2639c53b83ab569ea7604f6d7254cf07:b71453d8ac148772851f075812cc4ff2
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra14/xtra14.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 15
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5069ccd6e77d5f09918744ab2a1e59bd:79afa7c076f08438d951b2b50655a633
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra15/xtra15.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 16
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=50bc507cbe9659beabcf6dcc66101337:e2e7f3b7f6754778ebbd5946915ba2f4
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra16/xtra16.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 17
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e482d02225d05cb68d8a0cd66bacee8b:f77b436d0893db1f70627c0ceac0553d
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra17/xtra17.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 18
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82e7f7bb461a57b9b1f83ec4cf9760c6:24aff08822e2632f25eaeb80178499b7
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra18/xtra18.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 19
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2fc2fcb3779458d9a8789c54ee1bc7b0:6faead88837a154db20fddab0358a32f
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra19/xtra19.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 20
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5277738f1ea154ca9bd43e4e448f3951:8391d0701a3a7b724d48cb5a3f7c3e4a
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra20/xtra20.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 21
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5238eceaf0655fc8af760cdd636c7426:1176ce340c82b3f07299e9abff731b85
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra21/xtra21.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 22
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fd58d2619a9057d3a48fcc0a0f271549:d3ad44278dc2cf752e49a3ba26b69c4f
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra22/xtra22.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 23
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a6a3dbc917815dc7b6072a68d5a4f97d:547e9756fbf8ccccdc64b1302c606f48
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra23/xtra23.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 25
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fde4b0dd77895f818b4a2d6eec75291c:91a7a8f680428ff44a5b9bfeb036d22f
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra25/xtra25.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 26
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91a4e93ee9595b2395539d06dc5fd6a9:ef4fbcb241952789028248c0feda01cf
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra26/xtra26.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 40
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=add43ccef90456cca64ead05b18aab4f:8b0d794123e3a35821716cd3bc7e6668
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra40/xtra40.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 43
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6565b9a95bee5ccfbfee3f248df59610:79f596efb730cdb51ff5a83f04e94ba4
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra43/xtra43.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 44
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8f9f46fc5ccb58db8d85b963c4af0b17:5de15709c503b9e2881613e5d1c4871a
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra44/xtra44.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 45
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=38e9d5c816f65e148a5ffe61fb9d3c7d:266cc12b3e98d48a15f8ffaefc0cc18c
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra45/xtra45.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 46
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0e138256f98c5e628fe2a90225b93d91:478e7143e331fa4284c6373ffae3fb21
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra46/xtra46.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 47
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fde4b0dd77895f818b4a2d6eec75291c:91a7a8f680428ff44a5b9bfeb036d22f
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra47/xtra47.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 48
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91a4e93ee9595b2395539d06dc5fd6a9:ef4fbcb241952789028248c0feda01cf
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra48/xtra48.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 49
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e5b890a468c5982a3048ed273cc4977:ec05b19aaf38cec225dafb0d3f52d7dc
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra49/xtra49.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 50
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dad12504756558e5ac7f677c8caedbc5:8de56c1629dc78277d782653cda7f9bf
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra50/xtra50.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 63
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1e582a390dfd56dabd8e634d58149536:b4937eec4a41c6f0a0cbb61402f94633
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra63/xtra63.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 64
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6a37106142a95fbcaaed44259aebb28f:834270f7d4dfd31fa888e3ca9fdd8147
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra64/xtra64.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 65
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2e2e68763da359799dd279ffa7476c81:b9e5d7d8f547aafa41634e845a47e051
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra65/xtra65.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 66
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d259528f430d5abfbc0ef337ab133d99:5c343d55d9fe4ee82f7a4cd984ca83c2
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra66/xtra66.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 67
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6096ab3b418f59dc87a777509d56fdbb:c754ef4ec395423d55495776401642a1
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra67/xtra67.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 68
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60b3c6a08caa56d2b67fa17274e5f41b:bb473efe562264b044961a57695d4754
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra68/xtra68.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 69
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2ce21653782a5da7928cbaf4da3d0cfb:d1b568a613222a1da70eabe3d0d93973
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra69/xtra69.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 70
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f396558259365aab8b1f1502c4a1a168:842ca067717a32f8d142c467006010ac
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra70/xtra70.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 71
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d7f6469c43db5876bfbc4446f4ebcf2e:cdc319032d2fe72ed1f6ab7891428494
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra71/xtra71.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 72
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cbf9d297447754c8ab3c46e15e362128:32564291b3fad88a57e2f702c70fc1fe
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra72/xtra72.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 73
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9a0c1ed5c545545697fbd68ca4751d5b:5e6faf300c09e230220d672e95915d6f
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra73/xtra73.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 74
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c6c464b8e6a35c6c855f0794f3b59676:3394ad15e6b1a8880730360f38bb9c7f
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra74/xtra74.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 75
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae6701fa0a0f501e823d04337b94249e:2a24717173c36fdd00f6bcb61db61dac
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra75/xtra75.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 76
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=df607a45634f521d9f221047360d7db3:795c808177d6212aa80a5ab3f94fb55e
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra76/xtra76.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 77
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7c33d0c6ad8258cca9f749ec2e412201:cf74279ac4d42bcd9b9503ed8551e940
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra77/xtra77.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 78
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e49d168a0d0a5b67899bfe876e2f13ae:16881418c8aebab513c37ef1f46a0dc9
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra78/xtra78.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 79
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f56906807307516bbe7de1831a1a4e66:aec25f1b435d7a66f5636e0ca9de3bac
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra79/xtra79.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 80
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a4f4763795b651c7b7308061aab429cb:10dd1e5c73efaa7529547e95b539489c
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra80/xtra80.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 81
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=04f8e26fe0c757bd934092ab79ad8a90:d4dab0008c9f41d7b40e13e919d462c7
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra81/xtra81.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 82
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=27400dec8356578baf595c70d3173959:eb823db12ef47c40f808e51c9b00dd72
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra82/xtra82.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 83
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=53fb8fd37b095339982bc428adb271ae:0563a5f1df7f86469a247d35507ac358
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra83/xtra83.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 84
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1b55756309e45f29bf940b0c4621664b:8311907fdeedf4d89426f9d06437a1fb
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra84/xtra84.isml/index.mpd|X-Forwarded-For=13.106.174.0
+#EXTINF:-1 group-title="Viaplay Xtra" group-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png" tvg-logo="https://companieslogo.com/img/orig/VPLAY-B.ST-873a39a0.png",Viaplay Extra 100
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b08d9804e8ea51bb8d71fd4bf77c3f5b:b9fe3237a5f11a2a084264074b125c9c
+https://live1b-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/vp/xtra100/xtra100.isml/index.mpd|X-Forwarded-For=13.106.174.0
